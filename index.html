@@ -591,22 +591,38 @@ a{text-decoration:none;color:inherit}
         © 2026 Udyoga Lakshya. All Rights Reserved.
     </div>
 </footer>
+
+
 <!-- latest-notification-date-yellow -->
 <style>
-.latest-notification-date-yellow {
+.latest-yellow-date{
   background:#ffc107 !important;
   color:#000 !important;
+  border-radius:6px !important;
+  padding:4px 8px !important;
+  font-weight:700 !important;
+  display:inline-block !important;
 }
 </style>
 <script>
-document.addEventListener("DOMContentLoaded",()=>{
-  const h=[...document.querySelectorAll("h1,h2,h3,h4")].find(x=>x.textContent.trim()==="Latest Notifications");
-  if(!h)return;
-  let box=h;
-  for(let i=0;i<6 && box;i++,box=box.parentElement){
-    const dates=[...box.querySelectorAll("*")].filter(x=>/^\s*\d{1,2}\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/i.test(x.textContent));
+document.addEventListener("DOMContentLoaded",function(){
+  const heading=[...document.querySelectorAll("h1,h2,h3,h4,h5,h6")]
+    .find(e=>e.textContent.trim()==="Latest Notifications");
+
+  if(!heading) return;
+
+  let root=heading;
+  for(let i=0;i<5 && root;i++,root=root.parentElement){
+    const els=[...root.querySelectorAll("*")];
+    const dates=els.filter(e=>{
+      if(e.children.length) return false;
+      const t=e.textContent.trim();
+      return /\\b\\d{1,2}\\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/i.test(t)
+          && /\\d{4}/.test(t);
+    });
+
     if(dates.length>=3){
-      dates.forEach(x=>x.classList.add("latest-notification-date-yellow"));
+      dates.forEach(e=>e.classList.add("latest-yellow-date"));
       break;
     }
   }
