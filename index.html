@@ -628,52 +628,5 @@ document.addEventListener("DOMContentLoaded",function(){
   }
 });
 </script>
-
-<!-- LATEST_NOTIFICATION_YELLOW_FIX_V2 -->
-<style>
-.latest-notification-yellow-date{
-  background:#ffc107 !important;
-  color:#000 !important;
-  padding:4px 8px !important;
-  border-radius:6px !important;
-  font-weight:700 !important;
-  display:inline-block !important;
-}
-</style>
-<script>
-document.addEventListener("DOMContentLoaded",function(){
-  const heading=[...document.querySelectorAll("h1,h2,h3,h4,h5,h6")]
-    .find(e=>e.textContent.trim().toLowerCase()==="latest notifications");
-
-  if(!heading)return;
-
-  let box=heading.parentElement;
-
-  for(let i=0;i<8 && box;i++,box=box.parentElement){
-    const text=box.innerText||"";
-    const matches=text.match(/\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[^0-9]{0,4}\d{2,4}\b/gi)||[];
-
-    if(matches.length>=5){
-      const walker=document.createTreeWalker(box,NodeFilter.SHOW_TEXT);
-      const nodes=[];
-      let n;
-
-      while(n=walker.nextNode()){
-        if(n.parentElement.closest(".latest-notification-yellow-date"))continue;
-        if(/\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[^0-9]{0,4}\d{2,4}\b/i.test(n.nodeValue))
-          nodes.push(n);
-      }
-
-      nodes.forEach(node=>{
-        const span=document.createElement("span");
-        span.className="latest-notification-yellow-date";
-        span.textContent=node.nodeValue;
-        node.parentNode.replaceChild(span,node);
-      });
-      break;
-    }
-  }
-});
-</script>
 </body>
 </html>
