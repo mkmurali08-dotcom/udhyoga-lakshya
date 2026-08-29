@@ -602,5 +602,12 @@ a{text-decoration:none;color:inherit}
         © 2026 Udhyoga Lakshya. All Rights Reserved.
     </div>
 <!-- FOOTER BRAND FIX --></footer>
+<!-- HEADER BRAND SPELLING FIX -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const brand = document.querySelector(".logo-name");
+  if (brand) brand.innerHTML = "Udhyoga <span>Lakshya</span>";
+});
+</script>
 </body>
 </html>
