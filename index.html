@@ -591,5 +591,26 @@ a{text-decoration:none;color:inherit}
         © 2026 Udyoga Lakshya. All Rights Reserved.
     </div>
 </footer>
+<!-- latest-notification-date-yellow -->
+<style>
+.latest-notification-date-yellow {
+  background:#ffc107 !important;
+  color:#000 !important;
+}
+</style>
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+  const h=[...document.querySelectorAll("h1,h2,h3,h4")].find(x=>x.textContent.trim()==="Latest Notifications");
+  if(!h)return;
+  let box=h;
+  for(let i=0;i<6 && box;i++,box=box.parentElement){
+    const dates=[...box.querySelectorAll("*")].filter(x=>/^\s*\d{1,2}\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/i.test(x.textContent));
+    if(dates.length>=3){
+      dates.forEach(x=>x.classList.add("latest-notification-date-yellow"));
+      break;
+    }
+  }
+});
+</script>
 </body>
 </html>
