@@ -1,6 +1,6 @@
 (function () {
   const SHEET_URL =
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSYjRHSHCqIPxnzmWR1hXBCJtVhlc2nCgJ0WgS9x5MUghWnVTY4LBYzt7RfB4DvPaNkZSrYB3P4swXm/gviz/tq?tqx=responseHandler:udyogaLakshyaSheetCallback&gid=0";
+    "https://docs.google.com/spreadsheets/d/1HLCzR_CwkITB6DY_XCp0XqHTBf_lk5W--2-jdOK0/gviz/tq?tqx=responseHandler:udyogaLakshyaSheetCallback&gid=0";
 
   const script = document.currentScript;
   const wantedState = (script?.dataset.state || "").trim().toLowerCase();
