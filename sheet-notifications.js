@@ -1,7 +1,7 @@
 /* Udyoga Lakshya - Google Sheets live notifications */
 (function () {
   const SHEET_CSV =
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSYjRHSHCqIPxnzmWR1hXBCJtVhlc2nCgJ0WgS9x5MUghWnVTY4LBYzt7RfB4DvPaNkZSrYB3P4swXm/pub?gid=0&single=true&output=csv";
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSYjRHSHCqIPxnzmWR1hXBCJtVhlc2nCgJ0WgS9x5MUghWnVTY4LBYzt7RfB4DvPaNkZSrYB3P4swXm/pub?gid=0&single=true&output=csv&v=2";
 
   const script = document.currentScript;
   const state = (script && script.dataset.state) || "";
