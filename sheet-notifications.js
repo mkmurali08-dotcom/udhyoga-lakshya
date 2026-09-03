@@ -43,7 +43,11 @@
       const data = rows
         .map(r => (r.c || []).map(getValue))
         .filter(r =>
-          String(r[stateI] || "").trim().toLowerCase() === wantedState &&
+          String(r[stateI] || "").trim().toLowerCase() === wantedState ||
+          (
+            String(r[state] || "").trim().toLowerCase() === "central" &&
+            wantedState !== "central"
+          ) &&
           String(r[titleI] || "").trim()
         );
 
