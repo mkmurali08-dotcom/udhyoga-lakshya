@@ -46,14 +46,7 @@
           const rowState = String(r[stateI] || "").trim().toLowerCase();
 
           const stateMatch =
-            rowState === wantedState ||
-            (
-              wantedState !== "central government" &&
-              (
-                rowState === "central government" ||
-                rowState === "all states jobs"
-              )
-            );
+            rowState === wantedState;
 
           return stateMatch && String(r[titleI] || "").trim();
         });
