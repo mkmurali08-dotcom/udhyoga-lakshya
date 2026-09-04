@@ -42,16 +42,23 @@
 
       const data = rows
         .map(r => (r.c || []).map(getValue))
-        .filter(r =>
-          String(r[stateI] || "").trim().toLowerCase() === wantedState ||
-          (
-            String(r[state] || "").trim().toLowerCase() === "central" &&
-            wantedState !== "central"
-          ) &&
-          String(r[titleI] || "").trim()
-        );
+        .filter(r => {
+          const rowState = String(r[stateI] || "").trim().toLowerCase();
 
-      if (!data.length) return;
+          const stateMatch =
+            rowState === wantedState ||
+            (
+              wantedState !== "central government" &&
+              (
+                rowState === "central government" ||
+                rowState === "all states jobs"
+              )
+            );
+
+          return stateMatch && String(r[titleI] || "").trim();
+        });
+
+       if (!data.length) return;
 
       const wrap = document.createElement("div");
       wrap.className = "sheet-live-items";
