@@ -1,7 +1,7 @@
 import csv, io, json, re, urllib.request
 from datetime import date
 
-SHEET = "https://docs.google.com/spreadsheets/d/1HLCzR_CwkITB6DY_XCp0XqHTBf_lk5W--2-jdOK0/gviz/tq?tqx=out:csv&gid=0"
+SHEET = "https://docs.google.com/spreadsheets/d/1HLCzR_CwkITB6DY_XCp0XqHTBf_lk5W--2-jdOK0/gviz/tq?tqx=out:csv&gid=2002700274"
 raw = urllib.request.urlopen(SHEET, timeout=30).read().decode("utf-8-sig")
 rows = list(csv.DictReader(io.StringIO(raw)))
 today = date.today()

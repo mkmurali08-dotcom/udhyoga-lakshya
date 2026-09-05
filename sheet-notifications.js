@@ -8,7 +8,7 @@
 
 (function () {
   const SHEET_URL =
-    "https://docs.google.com/spreadsheets/d/1HLCzR_CwkITB6DY_XCp0XqHTBf_lk5W--2-jdOK0/gviz/tq?tqx=responseHandler:udyogaLakshyaSheetCallback&gid=0";
+    "https://docs.google.com/spreadsheets/d/1HLCzR_CwkITB6DY_XCp0XqHTBf_lk5W--2-jdOK0/gviz/tq?tqx=responseHandler:udyogaLakshyaSheetCallback&gid=2002700274";
 
   const script = document.currentScript;
   const wantedState = (script?.dataset.state || "").trim().toLowerCase();
