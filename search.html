@@ -93,24 +93,23 @@ fetch("notifications.json?v=" + Date.now(), {cache:"no-store"})
     if (!Array.isArray(rows)) return;
 
     rows.forEach(r => {
-      const title = String(r.title || "").trim();
+      const title = String(r["Title"] || "").trim();
       if (!title) return;
 
       const text = [
-        r.title,
-        r.department,
-        r.organization,
-        r.state,
-        r.post,
-        r.date,
-        r.lastDate,
-        r.category,
-        r.description
+        r["Title"],
+        r["Type"],
+        r["State"],
+        r["Application Start"],
+        r["Application End"],
+        r["Official Link"],
+        r["Apply Link"],
+        r["Status"]
       ].filter(v => String(v || "").trim())
        .map(v => String(v).trim())
        .join(" ");
 
-      const url = String(r.url || r.link || r.applyUrl || "").trim();
+      const url = String(r["Official Link"] || r["Apply Link"] || "").trim();
 
       SEARCH_INDEX.push({
         title: title,
@@ -121,8 +120,6 @@ fetch("notifications.json?v=" + Date.now(), {cache:"no-store"})
 
     if (initialQuery) {
       runSearch(initialQuery, false);
-    } else {
-      runSearch("", false);
     }
   })
   .catch(() => {});
