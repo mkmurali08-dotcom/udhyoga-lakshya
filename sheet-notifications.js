@@ -11,6 +11,7 @@
 
   const script = document.currentScript;
   const wantedState = (script?.dataset.state || "").trim().toLowerCase();
+  const latestMode = script?.dataset.latest === "true";
 
   const oldBox = document.querySelector(".sheet-live-notifications");
   if (oldBox) oldBox.remove();
@@ -37,8 +38,9 @@
       return r.json();
     })
     .then(rows => {
-      const data = (Array.isArray(rows) ? rows : [])
+      let data = (Array.isArray(rows) ? rows : [])
         .filter(r => {
+          if (latestMode) return String(r.Title || "").trim();
           const rowState = String(r.State || "").trim().toLowerCase();
           return rowState === wantedState && String(r.Title || "").trim();
         })
@@ -51,10 +53,18 @@
           return copy;
         });
 
+      if (latestMode) data = data.slice(-8).reverse();
+
       if (!data.length) return;
 
       const wrap = document.createElement("div");
       wrap.className = "sheet-live-items";
+      if (latestMode) {
+        const heading = document.createElement("h2");
+        heading.textContent = "New Notifications";
+        heading.style.cssText = "margin:24px 0 12px;font-size:20px;";
+        wrap.appendChild(heading);
+      }
 
       data.forEach(r => {
         const card = document.createElement("div");
@@ -76,7 +86,7 @@
           /open|available|current/.test(statusKey) ? "status-open" : "status-default";
 
         card.innerHTML =
-          `<div style="font-weight:800;margin-bottom:8px;line-height:1.4;">${esc(r.Title)}</div>` +
+          `<div style="font-weight:800;margin-bottom:8px;line-height:1.4;">${latestMode ? `<span style="display:inline-block;background:#16a34a;color:#fff;border-radius:999px;padding:3px 8px;font-size:10px;margin-right:7px;vertical-align:2px;">NEW</span>` : ""}${esc(r.Title)}</div>` +
           (typeText ? `<div><b>Type:</b> ${esc(typeText)}</div>` : "") +
           (startText ? `<div><b>Application Start:</b> ${esc(startText)}</div>` : "") +
           (endText ? `<div><b>Application End:</b> ${esc(endText)}</div>` : "") +
