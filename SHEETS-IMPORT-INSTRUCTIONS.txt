@@ -1,0 +1,30 @@
+GOOGLE SHEETS IMPORT — FINAL SETUP
+
+1. Keep your original Sheet1 safe.
+2. Right-click Sheet1 → Duplicate.
+3. In the DUPLICATE sheet, select A1.
+4. Import notifications-sheet-import.csv.
+5. In Import location choose: Replace data at selected cell.
+6. Click Import data.
+
+IMPORTANT:
+- Do NOT choose Replace current sheet.
+- Do NOT create a new sheet from the CSV.
+- Do NOT use Apps Script.
+- Duplicating Sheet1 preserves the existing Data Validation and formatting.
+- The final columns are:
+  A Type
+  B State
+  C Title
+  D Application Start
+  E Application End
+  F Official Link
+  G Apply Link
+  H Status
+
+DATE RULE USED IN THIS FILE:
+- Job/Recruitment notifications: Application Start and Application End contain only verified application-window dates where available.
+- Admit Card rows: Start/End are blank; Status is Open.
+- Result rows: Start/End are blank; publication date is included in the Title; Status is Declared or Live.
+- Exam/Upcoming rows: Start/End are blank; exam dates stay in the Title when relevant.
+- Past application end dates are shown as Closed where appropriate.

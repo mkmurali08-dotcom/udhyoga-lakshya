@@ -1,0 +1,10 @@
+UDYOGA LAKSHYA — GOOGLE SHEETS FINAL SETUP
+
+1. Keep your existing Sheet1 validation/formatting.
+2. Duplicate Sheet1 when you need the website-data sheet.
+3. Do NOT use Apps Script.
+4. Use the final CSV only with: A1 -> Import -> Replace data at selected cell.
+5. Status values: Closed, Current, Declared, Live, Applications Open, Admit Cards, Upcoming.
+6. The website automatically styles these statuses by value when the sheet data appears on the site.
+7. For notifications/jobs, use Application Start and Application End only.
+8. For Admit Cards and Results, leave Application Start/Application End blank. Put the date in the Title and set Status manually.
