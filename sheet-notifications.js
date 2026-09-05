@@ -7,8 +7,7 @@
   }
 
 (function () {
-  const SHEET_URL =
-    "https://docs.google.com/spreadsheets/d/1HLCzR_CwkITB6DY_XCp0XqHTBf_lk5W--2-jdOK0/gviz/tq?tqx=responseHandler:udyogaLakshyaSheetCallback&gid=2002700274";
+  const DATA_URL = "notifications.json";
 
   const script = document.currentScript;
   const wantedState = (script?.dataset.state || "").trim().toLowerCase();
@@ -22,55 +21,37 @@
     }[c]));
   }
 
-  function getValue(cell) {
-    return cell && (cell.f ?? cell.v ?? "");
+  function parseDate(v) {
+    if (!v) return null;
+    const s = String(v).trim();
+    let m = s.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})/);
+    if (m) return new Date(Number(m[3]), Number(m[2]) - 1, Number(m[1]));
+    m = s.match(/(\d{4})[\/-](\d{1,2})[\/-](\d{1,2})/);
+    if (m) return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+    return null;
   }
 
-  window.udyogaLakshyaSheetCallback = function (response) {
-    try {
-      if (!response || response.status !== "ok") return;
-
-      const cols = response.table.cols || [];
-      const rows = response.table.rows || [];
-
-      const headers = cols.map(c => String(c.label || "").trim().toLowerCase());
-
-      const idx = name => headers.indexOf(name.toLowerCase());
-
-      const typeI = idx("Type");
-      const stateI = idx("State");
-      const titleI = idx("Title");
-      const dateI = idx("Application Start") >= 0 ? idx("Application Start") : idx("Date");
-      const lastDateI = idx("Application End") >= 0 ? idx("Application End") : idx("Last Date");
-      const officialI = idx("Official Link");
-      const applyI = idx("Apply Link");
-      const statusI = idx("Status");
-
-      if (stateI < 0 || titleI < 0) return;
-
-      const today = new Date();
-      today.setHours(0, 0, 0, 0);
-
-      const data = rows
-        .map(r => (r.c || []).map(getValue))
+  fetch(DATA_URL, { cache: "no-store" })
+    .then(r => {
+      if (!r.ok) throw new Error(`notifications.json HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(rows => {
+      const data = (Array.isArray(rows) ? rows : [])
         .filter(r => {
-          const rowState = String(r[stateI] || "").trim().toLowerCase();
-          return rowState === wantedState && String(r[titleI] || "").trim();
+          const rowState = String(r.State || "").trim().toLowerCase();
+          return rowState === wantedState && String(r.Title || "").trim();
         })
         .map(r => {
-          const copy = r.slice();
-          if (statusI >= 0 && (lastDateI >= 0 || dateI >= 0)) {
-            const rawDate = String(r[lastDateI >= 0 ? lastDateI : dateI] || "").trim();
-            const match = rawDate.match(/(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})/);
-            if (match) {
-              const d = new Date(Number(match[3]), Number(match[2]) - 1, Number(match[1]));
-              if (!Number.isNaN(d.getTime()) && d < today) copy[statusI] = "Closed";
-            }
-          }
+          const copy = { ...r };
+          const d = parseDate(copy["Application End"] || copy["Last Date"]);
+          const today = new Date();
+          today.setHours(0, 0, 0, 0);
+          if (d && !Number.isNaN(d.getTime()) && d < today) copy.Status = "Closed";
           return copy;
         });
 
-       if (!data.length) return;
+      if (!data.length) return;
 
       const wrap = document.createElement("div");
       wrap.className = "sheet-live-items";
@@ -80,9 +61,12 @@
         card.style.cssText =
           "background:#fff;border:1px solid #ddd;border-radius:8px;padding:14px;margin:12px 0;";
 
-        const official = officialI >= 0 ? String(r[officialI] || "").trim() : "";
-        const apply = applyI >= 0 ? String(r[applyI] || "").trim() : "";
-        const statusText = statusI >= 0 ? String(r[statusI] || "").trim() : "";
+        const typeText = String(r.Type || "").trim();
+        const startText = String(r["Application Start"] || r.Date || "").trim();
+        const endText = String(r["Application End"] || r["Last Date"] || "").trim();
+        const official = String(r["Official Link"] || "").trim();
+        const apply = String(r["Apply Link"] || "").trim();
+        const statusText = String(r.Status || "").trim();
         const statusKey = statusText.toLowerCase();
         const statusClass =
           /closed/.test(statusKey) ? "status-closed" :
@@ -92,10 +76,10 @@
           /open|available|current/.test(statusKey) ? "status-open" : "status-default";
 
         card.innerHTML =
-          `<div style="font-weight:800;margin-bottom:8px;line-height:1.4;">${esc(r[titleI])}</div>` +
-          (typeI >= 0 && r[typeI] ? `<div><b>Type:</b> ${esc(r[typeI])}</div>` : "") +
-          (dateI >= 0 && r[dateI] ? `<div><b>Application Start:</b> ${esc(r[dateI])}</div>` : "") +
-          (lastDateI >= 0 && r[lastDateI] ? `<div><b>Application End:</b> ${esc(r[lastDateI])}</div>` : "") +
+          `<div style="font-weight:800;margin-bottom:8px;line-height:1.4;">${esc(r.Title)}</div>` +
+          (typeText ? `<div><b>Type:</b> ${esc(typeText)}</div>` : "") +
+          (startText ? `<div><b>Application Start:</b> ${esc(startText)}</div>` : "") +
+          (endText ? `<div><b>Application End:</b> ${esc(endText)}</div>` : "") +
           (statusText ? `<div style="margin-top:7px;"><b>Status:</b> <span class="${statusClass}">${esc(statusText)}</span></div>` : "") +
           `<div style="margin-top:10px;">` +
           (official ? `<a href="${esc(official)}" target="_blank" rel="noopener noreferrer">Official Link ↗</a>` : "") +
@@ -114,17 +98,6 @@
       } else {
         main.appendChild(wrap);
       }
-    } catch (e) {
-      console.error("Udyoga Lakshya Sheets:", e);
-    }
-  };
-
-  const oldScript = document.getElementById("udyoga-sheet-gviz");
-  if (oldScript) oldScript.remove();
-
-  const s = document.createElement("script");
-  s.id = "udyoga-sheet-gviz";
-  s.src = SHEET_URL;
-  s.onerror = () => console.error("Udyoga Lakshya: Google Sheet could not be loaded.");
-  document.head.appendChild(s);
+    })
+    .catch(e => console.error("Udyoga Lakshya Sheets:", e));
 })();
