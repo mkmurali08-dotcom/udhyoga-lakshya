@@ -1,5 +1,17 @@
 [
   {
+    "Type": "Job",
+    "State": "Central Goverment",
+    "Title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
+    "Application Start": "03/09/2026",
+    "Application End": "24/09/2026",
+    "Official Link": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
+    "Apply Link": "https://ibpsreg.ibps.in/pfrdajul26/",
+    "Status": "Open",
+    "FirstSeen": "2026-09-05T23:43:04Z",
+    "IsNew": true
+  },
+  {
     "Type": "Result",
     "State": "Arunachal Pradesh",
     "Title": "Final Result — Special Recruitment Drive for Uniformed Services Combined Examination 2026 — 01/09/2026",
@@ -96,18 +108,6 @@
     "IsNew": true
   },
   {
-    "Type": "Job",
-    "State": "Goa",
-    "Title": "Walk-In-Interview — Samagra Shiksha Goa",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.goa.gov.in/citizen/recruitment/",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
     "Type": "Result",
     "State": "Goa",
     "Title": "Goa Recruitment Examination Results — 04/09/2026",
@@ -116,6 +116,18 @@
     "Official Link": "https://www.goa.gov.in/citizen/recruitment-results/",
     "Apply Link": "",
     "Status": "Declared",
+    "FirstSeen": "2026-09-05T23:43:04Z",
+    "IsNew": true
+  },
+  {
+    "Type": "Job",
+    "State": "Goa",
+    "Title": "Walk-In-Interview — Samagra Shiksha Goa",
+    "Application Start": "",
+    "Application End": "",
+    "Official Link": "https://www.goa.gov.in/citizen/recruitment/",
+    "Apply Link": "",
+    "Status": "Open",
     "FirstSeen": "2026-09-05T23:43:04Z",
     "IsNew": true
   },
@@ -427,18 +439,6 @@
     "Application End": "21/09/2026",
     "Official Link": "https://www.indiapost.gov.in/gdsonlineengagement",
     "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
-    "Application Start": "03/09/2026",
-    "Application End": "24/09/2026",
-    "Official Link": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
-    "Apply Link": "https://ibpsreg.ibps.in/pfrdajul26/",
     "Status": "Open",
     "FirstSeen": "2026-09-05T23:43:04Z",
     "IsNew": true
