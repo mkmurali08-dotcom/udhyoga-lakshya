@@ -117,9 +117,13 @@ for raw_row in rows:
     prior = old.get(key)
     if prior and prior.get("FirstSeen"):
         r["FirstSeen"] = prior["FirstSeen"]
-        r["IsNew"] = bool(prior.get("IsNew", False))
     else:
         r["FirstSeen"] = now
+    try:
+        seen_dt = datetime.fromisoformat(r["FirstSeen"].replace("Z", "+00:00"))
+        age_days = (datetime.now(timezone.utc) - seen_dt).total_seconds() / 86400
+        r["IsNew"] = 0 <= age_days < 7
+    except Exception:
         r["IsNew"] = True
     out.append(r)
 
