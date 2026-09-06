@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract structured recruitment details from a public official notification URL using Gemini."""
+'''Extract structured recruitment details from a public official notification URL using Gemini.'''
 import json, os, re, sys
 from pathlib import Path
 from urllib.parse import urlparse
@@ -87,6 +87,18 @@ def main():
     if not INPUT_JSON.exists():
         raise SystemExit("notifications.json not found")
     rows = json.loads(INPUT_JSON.read_text(encoding="utf-8"))
+    rows = [
+        {
+            **row,
+            "title": row.get("title") or row.get("Title", ""),
+            "officialLink": row.get("officialLink") or row.get("Official Link", ""),
+            "applyLink": row.get("applyLink") or row.get("Apply Link", ""),
+            "state": row.get("state") or row.get("State", ""),
+            "type": row.get("type") or row.get("Type", ""),
+            "status": row.get("status") or row.get("Status", ""),
+        }
+        for row in rows
+    ]
     existing = json.loads(OUTPUT_JSON.read_text(encoding="utf-8")) if OUTPUT_JSON.exists() else {}
     client = genai.Client(api_key=api_key)
     changed = 0
