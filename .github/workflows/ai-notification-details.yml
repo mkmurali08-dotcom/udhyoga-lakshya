@@ -1,0 +1,28 @@
+name: AI Notification Details
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Install AI client
+        run: pip install -q google-genai requests
+      - name: Extract official notification details with Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.7-flash
+        run: python ai-notification-extractor.py
+      - name: Commit generated details
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add job-details.json
+          git diff --cached --quiet || (git commit -m "AI: extract official notification details" && git push)
