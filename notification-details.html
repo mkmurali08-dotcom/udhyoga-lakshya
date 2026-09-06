@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Details | Udyoga Lakshya</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f6f6f6;color:#171717}.wrap{max-width:1050px;margin:0 auto;padding:28px 16px 60px}.back{display:inline-block;margin-bottom:16px;color:#b00020;text-decoration:none;font-weight:700}.hero{background:#171717;color:#fff;border-radius:16px;padding:24px}.hero h1{margin:0 0 10px;font-size:30px}.meta{color:#f1d35a;font-weight:700}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.box{background:#fff;border-radius:12px;padding:18px;box-shadow:0 2px 10px rgba(0,0,0,.06)}.box h2{font-size:18px;margin:0 0 10px;color:#9b001b}.box.full{grid-column:1/-1}.box ul{margin:8px 0 0;padding-left:20px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.btn{display:inline-block;padding:11px 16px;border-radius:9px;text-decoration:none;font-weight:800}.official{background:#171717;color:#fff}.apply{background:#d00024;color:#fff}.muted{color:#666}@media(max-width:700px){.grid{grid-template-columns:1fr}.box.full{grid-column:auto}.hero h1{font-size:24px}}
+</style>
+</head>
+<body>
+<main class="wrap"><a class="back" href="javascript:history.back()">← Back</a><div id="app" class="muted">Loading notification details…</div></main>
+<script>
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const key=new URLSearchParams(location.search).get('id');
+const list=['post_names','total_vacancies','vacancy_breakdown','job_location','educational_qualification','other_eligibility','age_limit','age_relaxation','application_fee','application_start','application_end','exam_date','selection_process','exam_pattern','syllabus','documents_required','salary_pay_scale','important_instructions'];
+const labels={post_names:'Posts',total_vacancies:'Total Vacancies',vacancy_breakdown:'Vacancy Breakdown',job_location:'Job Location',educational_qualification:'Educational Qualification',other_eligibility:'Other Eligibility',age_limit:'Age Limit',age_relaxation:'Age Relaxation',application_fee:'Application Fee',application_start:'Application Start',application_end:'Application End',exam_date:'Exam Date',selection_process:'Selection Process',exam_pattern:'Exam Pattern',syllabus:'Syllabus',documents_required:'Documents Required',salary_pay_scale:'Salary / Pay Scale',important_instructions:'Important Instructions'};
+function block(k,v){if(v==null||v===''||(Array.isArray(v)&&!v.length))return ''; const arr=Array.isArray(v)?v:[v]; return `<section class="box ${['selection_process','exam_pattern','syllabus','documents_required','important_instructions','vacancy_breakdown'].includes(k)?'full':''}"><h2>${labels[k]}</h2>${arr.length>1?'<ul>'+arr.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'<div>'+esc(arr[0])+'</div>'}</section>`}
+fetch('job-details.json?v='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(data=>{const d=data[key];if(!d){document.getElementById('app').innerHTML='<div class="box">Details are not available yet. Please check the official notification.</div>';return;} let html=`<div class="hero"><div class="meta">${esc(d.type||'Notification')} · ${esc(d.state||'')}</div><h1>${esc(d.title||'Job Notification')}</h1><div>${esc(d.organization||'')}</div><div class="actions">${d.official_notification_url?`<a class="btn official" href="${esc(d.official_notification_url)}" target="_blank" rel="noopener">Official Notification ↗</a>`:''}${d.apply_url&& !String(d.apply_url).startsWith('Not mentioned')?`<a class="btn apply" href="${esc(d.apply_url)}" target="_blank" rel="noopener">Apply Now ↗</a>`:''}</div></div><div class="grid">`; for(const k of list) html+=block(k,d[k]); html+='</div>';document.getElementById('app').innerHTML=html;}).catch(()=>document.getElementById('app').innerHTML='<div class="box">Unable to load details. Please open the official notification.</div>');
+</script>
+</body></html>
