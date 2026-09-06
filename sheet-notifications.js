@@ -1,18 +1,26 @@
-if (!document.getElementById('udyoga-sheet-status-styles')) {
-  const style = document.createElement('style');
-  style.id = 'udyoga-sheet-status-styles';
-  style.textContent = `.sheet-live-items .status-closed,.sheet-live-items .status-declared,.sheet-live-items .status-admit,.sheet-live-items .status-upcoming,.sheet-live-items .status-open,.sheet-live-items .status-default{display:inline-block;padding:4px 8px;border-radius:999px;font-weight:800;font-size:11px}.sheet-live-items .status-closed{background:#e5e7eb;color:#374151}.sheet-live-items .status-declared{background:#dcfce7;color:#166534}.sheet-live-items .status-admit{background:#ede9fe;color:#6b21a8}.sheet-live-items .status-upcoming{background:#ffedd5;color:#9a3412}.sheet-live-items .status-open{background:#dbeafe;color:#1d4ed8}.sheet-live-items .status-default{background:#f3f4f6;color:#374151}.sheet-new-badge{display:inline-block;background:#e60000;color:#fff;border-radius:999px;padding:4px 8px;font-size:10px;font-weight:900;margin-left:7px;vertical-align:middle}`;
-  document.head.appendChild(style);
-}
+
+  if (!document.getElementById('udyoga-sheet-status-styles')) {
+    const style = document.createElement('style');
+    style.id = 'udyoga-sheet-status-styles';
+    style.textContent = `.sheet-live-items .status-closed,.sheet-live-items .status-declared,.sheet-live-items .status-admit,.sheet-live-items .status-upcoming,.sheet-live-items .status-open,.sheet-live-items .status-default{display:inline-block;padding:4px 8px;border-radius:999px;font-weight:800;font-size:11px}.sheet-live-items .status-closed{background:#e5e7eb;color:#374151}.sheet-live-items .status-declared{background:#dcfce7;color:#166534}.sheet-live-items .status-admit{background:#ede9fe;color:#6b21a8}.sheet-live-items .status-upcoming{background:#ffedd5;color:#9a3412}.sheet-live-items .status-open{background:#dbeafe;color:#1d4ed8}.sheet-live-items .status-default{background:#f3f4f6;color:#374151}`;
+    document.head.appendChild(style);
+  }
 
 (function () {
   const DATA_URL = "notifications.json";
+
   const script = document.currentScript;
   const wantedState = (script?.dataset.state || "").trim().toLowerCase();
   const latestMode = script?.dataset.latest === "true";
+  const wantedType = (script?.dataset.type || "").trim().toLowerCase();
+
+  const oldBox = document.querySelector(".sheet-live-notifications");
+  if (oldBox) oldBox.remove();
 
   function esc(v) {
-    return String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    return String(v ?? "").replace(/[&<>"']/g, c => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[c]));
   }
 
   function parseDate(v) {
@@ -25,32 +33,37 @@ if (!document.getElementById('udyoga-sheet-status-styles')) {
     return null;
   }
 
-  fetch(DATA_URL + "?v=" + Date.now(), { cache: "no-store" })
-    .then(r => { if (!r.ok) throw new Error(`notifications.json HTTP ${r.status}`); return r.json(); })
+  fetch(DATA_URL, { cache: "no-store" })
+    .then(r => {
+      if (!r.ok) throw new Error(`notifications.json HTTP ${r.status}`);
+      return r.json();
+    })
     .then(rows => {
       let data = (Array.isArray(rows) ? rows : [])
-        .filter(r => String(r.Title || "").trim())
         .filter(r => {
-          if (latestMode) return true;
-          const rowState = String(r.State || "").trim().toLowerCase();
-          if (wantedState === "central government") {
-            return rowState === "central government";
+          if (latestMode) return String(r.Title || "").trim();
+          if (wantedType) {
+            const rowType = String(r.Type || "").trim().toLowerCase();
+            return rowType === wantedType && String(r.Title || "").trim();
           }
-          return rowState === wantedState;
+          const rowState = String(r.State || "").trim().toLowerCase();
+          return rowState === wantedState && String(r.Title || "").trim();
+        })
+        .map(r => {
+          const copy = { ...r };
+          const d = parseDate(copy["Application End"] || copy["Last Date"]);
+          const today = new Date();
+          today.setHours(0, 0, 0, 0);
+          if (d && !Number.isNaN(d.getTime()) && d < today) copy.Status = "Closed";
+          return copy;
         });
 
-      data.sort((a, b) => {
-        const ad = a.IsNew ? Date.parse(a.FirstSeen || "") : 0;
-        const bd = b.IsNew ? Date.parse(b.FirstSeen || "") : 0;
-        return (bd || 0) - (ad || 0);
-      });
+      if (latestMode) data = data.slice(-8).reverse();
 
-      if (latestMode) data = data.slice(0, 20);
       if (!data.length) return;
 
       const wrap = document.createElement("div");
       wrap.className = "sheet-live-items";
-
       if (latestMode) {
         const heading = document.createElement("h2");
         heading.textContent = "New Notifications";
@@ -60,23 +73,25 @@ if (!document.getElementById('udyoga-sheet-status-styles')) {
 
       data.forEach(r => {
         const card = document.createElement("div");
-        card.style.cssText = "background:#fff;border:1px solid #ddd;border-radius:8px;padding:14px;margin:12px 0;";
+        card.style.cssText =
+          "background:#fff;border:1px solid #ddd;border-radius:8px;padding:14px;margin:12px 0;";
+
         const typeText = String(r.Type || "").trim();
-        const startText = String(r["Application Start"] || "").trim();
-        const endText = String(r["Application End"] || "").trim();
+        const startText = String(r["Application Start"] || r.Date || "").trim();
+        const endText = String(r["Application End"] || r["Last Date"] || "").trim();
         const official = String(r["Official Link"] || "").trim();
         const apply = String(r["Apply Link"] || "").trim();
         const statusText = String(r.Status || "").trim();
         const statusKey = statusText.toLowerCase();
-        const statusClass = /closed/.test(statusKey) ? "status-closed" :
+        const statusClass =
+          /closed/.test(statusKey) ? "status-closed" :
           /declared|live/.test(statusKey) ? "status-declared" :
           /admit/.test(statusKey) ? "status-admit" :
           /upcoming/.test(statusKey) ? "status-upcoming" :
           /open|available|current/.test(statusKey) ? "status-open" : "status-default";
-        const fresh = latestMode && r.IsNew ? '<span class="sheet-new-badge">NEW</span>' : '';
 
         card.innerHTML =
-          `<div style="font-weight:800;margin-bottom:8px;line-height:1.4;">${esc(r.Title)}${fresh}</div>` +
+          `<div style="font-weight:800;margin-bottom:8px;line-height:1.4;">${esc(r.Title)}</div>` +
           (typeText ? `<div><b>Type:</b> ${esc(typeText)}</div>` : "") +
           (startText ? `<div><b>Application Start:</b> ${esc(startText)}</div>` : "") +
           (endText ? `<div><b>Application End:</b> ${esc(endText)}</div>` : "") +
@@ -85,14 +100,19 @@ if (!document.getElementById('udyoga-sheet-status-styles')) {
           (official ? `<a href="${esc(official)}" target="_blank" rel="noopener noreferrer">Official Link ↗</a>` : "") +
           (apply ? ` ${official ? " | " : ""}<a href="${esc(apply)}" target="_blank" rel="noopener noreferrer">Apply Now ↗</a>` : "") +
           `</div>`;
+
         wrap.appendChild(card);
       });
 
       const main = document.querySelector("main");
       if (!main) return;
+
       const back = main.querySelector("a.back");
-      if (back && back.parentElement) back.parentElement.before(wrap);
-      else main.appendChild(wrap);
+      if (back && back.parentElement) {
+        back.parentElement.before(wrap);
+      } else {
+        main.appendChild(wrap);
+      }
     })
     .catch(e => console.error("Udyoga Lakshya Sheets:", e));
 })();
