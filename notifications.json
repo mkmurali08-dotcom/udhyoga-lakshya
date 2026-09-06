@@ -826,5 +826,17 @@
     "Status": "Upcoming",
     "FirstSeen": "2026-09-06T19:39:24Z",
     "IsNew": true
+  },
+  {
+    "Type": "Exam",
+    "State": "Central Goverment",
+    "Title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
+    "Application Start": "***",
+    "Application End": "***",
+    "Official Link": "no link",
+    "Apply Link": "waiting",
+    "Status": "Updated",
+    "FirstSeen": "2026-09-06T20:32:38Z",
+    "IsNew": true
   }
 ]
