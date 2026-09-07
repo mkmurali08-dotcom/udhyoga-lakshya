@@ -3,14 +3,13 @@
 import json, os, re, sys
 from pathlib import Path
 from urllib.parse import urlparse
-
 import requests
 from google import genai
 
 SHEET_ID = "1HLCzR_CwklTB6DY_XCp0XqHTBFf_lk5vWT--2-jdOK0"
 INPUT_JSON = Path("notifications.json")
 OUTPUT_JSON = Path("job-details.json")
-MODEL = os.getenv("GEMINI_MODEL", "gemini-3.7-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
 FIELDS = [
     "organization", "advertisement_number", "post_names", "total_vacancies",
