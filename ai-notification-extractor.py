@@ -9,7 +9,8 @@ from google import genai
 SHEET_ID = "1HLCzR_CwklTB6DY_XCp0XqHTBFf_lk5vWT--2-jdOK0"
 INPUT_JSON = Path("notifications.json")
 OUTPUT_JSON = Path("job-details.json")
-MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
+# Keep the model fixed here so a GitHub Actions GEMINI_MODEL override cannot switch it back to Gemini 3.7.
+MODEL = "gemini-3.5-flash-lite"
 
 FIELDS = [
     "organization", "advertisement_number", "post_names", "total_vacancies",
