@@ -68,11 +68,47 @@ def extract_one(client, row):
         model=MODEL,
         contents=prompt,
         config={
-            "response_mime_type": "application/json",
+            # Keep URL Context enabled so Gemini reads the official source.
+            # JSON is requested in the prompt rather than combining structured
+            # output with URL Context, which avoids invalid-argument errors on
+            # models/configurations where that combination is not accepted.
             "tools": [{"url_context": {}}],
+            "temperature": 0,
         },
     )
-    text = response.text.strip()
+
+    # response.text can be None when the model/tool returns no direct text.
+    # Never call .strip() on None; inspect the candidate text parts instead.
+    text = getattr(response, "text", None)
+    if not isinstance(text, str) or not text.strip():
+        parts = []
+        for candidate in (getattr(response, "candidates", None) or []):
+            content = getattr(candidate, "content", None)
+            for part in (getattr(content, "parts", None) or []):
+                part_text = getattr(part, "text", None)
+                if isinstance(part_text, str) and part_text.strip():
+                    parts.append(part_text)
+        text = "".join(parts).strip()
+
+    if not text:
+        reasons = []
+        for candidate in (getattr(response, "candidates", None) or []):
+            reason = getattr(candidate, "finish_reason", None)
+            if reason:
+                reasons.append(str(reason))
+        raise RuntimeError(
+            "Gemini returned no text"
+            + (f" (finish_reason={', '.join(reasons)})" if reasons else "")
+        )
+
+    # Be tolerant if the model wraps the JSON in a Markdown code fence.
+    text = re.sub(r"^\\s*```(?:json)?\\s*", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\\s*```\\s*$", "", text)
+    start = text.find("{")
+    end = text.rfind("}")
+    if start != -1 and end > start:
+        text = text[start:end + 1]
+
     data = json.loads(text)
     data = {k: clean_value(data.get(k, "Not mentioned in the official notification")) for k in FIELDS}
     data["official_notification_url"] = url
