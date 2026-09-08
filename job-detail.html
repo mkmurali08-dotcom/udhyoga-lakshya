@@ -20,9 +20,9 @@ body{margin:0;background:#f3f3f3;color:#151515;font-family:Arial,Helvetica,sans-
 .card-label{font-size:11px;text-transform:uppercase;letter-spacing:.45px;font-weight:900;color:#777;margin-bottom:7px}.card-value{font-size:13px;line-height:1.65;color:#161616;overflow-wrap:anywhere}.card.highlight{border-left:5px solid #ffc400;background:linear-gradient(135deg,#fffdf1,#fff8cf);box-shadow:0 3px 12px rgba(255,196,0,.12)}.card.highlight .card-value{font-weight:800}.card.red{border-left:4px solid #ed1111}
 ul{margin:0;padding-left:20px}li{margin:5px 0}
 .mini-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px}.mini{border:1px solid #e7e7e7;border-radius:7px;padding:9px 10px;background:#fafafa}.mini b{display:block;font-size:11px;color:#666;margin-bottom:3px}.mini span{font-size:13px;font-weight:700}
-.vacancy-stream{border:1px solid #ddd;border-radius:10px;margin:0 0 12px;overflow:hidden;background:#fff}.stream-head{background:#111;color:#fff;padding:11px 13px;font-weight:900;font-size:13px;border-left:4px solid #ffc400}.stream-body{padding:11px}.stream-total{display:inline-block;background:#fff5c8;border:1px solid #f0d45e;border-radius:6px;padding:5px 9px;font-weight:900;font-size:12px;margin-bottom:9px}.vacancy-cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}.vacancy-cat{border:1px solid #e4e4e4;border-radius:7px;padding:8px;background:#fafafa}.vacancy-cat b{display:block;font-size:10px;color:#777}.vacancy-cat span{font-size:14px;font-weight:900}
+.vacancy-table-wrap{border:1px solid #d8d8d8;border-left:5px solid #ffc400;border-radius:10px;overflow-x:auto;background:#fff;box-shadow:0 3px 12px rgba(0,0,0,.05);margin:0 0 12px}.vacancy-table{width:100%;min-width:720px;border-collapse:collapse;font-size:13px}.vacancy-table th{background:#111;color:#fff;padding:11px 10px;text-align:center;font-weight:900;white-space:nowrap}.vacancy-table th:first-child{text-align:left}.vacancy-table td{padding:11px 10px;border-bottom:1px solid #e7e7e7;text-align:center;font-weight:700}.vacancy-table td:first-child{text-align:left;font-weight:900}.vacancy-table tbody tr:nth-child(even){background:#fafafa}.vacancy-table .total-col{background:#fff5c8;font-weight:900}.vacancy-table .overall-row td{background:#fff1b8;border-top:2px solid #ffc400;border-bottom:0;font-weight:900}.vacancy-table .stream-name{color:#151515}.vacancy-summary{display:flex;justify-content:flex-end;align-items:center;gap:8px;padding:10px 12px;background:#fffdf1;border-top:1px solid #f0df93;font-weight:900}.vacancy-summary span{background:#ffc400;border-radius:6px;padding:5px 9px}
 .actions{display:flex;gap:11px;flex-wrap:wrap;margin:8px 0 4px}.actions a{padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:900;font-size:13px;display:inline-block}.apply{background:#ed1111;color:#fff}.official{background:#ffc400;color:#111}.portal{background:#111;color:#fff!important}.back{display:inline-block;margin-top:18px;color:#ed1111;text-decoration:none;font-weight:800;font-size:13px}
-@media(max-width:760px){.grid{grid-template-columns:1fr}.card.full{grid-column:auto}.vacancy-cats{grid-template-columns:repeat(2,minmax(0,1fr))}.head{padding:24px 20px}.head h1{font-size:23px}.content{padding:18px}.mini-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.card.full{grid-column:auto}.head{padding:24px 20px}.head h1{font-size:23px}.content{padding:18px}.mini-grid{grid-template-columns:1fr}.vacancy-table{font-size:12px}.vacancy-table th,.vacancy-table td{padding:9px 8px}}
 </style>
 </head>
 <body>
@@ -51,18 +51,41 @@ function esc(v){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",
 function list(v){return "<ul>"+v.map(x=>"<li>"+(typeof x==="object"?object(x):esc(x))+"</li>").join("")+"</ul>"}
 function object(o){return "<div class='mini-grid'>"+Object.entries(o).map(([k,v])=>"<div class='mini'><b>"+esc(label(k))+"</b><span>"+value(v)+"</span></div>").join("")+"</div>"}
 function value(v){if(v===null||v===undefined||v===""||(Array.isArray(v)&&!v.length))return "Not mentioned in the official notification";if(Array.isArray(v))return list(v);if(typeof v==="object")return object(v);return esc(v).replace(/\n/g,"<br>")}
-function vacancyCard(stream){
-  let entries=Object.entries(stream).filter(([k])=>k!=="stream"&&k!=="Stream");
-  let name=stream.stream||stream.Stream||"Vacancy Details";
-  let total=entries.find(([k])=>/total/i.test(k));
-  let cats=entries.filter(([k,v])=>{
-    const key=String(k).trim().toUpperCase().replace(/\s+/g," ");
-    const allowed=["SC","ST","OBC","EWS","UR","GEN","UR GEN","UR/GEN","PWBD"];
-    return allowed.includes(key)&&Number(v)!==0&&String(v).trim()!=="";
-  });
-  return "<div class='vacancy-stream'><div class='stream-head'>"+esc(name)+"</div><div class='stream-body'>"+(total?"<div class='stream-total'>Total: "+esc(total[1])+"</div>":"")+"<div class='vacancy-cats'>"+cats.map(([k,v])=>"<div class='vacancy-cat'><b>"+esc(k==="UR"?"UR / GEN":k)+"</b><span>"+esc(v)+"</span></div>").join("")+"</div></div></div>";
+function vacancyTable(v){
+  const rows=Array.isArray(v)?v.filter(x=>x&&typeof x==='object'):[];
+  const norm=(obj,names)=>{
+    for(const n of names){
+      const key=Object.keys(obj).find(k=>String(k).trim().toUpperCase().replace(/\s+/g,' ')==n);
+      if(key!==undefined) return Number(obj[key])||0;
+    }
+    return 0;
+  };
+  const totalOf=(obj)=>{
+    const key=Object.keys(obj).find(k=>/total/i.test(k));
+    return key!==undefined?(Number(obj[key])||0):norm(obj,['TOTAL']);
+  };
+  const rowHtml=rows.map(obj=>{
+    const name=obj.stream||obj.Stream||obj.name||obj.Name||'Vacancy Details';
+    const sc=norm(obj,['SC']),st=norm(obj,['ST']),obc=norm(obj,['OBC']),ews=norm(obj,['EWS']);
+    const ur=norm(obj,['UR/GEN','UR GEN','UR','GEN']);
+    const total=totalOf(obj)||sc+st+obc+ews+ur;
+    return `<tr><td class="stream-name">${esc(name)}</td><td>${sc}</td><td>${st}</td><td>${obc}</td><td>${ews}</td><td>${ur}</td><td class="total-col">${total}</td></tr>`;
+  }).join('');
+  const totals=rows.reduce((a,obj)=>{
+    a.sc+=norm(obj,['SC']);a.st+=norm(obj,['ST']);a.obc+=norm(obj,['OBC']);a.ews+=norm(obj,['EWS']);a.ur+=norm(obj,['UR/GEN','UR GEN','UR','GEN']);a.total+=totalOf(obj);return a;
+  },{sc:0,st:0,obc:0,ews:0,ur:0,total:0});
+  if(!rows.length) return `<div class="card full">${value(v)}</div>`;
+  if(!totals.total) totals.total=totals.sc+totals.st+totals.obc+totals.ews+totals.ur;
+  return `<div class="vacancy-table-wrap">
+    <table class="vacancy-table">
+      <thead><tr><th>Stream</th><th>SC</th><th>ST</th><th>OBC</th><th>EWS</th><th>UR/GEN</th><th>Total</th></tr></thead>
+      <tbody>${rowHtml}</tbody>
+      <tfoot><tr class="overall-row"><td>Overall</td><td>${totals.sc}</td><td>${totals.st}</td><td>${totals.obc}</td><td>${totals.ews}</td><td>${totals.ur}</td><td>${totals.total}</td></tr></tfoot>
+    </table>
+    <div class="vacancy-summary">Overall Vacancies <span>${totals.total}</span></div>
+  </div>`;
 }
-function vacancy(v){if(Array.isArray(v))return v.map(x=>typeof x==="object"?vacancyCard(x):"<div class='card'>"+esc(x)+"</div>").join("");return typeof v==="object"?vacancyCard(v):"<div class='card full'>"+value(v)+"</div>"}
+function vacancy(v){return vacancyTable(v)}
 function card(k,v){let important=["total_vacancies","advertisement_number","application_start","application_end","status"].includes(k);let cls=important?"card highlight":"card";return "<div class='"+cls+"'><div class='card-label'>"+esc(label(k))+"</div><div class='card-value'>"+value(v)+"</div></div>"}
 function requested(data){const p=new URLSearchParams(location.search),q=p.get("job")||p.get("key")||p.get("id");if(q&&data[q])return data[q];const t=p.get("title");if(t){const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase()===t.toLowerCase());if(k)return data[k]}const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase().includes("telangana police"));return k?data[k]:fallback}
 function render(d){document.getElementById("pageTitle").textContent=d.title||"Job Details";document.getElementById("pageSubtitle").textContent=(d.organization||"Official-source-first")+" — official notification details";let used=new Set(["title","type","state","status","official_notification_url","apply_url"]);let html="";groups.forEach((g,i)=>{let keys=g.keys.filter(k=>d[k]!==undefined);if(!keys.length)return;html+="<section class='section'><h2 class='section-title'><span class='num'>"+String(i+1).padStart(2,"0")+"</span> "+g.title+"</h2>";if(g.keys.includes("vacancy_breakdown")){html+=vacancy(d.vacancy_breakdown)}else{html+="<div class='grid'>"+keys.map(k=>card(k,d[k])).join("")+"</div>"}html+="</section>";keys.forEach(k=>used.add(k))});let a="";if(d.notification_pdf_url)a+='<a class="official" href="'+esc(d.notification_pdf_url)+'" target="_blank" rel="noopener">Official Notification PDF ↗</a>';if(d.official_notification_url)a+='<a class="official portal" href="'+esc(d.official_notification_url)+'" target="_blank" rel="noopener">Official Portal ↗</a>';if(d.apply_url)a+='<a class="apply" href="'+esc(d.apply_url)+'" target="_blank" rel="noopener">Apply / Check Status ↗</a>';html+="<div class='actions'>"+a+"</div>";document.getElementById("details").innerHTML=html;document.getElementById("status").remove()}
