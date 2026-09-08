@@ -207,7 +207,13 @@
     "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_start": "Not mentioned in the official notification",
+    "application_start": [
+      "Combined Limited Departmental Competitive Examination 2026: 28.01.2026",
+      "Combined Graduate Level Examination 2026: 09.03.2026",
+      "Non-Ministerial (Technical) Examination 2026: 08.05.2026",
+      "Combined Higher Secondary Level Examination 2026: 30.06.2026",
+      "Combined Secondary Level Examination 2026: 02.09.2026"
+    ],
     "application_end": "Not mentioned in the official notification",
     "exam_date": [
       "Combined Limited Departmental Competitive Examination 2026: Written exam on 29.03.2026 (Sunday), Skill Test*: 1st week of April 2026",
@@ -217,7 +223,7 @@
       "Combined Secondary Level Examination 2026: Written exam on 22.11.2026 (Sunday) (PET/PST*)"
     ],
     "selection_process": [
-      "Written exam",
+      "Written Exam",
       "Skill Test*",
       "Stenography Proficiency Test*",
       "PET/PST*"
@@ -277,14 +283,17 @@
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": [
-      "Combined Limited Departmental Competitive Examination 2026: Written exam on 29.03.2026 (Sunday), Skill Test*: 1st week of April 2026",
-      "Combined Graduate Level Examination 2026: Written exam on 31.05.2026 (Sunday), Stenography Proficiency Test*: 4th week of April 2026",
-      "Non-Ministerial (Technical) Examination 2026: Written exam on 26.07.2026 (Sunday) (PET/PST*), Skill Test*: 2nd week of August 2026",
-      "Combined Higher Secondary Level Examination 2026: Written exam on 20.09.2026 (Sunday), Skill Test*: 2nd week of October 2026",
+      "Combined Limited Departmental Competitive Examination 2026: Written exam on 29.03.2026 (Sunday); Skill Test*: 1st week of April 2026",
+      "Combined Graduate Level Examination 2026: Written exam on 31.05.2026 (Sunday); Stenography Proficiency Test*: 4th week of April 2026",
+      "Non-Ministerial (Technical) Examination 2026: Written exam on 26.07.2026 (Sunday) (PET/PST*); Skill Test*: 2nd week of August 2026",
+      "Combined Higher Secondary Level Examination 2026: Written exam on 20.09.2026 (Sunday); Skill Test*: 2nd week of October 2026",
       "Combined Secondary Level Examination 2026: Written exam on 22.11.2026 (Sunday) (PET/PST*)"
     ],
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Written exam",
+      "Skill Test*",
+      "Stenography Proficiency Test*",
+      "PET/PST*"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -3969,14 +3978,22 @@
     "organization": "Institute of Banking Personnel Selection (IBPS)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Officer Scale II",
-      "Officer Scale III"
+      "Officer Scale-II (General Banking Officer)",
+      "Officer Scale-II (Information Technology Officer)",
+      "Officer Scale-II (Chartered Accountant)",
+      "Officer Scale-II (Law Officer)",
+      "Officer Scale-II (Treasury Manager)",
+      "Officer Scale-II (Marketing Officer)",
+      "Officer Scale-II (Agricultural Officer)",
+      "Officer Scale-III"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
       "Not mentioned in the official notification"
     ],
-    "job_location": "Participating Regional Rural Banks (RRBs)",
+    "job_location": [
+      "Participating Regional Rural Banks (RRBs) across India"
+    ],
     "educational_qualification": [
       "Not mentioned in the official notification"
     ],
@@ -3992,7 +4009,7 @@
     ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "Single Examination for Officers Scale II & III: 27-09-2026",
+    "exam_date": "Single Examination for Officer Scale-II & III: 13.09.2026",
     "selection_process": [
       "Single Examination"
     ],
@@ -4007,7 +4024,8 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates are advised to regularly keep visiting the authorised IBPS website www.ibps.in for details and updates."
+      "Candidates are advised to regularly keep visiting the authorised IBPS website www.ibps.in for details and updates.",
+      "Any corrigendum/addendum/updates will be posted only on the official website of IBPS."
     ],
     "official_notification_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
     "apply_url": "https://www.ibps.in",
