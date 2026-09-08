@@ -286,10 +286,7 @@
       "Combined Secondary Level Examination 2026: Written exam on 22.11.2026 (Sunday) (PET/PST*)"
     ],
     "selection_process": [
-      "Written Exam",
-      "Skill Test*",
-      "Stenography Proficiency Test*",
-      "PET/PST*"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -316,8 +313,8 @@
     "source_url": "https://apssb.nic.in/Index/notice"
   },
   "fln-mission-data-analyst-skill-test-interview-admit-card": {
-    "organization": "Office of the Mission Director, Samagra Shiksha Axom, Kahilipara, Guwahati-781 019, Assam",
-    "advertisement_number": "No. SSA/TT/Consultant etc./FLN/308/2023/10423 dated 17.02.2024",
+    "organization": "Samagra Shiksha Axom",
+    "advertisement_number": "No. SSA/TT/Consultant etc./FLN/308/2023/ 10423 dated 17.02.2024",
     "post_names": [
       "Data Analyst of FLN at State PMU",
       "Data Analyst of FLN at District PMU",
@@ -360,15 +357,15 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Admit card (for Data Analyst of FLN at State PMU and District PMU)",
+      "Admit card (for Data Analyst of FLN at State PMU and Data Analyst of FLN at District PMU)",
       "Call letters (for Consultant of FLN at District PMU (Language) and Consultant of FLN at District PMU (Numeracy))"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
       "The list of short-listed candidates is uploaded in the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in",
       "The short-listed candidates are requested to attend in the skill test/interview before one hour of the scheduled date and time.",
-      "Short-listed candidates of Data Analyst of FLN at State PMU and Data Analyst of FLN at District PMU may download their admit card from the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in w.e.f. 15.08.2024.",
-      "In case of Consultant of FLN at District PMU (Language) and Consultant of FLN at District PMU (Numeracy), call letters have been sent."
+      "Admit cards for Data Analyst of FLN at State PMU and Data Analyst of FLN at District PMU may be downloaded from https://ssa.assam.gov.in w.e.f. 15.08.2024.",
+      "Call letters have been sent in case of Consultant of FLN at District PMU (Language) and Consultant of FLN at District PMU (Numeracy)."
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview",
     "apply_url": "https://ssa.assam.gov.in",
@@ -427,8 +424,8 @@
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
       "The date-wise list of short-listed candidates is uploaded in the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in",
-      "The short-listed candidates are requested to attend in the Skill test before one hour of the scheduled date and time with original copies of Aadhar Card/Pan Card and admit card.",
-      "The short-listed candidates name may be downloaded their admit card from the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in w.e.f. 27.06.2024"
+      "Candidates are requested to attend the Skill test one hour before the scheduled date and time.",
+      "Admit cards can be downloaded from the official website of Samagra Shiksha Axom w.e.f. 27.06.2024."
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
     "apply_url": "https://ssa.assam.gov.in",
@@ -491,7 +488,7 @@
     "source_url": "https://chandigarh.gov.in/orders-notifications"
   },
   "recruitment-of-clerk-steno-department-of-personnel": {
-    "organization": "Department of Personnel, Chandigarh Administration",
+    "organization": "Department of Personnel, Chandigarh",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
       "Clerk",
@@ -535,7 +532,7 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://chandigarh.gov.in/public-notices/vacancies",
-    "apply_url": "https://chandigarh.gov.in/public-notices/vacancies",
+    "apply_url": "Not mentioned in the official notification",
     "title": "Recruitment of Clerk & Steno — Department of Personnel",
     "type": "Job",
     "state": "Chandigarh",
@@ -546,91 +543,109 @@
     "organization": "Goa College of Pharmacy, Government of Goa",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Master of Pharmacy (M. Pharm.) in Pharmaceutical Quality Assurance",
-      "Master of Pharmacy (M. Pharm.) in Pharmacology",
-      "Master of Pharmacy (M. Pharm.) in Pharmacognosy",
-      "Master of Pharmacy (M. Pharm.) in Pharmaceutical Chemistry"
+      "Master of Pharmacy in Pharmaceutical Quality Assurance",
+      "Master of Pharmacy in Pharmacology",
+      "Master of Pharmacy in Pharmacognosy",
+      "Master of Pharmacy in Pharmaceutical Chemistry"
     ],
-    "total_vacancies": "68",
+    "total_vacancies": 68,
     "vacancy_breakdown": [
       {
         "subject": "Pharmaceutical Quality Assurance",
-        "total": 17,
+        "total_seats": 17,
         "breakdown": {
-          "Group 1(a) Students passing B. Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD": "1*",
+          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
+          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
           "Group I(c)-Sponsored": "NIL",
-          "Group I(d)-EWS": "2**",
-          "Group II-SC/ST/OBC (SC/ST)": "2-SC/ST",
-          "Group II-SC/ST/OBC (OBC)": "4-OBC",
-          "Group III-Open": "2**"
+          "Group I(d)-EWS": 2,
+          "Group II (SC/ST/OBC) Candidates belonging to SC/ST/OBC of Goa": {
+            "SC/ST": 2,
+            "OBC": 4
+          },
+          "Group III (open) Students passing B.Pharm exam of any University (General)": 2
         }
       },
       {
         "subject": "Pharmacology",
-        "total": 17,
+        "total_seats": 17,
         "breakdown": {
-          "Group 1(a) Students passing B. Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD": "NIL",
-          "Group I(c)-Sponsored": "1*",
-          "Group I(d)-EWS": "2**",
-          "Group II-SC/ST/OBC (SC/ST)": "2-SC/ST",
-          "Group II-SC/ST/OBC (OBC)": "4-OBC",
-          "Group III-Open": "2**"
+          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
+          "Group I(b)-(PwD) Person with Disabilities from Goa": "NIL",
+          "Group I(c)-Sponsored": 1,
+          "Group I(d)-EWS": 2,
+          "Group II (SC/ST/OBC) Candidates belonging to SC/ST/OBC of Goa": {
+            "SC/ST": 2,
+            "OBC": 4
+          },
+          "Group III (open) Students passing B.Pharm exam of any University (General)": 2
         }
       },
       {
         "subject": "Pharmacognosy",
-        "total": 17,
+        "total_seats": 17,
         "breakdown": {
-          "Group 1(a) Students passing B. Pharm under Goa University/Goa College of Pharmacy": 5,
-          "Group I(b)-PwD": "1*",
-          "Group I(c)-Sponsored": "1*",
-          "Group I(d)-EWS": "2**",
-          "Group II-SC/ST/OBC (SC/ST)": "2-SC/ST",
-          "Group II-SC/ST/OBC (OBC)": "4-OBC",
-          "Group III-Open": "2**"
+          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 5,
+          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
+          "Group I(c)-Sponsored": 1,
+          "Group I(d)-EWS": 2,
+          "Group II (SC/ST/OBC) Candidates belonging to SC/ST/OBC of Goa": {
+            "SC/ST": 2,
+            "OBC": 4
+          },
+          "Group III (open) Students passing B.Pharm exam of any University (General)": 2
         }
       },
       {
         "subject": "Pharmaceutical Chemistry",
-        "total": 17,
+        "total_seats": 17,
         "breakdown": {
-          "Group 1(a) Students passing B. Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD": "1*",
+          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
+          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
           "Group I(c)-Sponsored": "NIL",
-          "Group I(d)-EWS": "2**",
-          "Group II-SC/ST/OBC (SC/ST)": "2-SC/ST",
-          "Group II-SC/ST/OBC (OBC)": "4-OBC",
-          "Group III-Open": "2**"
+          "Group I(d)-EWS": 2,
+          "Group II (SC/ST/OBC) Candidates belonging to SC/ST/OBC of Goa": {
+            "SC/ST": 2,
+            "OBC": 4
+          },
+          "Group III (open) Students passing B.Pharm exam of any University (General)": 2
         }
       }
     ],
     "job_location": "Panaji, Goa",
     "educational_qualification": [
-      "Passed Bachelor of Pharmacy (B. Pharm) examination from Goa College of Pharmacy and/or Pharmacy Colleges in Goa or an equivalent examination with a minimum of 55% marks for general category candidates and 50% for SC/ST category candidates (aggregate of four years of B. Pharm).",
-      "Must have a NTA score/percentile at GPAT 2025/2026 (non-GPAT candidates considered on merit when GPAT qualified candidates are not available)."
+      "Passed Bachelor of Pharmacy examination from Goa College of Pharmacy and/or Pharmacy Colleges in Goa or an equivalent examination with a minimum of 55% marks in case of general category candidates and 50% in case of candidate belonging to SC/ST category (aggregate of four years of B. Pharm)",
+      "NTA score/percentile at GPAT 2025/2026",
+      "In case of sponsored candidate(s): having not less than five years professional experience after passing B. Pharm course shall have a relaxation in pass percentage from 55% to 50%, a letter from the employer must be furnished stating that the candidate is being sponsored and will not be withdrawn midway, and the research project to be proposed and fully funded by the sponsoring agency",
+      "In case of candidates with valid qualifying degree from University other than Goa University, GPAT 2025 or GPAT 2026 qualified candidates will be considered for admissions",
+      "When GPAT 2025/2026 qualified candidates are not available, admission will be given to non-GPAT candidates on merit"
     ],
     "other_eligibility": [
-      "Must be an Indian National.",
-      "Must have obtained Registration with the State Pharmacy Council or obtain the same within one month from the date of admission.",
-      "For sponsored candidates: minimum five years professional experience after passing B. Pharm course, relaxation in pass percentage from 55% to 50%, a sponsorship letter from the employer, and research project proposed and fully funded by the sponsoring agency."
+      "Be an Indian National",
+      "Every student selected for admission must have obtained Registration with the State Pharmacy Council or should obtain the same within one month from the date of admission"
     ],
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Application Fee: Rs. 2,500/- through Challan/Transaction acknowledgement copy using the link https://echallanpg.goa.gov.in"
+    "age_relaxation": [
+      "Not mentioned in the official notification"
     ],
+    "application_fee": "Rs. 2,500/- through Challan/Transaction acknowledgement copy using the link: https://echallanpg.goa.gov.in",
     "application_start": "6th July, 2026",
-    "application_end": "Monday, 20th July, 2026, by 4:30 pm",
-    "exam_date": "Not applicable (Admission based on qualifying marks/GPAT and merit lists)",
+    "application_end": "Monday, 20th July 2026, by 4:30pm",
+    "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Separate merit list prepared for each group.",
-      "Total qualifying marks computed by assigning 30% weightage to cumulative performance at First to Eighth Semester/First to Fourth Year B. Pharm. Examination and 70% weightage to performance (score/percentile) at GPAT 2025/2026.",
-      "Candidates shall attend in person during round of admission together with Acknowledgement Card, original documents, and fees."
+      "Separate merit list shall be prepared for each group",
+      "Total qualifying marks computed by assigning 30% weightage to cumulative performance at First to Eighth Semester / First to Fourth Year B.Pharm. Examination for regular candidates and 70% weightage to performance at GPAT 2025/GPAT 2026",
+      "Incase total qualifying marks of two or more applicants are equal, applicant who has scored more marks in final year B. Pharm. (Sem VII and Sem VIII) will be placed higher in merit list",
+      "Candidates shall attend in person during round of admission with Acknowledgement Card, original documents, and fees"
     ],
-    "exam_pattern": "Not mentioned in the official notification",
-    "syllabus": "Not mentioned in the official notification",
+    "exam_pattern": [
+      "One University examination each at end of semesters I and II",
+      "Dissertation submitted by students on project work carried out during Semesters III and IV, evaluated by University appointed examiners at the end of fourth semester",
+      "Theory course in Research Methodology and Statistics (Non-University exam) and mandatory journal club presentations during Semester III"
+    ],
+    "syllabus": [
+      "Research Methodology and Statistics",
+      "Subject-specific syllabi for Pharmaceutical Quality Assurance, Pharmacology, Pharmacognosy, and Pharmaceutical Chemistry as per Goa University / PCI ordinances"
+    ],
     "documents_required": [
       "Recent passport size photograph on the application form",
       "Statement of marks/marks cards of B. Pharm (all semesters)",
@@ -644,20 +659,19 @@
       "College Leaving Certificate",
       "Copy of Aadhaar Card",
       "Copy of income and assets certificate issued by Mamlatdar [for availing seat under EWS category I (d)]",
-      "Application Fee Challan/Transaction acknowledgement copy",
-      "Registered Pharmacists Certificate/undertaking regarding submission of Registered Pharmacist Certificate within one month"
+      "Application fee of Rs. 2,500/- through Challan/Transaction acknowledgement copy",
+      "Registered Pharmacists Certificate / undertaking regarding submission of Registered Pharmacist Certificate within one month"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Display of eligibility-cum-merit list at admission Center on Thursday, 23rd July, 2026.",
-      "Last date for compliance is Monday, 27th July, 2026.",
-      "First Round of admissions: 29th July 2026 from 10:00 am onwards.",
-      "Second Round of admissions: Friday, 31st July 2026 at 11:00 am.",
-      "Third Round of admissions: Monday, 3rd August 2026 at 11:00 am.",
-      "Date of Starting Classes: 5th August 2026."
+      "The academic session is divided into four semesters of six months duration each.",
+      "Candidates admitted to Pharmacology are required to perform experiments on animals and hence need to take vaccines like rabies, tetanus, etc.",
+      "Candidates admitted to Pharmacognosy are required to maintain a herbal garden on a regular basis.",
+      "Admissions close by 4th September 2026.",
+      "Ragging in any form is strictly prohibited."
     ],
     "official_notification_url": "https://www.goa.gov.in/citizen/recruitment/",
-    "apply_url": "https://echallanpg.goa.gov.in",
+    "apply_url": "https://www.gcp.goa.gov.in",
     "notification_pdf_url": "https://www.goa.gov.in/wp-content/uploads/2026/06/M-Pharm-Prospectus-2026-27.pdf",
     "title": "Walk-In-Interview — Finance Controller, Goa State Biodiversity Board",
     "type": "Job",
@@ -677,106 +691,114 @@
     "total_vacancies": 68,
     "vacancy_breakdown": [
       {
-        "course": "Pharmaceutical Quality Assurance",
-        "total_seats": 17,
+        "subject": "Pharmaceutical Quality Assurance",
+        "total": 17,
         "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD (Persons with Disabilities from Goa)": "01*",
-          "Group I(c)-Sponsored": "NIL",
+          "Group 1(a) Students passing B. Pharm Exam under Goa University/Goa College of Pharmacy": 6,
+          "Group I (b)-(PwD) Person with Disabilities from Goa": "01*",
+          "Group I (c)-Sponsored": "NIL",
           "Group I(d)-EWS": "02**",
-          "Group II-SC": "02-SC",
-          "Group II-OBC": "04-OBC",
-          "Group III-Students passing B.Pharm of any University (General)": "02**"
+          "Group II SC": "02-SC",
+          "Group II OBC": "04-OBC",
+          "Group III Students passing B. Pharm Exam of any University (General)": "02**"
         }
       },
       {
-        "course": "Pharmacology",
-        "total_seats": 17,
+        "subject": "Pharmacology",
+        "total": 17,
         "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD (Persons with Disabilities from Goa)": "NIL",
-          "Group I(c)-Sponsored": "01*",
+          "Group 1(a) Students passing B. Pharm Exam under Goa University/Goa College of Pharmacy": 6,
+          "Group I (b)-(PwD) Person with Disabilities from Goa": "NIL",
+          "Group I (c)-Sponsored": "01*",
           "Group I(d)-EWS": "02**",
-          "Group II-SC": "02-SC",
-          "Group II-OBC": "04-OBC",
-          "Group III-Students passing B.Pharm of any University (General)": "02**"
+          "Group II SC": "02-SC",
+          "Group II OBC": "04-OBC",
+          "Group III Students passing B. Pharm Exam of any University (General)": "02**"
         }
       },
       {
-        "course": "Pharmacognosy",
-        "total_seats": 17,
+        "subject": "Pharmacognosy",
+        "total": 17,
         "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 5,
-          "Group I(b)-PwD (Persons with Disabilities from Goa)": "01*",
-          "Group I(c)-Sponsored": "01*",
-          "Group I(d)-EWS": "02 **",
-          "Group II-SC": "02-SC",
-          "Group II-OBC": "04-OBC",
-          "Group III-Students passing B.Pharm of any University (General)": "02**"
+          "Group 1(a) Students passing B. Pharm Exam under Goa University/Goa College of Pharmacy": 5,
+          "Group I (b)-(PwD) Person with Disabilities from Goa": "01*",
+          "Group I (c)-Sponsored": "01*",
+          "Group I(d)-EWS": "02**",
+          "Group II SC": "02-SC",
+          "Group II OBC": "04-OBC",
+          "Group III Students passing B. Pharm Exam of any University (General)": "02**"
         }
       },
       {
-        "course": "Pharmaceutical Chemistry",
-        "total_seats": 17,
+        "subject": "Pharmaceutical Chemistry",
+        "total": 17,
         "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD (Persons with Disabilities from Goa)": "01*",
-          "Group I(c)-Sponsored": "NIL",
+          "Group 1(a) Students passing B. Pharm Exam under Goa University/Goa College of Pharmacy": 6,
+          "Group I (b)-(PwD) Person with Disabilities from Goa": "01*",
+          "Group I (c)-Sponsored": "NIL",
           "Group I(d)-EWS": "02**",
-          "Group II-SC": "02-SC",
-          "Group II-OBC": "04-OBC",
-          "Group III-Students passing B.Pharm of any University (General)": "02**"
+          "Group II SC": "02-SC",
+          "Group II OBC": "04-OBC",
+          "Group III Students passing B. Pharm Exam of any University (General)": "02**"
         }
       }
     ],
     "job_location": "Panaji, Goa",
     "educational_qualification": [
-      "Passed the Bachelor of Pharmacy examination from Goa College of Pharmacy and/or Pharmacy Colleges in Goa or an equivalent examination with a minimum of 55% marks in case of general category candidates and 50% in case of candidates belonging to SC/ST category (aggregate of four years of B. Pharm).",
-      "NTA score/percentile at GPAT 2025/2026.",
-      "For sponsored candidates: having not less than five years professional experience after passing B. Pharm course with a relaxation in pass percentage from 55% to 50%."
+      "Passed the Bachelor of Pharmacy examination from Goa College of Pharmacy and/or Pharmacy Colleges in Goa or an equivalent examination with a minimum of 55% marks in case of general category candidates and 50% in case of candidate belonging to SC/ST category (aggregate of four years of B. Pharm) and with a NTA score/percentile at GPAT 2025/2026.",
+      "For sponsored candidates: having not less than five years professional experience after passing B. Pharm course with a relaxation in pass percentage from 55% to 50%, a letter from the employer stating the candidate is being sponsored and will not be withdrawn midway, and the research project to be proposed and fully funded by the sponsoring agency.",
+      "For candidates with valid qualifying degree from University other than Goa University, GPAT 2025 or GPAT 2026 qualified candidates will be considered."
     ],
     "other_eligibility": [
       "Must be an Indian National.",
-      "Must have obtained Registration with the State Pharmacy Council or should obtain the same within one month from the date of admission.",
-      "Candidates with valid qualifying degree from University other than Goa University must have GPAT 2025 or GPAT 2026 qualification."
+      "Every student selected for admission must have obtained Registration with the State Pharmacy Council or obtain the same within one month from the date of admission, failing which admission shall be cancelled."
     ],
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": "Rs. 2,500/-",
-    "application_start": "06/07/2026",
-    "application_end": "20/07/2026 by 4:30 pm",
+    "age_relaxation": [
+      "Not mentioned in the official notification"
+    ],
+    "application_fee": [
+      "Application Fee: Rs. 2,500/- through Challan/Transaction acknowledgement copy using the link https://echallanpg.goa.gov.in"
+    ],
+    "application_start": "06th July, 2026",
+    "application_end": "20th July, 2026 by 4:30 pm",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Separate merit list prepared for each group.",
-      "Total qualifying marks computed by assigning 30% weightage to cumulative performance at First to Eighth Semester / First to Fourth Year B.Pharm. Examination and 70% weightage to performance (score/percentile) at GPAT 2025/GPAT 2026.",
-      "In case of a tie, applicant who has scored more marks in final year B. Pharm. (Sem VII and Sem VIII) will be placed higher.",
-      "Candidates must attend in person during the round of admission with required documents and fees."
+      "Separate merit list shall be prepared for each group.",
+      "Total qualifying marks computed by assigning 30% weightage to cumulative performance at First to Eighth Semester / First to Fourth Year B. Pharm. Examination for regular candidates (or CGPA awarded by University for Sem I and Sem II based on D. Pharm for lateral entry) and 70% weightage to performance (score/percentile) at GPAT 2025/GPAT 2026.",
+      "Higher total qualifying marks applicant placed higher in merit list.",
+      "Tie-breaker: Applicant who has scored more marks in final year B. Pharm. (Sem VII and Sem VIII) will be placed higher.",
+      "Candidates shall attend in person during rounds of admission with Acknowledgement Card, original documents, and fees."
     ],
-    "exam_pattern": "Not mentioned in the official notification",
-    "syllabus": "Not mentioned in the official notification",
+    "exam_pattern": [
+      "Not applicable (Admission to M. Pharm Course based on qualifying degree and GPAT score merit)"
+    ],
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
     "documents_required": [
       "Recent passport size photograph on the application form",
       "Statement of marks/marks cards of B. Pharm (all semesters)",
       "GPAT 2025/2026 score card",
       "Valid caste certificates (in case of applicants claiming under Group II)",
       "Valid disability certificate from the competent authority (Medical Board of Goa Medical College) in case of applicants claiming under Group I(b)",
-      "Sponsorship letter from the competent authority of the concerned department along with due NOC from the government under Group I (c)",
+      "Sponsorship letter from the competent authority of the concerned department along with due NOC from the government under Group I(c)",
       "Eligibility certificate from the Head of the Institution of the graduating institution duly recognized and approved by PCI/UGC in case of applicants claiming under Group III",
       "Provisional Eligibility from Goa University (if applicable)",
       "Migration Certificate (if applicable)",
       "College Leaving Certificate",
       "Copy of Aadhaar Card",
-      "Copy of income and assets certificate issued by Mamlatdar for availing seat under EWS category I (d)",
-      "Application fee Challan/Transaction acknowledgement copy of Rs. 2,500/-",
-      "Registered Pharmacists Certificate / undertaking from applicants regarding submission of Registered Pharmacist Certificate within one month"
+      "Copy of income and assets certificate issued by Mamlatdar (for availing seat under EWS category I(d))",
+      "Application Fee receipt of Rs. 2,500/- through Challan/Transaction acknowledgement copy",
+      "Registered Pharmacists Certificate/undertaking from applicants regarding submission of Registered Pharmacist Certificate within one month"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
       "The academic session is divided into four semesters of six months duration each.",
+      "A candidate shall be required to attend at least 75% of the number of lectures and practicals separately for each subject of study in each semester.",
       "Ragging in any form is strictly prohibited.",
-      "Candidates admitted to Pharmacology are required to take vaccines like rabies, tetanus, etc., and maintain an animal house on regular/rotational basis.",
-      "Candidates admitted to Pharmacognosy are required to maintain a herbal garden on a regular basis.",
-      "Duly filled-in applications should be submitted to the Office of Principal, Goa College of Pharmacy, 18th June Road, Panaji, Goa-403001."
+      "Students admitted to Pharmacology are required to take vaccines like rabies, tetanus, etc. and participate in animal experiments and maintain animal house.",
+      "Students admitted to Pharmacognosy are required to maintain a herbal garden on a regular basis."
     ],
     "official_notification_url": "https://www.goa.gov.in/citizen/recruitment-results/",
     "apply_url": "https://echallanpg.goa.gov.in",
@@ -802,115 +824,118 @@
         "subject": "Pharmaceutical Quality Assurance",
         "total": 17,
         "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD": "01*",
+          "Group 1(a) Students passing B. Pharm Exam under Goa University/Goa College of Pharmacy": 6,
+          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
           "Group I(c)-Sponsored": "NIL",
-          "Group I(d)-EWS": "02**",
-          "Group II SC/ST/OBC": "02-SC/ST, 04-OBC",
-          "Group III(open) Students passing B.Pharm of any University (General)": "02**"
+          "Group I(d)-EWS": 2,
+          "Group II (SC/ST/OBC)": {
+            "SC/ST": 2,
+            "OBC": 4
+          },
+          "Group III (open) Students passing B. Pharm Exam of any University (General)": 2
         }
       },
       {
         "subject": "Pharmacology",
         "total": 17,
         "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD": "NIL",
-          "Group I(c)-Sponsored": "01*",
-          "Group I(d)-EWS": "02**",
-          "Group II SC/ST/OBC": "02-SC/ST, 04-OBC",
-          "Group III(open) Students passing B.Pharm of any University (General)": "02**"
+          "Group 1(a) Students passing B. Pharm Exam under Goa University/Goa College of Pharmacy": 6,
+          "Group I(b)-(PwD) Person with Disabilities from Goa": "NIL",
+          "Group I(c)-Sponsored": 1,
+          "Group I(d)-EWS": 2,
+          "Group II (SC/ST/OBC)": {
+            "SC/ST": 2,
+            "OBC": 4
+          },
+          "Group III (open) Students passing B. Pharm Exam of any University (General)": 2
         }
       },
       {
         "subject": "Pharmacognosy",
         "total": 17,
         "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 5,
-          "Group I(b)-PwD": "01*",
-          "Group I(c)-Sponsored": "01*",
-          "Group I(d)-EWS": "02 **",
-          "Group II SC/ST/OBC": "02-SC/ST, 04-OBC",
-          "Group III(open) Students passing B.Pharm of any University (General)": "02**"
+          "Group 1(a) Students passing B. Pharm Exam under Goa University/Goa College of Pharmacy": 5,
+          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
+          "Group I(c)-Sponsored": 1,
+          "Group I(d)-EWS": 2,
+          "Group II (SC/ST/OBC)": {
+            "SC/ST": 2,
+            "OBC": 4
+          },
+          "Group III (open) Students passing B. Pharm Exam of any University (General)": 2
         }
       },
       {
         "subject": "Pharmaceutical Chemistry",
         "total": 17,
         "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-PwD": "01*",
+          "Group 1(a) Students passing B. Pharm Exam under Goa University/Goa College of Pharmacy": 6,
+          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
           "Group I(c)-Sponsored": "NIL",
-          "Group I(d)-EWS": "02**",
-          "Group II SC/ST/OBC": "02-SC/ST, 04-OBC",
-          "Group III(open) Students passing B.Pharm of any University (General)": "02**"
+          "Group I(d)-EWS": 2,
+          "Group II (SC/ST/OBC)": {
+            "SC/ST": 2,
+            "OBC": 4
+          },
+          "Group III (open) Students passing B. Pharm Exam of any University (General)": 2
         }
       }
     ],
     "job_location": "Panaji, Goa",
     "educational_qualification": [
-      "Passed Bachelor of Pharmacy examination from Goa College of Pharmacy and/or Pharmacy Colleges in Goa or an equivalent examination with a minimum of 55% marks in case of general category candidates and 50% in case of candidate belonging to SC/ST category (aggregate of four years of B. Pharm) and with a NTA score/percentile at GPAT 2025/2026.",
-      "For sponsored candidates: having not less than five years professional experience after passing B. Pharm course with a relaxation in pass percentage from 55% to 50%, letter from employer, and fully funded research project by sponsoring agency.",
-      "For candidates with valid qualifying degree from University other than Goa University, GPAT 2025 or GPAT 2026 qualified candidates will be considered.",
-      "When GPAT 2025/2026 qualified candidates are not available, admission will be given to non-GPAT candidates on merit."
+      "Passed the Bachelor of Pharmacy examination from Goa College of Pharmacy and/or Pharmacy Colleges in Goa or an equivalent examination with a minimum of 55% marks in case of general category candidates and 50% in case of candidate belonging to SC/ST category (aggregate of four years of B. Pharm) and with a NTA score/percentile at GPAT 2025/2026.",
+      "For sponsored candidates: having not less than five years professional experience after passing B. Pharm course shall have a relaxation in pass percentage from 55% to 50%, along with an employer sponsorship letter and full funding for the research project.",
+      "For candidates with valid qualifying degree from University other than Goa University, GPAT 2025 or GPAT 2026 qualified candidates will be considered."
     ],
     "other_eligibility": [
-      "Must be an Indian National.",
-      "Every student selected for admission must have obtained Registration with the State Pharmacy Council or should obtain the same within one month from the date of admission, failing which admission shall be cancelled."
+      "Be an Indian National.",
+      "Every student selected for admission must obtain Registration with the State Pharmacy Council or obtain the same within one month from the date of admission."
     ],
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": [
       "Not mentioned in the official notification"
     ],
-    "application_fee": "Rs. 2,500/- through Challan/Transaction acknowledgement copy",
-    "application_start": "06th July, 2026",
+    "application_fee": "Rs. 2,500/- payable through Challan/Transaction acknowledgement copy using https://echallanpg.goa.gov.in",
+    "application_start": "6th July, 2026",
     "application_end": "20th July, 2026 by 4:30 pm",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Separate merit list prepared for each group.",
-      "Total qualifying marks computed by assigning 30% weightage to cumulative performance at First to Eighth Semester / First to Fourth Year B.Pharm. Examination for regular candidates and 70% weightage to performance at GPAT 2025/GPAT 2026.",
-      "For lateral entry students, CGPA awarded by University for Sem I and Sem II based on marks awarded for D.Pharm, and additional subjects studied, shall be considered.",
-      "Tie-breaker: Applicant who has scored more marks in final year B. Pharm. (Sem VII and Sem VIII) will be placed higher in merit list.",
-      "Candidates shall attend in person during round of admission together with Acknowledgement Card, documents in original and fees."
+      "Separate merit list shall be prepared for each group.",
+      "Total qualifying marks computed by assigning 30% weightage to cumulative performance at First to Eighth Semester / First to Fourth Year B.Pharm. Examination for regular candidates and 70% weightage to performance (score/percentile) at GPAT 2025/GPAT 2026.",
+      "Applicant who has scored higher total qualifying marks shall be placed higher in merit list.",
+      "In case of equal qualifying marks, applicant who has scored more marks in final year B. Pharm. (Sem VII and Sem VIII) will be placed higher."
     ],
     "exam_pattern": [
-      "There shall be one University examination each at the end of semesters I and II.",
-      "Dissertation submitted by students on project work carried out during Semesters III and IV evaluated by University appointed examiners at the end of the fourth semester.",
-      "During Semester III, candidates undergo theory course in Research Methodology and Statistics (Non-University exam) and make journal club presentations."
+      "Not mentioned in the official notification"
     ],
     "syllabus": [
-      "Pharmaceutical Quality Assurance",
-      "Pharmacology",
-      "Pharmacognosy",
-      "Pharmaceutical Chemistry",
-      "Research Methodology and Statistics"
+      "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Recent passport size photograph on application form",
+      "Recent passport size photograph on the application form",
       "Statement of marks/marks cards of B. Pharm (all semesters)",
       "GPAT 2025/2026 score card",
       "Valid caste certificates (in case of applicants claiming under Group II)",
-      "Valid disability certificate from competent authority (Medical Board of Goa Medical College) for Group I(b)",
-      "Sponsorship letter from competent authority with due NOC from government under Group I(c)",
-      "Eligibility certificate from Head of Institution of graduating institution recognized and approved by PCI/UGC for Group III",
+      "Valid disability certificate from the competent authority (Medical Board of Goa Medical College) in case of applicants claiming under Group I(b)",
+      "Sponsorship letter from the competent authority of the concerned department along with due NOC from the government under Group I(c)",
+      "Eligibility certificate from the Head of the Institution of the graduating institution duly recognized and approved by PCI/UGC in case of applicants claiming under Group III",
       "Provisional Eligibility from Goa University (if applicable)",
       "Migration Certificate (if applicable)",
       "College Leaving Certificate",
       "Copy of Aadhaar Card",
-      "Copy of income and assets certificate issued by Mamlatdar for EWS category I(d)",
-      "Application Fee receipt / Challan/Transaction acknowledgement copy",
-      "Registered Pharmacists Certificate or undertaking regarding submission within one month"
+      "Copy of income and assets certificate issued by Mamlatdar [for availing seat under EWS category I(d)]",
+      "Application Fee receipt (Challan/Transaction acknowledgement copy via https://echallanpg.goa.gov.in)",
+      "Registered Pharmacists Certificate/undertaking from Applicants regarding submission of Registered Pharmacist Certificate within one month"
     ],
-    "salary_pay_scale": "Not applicable (this is an academic admission prospectus)",
+    "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "The academic session is divided into four semesters of six months duration each.",
-      "A candidate shall be required to attend at least 75% of lectures and practicals separately for each subject.",
-      "Duration of M. Pharm. course is 24 months and non-vacational.",
-      "Ragging in any form is strictly prohibited.",
-      "Hostel facilities are available for boys and girls subject to availability and rules."
+      "The duly filled-in application should be submitted to the Office of Principal, Goa College of Pharmacy, 18th June Road, Panaji, Goa-403001 personally or sent by Registered Post.",
+      "When GPAT 2025/2026 qualified candidates are not available, admission will be given to non-GPAT candidates on merit.",
+      "Any seat remaining vacant will be offered to eligible candidates passing B.Pharm. examination from university/colleges outside the State of Goa.",
+      "Ragging in any form is strictly prohibited."
     ],
     "official_notification_url": "https://www.goa.gov.in/citizen/recruitment/",
-    "apply_url": "https://echallanpg.goa.gov.in",
+    "apply_url": "https://www.goa.gov.in/citizen/recruitment/",
     "notification_pdf_url": "https://www.goa.gov.in/wp-content/uploads/2026/06/M-Pharm-Prospectus-2026-27.pdf",
     "title": "Walk-In-Interview — Samagra Shiksha Goa",
     "type": "Job",
@@ -1035,24 +1060,44 @@
       "L D Clerk (By Transfer)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": [
+      "Not mentioned in the official notification"
+    ],
     "job_location": "Kerala",
-    "educational_qualification": [],
-    "other_eligibility": [],
+    "educational_qualification": [
+      "Not mentioned in the official notification"
+    ],
+    "other_eligibility": [
+      "Not mentioned in the official notification"
+    ],
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [],
-    "application_fee": [],
+    "age_relaxation": [
+      "Not mentioned in the official notification"
+    ],
+    "application_fee": [
+      "Not mentioned in the official notification"
+    ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [],
-    "exam_pattern": [],
-    "syllabus": [],
-    "documents_required": [],
+    "selection_process": [
+      "Not mentioned in the official notification"
+    ],
+    "exam_pattern": [
+      "Not mentioned in the official notification"
+    ],
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
+    "documents_required": [
+      "Not mentioned in the official notification"
+    ],
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [],
+    "important_instructions": [
+      "Authorised Signatory details: SAJU GEORGE, SECRETARY, KERALA PUBLIC SERVICE COMMISSION"
+    ],
     "official_notification_url": "https://www.keralapsc.gov.in/result-notifications",
-    "apply_url": "https://www.keralapsc.gov.in/result-notifications",
+    "apply_url": "Not mentioned in the official notification",
     "notification_pdf_url": "https://www.keralapsc.gov.in/sites/default/files/inline-files/authorised-signatory-1.pdf",
     "title": "L D Clerk (By Transfer) — Admission Ticket",
     "type": "Admit Card",
@@ -1061,7 +1106,7 @@
     "source_url": "https://www.keralapsc.gov.in/result-notifications"
   },
   "extra-ordinary-gazette-cat-130-2026-to-150-2026": {
-    "organization": "KERALA PUBLIC SERVICE COMMISSION",
+    "organization": "Kerala Public Service Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
       "Not mentioned in the official notification"
@@ -1104,7 +1149,7 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://www.keralapsc.gov.in/notifications",
-    "apply_url": "https://www.keralapsc.gov.in/notifications",
+    "apply_url": "Not mentioned in the official notification",
     "notification_pdf_url": "https://www.keralapsc.gov.in/sites/default/files/inline-files/authorised-signatory-1.pdf",
     "title": "Extra Ordinary Gazette — Cat. 130/2026 to 150/2026",
     "type": "Job",
@@ -1140,7 +1185,7 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Selection Notification list published based on recruitment process"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -1153,7 +1198,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "This is a Selection Notification published on 02/09/2026 for Notification No. 14/2023."
     ],
     "official_notification_url": "https://portal-psc.ap.gov.in/HomePages/DRSelectionLists",
     "apply_url": "https://portal-psc.ap.gov.in/HomePages/DRSelectionLists",
@@ -1251,11 +1296,13 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Admit Card"
+      "Admit Card",
+      "Photo ID proof as mentioned in the instructions"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates are required to download their Admit Card for Lecturer U.P. Technical Education Service Examination-2025 from the official website using their credentials."
+      "Candidates must bring their Admit Card to the examination center.",
+      "Check the official UPPSC website for further details and updates regarding the examination."
     ],
     "official_notification_url": "https://uppsc.up.nic.in/",
     "apply_url": "https://uppsc.up.nic.in/",
@@ -1266,10 +1313,10 @@
     "source_url": "https://uppsc.up.nic.in/"
   },
   "ap-government-job-calendar-2026-recruitment-schedule": {
-    "organization": "Andhra Pradesh Public Service Commission (APPSC) / Government of Andhra Pradesh",
-    "advertisement_number": "Not mentioned in the official notification",
+    "organization": "Andhra Pradesh Public Service Commission (APPSC)",
+    "advertisement_number": "AP Government Job Calendar 2026",
     "post_names": [
-      "Not mentioned in the official notification"
+      "Various Government Posts across Departments in Andhra Pradesh"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -1306,7 +1353,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Refer to the official APPSC website for upcoming recruitment notifications and schedules under the AP Government Job Calendar 2026."
+      "Refer to the official APPSC website for detailed recruitment schedules and notifications as they are released."
     ],
     "official_notification_url": "https://psc.ap.gov.in/",
     "apply_url": "https://psc.ap.gov.in/",
@@ -1515,7 +1562,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "This is a counselling update notification for RI, ICDS Supervisor, ARI, Amin & SFS posts."
+      "This is a Counselling Update notice for RI, ICDS Supervisor, ARI, Amin & SFS posts."
     ],
     "official_notification_url": "https://www.osssc.gov.in/",
     "apply_url": "https://www.osssc.gov.in/",
@@ -1619,7 +1666,8 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates appearing for the interview must bring their interview letter and relevant documents as per the instructions."
+      "This notification is regarding the Interview Letter for Assistant Professor (Medical Education) 2024.",
+      "Candidates must check the official RPSC website for interview details and download their interview letters."
     ],
     "official_notification_url": "https://rpsc.rajasthan.gov.in/examlinks",
     "apply_url": "Not mentioned in the official notification",
@@ -1657,7 +1705,7 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Mains: 02/05/2027",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Mains Exam"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -1670,7 +1718,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Proposed exam date for Rajasthan State and Subordinate Services Combined Competitive Exam 2026 (Mains) is 02/05/2027."
     ],
     "official_notification_url": "https://rpsc.rajasthan.gov.in/proposedexamdate",
     "apply_url": "Not mentioned in the official notification",
@@ -1684,7 +1732,7 @@
     "organization": "Tamil Nadu Public Service Commission (TNPSC)",
     "advertisement_number": "Notification No. 04/2026",
     "post_names": [
-      "Not mentioned in the official notification"
+      "Combined Technical Services Examination (Non-Interview Posts)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -1735,7 +1783,7 @@
     "organization": "Tamil Nadu Public Service Commission (TNPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Technical Services"
+      "Combined Technical Services Examination (Non-Interview Posts / Interview Posts)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -1772,7 +1820,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates need to download their Hall Ticket for the Combined Technical Services examination from the official TNPSC website by entering their credentials."
+      "Download the hall ticket from the official TNPSC website using One Time Registration (OTR) / Application Number and Date of Birth."
     ],
     "official_notification_url": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx",
     "apply_url": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx",
@@ -1784,7 +1832,7 @@
   },
   "upsc-civil-services-examination-2026-main-examination-e-admit-card": {
     "organization": "Union Public Service Commission (UPSC)",
-    "advertisement_number": "Civil Services (Main) Examination, 2026",
+    "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
       "Civil Services (Main) Examination, 2026"
     ],
@@ -1810,7 +1858,7 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Civil Services (Main) Examination, 2026"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -1819,11 +1867,11 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "e-Admit Card"
+      "Not mentioned in the official notification"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Check the official UPSC website for e-Admit Card download and related updates for Civil Services (Main) Examination, 2026."
+      "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026",
     "apply_url": "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026",
@@ -1837,7 +1885,7 @@
     "organization": "Union Public Service Commission (UPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Medical Services Examination, 2026"
+      "Combined Medical Services Examination 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -1874,11 +1922,10 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "This is a written result notification for the Combined Medical Services Examination, 2026.",
-      "Candidates are advised to visit the official UPSC website for further details regarding the next stages of the selection process."
+      "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "apply_url": "https://www.upsconline.nic.in",
+    "apply_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
     "title": "UPSC Combined Medical Services Examination 2026 — Written Result — 01/09/2026",
     "type": "Result",
     "state": "Central Goverment",
@@ -1897,74 +1944,13 @@
     ],
     "job_location": "All India",
     "educational_qualification": [
-      "For I.M.A. and Officers' Training Academy—Passing a degree of a recognised University or equivalent.",
-      "For Indian Naval Academy—Passing a Degree in Engineering from a recognised University/Institution.",
-      "For Air Force Academy—Passing a Degree of a recognised University (with Physics and Mathematics at 10+2 level) or Bachelor of Engineering."
+      "For I.M.A. and Officers' Training Academy: Degree of a recognised University or equivalent.",
+      "For Indian Naval Academy: Degree in Engineering from a recognised University/Institution.",
+      "For Air Force Academy: Degree of a recognised University (with Physics and Mathematics at 10+2 level) or Bachelor of Engineering."
     ],
     "other_eligibility": [
-      "Nationality: Must be a citizen of India, or a subject of Bhutan, or a subject of Nepal, or a Tibetan refugee who came over to India before 1st January 1962 with the intention of permanently settling in India, or a person of Indian origin who has migrated from Pakistan, Burma, Sri Lanka and East African countries of Kenya, Uganda, the United Republic of Tanzania, Zambia, Malawi, Zaire and Ethiopia or Vietnam with the intention of permanently settling in India.",
-      "Marital Status: Unmarried"
-    ],
-    "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
-    "exam_date": "13 September 2026",
-    "selection_process": [
-      "Written examination",
-      "Intelligence and Personality Test"
-    ],
-    "exam_pattern": [
-      "For Admission to Indian Military Academy, Indian Naval Academy and Air Force Academy: Subjects include English (100 marks), General Knowledge (100 marks), and Elementary Mathematics (100 marks). Time allowed for each subject is 2 hours.",
-      "For Admission to Officers' Training Academy: Subjects include English (100 marks) and General Knowledge (100 marks). Time allowed for each subject is 2 hours."
-    ],
-    "syllabus": [
-      "English: Question papers will be designed to test the candidates' understanding of English and workmanlike use of words.",
-      "General Knowledge: Knowledge of current events and of such matters of everyday observation and experience in their scientific aspects as may be expected of an educated person who has not made a special study of any scientific subject. The paper will also include questions on history of India and geography of a nature which candidates should be able to answer without special study.",
-      "Elementary Mathematics: Arithmetic, Algebra, Mensuration, Geometry, Trigonometry, and Statistics."
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
-    "salary_pay_scale": [
-      "Not mentioned in the official notification"
-    ],
-    "important_instructions": [
-      "Candidates must apply online only through the website http://www.upsconline.nic.in.",
-      "The Commissioner/UPSC has a Facilitation Counter near the Examination Hall Building in its Campus. Candidates may obtain any information/clarification regarding their applications on working days."
-    ],
-    "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "apply_url": "https://www.upsconline.nic.in",
-    "title": "UPSC CDS (II) 2026 — Examination 13 September 2026",
-    "type": "Upcoming",
-    "state": "Central Goverment",
-    "status": "Upcoming",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
-  },
-  "upsc-nda-na-ii-2026-examination-13-september-2026": {
-    "organization": "Union Public Service Commission (UPSC)",
-    "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "National Defence Academy (NDA) - Army, Navy, and Air Force wings",
-      "Naval Academy (NA) - 10+2 Cadet Entry Scheme"
-    ],
-    "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "For Army Wing of National Defence Academy: 12th Class pass of the 10+2 pattern of school education or equivalent examination conducted by a State Education Board or a University.",
-      "For Air Force and Naval Wings of National Defence Academy and for the 10+2 Cadet Entry Scheme of the Indian Naval Academy: 12th Class pass with Physics, Chemistry and Mathematics of the 10+2 pattern of school education or equivalent conducted by a State Education Board or a University."
-    ],
-    "other_eligibility": [
-      "Only unmarried male and female candidates are eligible.",
-      "Candidates must be physically fit according to physical standards for admission to National Defence Academy and Naval Academy Examination."
+      "Must be unmarried",
+      "Nationality: Citizen of India, or subjects of Bhutan/Nepal, or Tibetan refugee who came over to India before 1st January, 1962 with the intention of permanently settling in India, or a person of Indian origin who has migrated from Pakistan, Burma, Sri Lanka and East African countries of Kenya, Uganda, the United Republic of Tanzania, Zambia, Malawi, Zaire and Ethiopia or Vietnam with the intention of permanently settling in India."
     ],
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": [
@@ -1981,12 +1967,14 @@
       "Intelligence and Personality Test (SSB Interview)"
     ],
     "exam_pattern": [
-      "Mathematics: Subject Code 01, Duration 2½ Hours, Maximum Marks 300",
-      "General Ability Test: Subject Code 02, Duration 2½ Hours, Maximum Marks 600"
+      "For Admission to Indian Military Academy, Indian Naval Academy and Air Force Academy: Subjects include English, General Knowledge, and Elementary Mathematics.",
+      "For Admission to Officers' Training Academy: Subjects include English and General Knowledge.",
+      "All subjects will consist of objective type questions only."
     ],
     "syllabus": [
-      "Mathematics (Algebra, Matrices and Determinants, Trigonometry, Analytical Geometry of two and three dimensions, Integral Calculus and Differential Equations, Vector Algebra, Statistics and Probability)",
-      "General Ability Test (Part A - English, Part B - General Knowledge covering Physics, Chemistry, General Science, History, Freedom Movement, Geography, Current Events)"
+      "English: The question paper will be designed to test the candidate's understanding of English and workman - like use of words.",
+      "General Knowledge: General Knowledge including knowledge of current events and of such matters of everyday observation and experience in their scientific aspects as may be expected of an educated person who has not made a special study of any scientific subject.",
+      "Elementary Mathematics: Arithmetic, Algebra, Mensuration, Geometry, Trigonometry, and Statistics."
     ],
     "documents_required": [
       "Not mentioned in the official notification"
@@ -1995,8 +1983,65 @@
       "Not mentioned in the official notification"
     ],
     "important_instructions": [
-      "Candidates must apply online through the official website upsconline.nic.in.",
-      "Read the detailed rules for the examination available on the UPSC website before applying."
+      "Candidates should ensure their eligibility before applying.",
+      "Detailed notification and rules are available on the UPSC website."
+    ],
+    "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "apply_url": "https://upsconline.nic.in",
+    "title": "UPSC CDS (II) 2026 — Examination 13 September 2026",
+    "type": "Upcoming",
+    "state": "Central Goverment",
+    "status": "Upcoming",
+    "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+  },
+  "upsc-nda-na-ii-2026-examination-13-september-2026": {
+    "organization": "Union Public Service Commission (UPSC)",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "National Defence Academy (NDA) - Army, Navy, and Air Force wings",
+      "Naval Academy (10+2 Cadet Entry Scheme)"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": [
+      "Not mentioned in the official notification"
+    ],
+    "job_location": "All India",
+    "educational_qualification": [
+      "For Army Wing of National Defence Academy: 12th Class pass of the 10+2 pattern of school education or equivalent examination conducted by a State Education Board or a University.",
+      "For Air Force and Naval Wings of National Defence Academy and for the 10+2 Cadet Entry Scheme at the Naval Academy: 12th Class pass with Physics, Chemistry and Mathematics of the 10+2 pattern of school education or equivalent conducted by a State Education Board or a University."
+    ],
+    "other_eligibility": [
+      "Candidates appearing in the 11th class exam are not eligible.",
+      "Only unmarried male/female candidates (as applicable per rules) are eligible."
+    ],
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": [
+      "Not mentioned in the official notification"
+    ],
+    "application_fee": [
+      "Not mentioned in the official notification"
+    ],
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "13 September 2026",
+    "selection_process": [
+      "Written Examination",
+      "Intelligence and Personality Test (SSB Interview)"
+    ],
+    "exam_pattern": [
+      "Not mentioned in the official notification"
+    ],
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
+    "documents_required": [
+      "Not mentioned in the official notification"
+    ],
+    "salary_pay_scale": [
+      "Not mentioned in the official notification"
+    ],
+    "important_instructions": [
+      "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
     "apply_url": "https://upsconline.nic.in",
@@ -2008,7 +2053,7 @@
   },
   "upsc-advertisement-no-10-2026-current-advertisement": {
     "organization": "Union Public Service Commission (UPSC)",
-    "advertisement_number": "10/2026",
+    "advertisement_number": "Advertisement No. 10/2026",
     "post_names": [
       "Not mentioned in the official notification"
     ],
@@ -2061,7 +2106,7 @@
     "organization": "Staff Selection Commission (SSC)",
     "advertisement_number": "SSC CGL 2026",
     "post_names": [
-      "Combined Graduate Level Examination, 2026"
+      "Combined Graduate Level (CGL) Examination, 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -2098,7 +2143,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Please refer to the official Staff Selection Commission website for detailed updates regarding SSC CGL 2026."
     ],
     "official_notification_url": "https://ssc.gov.in/",
     "apply_url": "https://ssc.gov.in/",
@@ -2110,7 +2155,7 @@
   },
   "ssc-je-2026-paper-i-current-cycle": {
     "organization": "Staff Selection Commission (SSC)",
-    "advertisement_number": "SSC JE 2026",
+    "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
       "Junior Engineer (Civil, Mechanical & Electrical)"
     ],
@@ -2161,10 +2206,10 @@
   },
   "ssc-stenographer-grade-c-d-2026-current-exam-window": {
     "organization": "Staff Selection Commission (SSC)",
-    "advertisement_number": "Stenographer Grade 'C' and 'D' Examination, 2026",
+    "advertisement_number": "Stenographer Grade 'C' & 'D' Examination, 2026",
     "post_names": [
-      "Stenographer Grade 'C'",
-      "Stenographer Grade 'D'"
+      "Stenographer Grade C",
+      "Stenographer Grade D"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -2172,67 +2217,42 @@
     ],
     "job_location": "All India",
     "educational_qualification": [
-      "Candidates must have passed 12th Standard or equivalent examination from a recognized Board or University."
+      "12th Standard or equivalent pass from a recognized Board or University"
     ],
     "other_eligibility": [
-      "Must be a citizen of India, or a subject of Nepal, or a subject of Bhutan, or a Tibetan refugee who came over to India, before the 1st January, 1962, with the intention of permanently settling in India, or a person of Indian origin who has migrated from Pakistan, Burma, Sri Lanka, East African countries of Kenya, Uganda, the United Republic of Tanzania (formerly Tanganyika and Zanzibar), Zambia, Malawi, Zaire, Ethiopia and Vietnam with the intention of permanently settling in India."
+      "Must have knowledge of shorthand and typing as applicable for the respective grades as per the notification details."
     ],
-    "age_limit": [
-      "Stenographer Grade 'C': 18 to 30 years",
-      "Stenographer Grade 'D': 18 to 27 years"
-    ],
+    "age_limit": "Not mentioned in the official notification",
     "age_relaxation": [
-      "SC/ST: 5 years",
-      "OBC: 3 years",
-      "PwBD (Unreserved): 10 years",
-      "PwBD (OBC): 13 years",
-      "PwBD (SC/ST): 15 years"
+      "Not mentioned in the official notification"
     ],
     "application_fee": [
-      "Fee payable: Rs 100/-",
-      "Women candidates and candidates belonging to Scheduled Castes (SC), Scheduled Tribes (ST), Persons with Benchmark Disabilities (PwBD) and Ex-servicemen eligible for reservation are exempted from payment of fee."
+      "Not mentioned in the official notification"
     ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
       "Computer Based Examination (CBE)",
-      "Skill Test in Stenography",
-      "Document Verification"
+      "Skill Test in Stenography"
     ],
     "exam_pattern": [
-      "Computer Based Examination will consist of Objective Type, Multiple Choice questions.",
-      "Questions will be set in English and Hindi except for English Language and Comprehension.",
-      "General Intelligence & Reasoning: 50 Questions, 50 Marks",
-      "General Awareness: 50 Questions, 50 Marks",
-      "English Language and Comprehension: 100 Questions, 100 Marks",
-      "Negative Marking: 0.33 marks for each wrong answer."
+      "Computer Based Examination comprising objective type multiple choice questions.",
+      "Subjects generally include General Intelligence & Reasoning, General Awareness, and English Language & Comprehension."
     ],
     "syllabus": [
-      "General Intelligence & Reasoning: It would include questions of both verbal and non-verbal type. The test may include questions on analogies, similarities, differences, space visualization, problem solving, analysis, judgment, decision making, visual memory, discrimination, observation, relationship concepts, arithmetical reasoning, verbal and figure classification, arithmetical number series, non-verbal series etc.",
-      "General Awareness: Questions will be designed to test the ability of the candidate’s general awareness of the environment around him and its application to society. Questions will also be designed to test knowledge of current events and of such matters of everyday observation and experience in their scientific aspects as may be expected of an educated person. The test will also include questions relating to India and its neighboring countries especially pertaining to Sports, History, Culture, Geography, Economic Scene, General Polity including Indian Constitution, and Scientific Research etc.",
-      "English Language and Comprehension: Candidates' understanding of the basics of English Language, its vocabulary, grammar, sentence structure, synonyms, antonyms and its correct usage, etc. would be tested and writing ability would also be tested."
+      "General Intelligence & Reasoning",
+      "General Awareness",
+      "English Language & Comprehension"
     ],
     "documents_required": [
-      "Aadhar Card / Printout of E-Aadhar",
-      "Voter ID Card",
-      "PAN Card",
-      "Passport",
-      "Driving License",
-      "Government Employer ID Card",
-      "Ex-Serviceman Discharge Book issued by Ministry of Defence",
-      "Any other photo ID card issued by Central/State Government",
-      "Matriculation/Secondary Certificate",
-      "Educational qualification certificates"
+      "Not mentioned in the official notification"
     ],
     "salary_pay_scale": [
-      "Stenographer Grade 'C': Pay Band-2 (Rs. 9300-34800) with Grade Pay of Rs. 4200 (Level-6 of Pay Matrix as per 7th CPC)",
-      "Stenographer Grade 'D': Pay Band-1 (Rs. 5200-20200) with Grade Pay of Rs. 2400 (Level-4 of Pay Matrix as per 7th CPC)"
+      "Not mentioned in the official notification"
     ],
     "important_instructions": [
-      "Candidates must apply online through the official website ssc.gov.in",
-      "Applications received through any other mode will not be accepted.",
-      "Candidates are advised to go through the requirements of educational qualification, age, etc., and satisfy themselves that they are eligible for the posts."
+      "Candidates must apply online through the official website https://ssc.gov.in within the stipulated time frame."
     ],
     "official_notification_url": "https://ssc.gov.in/",
     "apply_url": "https://ssc.gov.in/",
@@ -2306,34 +2326,36 @@
     "vacancy_breakdown": [
       "Not mentioned in the official notification"
     ],
-    "job_location": "All India (Various Circles/Divisions)",
+    "job_location": "All India (Various Circles)",
     "educational_qualification": [
       "Secondary School Examination pass certificate of 10th standard having passed in Mathematics and English (having been studied as compulsory or elective subjects) conducted by any recognized Board of School Education by the Government of India/State Governments/Union Territories in India shall be a mandatory educational qualification for all approved categories of GDS.",
-      "Compulsory knowledge of Local Language: The candidate should have studied the local language at least up to Secondary standard (10th standard)."
+      "The applicant should have studied the local language (named in the constitutional provisions of the Eighth Schedule of the Constitution of India) of the concerned Postal Circle up to at least Secondary standard (10th standard)."
     ],
     "other_eligibility": [
-      "The candidate should have basic computer knowledge (minimum 60 days computer training certificate from a recognized Computer Training Institute).",
-      "Proof of adequate means of livelihood: The candidate applying for appointment to the post of GDS shall have to furnish satisfactory evidence of having adequate means of livelihood to support themselves and their family from other sources to supplement the income arising from engagement as GDS.",
-      "Furnishing of security: The security amount will be Rs. 25,000/- for the post of BPM and Rs. 10,000/- for other posts namely ABPM and Dak Sevak."
+      "The applicant should have basic computer knowledge.",
+      "Cycling is a pre-requisite condition for all approved categories of GDS (BPM/ABPM/Dak Sevak). If a applicant does not know cycling, he/she has to produce cycling proficiency certificate within 30 days from the date of engagement.",
+      "Adequate means of livelihood.",
+      "Residence: The applicant must register themselves in the engagement portal and provide a declaration regarding accommodation/residence as per rules."
     ],
     "age_limit": "Minimum 18 years and Maximum 40 years",
     "age_relaxation": [
-      "Schedule Caste/Schedule Tribe (SC/ST): 5 years",
+      "Scheduled Caste (SC) / Scheduled Tribe (ST): 5 years",
       "Other Backward Classes (OBC): 3 years",
       "Economically Weaker Sections (EWS): No relaxation",
-      "Persons with Disabilities (PwD): 10 years",
-      "Persons with Disabilities (PwD) + SC/ST: 15 years",
-      "Persons with Disabilities (PwD) + OBC: 13 years"
+      "Persons with Benchmark Disabilities (PwBD): 10 years",
+      "Persons with Benchmark Disabilities (PwBD) + SC/ST: 15 years",
+      "Persons with Benchmark Disabilities (PwBD) + OBC: 13 years"
     ],
     "application_fee": [
-      "Fee payable is Rs. 100/- for all posts notified in each choice of Division.",
-      "Applicants belonging to Female applicants, SC/ST applicants, PwD applicants and Transgender applicants are exempted from payment of fee."
+      "Rs. 100/- for all male applicants falling under UR, OBC, and EWS categories for each set of options.",
+      "All female applicants, SC/ST applicants, and PwBD applicants are exempted from payment of the application fee."
     ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Applicants will be engaged as per the system generated merit list based on the marks obtained/conversion of Grades/Points to marks in secondary school examination of 10th standard of approved Boards aggregated to percentage to the accuracy of 4 decimal places."
+      "Selection will be made as per the system generated merit list based on the marks obtained/conversion of Grades/Points to marks in secondary school examination of 10th standard of recognized Boards.",
+      "Passing of all the subjects as per the respective board norms is mandatory."
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -2342,22 +2364,21 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "10th standard marks sheet / certificate",
-      "Community/Category Certificate (if applicable)",
-      "Disability Certificate (if applicable)",
-      "Computer Training Certificate",
+      "10th standard mark sheet / certificate",
       "Date of Birth proof",
-      "Medical fitness certificate"
+      "Community / Category certificate (SC/ST/OBC/EWS)",
+      "Disability certificate (if applicable)",
+      "Cycling proficiency certificate (if required post-engagement)",
+      "Medical certificate"
     ],
     "salary_pay_scale": [
-      "Branch Postmaster (BPM): TRCA Rs. 12,000-29,380/-",
-      "Assistant Branch Postmaster (ABPM) / Dak Sevak: TRCA Rs. 10,000-24,470/-"
+      "Branch Postmaster (BPM): Rs. 12,000-29,380/-",
+      "Assistant Branch Postmaster (ABPM) / Dak Sevak: Rs. 10,000-24,780/-"
     ],
     "important_instructions": [
-      "Only online applications will be accepted through the official portal.",
-      "Applicants must have a valid active mobile number and email ID for registration.",
-      "Passing in Mathematics and English in 10th standard is mandatory.",
-      "Knowledge of the local language is compulsory."
+      "Applicants must register on the online portal before applying.",
+      "Applications should be submitted only through online mode at https://www.indiapost.gov.in/gdsonlineengagement.",
+      "One applicant is allowed to submit only one application for a cycle."
     ],
     "official_notification_url": "https://www.indiapost.gov.in/gdsonlineengagement",
     "apply_url": "https://www.indiapost.gov.in/gdsonlineengagement",
@@ -2721,10 +2742,8 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates whose roll numbers are listed in the written result have qualified for the Physical Standards Tests (PST)/Physical Efficiency Tests (PET) and Medical Standards Tests.",
-      "The Central Reserve Police Force (CRPF) will intimate the date, time and venue of the PST/PET and Medical Standards Tests to the qualified candidates.",
-      "Candidates who do not receive communication/admit card for PST/PET and Medical Standards Tests should immediately contact the authorities of CRPF.",
-      "Marks sheets of candidates will be put on the Commission's website within 30 days from the date of publication of the final result."
+      "Candidature of all qualified candidates is provisional.",
+      "Candidates are required to produce original certificates in support of age, educational qualifications, caste, etc. at the time of the Detailed Application Form (DAF) submission as prescribed by the Commission."
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "apply_url": "Not mentioned in the official notification",
@@ -2850,7 +2869,7 @@
     "organization": "Union Public Service Commission (UPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Geo-Scientist (Main) Examination 2026 Qualified Candidates"
+      "Combined Geo-Scientist (Main) Examination, 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -2861,8 +2880,7 @@
       "Not mentioned in the official notification"
     ],
     "other_eligibility": [
-      "Candidature of all these candidates is provisional",
-      "In accordance with the Rules of the Examination, all these candidates have to fill up and submit the Detailed Application Form-II (DAF-II) online"
+      "Not mentioned in the official notification"
     ],
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": [
@@ -2875,7 +2893,7 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Written Examination",
+      "Written Result",
       "Personality Test (Interview)"
     ],
     "exam_pattern": [
@@ -2885,17 +2903,18 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Detailed Application Form-II (DAF-II) along with necessary certificates/documents in support of age, educational qualifications, community, benchmark disability etc. as prescribed in the rules of the Examination"
+      "Not mentioned in the official notification"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates are required to fill up and submit the Detailed Application Form-II (DAF-II) online through the Commission's Website (https://upsconline.nic.in)",
-      "The DAF-II will be available during the stipulated period as notified by the Commission",
-      "Candidates must check important instructions regarding filling up of DAF-II and submission of certificates/documents online through the website",
-      "Marks sheets of candidates will be uploaded on the Commission's website within 30 days from the date of publication of the final result"
+      "Candidature of all these candidates is provisional.",
+      "In accordance with the Rules of the Examination, all these candidates have to fill up and submit the Detailed Application Form (DAF) online for taking the Personality Test (Interview).",
+      "The dates and important instructions for filling up the DAF and its submission will be announced on the Commission's website in due course.",
+      "Candidates are also required to bring original certificates in support of their claims relating to age, educational qualifications, community, benchmark disability (wherever applicable) etc. at the time of the Personality Test.",
+      "Union Public Service Commission has a Facilitation Counter near the Examination Hall Building in its Campus. Candidates may obtain any information/clarification regarding their examination/result on working days between 10.00 A.M. and 5.00 P.M. in person or over telephone Nos. (011)-23385271/23381125/23098543 from this Counter."
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "apply_url": "https://upsconline.nic.in",
+    "apply_url": "Not mentioned in the official notification",
     "title": "UPSC Combined Geo-Scientist (Main) Examination 2026 — Written Result",
     "type": "Result",
     "state": "Central Government",
@@ -2994,8 +3013,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates may check their Final Answer Keys along with Question Paper(s) and Marks of Paper-II through the provided link.",
-      "The facility to check marks and final answer keys will be available for a specific period as notified by the Commission on the official website."
+      "Check Final Answer Keys and Marks of Paper-II through the official SSC website using Registered ID and Password."
     ],
     "official_notification_url": "https://ssc.gov.in/",
     "apply_url": "https://ssc.gov.in/",
@@ -3219,7 +3237,7 @@
     "post_names": [
       "Junior Engineer (JE)",
       "Depot Material Superintendent (DMS)",
-      "Chemical and Metallurgical Assistant (CMA)"
+      "Chemical & Metallurgical Assistant (CMA)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -3256,11 +3274,11 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Viewing of CBT-II Questions, Responses, and Answer Keys.",
-      "Raising of objections, if any, against the questions and answer keys."
+      "Viewing of CBT-II Questions, Responses, and Keys",
+      "Raising of objections, if any, against the questions and answer keys"
     ],
     "official_notification_url": "https://rrbsecunderabad.gov.in/",
-    "apply_url": "https://rrbsecunderabad.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "RRB JE/DMS/CMA CEN 05/2025 — CBT-II Questions / Responses / Keys",
     "type": "Result",
     "state": "Central Government",
