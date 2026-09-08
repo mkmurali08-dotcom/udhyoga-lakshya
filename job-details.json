@@ -303,7 +303,7 @@
   },
   "fln-mission-data-analyst-skill-test-interview-admit-card": {
     "organization": "Samagra Shiksha Axom",
-    "advertisement_number": "SSA/TT/Consultant etc./FLN/308/2023/ 1572",
+    "advertisement_number": "SSA/TT/Consultant etc./FLN/308/2023/10423 dated 17.02.2024",
     "post_names": [
       "Data Analyst of FLN at State PMU",
       "Data Analyst of FLN at District PMU",
@@ -331,10 +331,10 @@
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": [
-      "Data Analyst of FLN at State PMU: 18.08.2024",
-      "Data Analyst of FLN at District PMU: 18.08.2024",
-      "Consultant of FLN at District PMU (Language): 20.08.2024 & 21.08.2024",
-      "Consultant of FLN at District PMU (Numeracy): 22.08.2024"
+      "Data Analyst of FLN at State PMU: 18.08.2024 (9.30 am to 11.00 am)",
+      "Data Analyst of FLN at District PMU: 18.08.2024 (11.45 am to 1.15 pm)",
+      "Consultant of FLN at District PMU (Language): 20.08.2024 & 21.08.2024 (9.30 am)",
+      "Consultant of FLN at District PMU (Numeracy): 22.08.2024 (9.30 am)"
     ],
     "selection_process": [
       "Skill test/interview"
@@ -353,7 +353,7 @@
     "important_instructions": [
       "The list of short-listed candidates is uploaded in the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in",
       "The short-listed candidates are requested to attend in the skill test/interview before one hour of the scheduled date and time.",
-      "The short-listed candidates of Data Analyst of FLN at State PMU and Data Analyst of FLN at District PMU name may be downloaded their admit card from the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in w.e.f. 15.08.2024.",
+      "Short-listed candidates of Data Analyst of FLN at State PMU and Data Analyst of FLN at District PMU may download their admit card from the official website https://ssa.assam.gov.in w.e.f. 15.08.2024.",
       "In case of Consultant of FLN at District PMU (Language) and Consultant of FLN at District PMU (Numeracy), call letters have been sent."
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview",
@@ -366,10 +366,12 @@
     "source_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview"
   },
   "pm-poshan-skill-test-interview-admit-card": {
-    "organization": "SSA, Assam (PM POSHAN)",
-    "advertisement_number": "Not mentioned in the official notification",
+    "organization": "Axom Sarba Siksha Abhiyan Mission",
+    "advertisement_number": "SSA/PM-POSHAN/Engagement/171/2024/708",
     "post_names": [
-      "Not mentioned in the official notification"
+      "District MIS Manager (For District Mission Office)",
+      "Electronic Data Processor (For State Nodal Office)",
+      "State MIS Manager (For State Nodal Office)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -391,25 +393,33 @@
     ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "Not mentioned in the official notification",
+    "exam_date": "04.07.2024",
     "selection_process": [
-      "Skill Test / Interview"
+      "Skill test"
     ],
     "exam_pattern": [
-      "Not mentioned in the official notification"
+      "District MIS Manager [For District Mission Office]: 04.07.2024, 9.30 to 11.00 am",
+      "Electronic Data Processor [For State Nodal Office]: 04.07.2024, 11.45 am to 1.15 pm",
+      "State MIS Manager [For State Nodal Office]: 04.07.2024, 2.00 pm to 3.30 pm"
     ],
     "syllabus": [
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Admit Card for Skill Test / Interview"
+      "Original copies of Aadhar Card",
+      "Original copies of Pan Card",
+      "Admit card"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates are required to download their Admit Card for the Skill Test / Interview under PM POSHAN."
+      "The date-wise list of short-listed candidates is uploaded in the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in",
+      "The short-listed candidates are requested to attend in the Skill test before one hour of the scheduled date and time with original copies of Aadhar Card/Pan Card and admit card.",
+      "The short-listed candidates name may be downloaded their admit card from the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in w.e.f. 27.06.2024",
+      "Venue of Skill test: Assam Engineering Institute, Chandmari, Guwahati-3"
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
-    "apply_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
+    "apply_url": "https://ssa.assam.gov.in",
+    "notification_pdf_url": "https://ssa.assam.gov.in/sites/default/files/swf_utility_folder/departments/ssam_medhassu_in_oid_5/this_comm/public_notice_1.pdf",
     "title": "PM POSHAN — Skill Test / Interview — Admit Card",
     "type": "Admit Card",
     "state": "Assam",
