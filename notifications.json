@@ -1,6 +1,18 @@
 [
   {
     "Type": "Job",
+    "State": "Telangana",
+    "Title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
+    "Application Start": "19/08/2026",
+    "Application End": "16/09/2026",
+    "Official Link": "https://www.tgprb.in/",
+    "Apply Link": "",
+    "Status": "Open",
+    "FirstSeen": "2026-09-06T19:39:24Z",
+    "IsNew": true
+  },
+  {
+    "Type": "Job",
     "State": "Central Goverment",
     "Title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
     "Application Start": "03/09/2026",
@@ -441,18 +453,6 @@
     "Apply Link": "",
     "Status": "Open",
     "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Telangana",
-    "Title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.tgprb.in/",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-06T19:39:24Z",
     "IsNew": true
   },
   {
