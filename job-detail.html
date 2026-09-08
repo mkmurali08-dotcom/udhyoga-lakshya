@@ -51,7 +51,17 @@ function esc(v){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",
 function list(v){return "<ul>"+v.map(x=>"<li>"+(typeof x==="object"?object(x):esc(x))+"</li>").join("")+"</ul>"}
 function object(o){return "<div class='mini-grid'>"+Object.entries(o).map(([k,v])=>"<div class='mini'><b>"+esc(label(k))+"</b><span>"+value(v)+"</span></div>").join("")+"</div>"}
 function value(v){if(v===null||v===undefined||v===""||(Array.isArray(v)&&!v.length))return "Not mentioned in the official notification";if(Array.isArray(v))return list(v);if(typeof v==="object")return object(v);return esc(v).replace(/\n/g,"<br>")}
-function vacancyCard(stream){let entries=Object.entries(stream).filter(([k])=>k!=="stream"&&k!=="Stream");let name=stream.stream||stream.Stream||"Vacancy Details";let total=entries.find(([k])=>/total/i.test(k));let cats=entries.filter(([k,v])=>!/^total$/i.test(k)&&Number(v)!==0&&String(v).trim()!=="");return "<div class='vacancy-stream'><div class='stream-head'>"+esc(name)+"</div><div class='stream-body'>"+(total?"<div class='stream-total'>Total: "+esc(total[1])+"</div>":"")+"<div class='vacancy-cats'>"+cats.map(([k,v])=>"<div class='vacancy-cat'><b>"+esc(label(k))+"</b><span>"+esc(v)+"</span></div>").join("")+"</div></div></div>"}
+function vacancyCard(stream){
+  let entries=Object.entries(stream).filter(([k])=>k!=="stream"&&k!=="Stream");
+  let name=stream.stream||stream.Stream||"Vacancy Details";
+  let total=entries.find(([k])=>/total/i.test(k));
+  let cats=entries.filter(([k,v])=>{
+    const key=String(k).trim().toUpperCase().replace(/\s+/g," ");
+    const allowed=["SC","ST","OBC","EWS","UR","GEN","UR GEN","UR/GEN","PWBD"];
+    return allowed.includes(key)&&Number(v)!==0&&String(v).trim()!=="";
+  });
+  return "<div class='vacancy-stream'><div class='stream-head'>"+esc(name)+"</div><div class='stream-body'>"+(total?"<div class='stream-total'>Total: "+esc(total[1])+"</div>":"")+"<div class='vacancy-cats'>"+cats.map(([k,v])=>"<div class='vacancy-cat'><b>"+esc(k==="UR"?"UR / GEN":k)+"</b><span>"+esc(v)+"</span></div>").join("")+"</div></div></div>";
+}
 function vacancy(v){if(Array.isArray(v))return v.map(x=>typeof x==="object"?vacancyCard(x):"<div class='card'>"+esc(x)+"</div>").join("");return typeof v==="object"?vacancyCard(v):"<div class='card full'>"+value(v)+"</div>"}
 function card(k,v){let important=["total_vacancies","advertisement_number","application_start","application_end","status"].includes(k);let cls=important?"card highlight":"card";return "<div class='"+cls+"'><div class='card-label'>"+esc(label(k))+"</div><div class='card-value'>"+value(v)+"</div></div>"}
 function requested(data){const p=new URLSearchParams(location.search),q=p.get("job")||p.get("key")||p.get("id");if(q&&data[q])return data[q];const t=p.get("title");if(t){const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase()===t.toLowerCase());if(k)return data[k]}const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase().includes("telangana police"));return k?data[k]:fallback}
