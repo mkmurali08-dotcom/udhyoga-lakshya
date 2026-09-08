@@ -982,7 +982,9 @@
     "vacancy_breakdown": [
       "Not mentioned in the official notification"
     ],
-    "job_location": "Kerala",
+    "job_location": [
+      "Kerala"
+    ],
     "educational_qualification": [
       "Not mentioned in the official notification"
     ],
@@ -1013,7 +1015,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Authorised Signatory details: Saju George, Secretary, Kerala Public Service Commission"
+      "This document represents the Authorised Signatory details showing Saju George, Secretary, Kerala Public Service Commission."
     ],
     "official_notification_url": "https://www.keralapsc.gov.in/rankedlist",
     "apply_url": "https://www.keralapsc.gov.in/rankedlist",
