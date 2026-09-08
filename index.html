@@ -1,766 +1,282 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Udyoga Lakshya | Government Jobs, Exams & Results</title>
-
+<meta content="v_8W7UHrCG8CEs4AMkyUHFXad9zhkcIZKIYdRaXqSzk" name="google-site-verification"/>
+<link href="favicon.png" rel="icon" type="image/png"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Udhyoga Lakshya | Government Jobs, Exams &amp; Results</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:Arial,Helvetica,sans-serif;
-    background:#f5f5f5;
-    color:#111;
-}
-
-a{
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--yellow:#ffc400;--red:#ed1111;--black:#050505;--line:#e8e8e8}
+body{font-family:Inter,Arial,sans-serif;background:#f6f6f6;color:#111}
+a{text-decoration:none;color:inherit}
+.top-bar{height:45px;background:#050505;color:#fff;border-bottom:1px solid #303030;display:flex;align-items:center;justify-content:flex-start;padding:0 4%;font-size:13px}
+.welcome{font-weight:800;display:flex;align-items:center;gap:7px}.welcome i{color:var(--yellow);font-size:13px}
+.follow{display:none}
+.social{width:29px;height:29px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px}.youtube{background:#ff0000}.telegram{background:#159bd7}.whatsapp{background:#16bd55}.instagram{background:#e1306c}.facebook{background:#1877f2}
+.youtube-channel{background:#ed1111;border-radius:7px;padding:8px 15px;font-weight:900;margin-left:8px;font-size:12px}
+.header{height:88px;background:#080808;color:#fff;border-bottom:1px solid #5b4a00;display:flex;align-items:center;padding:0 4%;position:relative;z-index:30}
+.logo-area{display:flex;align-items:center;gap:12px;min-width:390px}.logo{width:57px;height:57px;object-fit:contain;display:block;flex:0 0 57px}.logo-name{font-size:31px;font-weight:900;line-height:1;white-space:nowrap}.logo-name span{color:var(--yellow)}.tagline{margin-top:6px;font-size:14px;font-weight:600}.tagline span{color:var(--red)}
+.navigation{height:100%;margin-left:auto;display:flex;align-items:center}.navigation a{height:100%;padding:0 17px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:900;white-space:nowrap;position:relative}.navigation a.active{background:var(--yellow);color:#000;border-radius:0 0 11px 11px}.navigation a.active:after{content:"";position:absolute;width:22px;height:3px;background:#111;bottom:15px}.navigation .arrow{font-size:12px;margin-left:8px}.search-icon{color:var(--yellow);font-size:23px;margin-left:12px}
+.hero{height:447px;position:relative;overflow:hidden;background:#050505;color:#fff}
+.hero-reference{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:right center;z-index:0}
+.hero-cover-left{position:absolute;inset:0 auto 0 0;width:55%;z-index:1;background:linear-gradient(90deg,#050505 0%,#050505 70%,rgba(5,5,5,.96) 82%,rgba(5,5,5,.35) 100%)}
+.hero-content{width:90%;max-width:1280px;height:100%;margin:auto;position:relative;z-index:5;display:flex;align-items:center}.hero-left{width:54%;padding-top:5px}
+.hero-title{font-size:43px;line-height:1;text-transform:uppercase;font-weight:900}.hero-title strong{display:block;color:var(--yellow);font-size:57px;margin-top:6px}.hero-description{margin-top:18px;font-size:17px;line-height:1.45;max-width:620px}.hero-description span{color:var(--red);font-weight:900}
+.stats{display:flex;gap:10px;margin-top:24px}.stat{width:145px;height:64px;border:1px solid #666;border-radius:8px;display:flex;align-items:center;gap:10px;padding:9px;background:rgba(0,0,0,.45)}.stat-icon{color:var(--yellow);font-size:24px;width:28px;text-align:center}.stat-number{display:block;color:var(--yellow);font-size:20px;font-weight:900}.stat-label{display:block;font-size:10px;margin-top:2px;white-space:nowrap}
+.search-area{margin-top:20px;width:590px;max-width:100%;height:48px;background:#fff;border-radius:8px;display:flex;overflow:hidden}.search-area input{flex:1;border:0;outline:none;padding:0 17px;font-size:14px;font-family:inherit}.search-area button{width:130px;border:0;background:var(--red);color:#fff;font-size:15px;font-weight:900}.popular{margin-top:9px;font-size:11px;white-space:nowrap}.popular strong{color:var(--yellow);margin-right:13px}.popular a{margin-right:13px}
+.why-box{position:absolute;right:3%;top:43px;width:300px;padding:25px;background:rgba(5,5,5,.96);border:1px solid var(--yellow);z-index:8;clip-path:polygon(8% 0,94% 0,100% 8%,100% 84%,92% 100%,8% 100%,0 92%,0 8%);box-shadow:0 0 0 1px rgba(255,196,0,.15)}.why-box h2{color:var(--yellow);font-size:20px;margin-bottom:15px}.why-box li{list-style:none;display:flex;align-items:center;gap:9px;margin:10px 0;font-size:13px}.check{width:18px;height:18px;min-width:18px;border-radius:50%;background:var(--yellow);color:#000;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900}.know-more{width:100%;margin-top:13px;padding:13px;border:0;border-radius:6px;background:var(--red);color:#fff;font-weight:900;font-size:15px}
+.category-section{position:relative;z-index:20;margin-top:-45px}.categories{width:92%;max-width:1280px;margin:auto;min-height:90px;background:#fff;border-radius:13px;box-shadow:0 8px 30px rgba(0,0,0,.13);display:grid;grid-template-columns:repeat(4,1fr);overflow:hidden}.category{
     text-decoration:none;
-    color:inherit;
-}
-
-/* ================= TOP BAR ================= */
-
-.top-bar{
-    height:45px;
-    background:#050505;
-    color:#fff;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:0 4%;
-    border-bottom:1px solid #333;
-    font-size:13px;
-}
-
-.welcome{
-    font-weight:700;
-}
-
-.welcome span{
-    color:#ffc400;
-    margin-right:7px;
-}
-
-.follow{
-    display:flex;
-    align-items:center;
-    gap:9px;
-}
-
-.follow-title{
-    font-weight:700;
-    margin-right:4px;
-}
-
-.social{
-    width:29px;
-    height:29px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:#fff;
-    font-size:12px;
-    font-weight:900;
-}
-
-.youtube{
-    background:#ff0000;
-}
-
-.telegram{
-    background:#159bd7;
-}
-
-.whatsapp{
-    background:#13bd55;
-}
-
-.instagram{
-    background:#e1306c;
-}
-
-.facebook{
-    background:#1877f2;
-}
-
-.youtube-channel{
-    background:#ed1111;
-    padding:8px 15px;
-    border-radius:7px;
-    font-weight:900;
-    margin-left:8px;
-}
-
-/* ================= HEADER ================= */
-
-.header{
-    height:88px;
-    background:#080808;
-    color:#fff;
-    border-bottom:1px solid #5b4a00;
-    display:flex;
-    align-items:center;
-    padding:0 4%;
-}
-
-.logo-area{
-    display:flex;
-    align-items:center;
-    gap:13px;
-    min-width:390px;
-}
-
-.logo{
-    width:64px;
-    height:64px;
-    object-fit:contain;
-    display:block;
-    flex:0 0 64px;
-}
-
-.logo-name{
-    font-size:31px;
-    font-weight:900;
-    line-height:1;
-}
-
-.logo-name span{
-    color:#ffc400;
-}
-
-.tagline{
-    margin-top:6px;
-    font-size:14px;
-    font-weight:600;
-}
-
-.tagline span{
-    color:#ed1111;
-}
-
-.navigation{
-    height:100%;
-    margin-left:auto;
-    display:flex;
-    align-items:center;
-}
-
-.navigation a{
-    height:100%;
-    padding:0 17px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:14px;
-    font-weight:900;
-    white-space:nowrap;
-    position:relative;
-}
-
-.navigation a.active{
-    background:#ffc400;
-    color:#000;
-    border-radius:0 0 11px 11px;
-}
-
-.navigation a.active:after{
-    content:"";
-    position:absolute;
-    width:22px;
-    height:3px;
-    background:#111;
-    bottom:15px;
-}
-
-.arrow{
-    margin-left:8px;
-}
-
-.search-icon{
-    color:#ffc400;
-    font-size:27px;
-    margin-left:12px;
-}
-
-/* ================= HERO ================= */
-
-.hero{
-    height:447px;
-    position:relative;
-    overflow:hidden;
-    background:#050505;
-    color:#fff;
-}
-
-/* PALACE IMAGE */
-
-.hero-image{
-    position:absolute;
-    right:0;
-    top:0;
-    width:57%;
-    height:100%;
-    overflow:hidden;
-    z-index:0;
-}
-
-.hero-image img{
-    width:100%;
-    height:100%;
-    display:block;
-    object-fit:cover;
-    object-position:center center;
-}
-
-/* DARK LEFT OVERLAY */
-
-.hero-overlay{
-    position:absolute;
-    inset:0;
-    z-index:1;
-    background:
-        linear-gradient(
-            90deg,
-            #050505 0%,
-            #050505 38%,
-            rgba(5,5,5,.94) 48%,
-            rgba(5,5,5,.35) 64%,
-            rgba(5,5,5,.05) 100%
-        );
-}
-
-.india-flag{
-    position:absolute;
-    left:43%;
-    top:22px;
-    width:72px;
-    height:100px;
-    z-index:3;
-    pointer-events:none;
-}
-
-.india-flag::before{
-    content:"";
-    position:absolute;
-    left:4px;
-    top:0;
-    width:3px;
-    height:100px;
-    background:#d6d6d6;
-    border-radius:2px;
-}
-
-.india-flag::after{
-    content:"";
-    position:absolute;
-    left:7px;
-    top:7px;
-    width:58px;
-    height:36px;
-    background:linear-gradient(to bottom,#ff9933 0 33.33%,#fff 33.33% 66.66%,#138808 66.66% 100%);
-    box-shadow:0 1px 2px rgba(0,0,0,.35);
-    transform-origin:left center;
-    transform:skewY(-3deg);
-}
-
-.india-flag .chakra{
-    position:absolute;
-    left:31px;
-    top:16px;
-    width:14px;
-    height:14px;
-    border:2px solid #000080;
-    border-radius:50%;
-    z-index:2;
-    font-size:0;
-}
-
-.india-flag .chakra::before,
-.india-flag .chakra::after{
-    content:"";
-    position:absolute;
-    left:5px;
-    top:-2px;
-    width:1px;
-    height:14px;
-    background:#000080;
-}
-
-.india-flag .chakra::before{
-    transform:rotate(45deg);
-}
-
-.india-flag .chakra::after{
-    transform:rotate(-45deg);
-}
-
-.hero-content{
-    width:90%;
-    max-width:1280px;
-    height:100%;
-    margin:auto;
-    position:relative;
-    z-index:5;
-    display:flex;
-    align-items:center;
-}
-
-.hero-left{
-    width:54%;
-    padding-top:5px;
-}
-
-.hero-title{
-    font-size:43px;
-    line-height:1;
-    text-transform:uppercase;
-    font-weight:900;
-}
-
-.hero-title strong{
-    display:block;
-    color:#ffc400;
-    font-size:57px;
-    margin-top:6px;
-}
-
-.hero-description{
-    margin-top:18px;
-    font-size:17px;
-    line-height:1.45;
-    max-width:620px;
-}
-
-.hero-description span{
-    color:#ed1111;
-    font-weight:900;
-}
-
-/* ================= STATS ================= */
-
-.stats{
-    display:flex;
-    gap:10px;
-    margin-top:24px;
-}
-
-.stat{
-    width:145px;
-    height:64px;
-    border:1px solid #666;
-    border-radius:8px;
-    display:flex;
-    align-items:center;
-    gap:10px;
-    padding:9px;
-    background:rgba(0,0,0,.35);
-}
-
-.stat-icon{
-    color:#ffc400;
-    font-size:25px;
-}
-
-.stat-number{
-    display:block;
-    color:#ffc400;
-    font-size:20px;
-    font-weight:900;
-}
-
-.stat-label{
-    display:block;
-    font-size:10px;
-    margin-top:2px;
-}
-
-/* ================= SEARCH ================= */
-
-.search-area{
-    margin-top:20px;
-    width:590px;
-    max-width:100%;
-    height:48px;
-    background:#fff;
-    border-radius:8px;
-    display:flex;
-    overflow:hidden;
-}
-
-.search-area input{
-    flex:1;
-    border:0;
-    outline:none;
-    padding:0 17px;
-    font-size:14px;
-}
-
-.search-area button{
-    width:130px;
-    border:0;
-    background:#ed1111;
-    color:#fff;
-    font-size:15px;
-    font-weight:900;
-}
-
-.popular{
-    margin-top:9px;
-    font-size:11px;
-}
-
-.popular strong{
-    color:#ffc400;
-    margin-right:13px;
-}
-
-.popular a{
-    margin-right:13px;
-}
-
-/* ================= WHY CHOOSE ================= */
-
-.why-box{
-    position:absolute;
-    right:3%;
-    top:43px;
-    width:300px;
-    padding:25px;
-    background:rgba(5,5,5,.93);
-    border:1px solid #ffc400;
-    border-radius:9px;
-    z-index:8;
-}
-
-.why-box h2{
-    color:#ffc400;
-    font-size:20px;
-    margin-bottom:15px;
-}
-
-.why-box li{
-    list-style:none;
-    display:flex;
-    align-items:center;
-    gap:9px;
-    margin:10px 0;
-    font-size:13px;
-}
-
-.check{
-    width:18px;
-    height:18px;
-    min-width:18px;
-    border-radius:50%;
-    background:#ffc400;
-    color:#000;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-weight:900;
-}
-
-.know-more{
-    width:100%;
-    margin-top:13px;
-    padding:13px;
-    border:0;
-    border-radius:6px;
-    background:#ed1111;
-    color:#fff;
-    font-weight:900;
-    font-size:15px;
-}
-
-/* ================= CATEGORY BAR ================= */
-
-.category-section{
-    position:relative;
-    z-index:20;
-    margin-top:-45px;
-}
-
-.categories{
-    width:92%;
-    max-width:1280px;
-    margin:auto;
-    min-height:90px;
-    background:#fff;
-    border-radius:13px;
-    box-shadow:0 8px 30px rgba(0,0,0,.13);
-    display:grid;
-    grid-template-columns:repeat(7,1fr);
-    overflow:hidden;
-}
-
-.category{
-    padding:13px;
-    border-right:1px solid #e3e3e3;
-    display:flex;
-    align-items:center;
-    gap:10px;
-}
-
-.category:last-child{
-    border-right:0;
-}
-
-.category-icon{
-    width:48px;
-    min-width:48px;
-    height:48px;
-    border-radius:50%;
-    background:#fff0b5;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:22px;
-}
-
-.category:nth-child(2) .category-icon,
-.category:nth-child(4) .category-icon,
-.category:nth-child(6) .category-icon{
-    background:#ed1111;
-    color:#fff;
-}
-
-.category-name{
-    font-size:12px;
-    font-weight:900;
-}
-
-.category-link{
-    display:block;
-    color:#ed1111;
-    margin-top:6px;
-    font-size:11px;
-    font-weight:800;
-}
-
-/* ================= MAIN ================= */
-
-.main{
-    width:92%;
-    max-width:1280px;
-    margin:20px auto;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
-}
-
-.card{
-    background:#fff;
-    border-radius:12px;
-    box-shadow:0 5px 20px rgba(0,0,0,.07);
-    overflow:hidden;
-}
-
-.card-header{
-    height:62px;
-    padding:0 17px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    border-bottom:1px solid #eee;
-}
-
-.card-title{
-    font-size:17px;
-    font-weight:900;
-    display:flex;
-    align-items:center;
-    gap:9px;
-}
-
-.card-title-icon{
-    color:#ed1111;
-    font-size:21px;
-}
-
-.view-all{
-    background:#f6f6f6;
-    padding:7px 11px;
-    border-radius:6px;
-    font-size:11px;
-    font-weight:900;
-}
-
-.row{
-    height:55px;
-    border-bottom:1px solid #eee;
-    padding:0 17px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:8px;
-    font-size:12px;
-    font-weight:700;
-}
-
-.row-title{
-    flex:1;
-}
-
-.new{
-    background:#ed1111;
-    color:#fff;
-    font-size:8px;
-    border-radius:4px;
-    padding:2px 5px;
-    margin-left:5px;
-}
-
-.row-date{
-    color:#777;
-    font-size:10px;
-    white-space:nowrap;
-}
-
-.yellow-tag{
-    background:#ffc400;
-    padding:6px 9px;
-    border-radius:5px;
-    font-size:10px;
-    font-weight:900;
-    white-space:nowrap;
-}
-
-.red-tag{
-    background:#ed1111;
-    color:#fff;
-    padding:6px 9px;
-    border-radius:5px;
-    font-size:10px;
-    font-weight:900;
-    white-space:nowrap;
-}
-
-.card-footer{
-    height:43px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:12px;
-    font-weight:900;
-}
-
-.card-footer span{
-    color:#ed1111;
-}
-
-/* ================= YOUTUBE ================= */
+    color:inherit;padding:13px;border-right:1px solid #e3e3e3;display:flex;align-items:center;gap:10px}.category:last-child{border-right:0}.category-icon{width:48px;min-width:48px;height:48px;border-radius:50%;background:#fff0b5;display:flex;align-items:center;justify-content:center;font-size:21px}.category:nth-child(2) .category-icon,.category:nth-child(4) .category-icon,.category:nth-child(6) .category-icon{background:var(--red);color:#fff}.category-name{font-size:12px;font-weight:900}.category-link{display:block;color:var(--red);margin-top:6px;font-size:11px;font-weight:800}
+.main{width:92%;max-width:1280px;margin:20px auto}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#fff;border-radius:12px;box-shadow:0 5px 20px rgba(0,0,0,.07);overflow:hidden}.card-header{height:62px;padding:0 17px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eee}.card-title{font-size:17px;font-weight:900;display:flex;align-items:center;gap:9px}.card-title-icon{color:var(--red);font-size:20px}.view-all{background:#f6f6f6;padding:7px 11px;border-radius:6px;font-size:11px;font-weight:900}.row{height:55px;border-bottom:1px solid #eee;padding:0 17px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;font-weight:700}.row-title{flex:1}.new{background:var(--red);color:#fff;font-size:8px;border-radius:4px;padding:2px 5px;margin-left:5px}.row-date{color:#777;font-size:10px;white-space:nowrap}.yellow-tag{background:var(--yellow);padding:6px 9px;border-radius:5px;font-size:10px;font-weight:900;white-space:nowrap}.red-tag{background:var(--red);color:#fff;padding:6px 9px;border-radius:5px;font-size:10px;font-weight:900;white-space:nowrap}.card-footer{height:43px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900}.card-footer span{color:var(--red);margin-left:8px}
+.youtube-banner{margin-top:22px;min-height:143px;border:1px solid var(--yellow);border-radius:12px;background:#050505;color:#fff;display:grid;grid-template-columns:100px minmax(0,1fr) 305px 240px;align-items:center;gap:18px;padding:10px 50px;overflow:hidden}.youtube-big{width:80px;height:58px;border-radius:12px;background:#fff;color:var(--red);display:flex;align-items:center;justify-content:center;font-size:33px}.youtube-text h3{font-size:17px;font-weight:500}.youtube-text h2{font-size:23px;margin-top:3px}.youtube-text h2 span{color:var(--yellow)}.youtube-text h2 b{color:var(--red)}.youtube-text p{color:#bbb;font-size:10px;margin-top:7px}.phone-wrap{height:143px;display:flex;align-items:flex-end;justify-content:center}.phone-wrap img{width:305px;height:138px;object-fit:cover;object-position:center top;display:block}.subscribe-area{display:flex;flex-direction:column;align-items:center;gap:10px}.subscribe{background:var(--red);color:#fff;padding:14px 18px;text-align:center;border-radius:7px;font-weight:900;white-space:nowrap}.stay{font-size:12px;color:#ddd}
+
+.site-footer{margin-top:30px;background:#080808;color:#fff;padding:30px 5% 18px}
+.site-footer .footer-inner{max-width:1280px;margin:auto;display:flex;justify-content:space-between;align-items:flex-start;gap:30px}
+.footer-brand{font-size:23px;font-weight:900}
+.footer-brand span{color:var(--yellow)}
+.footer-brand-block p{margin-top:7px;color:#aaa;font-size:10px;max-width:460px;line-height:1.45}
+.footer-policy-links{display:flex;gap:24px;align-items:center;flex-wrap:wrap;font-size:11px;font-weight:700;padding-top:6px}
+.copyright{max-width:1280px;margin:20px auto 0;padding-top:14px;border-top:1px solid #292929;text-align:center;color:#777;font-size:10px}
+@media(max-width:750px){.site-footer .footer-inner{flex-direction:column}.footer-policy-links{gap:14px}}
+
+@media(max-width:1100px){.logo-area{min-width:300px}.logo-name{font-size:25px}.navigation a{padding:0 9px;font-size:11px}.categories{grid-template-columns:repeat(4,1fr)}.cards{grid-template-columns:1fr}.hero-left{width:62%}.why-box{right:2%;width:260px}.youtube-banner{grid-template-columns:80px 1fr 250px;padding:10px 25px}}
+@media(max-width:750px){.top-bar{padding:0 12px}.follow-title,.youtube-channel{display:none}.header{height:auto;padding:12px;flex-wrap:wrap}.logo-area{min-width:100%}.navigation{width:100%;overflow-x:auto;height:48px;margin-top:8px}.navigation a{min-width:max-content;height:45px}.hero{height:auto;min-height:600px}.hero-reference{object-position:center}.hero-cover-left{width:100%;background:linear-gradient(90deg,#050505 0%,rgba(5,5,5,.88) 75%,rgba(5,5,5,.45) 100%)}.hero-content{width:92%;display:block}.hero-left{width:100%;padding:45px 0 30px}.hero-title{font-size:34px}.hero-title strong{font-size:43px}.hero-description{font-size:14px}.stats{flex-wrap:wrap}.stat{width:calc(50% - 5px)}.why-box{position:relative;right:auto;top:auto;width:100%;margin:0 0 28px;padding:20px;box-sizing:border-box;clip-path:none;border-radius:10px}.categories{grid-template-columns:repeat(2,1fr)}.youtube-banner{grid-template-columns:1fr;text-align:center;padding:25px}.phone-wrap{display:none}.youtube-big{margin:auto}.subscribe-area{margin-top:4px}}
 
 .youtube-banner{
+    position:relative;
     margin-top:22px;
-    min-height:143px;
-    border:1px solid #ffc400;
+    min-height:0;
+    padding:0;
+    border:1px solid var(--yellow);
     border-radius:12px;
     background:#050505;
+    overflow:hidden;
+    display:block;
+}
+.youtube-full-banner{
+    display:block;
+    width:100%;
+    height:auto;
+    max-width:100%;
+}
+.youtube-subscribe-button{
+    position:absolute;
+    right:7.2%;
+    bottom:10%;
+    background:var(--red);
     color:#fff;
-    display:grid;
-    grid-template-columns:100px 1fr 240px;
-    align-items:center;
-    gap:18px;
-    padding:20px 50px;
+    padding:12px 20px;
+    border-radius:7px;
+    font-size:14px;
+    font-weight:900;
+    box-shadow:0 4px 12px rgba(0,0,0,.25);
+}
+@media(max-width:750px){
+    .youtube-subscribe-button{
+        right:5%;
+        bottom:6%;
+        padding:9px 12px;
+        font-size:11px;
+    }
 }
 
-.youtube-big{
+/* Final YouTube banner: full supplied image, fitted to the section without cropping */
+.youtube-banner{
+    width:100%;
+    height:143px;
+    margin-top:22px;
+    padding:0;
+    border:1px solid var(--yellow);
+    border-radius:12px;
+    background:#050505;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.youtube-full-banner{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:contain;
+    object-position:center;
+}
+
+/* YouTube banner */
+.youtube-banner{
+    width:100%;
+    height:164px;
+    margin-top:22px;
+    padding:0 14px;
+    border:1px solid var(--yellow);
+    border-radius:12px;
+    background:#050505;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:38% 34% 28%;
+    align-items:center;
+    box-sizing:border-box;
+}
+.yt-left{
+    height:100%;
+    display:flex;
+    align-items:center;
+    gap:26px;
+    min-width:0;
+    padding-left:34px;
+}
+.yt-icon{
     width:80px;
     height:58px;
+    flex:0 0 80px;
     border-radius:12px;
     background:#fff;
     color:#ed1111;
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:33px;
+    font-size:30px;
+    line-height:1;
 }
-
-.youtube-text h3{
-    font-size:17px;
-    font-weight:500;
+.yt-left-copy{
+    min-width:0;
 }
-
-.youtube-text h2{
-    font-size:23px;
-    margin-top:3px;
+.yt-watch{
+    color:#fff;
+    font-size:16px;
+    line-height:1.25;
+    margin-bottom:7px;
+    white-space:nowrap;
 }
-
-.youtube-text h2 span{
-    color:#ffc400;
+.yt-details{
+    color:#fff;
+    font-size:9px;
+    line-height:1.25;
+    max-width:390px;
 }
-
-.youtube-text h2 b{
-    color:#ed1111;
+.yt-center-banner{
+    height:142px;
+    width:100%;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#050505;
 }
-
-.youtube-text p{
-    color:#bbb;
-    font-size:10px;
-    margin-top:7px;
+.yt-center-banner img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center center;
+    display:block;
 }
-
-.subscribe{
+.yt-right{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:13px;
+    padding:0 20px;
+    box-sizing:border-box;
+}
+.yt-subscribe{
+    width:185px;
+    height:48px;
     background:#ed1111;
     color:#fff;
-    padding:14px;
-    text-align:center;
     border-radius:7px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:14px;
     font-weight:900;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+.yt-subscribe span{
+    margin-left:8px;
+    color:#ffd400;
+}
+.yt-stay{
+    color:#fff;
+    font-size:11px;
+    font-weight:700;
+    white-space:nowrap;
+}
+@media(max-width:900px){
+    .youtube-banner{
+        grid-template-columns:40% 32% 28%;
+        height:150px;
+    }
+    .yt-left{padding-left:15px;gap:12px}
+    .yt-icon{width:62px;flex-basis:62px;height:50px}
+    .yt-watch{font-size:13px}
+    .yt-details{font-size:8px}
+    .yt-subscribe{width:150px;font-size:12px}
+}
+@media(max-width:650px){
+    .youtube-banner{height:auto;min-height:300px;grid-template-columns:1fr;gap:12px;padding:14px}
+    .yt-left{height:auto;padding:0;justify-content:center}
+    .yt-center-banner{height:145px}
+    .yt-right{height:auto;padding:0}
 }
 
-/* ================= FOOTER ================= */
-
-footer{
+.site-footer{
     margin-top:30px;
     background:#080808;
     color:#fff;
-    padding:32px 5%;
+    padding:32px 5% 18px;
 }
-
-.footer-inner{
+.site-footer .footer-inner{
     max-width:1280px;
     margin:auto;
     display:flex;
     justify-content:space-between;
-    gap:30px;
+    align-items:flex-start;
+    gap:40px;
 }
-
+.footer-brand-block{
+    max-width:500px;
+}
 .footer-brand{
     font-size:23px;
     font-weight:900;
 }
-
 .footer-brand span{
-    color:#ffc400;
+    color:var(--yellow);
 }
-
-.footer-description{
-    margin-top:7px;
+.footer-brand-block p{
+    margin-top:8px;
     color:#aaa;
-    font-size:10px;
-    max-width:400px;
-}
-
-.footer-links{
-    display:flex;
-    gap:20px;
-    align-items:center;
-    flex-wrap:wrap;
     font-size:11px;
+    line-height:1.55;
 }
-
-.copyright{
+.footer-policy-links{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:22px;
+    flex-wrap:wrap;
+    padding-top:5px;
+}
+.footer-policy-links a{
+    color:#fff;
+    font-size:11px;
+    font-weight:800;
+}
+.footer-policy-links a:hover{
+    color:var(--yellow);
+}
+.site-footer .copyright{
     max-width:1280px;
     margin:20px auto 0;
     padding-top:14px;
@@ -769,648 +285,291 @@ footer{
     color:#777;
     font-size:10px;
 }
-
-/* ================= RESPONSIVE ================= */
-
-@media(max-width:1100px){
-
-    .logo-area{
-        min-width:300px;
-    }
-
-    .logo-name{
-        font-size:25px;
-    }
-
-    .navigation a{
-        padding:0 9px;
-        font-size:11px;
-    }
-
-    .categories{
-        grid-template-columns:repeat(4,1fr);
-    }
-
-    .cards{
-        grid-template-columns:1fr;
-    }
-
-    .hero-left{
-        width:62%;
-    }
-
-    .why-box{
-        right:2%;
-        width:260px;
-    }
-}
-
 @media(max-width:750px){
-
-    .top-bar{
-        padding:0 12px;
-    }
-
-    .follow-title{
-        display:none;
-    }
-
-    .youtube-channel{
-        display:none;
-    }
-
-    .header{
-        height:auto;
-        padding:12px;
-        flex-wrap:wrap;
-    }
-
-    .logo-area{
-        min-width:100%;
-    }
-
-    .navigation{
-        width:100%;
-        overflow-x:auto;
-        height:48px;
-        margin-top:8px;
-    }
-
-    .navigation a{
-        min-width:max-content;
-        height:45px;
-    }
-
-    .hero{
-        height:auto;
-        min-height:600px;
-    }
-
-    .hero-image{
-        width:100%;
-        opacity:.35;
-    }
-
-    .hero-content{
-        width:92%;
-    }
-
-    .hero-left{
-        width:100%;
-        padding:45px 0 80px;
-    }
-
-    .hero-title{
-        font-size:34px;
-    }
-
-    .hero-title strong{
-        font-size:43px;
-    }
-
-    .hero-description{
-        font-size:14px;
-    }
-
-    .stats{
-        flex-wrap:wrap;
-    }
-
-    .stat{
-        width:calc(50% - 5px);
-    }
-
-    .why-box{
-        display:none;
-    }
-
-    .categories{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .youtube-banner{
-        grid-template-columns:1fr;
-        text-align:center;
-        padding:25px;
-    }
-
-    .youtube-big{
-        margin:auto;
-    }
-
-    .footer-inner{
+    .site-footer .footer-inner{
         flex-direction:column;
     }
+    .footer-policy-links{
+        justify-content:flex-start;
+        gap:14px;
+    }
 }
 
-/* ================= DYNAMIC NOTIFICATIONS ================= */
-.dynamic-list{min-height:275px}
-.dynamic-list .row{height:auto;min-height:55px}
-.dynamic-row{cursor:pointer;transition:background .15s ease}
-.dynamic-row:hover{background:#fff9dc}
-.dynamic-row .row-title{min-width:0;line-height:1.3}
-.dynamic-row .row-title a{display:block}
-.data-loading,.data-empty,.data-error{min-height:275px;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;color:#777;font-size:12px}
-.data-error{color:#b00000;line-height:1.5}
-.dynamic-meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end}
-.dynamic-tag{font-size:9px!important;padding:5px 7px!important}
-@media(max-width:750px){.dynamic-list{min-height:0}.data-loading,.data-empty,.data-error{min-height:180px}}
+/* WHY CHOOSE US */
+.why-section{margin-top:28px}
+.section-heading{text-align:center;margin-bottom:20px}
+.section-heading h2{margin:0;font-size:24px;font-weight:900}
+.section-heading h2 span{color:var(--red)}
+.section-heading p{margin:7px auto 0;max-width:700px;color:#777;font-size:11px;line-height:1.5}
+.why-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.why-card{background:#fff;border-radius:12px;padding:22px 18px;min-height:165px;box-shadow:0 5px 20px rgba(0,0,0,.07);text-align:center;box-sizing:border-box}
+.why-icon{width:48px;height:48px;margin:0 auto 12px;border-radius:50%;background:#fff0b5;color:var(--red);display:flex;align-items:center;justify-content:center;font-size:21px;font-weight:900}
+.why-card:nth-child(even) .why-icon{background:var(--red);color:#fff}
+.why-card h3{margin:0 0 8px;font-size:14px;font-weight:900}
+.why-card p{margin:0;color:#777;font-size:10px;line-height:1.55}
+@media(max-width:900px){.why-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.why-grid{grid-template-columns:1fr}}
 
+.know-more{display:flex;align-items:center;justify-content:center;text-decoration:none;cursor:pointer}
+.know-more:hover{filter:brightness(1.06)}
+
+.navigation .search-icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    z-index:20;
+    cursor:pointer;
+    text-decoration:none;
+}
+.navigation .search-icon i{
+    pointer-events:none;
+}
+.search-area button{
+    cursor:pointer;
+}
+.popular a,.category-link a{
+    cursor:pointer;
+}
+
+.cards .row-title{color:inherit;text-decoration:none}
+.cards .row-title:hover{text-decoration:underline}
+.cards .view-all{color:inherit;text-decoration:none;cursor:pointer}
+.cards .card-footer a{color:inherit;text-decoration:none}
+.cards .card-footer a:hover{text-decoration:underline}
+
+/* GOVERNMENT JOBS MEGA MENU */
+.govt-menu-wrap{position:relative;height:100%;display:flex;align-items:center}
+.govt-menu-trigger{height:100%;display:flex;align-items:center;gap:6px;color:inherit;text-decoration:none;white-space:nowrap;cursor:pointer}
+.govt-mega-menu{position:absolute;z-index:9999;top:calc(100% + 1px);left:50%;transform:translateX(-50%);width:min(850px,calc(100vw - 30px));display:grid;grid-template-columns:1.15fr 1fr 1fr;background:#080808;border:1px solid #e4b600;border-radius:0 0 12px 12px;box-shadow:0 16px 35px rgba(0,0,0,.35);padding:22px;gap:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .16s ease,visibility .16s ease}
+.govt-menu-wrap:hover .govt-mega-menu,.govt-menu-wrap:focus-within .govt-mega-menu{opacity:1;visibility:visible;pointer-events:auto}
+.mega-col{padding:0 20px;border-right:1px solid #292929}
+.mega-col:first-child{padding-left:4px}
+.mega-col:last-child{border-right:0;padding-right:4px}
+.mega-col h4{margin:0 0 12px;color:#ffc400;font-size:11px;letter-spacing:.7px}
+.mega-col a{display:block;color:#f5f5f5;text-decoration:none;font-size:12px;font-weight:700;padding:8px 10px;border-radius:6px;line-height:1.25}
+.mega-col a:hover{background:#171717;color:#ffc400}
+@media(max-width:800px){
+ .govt-mega-menu{position:absolute;top:100%;left:0;transform:none;width:calc(100vw - 24px);grid-template-columns:1fr 1fr;padding:15px;max-height:70vh;overflow:auto}
+ .mega-quick{grid-column:1/-1;border-right:0;border-top:1px solid #292929;margin-top:10px;padding:15px 4px 0}
+}
+@media(max-width:600px){
+ .govt-menu-wrap{height:48px}
+ .govt-mega-menu{grid-template-columns:1fr}
+ .mega-col{border-right:0;border-bottom:1px solid #292929;padding:12px 4px}
+ .mega-col:last-child{border-bottom:0}
+}
+
+/* MEGA MENU ISOLATION */
+.navigation .govt-mega-menu a,
+.navigation .govt-mega-menu .mega-col a{
+    height:auto;
+    min-height:0;
+    width:auto;
+    margin:0;
+    padding:8px 10px;
+    display:block;
+    position:static;
+    justify-content:initial;
+    align-items:initial;
+    font-size:12px;
+    font-weight:700;
+    white-space:normal;
+    border-radius:6px;
+    color:#f5f5f5;
+    background:transparent;
+}
+.navigation .govt-mega-menu .mega-col a:hover{
+    background:#171717;
+    color:#ffc400;
+}
+.navigation .govt-mega-menu .mega-col a.active:after{
+    display:none;
+}
+</style>
+<style id="latest-notifications-date-yellow">
+.latest-notification-date-yellow{
+  background:#ffc107 !important;
+  color:#000 !important;
+  border-radius:6px !important;
+  padding:6px 8px !important;
+  font-weight:700 !important;
+  display:inline-block !important;
+  white-space:nowrap !important;
+}
 </style>
 </head>
-
 <body>
-
-<!-- TOP BAR -->
 <div class="top-bar">
-
-    <div class="welcome">
-        <span>★</span>
-        Welcome to Udyoga Lakshya
-    </div>
-
-    <div class="follow">
-        <span class="follow-title">Follow Us:</span>
-
-        <a class="social youtube">▶</a>
-        <a class="social telegram">➤</a>
-        <a class="social whatsapp">WA</a>
-        <a class="social instagram">◎</a>
-        <a class="social facebook">f</a>
-
-        <a class="youtube-channel">▶ YouTube Channel</a>
-    </div>
-
+<div class="welcome"><i class="fa-solid fa-star"></i> Welcome to Udhyoga Lakshya</div>
 </div>
-
-
-<!-- HEADER -->
 <header class="header">
+<div class="logo-area">
+<img alt="Udhyoga Lakshya Logo" class="logo" src="logo.png"/>
+<div>
+<div class="logo-name">Udhyoga <span>Lakshya</span></div>
+<div class="tagline">Your Path to the <span>Right Job</span></div>
+</div>
+</div>
+<nav class="navigation">
+<a class="active" href="index.html">HOME</a>
+<div class="govt-menu-wrap">
+<a class="govt-menu-trigger" href="govt-jobs.html">GOVT. JOBS <span class="arrow">⌄</span></a>
+<div class="govt-mega-menu">
+<div class="mega-col mega-main">
+<h4>JOB TYPE</h4>
+<a href="upsc-jobs.html">UPSC Jobs</a>
+<a href="ssc-jobs.html">SSC Jobs</a>
+<a href="india-post-jobs.html">India Post Jobs</a>
+<a href="other-central-jobs.html">Other Central Jobs</a>
+</div>
+<div class="mega-col mega-state">
+<h4>STATE GOVERNMENT</h4>
+<a href="telangana-jobs.html">Telangana</a>
+<a href="andhra-pradesh-jobs.html">Andhra Pradesh</a>
+<a href="karnataka-jobs.html">Karnataka</a>
+<a href="tamil-nadu-jobs.html">Tamil Nadu</a>
+<a href="maharashtra-jobs.html">Maharashtra</a>
+<a href="other-states-jobs.html">All States Jobs</a>
+</div>
+<div class="mega-col mega-quick">
+<h4>QUICK ACCESS</h4>
+<a href="latest-notifications.html">Latest Notifications</a>
+<a href="upcoming-exams.html">Upcoming Exams</a>
+<a href="latest-notifications.html?filter=closing-soon">Closing Soon</a>
+</div>
+</div></div>
 
-    <div class="logo-area">
-
-        <img class="logo" src="assets/udyoga-lakshya-logo.png" alt="Udyoga Lakshya logo">
-
-        <div>
-            <div class="logo-name">
-                Udyoga <span>Lakshya</span>
-            </div>
-
-            <div class="tagline">
-                Your Path to the <span>Right Job</span>
-            </div>
-        </div>
-
-    </div>
-
-    <nav class="navigation">
-
-        <a class="active">HOME</a>
-
-        <a>
-            GOVT. JOBS
-            <span class="arrow">⌄</span>
-        </a>
-
-        <a>
-            EXAMS
-            <span class="arrow">⌄</span>
-        </a>
-
-        <a>RESULTS</a>
-        <a>ADMIT CARDS</a>
-        <a>SYLLABUS</a>
-        <a>ABOUT US</a>
-
-        <span class="search-icon">⌕</span>
-
-    </nav>
-
+<a href="exams.html">EXAMS <span class="arrow">⌄</span></a>
+<a href="results.html">RESULTS</a>
+<a href="admit-cards.html">ADMIT CARDS</a>
+<a href="about-us.html">ABOUT US</a>
+<a aria-label="Open Search" class="search-icon" href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+</nav>
 </header>
-
-
-<!-- HERO -->
 <section class="hero">
-
-    <div class="hero-image">
-        <img src="hero-palace.jpg" alt="Udyoga Lakshya">
-        <div class="india-flag" aria-label="Indian flag">
-            <span class="chakra"></span>
-        </div>
-    </div>
-
-    <div class="hero-overlay"></div>
-
-    <div class="hero-content">
-
-        <div class="hero-left">
-
-            <h1 class="hero-title">
-                YOUR DREAM JOB
-                <strong>OUR MISSION</strong>
-            </h1>
-
-            <p class="hero-description">
-                Latest Government Jobs, Exam Updates, Results,
-                Admit Cards &amp; Syllabus –
-                <span>All in One Place</span>
-            </p>
-
-            <div class="stats">
-
-                <div class="stat">
-                    <div class="stat-icon">💼</div>
-                    <div>
-                        <span class="stat-number">1500+</span>
-                        <span class="stat-label">Latest Jobs</span>
-                    </div>
-                </div>
-
-                <div class="stat">
-                    <div class="stat-icon">▤</div>
-                    <div>
-                        <span class="stat-number">300+</span>
-                        <span class="stat-label">Upcoming Exams</span>
-                    </div>
-                </div>
-
-                <div class="stat">
-                    <div class="stat-icon">♙</div>
-                    <div>
-                        <span class="stat-number">10L+</span>
-                        <span class="stat-label">Happy Aspirants</span>
-                    </div>
-                </div>
-
-                <div class="stat">
-                    <div class="stat-icon">♧</div>
-                    <div>
-                        <span class="stat-number">Daily</span>
-                        <span class="stat-label">Updates</span>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="search-area">
-                <input
-                    type="text"
-                    placeholder="Search jobs, exams, results..."
-                >
-
-                <button>⌕ &nbsp; Search</button>
-            </div>
-
-            <div class="popular">
-                <strong>Popular Searches:</strong>
-                <a>TSPSC</a>
-                <a>APPSC</a>
-                <a>SSC</a>
-                <a>RRB</a>
-                <a>IBPS</a>
-                <a>UPSC</a>
-                <a>Police Jobs</a>
-                <a>Teaching Jobs</a>
-            </div>
-
-        </div>
-
-
-        <!-- WHY CHOOSE -->
-        <div class="why-box">
-
-            <h2>Why Choose Us?</h2>
-
-            <ul>
-
-                <li>
-                    <span class="check">✓</span>
-                    100% Official Information
-                </li>
-
-                <li>
-                    <span class="check">✓</span>
-                    Detailed &amp; Easy to Understand
-                </li>
-
-                <li>
-                    <span class="check">✓</span>
-                    Official Links Direct Access
-                </li>
-
-                <li>
-                    <span class="check">✓</span>
-                    Regular &amp; Timely Updates
-                </li>
-
-                <li>
-                    <span class="check">✓</span>
-                    YouTube Videos for Each Job
-                </li>
-
-            </ul>
-
-            <button class="know-more">
-                Know More →
-            </button>
-
-        </div>
-
-    </div>
-
+<img alt="Udhyoga Lakshya hero" class="hero-reference" src="hero-palace.jpg"/>
+<div class="hero-cover-left"></div>
+<div class="hero-content">
+<div class="hero-left">
+<h1 class="hero-title">YOUR DREAM JOB<strong>OUR MISSION</strong></h1>
+<p class="hero-description">Latest Government Jobs, Exam Updates, Results,<br/>Admit Cards &amp; <span>All in One Place</span></p>
+<div class="stats">
+<div class="stat"><div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div><div><span class="stat-number"></span><span class="stat-label">Latest Jobs</span></div></div>
+<div class="stat"><div class="stat-icon"><i class="fa-solid fa-file-lines"></i></div><div><span class="stat-number"></span><span class="stat-label">Upcoming Exams</span></div></div>
+<div class="stat"><div class="stat-icon"><i class="fa-solid fa-users"></i></div><div><span class="stat-number"></span><span class="stat-label">Happy Aspirants</span></div></div>
+<div class="stat"><div class="stat-icon"><i class="fa-regular fa-bell"></i></div><div><span class="stat-number">Daily</span><span class="stat-label">Updates</span></div></div>
+</div>
+<form action="search.html" class="search-area" method="get">
+<input aria-label="Search jobs, exams, results" name="q" placeholder="Search jobs, exams, results..." type="search"/>
+<button type="submit"><i class="fa-solid fa-magnifying-glass"></i>  Search</button>
+</form>
+<div class="popular"><strong>Popular Searches:</strong>
+<a href="search.html?q=TSPSC">TSPSC</a>
+<a href="search.html?q=APPSC">APPSC</a>
+<a href="search.html?q=SSC">SSC</a>
+<a href="search.html?q=RRB">RRB</a>
+<a href="search.html?q=IBPS">IBPS</a>
+<a href="search.html?q=UPSC">UPSC</a>
+</div>
+</div>
+<div class="why-box"><h2>Why Choose Us?</h2><ul>
+<li><span class="check">✓</span>Official Information</li><li><span class="check">✓</span>Detailed &amp; Easy to Understand</li><li><span class="check">✓</span>Official Links Direct Access</li><li><span class="check">✓</span>Regular &amp; Timely Updates</li><li><span class="check">✓</span>YouTube Videos for Each Job</li>
+</ul><a class="know-more" href="about-us.html">Know More  →</a></div>
+</div>
 </section>
-
-
-<!-- CATEGORY BAR -->
 <section class="category-section">
-
-    <div class="categories">
-
-        <div class="category">
-            <div class="category-icon">🏛️</div>
-            <div>
-                <div class="category-name">Central Govt Jobs</div>
-                <div class="category-link">View Jobs →</div>
-            </div>
-        </div>
-
-        <div class="category">
-            <div class="category-icon">🏛️</div>
-            <div>
-                <div class="category-name">Telangana Govt Jobs</div>
-                <div class="category-link">View Jobs →</div>
-            </div>
-        </div>
-
-        <div class="category">
-            <div class="category-icon">🏛️</div>
-            <div>
-                <div class="category-name">Andhra Pradesh Jobs</div>
-                <div class="category-link">View Jobs →</div>
-            </div>
-        </div>
-
-        <div class="category">
-            <div class="category-icon">🛡️</div>
-            <div>
-                <div class="category-name">Police Jobs</div>
-                <div class="category-link">View Jobs →</div>
-            </div>
-        </div>
-
-        <div class="category">
-            <div class="category-icon">🚆</div>
-            <div>
-                <div class="category-name">Railway Jobs</div>
-                <div class="category-link">View Jobs →</div>
-            </div>
-        </div>
-
-        <div class="category">
-            <div class="category-icon">🎓</div>
-            <div>
-                <div class="category-name">Teaching Jobs</div>
-                <div class="category-link">View Jobs →</div>
-            </div>
-        </div>
-
-        <div class="category">
-            <div class="category-icon">•••</div>
-            <div>
-                <div class="category-name">All Govt Jobs</div>
-                <div class="category-link">View All →</div>
-            </div>
-        </div>
-
-    </div>
-
+<div class="categories">
+<a class="category" href="central-government.html">
+<div class="category-icon">🏛️</div>
+<div>
+<div class="category-name">Central Govt Jobs</div>
+<div class="category-link">View Jobs →</div>
+</div>
+</a>
+<a class="category" href="telangana-jobs.html">
+<div class="category-icon">🏛️</div>
+<div>
+<div class="category-name">Telangana Govt Jobs</div>
+<div class="category-link">View Jobs →</div>
+</div>
+</a>
+<a class="category" href="andhra-pradesh-jobs.html">
+<div class="category-icon">🏛️</div>
+<div>
+<div class="category-name">Andhra Pradesh Jobs</div>
+<div class="category-link">View Jobs →</div>
+</div>
+</a>
+<a class="category" href="other-states-jobs.html">
+<div class="category-icon">•••</div>
+<div>
+<div class="category-name">All State Jobs</div>
+<div class="category-link">View All →</div>
+</div>
+</a>
+</div>
 </section>
-
-
-<!-- MAIN CONTENT -->
-<main class="main">
-
-    <div class="cards">
-
-        <!-- NOTIFICATIONS -->
-        <section class="card" id="latest-notifications-card">
-            <div class="card-header">
-                <div class="card-title">
-                    <span class="card-title-icon">♧</span>
-                    Latest Notifications
-                </div>
-                <a class="view-all" href="govt-jobs.html">View All ◉</a>
-            </div>
-            <div id="latest-notifications" class="dynamic-list">
-                <div class="data-loading">Loading latest notifications…</div>
-            </div>
-            <a class="card-footer" href="govt-jobs.html">
-                View All Notifications <span>→</span>
-            </a>
-        </section>
-
-        <!-- EXAMS -->
-        <section class="card" id="upcoming-exams-card">
-            <div class="card-header">
-                <div class="card-title">
-                    <span class="card-title-icon">▣</span>
-                    Upcoming Exams
-                </div>
-                <a class="view-all" href="exams.html">View All ◉</a>
-            </div>
-            <div id="upcoming-exams" class="dynamic-list">
-                <div class="data-loading">Loading upcoming exams…</div>
-            </div>
-            <a class="card-footer" href="exams.html">
-                View All Exams <span>→</span>
-            </a>
-        </section>
-
-        <!-- RESULTS -->
-        <section class="card" id="results-card">
-            <div class="card-header">
-                <div class="card-title">
-                    <span class="card-title-icon">▤</span>
-                    Results &amp; Admit Cards
-                </div>
-                <a class="view-all" href="results.html">View All ◉</a>
-            </div>
-            <div id="results-admit-cards" class="dynamic-list">
-                <div class="data-loading">Loading results &amp; admit cards…</div>
-            </div>
-            <a class="card-footer" href="results.html">
-                View All Results &amp; Admit Cards <span>→</span>
-            </a>
-        </section>
-
-    </div>
-
-    <!-- YOUTUBE BANNER -->
-    <section class="youtube-banner">
-        <div class="youtube-big">▶</div>
-        <div class="youtube-text">
-            <h3>Watch Latest Job Updates on</h3>
-            <h2>
-                Udyoga <span>Lakshya</span>
-                <b>YouTube Channel</b>
-            </h2>
-            <p>
-                Detailed Explanations • Notification Breakdowns •
-                Preparation Tips • Exam Strategies
-            </p>
-        </div>
-        <div class="subscribe">Subscribe Now 🔔</div>
-    </section>
-
+<main class="main"><div class="cards">
+<section class="card"><div class="card-header"><div class="card-title"><span class="card-title-icon"><i class="fa-regular fa-bullhorn"></i></span>Latest Notifications</div><a class="view-all" href="latest-notifications.html">View All  ◉</a></div>
+<div class="row"><a class="row-title" href="https://www.tgprb.in/" rel="noopener noreferrer" target="_blank">Telangana Police Recruitment 2026 — SI, PC &amp; related posts</a><span class="row-date"><span class="latest-notification-date-yellow">19 Aug–09 Sep 2026</span></span></div><div class="row"><a class="row-title" href="https://upsc.gov.in/" rel="noopener noreferrer" target="_blank">UPSC Advertisement No. 10/2026 — Direct Recruitment</a><span class="row-date"><span class="latest-notification-date-yellow">08–28 Aug 2026</span></span></div><div class="row"><a class="row-title" href="https://rrbsecunderabad.gov.in/" rel="noopener noreferrer" target="_blank">RRB CEN 04/2026 — Junior Engineer &amp; DMS</a><span class="row-date"><span class="latest-notification-date-yellow">13 Aug 2026</span></span></div><div class="row"><a class="row-title" href="https://www.ibps.in/" rel="noopener noreferrer" target="_blank">IBPS CRP CSA-XVI — Customer Service Associate</a><span class="row-date"><span class="latest-notification-date-yellow">01–28 Aug 2026</span></span></div><div class="row"><a class="row-title" href="https://portal-psc.ap.gov.in/" rel="noopener noreferrer" target="_blank">APPSC — Latest recruitment/results announcements</a><span class="row-date"><span class="latest-notification-date-yellow">20 Aug 2026</span></span></div>
+<div class="row"><a class="row-title" href="india-post-gds.html">India Post GDS Online Engagement — Schedule-II, July-2026</a><span class="row-date"><span class="latest-notification-date-yellow">31 Aug–21 Sep 2026</span></span></div><div class="card-footer"><a href="latest-notifications.html">View All Notifications <span>→</span></a></div>
+</section>
+<section class="card"><div class="card-header"><div class="card-title"><span class="card-title-icon"><i class="fa-regular fa-calendar-days"></i></span>Upcoming Exams</div><a class="view-all" href="upcoming-exams.html">View All  ◉</a></div>
+<div class="row"><a class="row-title" href="https://ssc.gov.in/" rel="noopener noreferrer" target="_blank">SSC Stenographer Grade C &amp; D 2026</a><span class="yellow-tag">09–12 Sep 2026</span></div><div class="row"><a class="row-title" href="https://upsc.gov.in/" rel="noopener noreferrer" target="_blank">UPSC CDS (II) 2026</a><span class="yellow-tag">13 Sep 2026</span></div><div class="row"><a class="row-title" href="https://www.ibps.in/" rel="noopener noreferrer" target="_blank">IBPS PO/MT-XVI — Main Examination</a><span class="yellow-tag">04 Oct 2026</span></div><div class="row"><a class="row-title" href="https://ssc.gov.in/" rel="noopener noreferrer" target="_blank">SSC CGL Tier-I 2026</a><span class="yellow-tag">Aug–Sep 2026</span></div><div class="row"><a class="row-title" href="https://ssc.gov.in/" rel="noopener noreferrer" target="_blank">SSC MTS &amp; Havaldar 2026</a><span class="yellow-tag">Sep–Nov 2026</span></div>
+<div class="card-footer"><a href="upcoming-exams.html">View All Exams <span>→</span></a></div>
+</section>
+<section class="card"><div class="card-header"><div class="card-title"><span class="card-title-icon"><i class="fa-regular fa-file-lines"></i></span>Results &amp; Admit Cards</div><a class="view-all" href="results-admit-cards.html">View All  ◉</a></div>
+<div class="row"><a class="row-title" href="https://upsc.gov.in/" rel="noopener noreferrer" target="_blank">UPSC Civil Services (Main) 2026 — e-Admit Card</a><span class="red-tag">Admit Card</span></div><div class="row"><a class="row-title" href="https://portal-psc.ap.gov.in/" rel="noopener noreferrer" target="_blank">APPSC Departmental Tests May 2026 — Viva Voce Admit Card</a><span class="red-tag">Admit Card</span></div><div class="row"><a class="row-title" href="https://portal-psc.ap.gov.in/" rel="noopener noreferrer" target="_blank">APPSC Departmental Tests May 2026 — Results</a><span class="red-tag">Result Declared</span></div><div class="row"><a class="row-title" href="https://rrbsecunderabad.gov.in/" rel="noopener noreferrer" target="_blank">RRB Level-1 CEN 09/2025 — CBT E-Call Letter</a><span class="red-tag">Admit Card</span></div><div class="row"><a class="row-title" href="https://ssc.gov.in/" rel="noopener noreferrer" target="_blank">SSC CHSL 2025 — First Round Tentative Allocation</a><span class="red-tag">Selection Update</span></div>
+<div class="row"><a class="row-title" href="rrb-ntpc-ug-result.html">RRB NTPC (UG) CEN 07/2025 — Result / Cut-off Updates</a><span class="red-tag">RESULT</span></div><div class="card-footer"><a href="results-admit-cards.html">View All Results &amp; Admit Cards <span>→</span></a></div>
+</section>
+</div>
+<section class="youtube-banner">
+<div class="yt-left">
+<div class="yt-icon">▶</div>
+<div class="yt-left-copy">
+<div class="yt-watch">Watch Latest Job Updates on YouTube</div>
+<div class="yt-details">Detailed Explanations • Notification Breakdowns • Preparation Tips • Exam Strategies</div>
+</div>
+</div>
+<div class="yt-center-banner">
+<img alt="Udhyoga Lakshya YouTube Banner" src="yt-banner-final.png"/>
+</div>
+<div class="yt-right">
+<a aria-label="Subscribe to YouTube Channel" class="yt-subscribe" href="https://www.youtube.com/@UdhyogaLakshya" rel="noopener noreferrer" target="_blank">Subscribe Now <span>♧</span></a>
+<div class="yt-stay">Stay Updated, Stay Ahead!</div>
+</div>
+</section>
 </main>
-
-
+<footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-brand-block">
+<div class="footer-brand">Udhyoga <span>Lakshya</span></div>
+<p>
+                Your Path to the Right Job. Latest Government Jobs, Exams,
+                Results, Admit Cards &amp; — All in One Place.
+            </p>
+</div>
+<div class="footer-policy-links">
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+<a href="disclaimer.html">Disclaimer</a>
+<a href="contact-us.html">Contact Us</a>
+</div>
+</div>
+<div class="copyright">
+        © 2026 Udhyoga Lakshya . All Rights Reserved.
+    </div>
+<!-- FOOTER BRAND FIX --><!-- footer-brand-final -->
+</footer>
+<!-- HEADER BRAND SPELLING FIX -->
 <script>
-/* ================= LIVE SHEET DATA ================= */
-(function(){
-    const DATA_URL = './notifications.json?cb=' + Date.now();
-
-    const latestBox = document.getElementById('latest-notifications');
-    const examsBox = document.getElementById('upcoming-exams');
-    const resultsBox = document.getElementById('results-admit-cards');
-
-    function value(o, names){
-        for(const n of names){
-            if(o && o[n] !== undefined && o[n] !== null && String(o[n]).trim() !== '') return String(o[n]).trim();
-        }
-        return '';
-    }
-
-    function normalize(item){
-        return {
-            type:value(item,['Type','type']),
-            state:value(item,['State','state']),
-            category:value(item,['Category','category']),
-            title:value(item,['Title','title']),
-            start:value(item,['Application Start','applicationStart']),
-            end:value(item,['Application End','applicationEnd']),
-            date:value(item,['date','Date','Application Start','applicationStart']),
-            official:value(item,['Official Link','officialLink']),
-            apply:value(item,['Apply Link','applyLink']),
-            status:value(item,['Status','status']),
-            firstSeen:value(item,['FirstSeen','firstSeen']),
-            isNew:value(item,['IsNew','isNew']).toLowerCase()==='true'
-        };
-    }
-
-    function cleanUrl(url){
-        if(!url || /^no link$/i.test(url) || /^n\/a$/i.test(url) || /^-+$/.test(url)) return '';
-        return url;
-    }
-
-    function escapeHtml(text){
-        return String(text || '').replace(/[&<>'"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c];});
-    }
-
-    function dateValue(n){
-        const raw=n.date || n.start || n.firstSeen;
-        const d=raw ? new Date(raw) : new Date(0);
-        return isNaN(d.getTime()) ? 0 : d.getTime();
-    }
-
-    function displayDate(n){
-        const raw=n.date || n.start || '';
-        if(!raw) return '';
-        const d=new Date(raw);
-        if(isNaN(d.getTime())) return raw;
-        return d.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'});
-    }
-
-    function isJob(n){
-        const t=(n.type+' '+n.category).toLowerCase();
-        return t.includes('job') || t.includes('recruit') || t.includes('vacanc');
-    }
-
-    function isExam(n){
-        const t=(n.type+' '+n.category).toLowerCase();
-        return t.includes('exam') || t.includes('upcoming');
-    }
-
-    function isResultOrAdmit(n){
-        const t=(n.type+' '+n.category).toLowerCase();
-        return t.includes('result') || t.includes('admit');
-    }
-
-    function detailUrl(n){
-        return 'job-detail.html?title=' + encodeURIComponent(n.title);
-    }
-
-    function directUrl(n){
-        return cleanUrl(n.official) || cleanUrl(n.apply) || detailUrl(n);
-    }
-
-    function rowHtml(n, kind, index){
-        const title=escapeHtml(n.title || 'Untitled notification');
-        const date=displayDate(n);
-        const status=escapeHtml(n.status || '');
-        const isFresh=n.isNew || (n.firstSeen && (Date.now()-new Date(n.firstSeen).getTime()) < 7*24*60*60*1000);
-        const tagClass=(kind==='result' && /admit/i.test(n.type+' '+n.category)) ? 'red-tag' : (index%2 ? 'red-tag':'yellow-tag');
-        let tag='';
-        if(kind==='latest') tag=isFresh ? '<small class="new">NEW</small>' : '';
-        if(kind==='exam') tag='<span class="'+tagClass+' dynamic-tag">'+escapeHtml(date || status || 'Upcoming')+'</span>';
-        if(kind==='result') tag='<span class="'+tagClass+' dynamic-tag">'+escapeHtml(status || n.type || 'Update')+'</span>';
-        const href=(kind==='result') ? directUrl(n) : detailUrl(n);
-        return '<div class="row dynamic-row">'
-            +'<span class="row-title"><a href="'+escapeHtml(href)+'">'+title+(kind==='latest' ? tag : '')+'</a></span>'
-            +(kind==='latest' ? '<span class="row-date">'+escapeHtml(date)+'</span>' : '')
-            +'</div>';
-    }
-
-    function render(box,items,kind){
-        if(!items.length){
-            box.innerHTML='<div class="data-empty">No current updates available.</div>';
-            return;
-        }
-        box.innerHTML=items.slice(0,5).map((n,i)=>rowHtml(n,kind,i)).join('');
-    }
-
-    function unique(items){
-        const seen=new Set();
-        return items.filter(n=>{
-            const key=(n.title+'|'+n.type).toLowerCase();
-            if(seen.has(key)) return false;
-            seen.add(key); return true;
-        });
-    }
-
-    function load(){
-        fetch(DATA_URL,{cache:'no-store'})
-        .then(r=>{if(!r.ok) throw new Error('HTTP '+r.status); return r.json();})
-        .then(data=>{
-            const raw=Array.isArray(data) ? data : (Array.isArray(data.notifications) ? data.notifications : []);
-            const all=unique(raw.map(normalize).filter(n=>n.title));
-            all.sort((a,b)=>dateValue(b)-dateValue(a));
-
-            render(latestBox,all.filter(isJob), 'latest');
-            render(examsBox,all.filter(isExam), 'exam');
-            render(resultsBox,all.filter(isResultOrAdmit), 'result');
-        })
-        .catch(err=>{
-            console.error('notifications.json:',err);
-            const msg='<div class="data-error"><div><strong>Live notifications could not be loaded.</strong><br>Please refresh once. If the problem continues, check notifications.json.</div></div>';
-            latestBox.innerHTML=msg;
-            examsBox.innerHTML=msg;
-            resultsBox.innerHTML=msg;
-        });
-    }
-
-    load();
-
-    const searchInput=document.querySelector('.search-area input');
-    const searchButton=document.querySelector('.search-area button');
-    function doSearch(){
-        const q=(searchInput ? searchInput.value : '').trim();
-        if(q) window.location.href='govt-jobs.html?search='+encodeURIComponent(q);
-    }
-    if(searchButton) searchButton.addEventListener('click',doSearch);
-    if(searchInput) searchInput.addEventListener('keydown',e=>{if(e.key==='Enter') doSearch();});
-})();
+document.addEventListener("DOMContentLoaded", function () {
+  const brand = document.querySelector(".logo-name");
+  if (brand) brand.innerHTML = "Udhyoga <span>Lakshya</span>";
+});
 </script>
-
+<script src="sheet-notifications.js" data-home="true"></script>
+<script src="notification-details-link.js"></script>
 </body>
 </html>
