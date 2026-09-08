@@ -181,7 +181,7 @@
   },
   "combined-higher-secondary-level-examination-2026-admit-card": {
     "organization": "Arunachal Pradesh Staff Selection Board (APSSB), Itanagar",
-    "advertisement_number": "APSSB-13/2/2022/815",
+    "advertisement_number": "NO. APSSB-13/2/2022/815",
     "post_names": [
       "Combined Limited Departmental Competitive Examination 2026",
       "Combined Graduate Level Examination 2026",
@@ -190,7 +190,9 @@
       "Combined Secondary Level Examination 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": [
+      "Not mentioned in the official notification"
+    ],
     "job_location": "Arunachal Pradesh",
     "educational_qualification": [
       "Not mentioned in the official notification"
@@ -199,7 +201,9 @@
       "Not mentioned in the official notification"
     ],
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [],
+    "age_relaxation": [
+      "Not mentioned in the official notification"
+    ],
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -213,17 +217,21 @@
       "Combined Secondary Level Examination 2026: Written exam on 22.11.2026 (Sunday) (PET/PST*)"
     ],
     "selection_process": [
-      "Written Exam",
+      "Written exam",
       "Skill Test*",
       "Stenography Proficiency Test*",
       "PET/PST*"
     ],
-    "exam_pattern": [],
-    "syllabus": [],
-    "documents_required": [],
-    "salary_pay_scale": [
+    "exam_pattern": [
       "Not mentioned in the official notification"
     ],
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
+    "documents_required": [
+      "Not mentioned in the official notification"
+    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
       "All dates are tentative and subject to change.",
       "The Board reserves the right to amend the exam calendar or announce any special recruitment drive for any post or category of posts as per the exigency.",
@@ -368,11 +376,11 @@
   },
   "pm-poshan-skill-test-interview-admit-card": {
     "organization": "Axom Sarba Siksha Abhiyan Mission",
-    "advertisement_number": "No. SSA/PM-POSHAN/Engagement/171/2024/708",
+    "advertisement_number": "SSA/PM-POSHAN/Engagement/171/2024/708",
     "post_names": [
-      "District MIS Manager [For District Mission Office]",
-      "Electronic Data Processor [For State Nodal Office]",
-      "State MIS Manager [For State Nodal Office]"
+      "District MIS Manager (For District Mission Office)",
+      "Electronic Data Processor (For State Nodal Office)",
+      "State MIS Manager (For State Nodal Office)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [
@@ -399,19 +407,23 @@
       "Skill test"
     ],
     "exam_pattern": [
-      "Not mentioned in the official notification"
+      "District MIS Manager [For District Mission Office]: 04.07.2024 from 9.30 to 11.00 am",
+      "Electronic Data Processor [For State Nodal Office]: 04.07.2024 from 11.45 am to 1.15 pm",
+      "State MIS Manager [For State Nodal Office]: 04.07.2024 from 2.00 pm to 3.30 pm"
     ],
     "syllabus": [
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Original copies of Aadhar Card/Pan Card",
+      "Original copies of Aadhar Card",
+      "Pan Card",
       "Admit card"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "The short-listed candidates are requested to attend in the Skill test before one hour of the scheduled date and time.",
-      "The short-listed candidates may download their admit card from the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in w.e.f. 27.06.2024."
+      "The short-listed candidates are requested to attend the Skill test one hour before the scheduled date and time.",
+      "Candidates must bring original copies of Aadhar Card/Pan Card and admit card.",
+      "Admit cards may be downloaded from the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in w.e.f. 27.06.2024."
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
     "apply_url": "https://ssa.assam.gov.in",
