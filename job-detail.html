@@ -56,13 +56,35 @@ function vacancy(v){if(Array.isArray(v))return v.map(x=>typeof x==="object"?vaca
 function card(k,v){let cls=(k==="total_vacancies"||k==="advertisement_number")?"card highlight":"card";return "<div class='"+cls+"'><div class='card-label'>"+esc(label(k))+"</div><div class='card-value'>"+value(v)+"</div></div>"}
 function requested(data){const p=new URLSearchParams(location.search),q=p.get("job")||p.get("key")||p.get("id");if(q&&data[q])return data[q];const t=p.get("title");if(t){const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase()===t.toLowerCase());if(k)return data[k]}const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase().includes("telangana police"));return k?data[k]:fallback}
 function render(d){document.getElementById("pageTitle").textContent=d.title||"Job Details";document.getElementById("pageSubtitle").textContent=(d.organization||"Official-source-first")+" — official notification details";let used=new Set(["title","type","state","status","official_notification_url","apply_url"]);let html="";groups.forEach((g,i)=>{let keys=g.keys.filter(k=>d[k]!==undefined);if(!keys.length)return;html+="<section class='section'><h2 class='section-title'><span class='num">"+String(i+1).padStart(2,"0")+"</span> "+g.title+"</h2>";if(g.keys.includes("vacancy_breakdown")){html+=vacancy(d.vacancy_breakdown)}else{html+="<div class='grid'>"+keys.map(k=>card(k,d[k])).join("")+"</div>"}html+="</section>";keys.forEach(k=>used.add(k))});let extra=Object.entries(d).filter(([k])=>!used.has(k));if(extra.length){html+="<section class='section'><h2 class='section-title'><span class='num'>07</span> Additional Details</h2><div class='grid'>"+extra.map(([k,v])=>card(k,v)).join("")+"</div></section>"}let a="";if(d.official_notification_url)a+='<a class="official" href="'+esc(d.official_notification_url)+'" target="_blank" rel="noopener">Official Notification / Portal ↗</a>';if(d.apply_url)a+='<a class="apply" href="'+esc(d.apply_url)+'" target="_blank" rel="noopener">Apply / Check Status ↗</a>';html+="<div class='actions'>"+a+"</div>";document.getElementById("details").innerHTML=html;document.getElementById("status").remove()}
-const jsonUrl="./job-details.json?cb="+Date.now();
-const controller=new AbortController();
-const timer=setTimeout(()=>controller.abort(),20000);
-fetch(jsonUrl,{cache:"reload",signal:controller.signal})
-.then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})
-.then(data=>{clearTimeout(timer);render(requested(data))})
-.catch(err=>{clearTimeout(timer);document.getElementById("status").outerHTML='<div class="error"><strong>Notification details could not be loaded.</strong><br>Could not read job-details.json. Please refresh once.</div>';console.error(err)})
+const DATA_URLS=[
+  "./job-details.json?cb="+Date.now(),
+  "https://raw.githubusercontent.com/mkmurali08-dotcom/udhyoga-lakshya/main/job-details.json?cb="+Date.now(),
+  "https://raw.githubusercontent.com/mkmurali08-dotcom/udyoga-lakshya/main/job-details.json?cb="+Date.now()
+];
+async function loadDetails(){
+  let lastError=null;
+  for(const url of DATA_URLS){
+    const controller=new AbortController();
+    const timer=setTimeout(()=>controller.abort(),10000);
+    try{
+      const r=await fetch(url,{cache:"no-store",signal:controller.signal});
+      clearTimeout(timer);
+      if(!r.ok) throw Error("HTTP "+r.status);
+      const text=await r.text();
+      const data=JSON.parse(text);
+      if(!data || typeof data!=="object") throw Error("Invalid JSON");
+      render(requested(data));
+      return;
+    }catch(err){
+      clearTimeout(timer);
+      lastError=err;
+      console.warn("Could not load job details from",url,err);
+    }
+  }
+  document.getElementById("status").outerHTML='<div class="error"><strong>Notification details could not be loaded.</strong><br>The job details data source is temporarily unavailable. Please refresh once.</div>';
+  console.error(lastError);
+}
+loadDetails();
 </script>
 </body>
 </html>
