@@ -1,122 +1,218 @@
 #!/usr/bin/env python3
-import json, os, re
+import hashlib, json, os, re, tempfile
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
+from urllib.request import Request, urlopen
 from google import genai
 
-INPUT_JSON=Path('notifications.json'); OUTPUT_JSON=Path('job-details.json')
-MODEL=os.getenv('GEMINI_MODEL','gemini-3.5-flash-lite')
-MISSING='Not mentioned in the official notification'
-EXTRACTOR_VERSION='2026-09-08-universal-v2'
-FIELDS=['organization','advertisement_number','post_names','total_vacancies','vacancy_breakdown','job_location','educational_qualification','other_eligibility','age_limit','age_relaxation','application_fee','application_start','application_end','exam_date','selection_process','exam_pattern','syllabus','documents_required','salary_pay_scale','important_instructions','official_notification_url','apply_url']
-PROMPT=f'''You are the official-notification extraction engine for Udhyoga Lakshya. Read ONLY the supplied official source URL/document. Do not guess, infer, use memory, or use third-party sources. If information is absent, use exactly "{MISSING}".
+INPUT_JSON = Path('notifications.json')
+OUTPUT_JSON = Path('job-details.json')
+MODEL = os.getenv('GEMINI_MODEL', 'gemini-3.5-flash-lite')
+MISSING = 'Not mentioned in the official notification'
+EXTRACTOR_VERSION = '2026-09-09-universal-final-v1'
 
-Return ONLY valid JSON with exactly these keys: {', '.join(FIELDS)}.
+FIELDS = [
+    'organization','advertisement_number','post_names','total_vacancies',
+    'vacancy_breakdown','job_location','educational_qualification',
+    'other_eligibility','age_limit','age_relaxation','application_fee',
+    'application_start','application_end','exam_date','selection_process',
+    'exam_pattern','syllabus','documents_required','salary_pay_scale',
+    'important_instructions','official_notification_url','apply_url'
+]
 
-IMPORTANT STRUCTURE RULES:
-- Preserve official wording, numbers, dates, fees, post names and eligibility accurately.
-- vacancy_breakdown MUST be an array of objects. Adapt to the notification's real structure (stream-wise, post-wise, district-wise, category-wise, etc.). Each row should have a descriptive "label" string and, when present, a "categories" object containing exact reservation labels and integer counts. Put row total in "total" when explicitly stated or safely calculable from the displayed category counts. Do NOT invent categories.
-- For special/horizontal reservation, use a "special" object with exact official labels and integer counts when explicitly present.
-- If there is no usable vacancy table, return {MISSING} for vacancy_breakdown.
-- application_fee, selection_process, exam_pattern, syllabus, documents_required, important_instructions should be arrays when multiple distinct items exist.
-- Keep one fact per item where practical; preserve important conditions.
-- Do not turn absent information into generic advice.
+PROMPT = f'''You are Udhyoga Lakshya's official recruitment-notification extraction engine.
+
+Use ONLY the supplied official notification/source document. The official source is the ONLY authority.
+Do not use memory, prior knowledge, search results, third-party websites, or assumptions.
+Read the ENTIRE supplied document/page before answering, including tables and footnotes.
+If a fact is not present, use exactly "{MISSING}".
+
+Return ONLY valid JSON with exactly these keys:
+{', '.join(FIELDS)}
+
+ACCURACY RULES:
+- Preserve official wording, numbers, dates, fees, post names, streams, categories and conditions.
+- Never invent a vacancy, category, date, fee, qualification, age, salary or exam detail.
+- vacancy_breakdown MUST adapt to the real official structure. It must be an array of objects.
+  Each row should use: {{"label": "...", "categories": {{"SC": 0, ...}}, "special": {{...}}, "total": 0}}.
+  Include only category labels/counts actually shown. Use any exact labels such as UR, GEN, OBC, EWS, SC, ST, PwBD, etc.; do not rename them incorrectly.
+  For stream/post/district rows, put the exact row name in label. If the official table has no category columns, put the relevant counts in categories or direct fields as appropriate.
+  Keep horizontal/special reservations in special with exact official labels when explicitly stated.
+- total_vacancies must match the official overall total when explicitly given.
+- Arrays are preferred for application_fee, selection_process, exam_pattern, syllabus, documents_required and important_instructions.
+- Preserve multi-part conditions instead of reducing them to generic summaries.
+- If a section does not exist in the official notification, return {MISSING}.
 '''
 
-def key_for(row):
-    raw=(row.get('title') or row.get('officialLink') or '').strip()
-    return re.sub(r'[^a-z0-9]+','-',raw.lower()).strip('-')[:180]
-
-def public_url(u):
-    p=urlparse(u); return p.scheme in {'http','https'} and bool(p.netloc)
 
 def clean(v):
-    if isinstance(v,str): return v.strip()
-    if isinstance(v,list): return [clean(x) for x in v]
-    if isinstance(v,dict): return {str(k):clean(x) for k,x in v.items()}
+    if isinstance(v, str): return v.strip()
+    if isinstance(v, list): return [clean(x) for x in v]
+    if isinstance(v, dict): return {str(k): clean(x) for k, x in v.items()}
     return v
 
-def first(row,*names):
-    for name in names:
-        if name in row and row.get(name) not in (None,''):
-            return str(row.get(name)).strip()
+
+def public_url(u):
+    try:
+        p = urlparse(u)
+        return p.scheme in ('http', 'https') and bool(p.netloc)
+    except Exception:
+        return False
+
+
+def first(row, *names):
+    for n in names:
+        v = row.get(n)
+        if v not in (None, ''):
+            return str(v).strip()
     return ''
 
-def sheet_fingerprint(row):
-    parts=[
-        first(row,'title','Title'), first(row,'state','State'), first(row,'type','Type'),
+
+def key_for(row):
+    raw = first(row, 'title', 'Title') or first(row, 'officialLink', 'Official Link')
+    return re.sub(r'[^a-z0-9]+', '-', raw.lower()).strip('-')[:180]
+
+
+def fingerprint(row):
+    parts = [
+        first(row,'title','Title'), first(row,'type','Type'), first(row,'state','State'),
         first(row,'officialLink','Official Link'), first(row,'applyLink','Apply Link'),
-        first(row,'applicationStart','Application Start'), first(row,'application_start'),
-        first(row,'applicationEnd','Application End'), first(row,'application_end'),
+        first(row,'applicationStart','Application Start','application_start'),
+        first(row,'applicationEnd','Application End','application_end'),
         first(row,'status','Status')
     ]
-    import hashlib
-    return hashlib.sha256('|'.join(parts).encode('utf-8')).hexdigest()
+    return hashlib.sha256('|'.join(parts).encode()).hexdigest()
 
-def extract_one(client,row):
-    url=(row.get('officialLink') or '').strip()
-    if not public_url(url): return None
-    r=client.models.generate_content(
+
+def fetch_source(url):
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0 (Udhyoga-Lakshya official notification reader)'})
+    with urlopen(req, timeout=45) as r:
+        data = r.read()
+        final_url = r.geturl()
+        content_type = (r.headers.get('Content-Type') or '').lower()
+    return final_url, content_type, data
+
+
+def html_to_text(data, base_url):
+    text = data.decode('utf-8', errors='ignore')
+    # Remove non-content blocks first.
+    text = re.sub(r'<(script|style|noscript|svg|template)[^>]*>.*?</\1>', ' ', text, flags=re.I|re.S)
+    # Keep useful link destinations because some official pages put the PDF behind an anchor.
+    links = []
+    for m in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', text, flags=re.I|re.S):
+        href = urljoin(base_url, m.group(1))
+        label = re.sub(r'<[^>]+>', ' ', m.group(2))
+        label = re.sub(r'\s+', ' ', label).strip()
+        if public_url(href): links.append(f'Official link: {label} -> {href}')
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = re.sub(r'&nbsp;', ' ', text, flags=re.I)
+    text = re.sub(r'&amp;', '&', text, flags=re.I)
+    text = re.sub(r'\s+', ' ', text).strip()
+    if links:
+        text += '\n\n' + '\n'.join(dict.fromkeys(links))
+    return text
+
+
+def ai_call(client, source_url, title, state, content, uploaded_file=None):
+    context = f'''\nOfficial source URL: {source_url}\nNotification title: {title}\nState: {state}\n\nSOURCE CONTENT START\n{content}\nSOURCE CONTENT END\n'''
+    contents = [PROMPT + context]
+    if uploaded_file is not None:
+        contents = [PROMPT + f'\nOfficial source URL: {source_url}\nNotification title: {title}\nState: {state}\n', uploaded_file]
+    response = client.models.generate_content(
         model=MODEL,
-        contents=PROMPT+f'\nOfficial source URL: {url}\nNotification title: {row.get("title","")}\nState: {row.get("state","")}',
-        config={'response_mime_type':'application/json','tools':[{'url_context':{}}]}
+        contents=contents,
+        config={'response_mime_type': 'application/json'}
     )
-    data=json.loads(r.text.strip())
-    data={k:clean(data.get(k,MISSING)) for k in FIELDS}
+    raw = response.text.strip()
+    # Be tolerant of accidental markdown fences while still requiring JSON.
+    raw = re.sub(r'^```(?:json)?\s*', '', raw, flags=re.I)
+    raw = re.sub(r'\s*```$', '', raw)
+    return json.loads(raw)
 
-    # Sheet is authoritative for the links/dates that the portal itself displays.
-    data['official_notification_url']=url
-    apply_url=(row.get('applyLink') or '').strip()
-    if apply_url:
-        data['apply_url']=apply_url
 
-    sheet_start=first(row,'applicationStart','Application Start','application_start')
-    sheet_end=first(row,'applicationEnd','Application End','application_end')
-    if sheet_start:
-        data['application_start']=sheet_start
-    if sheet_end:
-        data['application_end']=sheet_end
-    return data
+def extract_one(client, row):
+    url = first(row, 'officialLink', 'Official Link')
+    if not public_url(url): return None
+    title = first(row, 'title', 'Title')
+    state = first(row, 'state', 'State')
+
+    final_url, content_type, raw = fetch_source(url)
+    is_pdf = 'application/pdf' in content_type or raw[:5] == b'%PDF-'
+    uploaded = None
+    temp_path = None
+    try:
+        if is_pdf:
+            fd, temp_path = tempfile.mkstemp(suffix='.pdf')
+            os.close(fd)
+            Path(temp_path).write_bytes(raw)
+            uploaded = client.files.upload(file=temp_path)
+            data = ai_call(client, final_url, title, state, '', uploaded)
+        else:
+            text = html_to_text(raw, final_url)
+            if not text:
+                raise RuntimeError('Official source returned no readable content')
+            data = ai_call(client, final_url, title, state, text[:180000])
+    finally:
+        if uploaded is not None:
+            try: client.files.delete(name=uploaded.name)
+            except Exception: pass
+        if temp_path:
+            try: Path(temp_path).unlink(missing_ok=True)
+            except Exception: pass
+
+    out = {k: clean(data.get(k, MISSING)) for k in FIELDS}
+    # Sheet controls portal metadata and user-facing links/dates.
+    out['official_notification_url'] = url
+    apply_url = first(row, 'applyLink', 'Apply Link')
+    if apply_url: out['apply_url'] = apply_url
+    start = first(row, 'applicationStart','Application Start','application_start')
+    end = first(row, 'applicationEnd','Application End','application_end')
+    if start: out['application_start'] = start
+    if end: out['application_end'] = end
+    return out
+
 
 def main():
-    api=os.getenv('GEMINI_API_KEY')
+    api = os.getenv('GEMINI_API_KEY')
     if not api: raise SystemExit('GEMINI_API_KEY is required')
     if not INPUT_JSON.exists(): raise SystemExit('notifications.json not found')
-    raw=json.loads(INPUT_JSON.read_text(encoding='utf-8'))
-    rows=[{
-        **r,
-        'title':r.get('title') or r.get('Title',''),
-        'officialLink':r.get('officialLink') or r.get('Official Link',''),
-        'applyLink':r.get('applyLink') or r.get('Apply Link',''),
-        'applicationStart':r.get('applicationStart') or r.get('Application Start',''),
-        'applicationEnd':r.get('applicationEnd') or r.get('Application End',''),
-        'state':r.get('state') or r.get('State',''),
-        'type':r.get('type') or r.get('Type',''),
-        'status':r.get('status') or r.get('Status','')
-    } for r in raw]
-    existing=json.loads(OUTPUT_JSON.read_text(encoding='utf-8')) if OUTPUT_JSON.exists() else {}
-    client=genai.Client(api_key=api); changed=0; skipped=0
+    raw = json.loads(INPUT_JSON.read_text(encoding='utf-8'))
+    rows = []
+    for r in raw:
+        rows.append({
+            **r,
+            'title': first(r,'title','Title'), 'officialLink': first(r,'officialLink','Official Link'),
+            'applyLink': first(r,'applyLink','Apply Link'), 'applicationStart': first(r,'applicationStart','Application Start','application_start'),
+            'applicationEnd': first(r,'applicationEnd','Application End','application_end'), 'state': first(r,'state','State'),
+            'type': first(r,'type','Type'), 'status': first(r,'status','Status')
+        })
+
+    existing = json.loads(OUTPUT_JSON.read_text(encoding='utf-8')) if OUTPUT_JSON.exists() else {}
+    client = genai.Client(api_key=api)
+    changed = skipped = failed = 0
+
     for row in rows:
-        if not row['officialLink'] or not row['title'] or not public_url(row['officialLink']):
+        if not row['title'] or not public_url(row['officialLink']):
             continue
-        key=key_for(row)
-        fp=sheet_fingerprint(row)
-        prev=existing.get(key)
-        # Rebuild once with the universal extractor, then only re-run when Sheet metadata changes.
-        if isinstance(prev,dict) and prev.get('_extractor_version')==EXTRACTOR_VERSION and prev.get('_sheet_fingerprint')==fp:
-            skipped+=1
+        key, fp = key_for(row), fingerprint(row)
+        prev = existing.get(key)
+        if isinstance(prev, dict) and prev.get('_extractor_version') == EXTRACTOR_VERSION and prev.get('_sheet_fingerprint') == fp:
+            skipped += 1
             continue
         try:
-            d=extract_one(client,row)
-            if d is None: continue
-            d.update(title=row['title'],type=row['type'],state=row['state'],status=row['status'],source_url=row['officialLink'])
-            d['_extractor_version']=EXTRACTOR_VERSION
-            d['_sheet_fingerprint']=fp
-            existing[key]=d; changed+=1
-            print('AI extracted:',row['title'])
+            data = extract_one(client, row)
+            if data is None: continue
+            data.update(title=row['title'], type=row['type'], state=row['state'], status=row['status'], source_url=row['officialLink'])
+            data['_extractor_version'] = EXTRACTOR_VERSION
+            data['_sheet_fingerprint'] = fp
+            existing[key] = data
+            changed += 1
+            print('AI extracted:', row['title'])
         except Exception as e:
-            print('WARNING:',row['title'],':',e)
-    OUTPUT_JSON.write_text(json.dumps(existing,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'Updated {changed} notification detail records; skipped {skipped} unchanged records.')
+            failed += 1
+            print('WARNING:', row['title'], ':', e)
 
-if __name__=='__main__': main()
+    OUTPUT_JSON.write_text(json.dumps(existing, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f'Updated {changed} notification detail records; skipped {skipped}; failed {failed}.')
+
+if __name__ == '__main__': main()
