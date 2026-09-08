@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" href="favicon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Job Details | Udhyoga Lakshya</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f3f3f3;color:#151515;font-family:Arial,Helvetica,sans-serif}
+.wrap{max-width:1120px;margin:28px auto;padding:0 18px}
+.head{background:linear-gradient(135deg,#070707,#171717);color:#fff;border-radius:16px 16px 0 0;padding:30px 32px;border-bottom:5px solid #ffc400;box-shadow:0 7px 24px rgba(0,0,0,.12)}
+.head h1{margin:0;font-size:30px;line-height:1.25;color:#fff}.head p{margin:9px 0 0;color:#d5d5d5;font-size:13px;line-height:1.5}
+.content{background:#fff;padding:25px;border-radius:0 0 16px 16px;box-shadow:0 8px 28px rgba(0,0,0,.09)}
+.notice{padding:15px 17px;background:#fff7d5;border:1px solid #f1d45d;border-left:5px solid #ffc400;border-radius:9px;font-size:13px;line-height:1.65;margin-bottom:22px}
+.loading{padding:20px;text-align:center;font-size:13px;color:#666}.error{padding:14px;background:#ffe7e7;border:1px solid #efaaaa;border-left:5px solid #ed1111;border-radius:9px;font-size:13px;line-height:1.6}
+.section{margin:0 0 24px}.section-title{display:flex;align-items:center;gap:10px;margin:0 0 12px;padding:11px 14px;background:#101010;color:#fff;border-radius:9px;border-left:5px solid #ffc400;font-size:17px}.section-title .num{color:#ffc400;font-weight:900}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.card{background:#fff;border:1px solid #e2e2e2;border-radius:9px;padding:14px 16px;box-shadow:0 2px 8px rgba(0,0,0,.035);min-width:0}.card.full{grid-column:1/-1}
+.card-label{font-size:11px;text-transform:uppercase;letter-spacing:.45px;font-weight:900;color:#777;margin-bottom:7px}.card-value{font-size:13px;line-height:1.65;color:#161616;overflow-wrap:anywhere}.card.highlight{border-left:5px solid #ffc400;background:linear-gradient(135deg,#fffdf1,#fff8cf);box-shadow:0 3px 12px rgba(255,196,0,.12)}.card.highlight .card-value{font-weight:800}.card.red{border-left:4px solid #ed1111}
+ul{margin:0;padding-left:20px}li{margin:5px 0}
+.mini-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px}.mini{border:1px solid #e7e7e7;border-radius:7px;padding:9px 10px;background:#fafafa}.mini b{display:block;font-size:11px;color:#666;margin-bottom:3px}.mini span{font-size:13px;font-weight:700}
+.vacancy-table-wrap{border:1px solid #d8d8d8;border-left:5px solid #ffc400;border-radius:10px;overflow-x:auto;background:#fff;box-shadow:0 3px 12px rgba(0,0,0,.05);margin:0 0 12px}.vacancy-table{width:100%;min-width:720px;border-collapse:collapse;font-size:13px}.vacancy-table th{background:#111;color:#fff;padding:11px 10px;text-align:center;font-weight:900;white-space:nowrap}.vacancy-table th:first-child{text-align:left}.vacancy-table td{padding:11px 10px;border-bottom:1px solid #e7e7e7;text-align:center;font-weight:700}.vacancy-table td:first-child{text-align:left;font-weight:900}.vacancy-table tbody tr:nth-child(even){background:#fafafa}.vacancy-table .total-col{background:#fff5c8;font-weight:900}.vacancy-table .overall-row td{background:#fff1b8;border-top:2px solid #ffc400;border-bottom:0;font-weight:900}.vacancy-table .stream-name{color:#151515}.vacancy-summary{display:flex;justify-content:flex-end;align-items:center;gap:8px;padding:10px 12px;background:#fffdf1;border-top:1px solid #f0df93;font-weight:900}.vacancy-summary span{background:#ffc400;border-radius:6px;padding:5px 9px}
+.actions{display:flex;gap:11px;flex-wrap:wrap;margin:8px 0 4px}.actions a{padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:900;font-size:13px;display:inline-block}.apply{background:#ed1111;color:#fff}.official{background:#ffc400;color:#111}.portal{background:#111;color:#fff!important}.back{display:inline-block;margin-top:18px;color:#ed1111;text-decoration:none;font-weight:800;font-size:13px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.card.full{grid-column:auto}.head{padding:24px 20px}.head h1{font-size:23px}.content{padding:18px}.mini-grid{grid-template-columns:1fr}.vacancy-table{font-size:12px}.vacancy-table th,.vacancy-table td{padding:9px 8px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="head"><h1 id="pageTitle">Job Details</h1><p id="pageSubtitle">Official-source-first information layout</p></header>
+<section class="content">
+<div class="notice"><strong>Important:</strong> Recruitment details can change. Verify the latest notification, eligibility, dates, fee and application instructions on the official recruitment portal before applying.</div>
+<div id="status" class="loading">Loading notification details…</div>
+<div id="details"></div>
+<a class="back" href="govt-jobs.html">← Back to Government Jobs</a>
+</section>
+</main>
+<script>
+const labels={organization:"Organization",advertisement_number:"Advertisement Number",post_names:"Post Names",total_vacancies:"Total Vacancies",vacancy_breakdown:"Vacancy Breakdown",job_location:"Job Location",educational_qualification:"Educational Qualification",other_eligibility:"Other Eligibility",age_limit:"Age Limit",age_relaxation:"Age Relaxation",application_fee:"Application Fee",application_start:"Application Start",application_end:"Application End",exam_date:"Exam Date",selection_process:"Selection Process",exam_pattern:"Exam Pattern",syllabus:"Syllabus",documents_required:"Documents Required",salary_pay_scale:"Salary / Pay Scale",important_instructions:"Important Instructions",official_notification_url:"Official Notification",apply_url:"Apply Link",title:"Recruitment",type:"Type",state:"State",status:"Status"};
+const fallback={title:"Job Details",organization:"",status:"",type:"",state:""};
+const groups=[
+ {title:"Recruitment Overview",keys:["organization","advertisement_number","post_names","total_vacancies","job_location","status"]},
+ {title:"Vacancy Details",keys:["vacancy_breakdown"]},
+ {title:"Eligibility & Qualification",keys:["educational_qualification","other_eligibility","age_limit","age_relaxation"]},
+ {title:"Application Details",keys:["application_start","application_end","application_fee"]},
+ {title:"Exam & Selection",keys:["exam_date","selection_process","exam_pattern","syllabus"]},
+ {title:"Salary & Important Information",keys:["salary_pay_scale","documents_required","important_instructions"]}
+];
+function label(k){return labels[k]||k.replace(/_/g," ").replace(/\b\w/g,m=>m.toUpperCase())}
+function esc(v){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))}
+function list(v){return "<ul>"+v.map(x=>"<li>"+(typeof x==="object"?object(x):esc(x))+"</li>").join("")+"</ul>"}
+function object(o){return "<div class='mini-grid'>"+Object.entries(o).map(([k,v])=>"<div class='mini'><b>"+esc(label(k))+"</b><span>"+value(v)+"</span></div>").join("")+"</div>"}
+function value(v){if(v===null||v===undefined||v===""||(Array.isArray(v)&&!v.length))return "Not mentioned in the official notification";if(Array.isArray(v))return list(v);if(typeof v==="object")return object(v);return esc(v).replace(/\n/g,"<br>")}
+function vacancyTable(v){
+  if(v===null||v===undefined||v===""||v===MISSING)return `<div class="card full">${value(v)}</div>`;
+  const rows=Array.isArray(v)?v.filter(x=>x&&typeof x==='object'):[v];
+  const allCats=[]; rows.forEach(r=>{if(r.categories&&typeof r.categories==='object')Object.keys(r.categories).forEach(k=>{if(!allCats.includes(k))allCats.push(k)})});
+  const num=x=>typeof x==='number'?x:(/^\d+$/.test(String(x||''))?Number(x):null);
+  const total=r=>num(r.total)!==null?num(r.total):Object.values(r.categories||{}).reduce((a,x)=>a+(num(x)||0),0);
+  if(!rows.length)return `<div class="card full">${value(v)}</div>`;
+  if(!allCats.length)return `<div class="grid">${rows.map(r=>card('vacancy_breakdown',r)).join('')}</div>`;
+  const body=rows.map(r=>`<tr><td class="stream-name">${esc(r.label||r.stream||r.post||r.name||'Vacancy Details')}</td>${allCats.map(c=>`<td>${num((r.categories||{})[c])??'—'}</td>`).join('')}<td class="total-col">${total(r)||'—'}</td></tr>`).join('');
+  const foot=allCats.map(c=>{let n=0,found=false;rows.forEach(r=>{let x=num((r.categories||{})[c]);if(x!==null){n+=x;found=true}});return `<td>${found?n:'—'}</td>`}).join('');
+  const grand=rows.reduce((a,r)=>a+(total(r)||0),0);
+  return `<div class="vacancy-table-wrap"><table class="vacancy-table"><thead><tr><th>Post / Stream</th>${allCats.map(c=>`<th>${esc(c)}</th>`).join('')}<th>Total</th></tr></thead><tbody>${body}</tbody><tfoot><tr class="overall-row"><td>Overall</td>${foot}<td>${grand||'—'}</td></tr></tfoot></table>${rows.some(r=>r.special)?`<div class="vacancy-summary"><b>Special / Horizontal Reservation</b><span>${esc(JSON.stringify(rows.find(r=>r.special).special))}</span></div>`:''}</div>`;
+}
+const MISSING='Not mentioned in the official notification';
+function vacancy(v){return vacancyTable(v)}
+function card(k,v){let important=["total_vacancies","advertisement_number","application_start","application_end","status"].includes(k);let cls=important?"card highlight":"card";return "<div class='"+cls+"'><div class='card-label'>"+esc(label(k))+"</div><div class='card-value'>"+value(v)+"</div></div>"}
+function requested(data){const p=new URLSearchParams(location.search),q=p.get("job")||p.get("key")||p.get("id");if(q&&data[q])return data[q];const t=p.get("title");if(t){const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase()===t.toLowerCase());if(k)return data[k]}const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase().includes("telangana police"));return k?data[k]:fallback}
+function render(d){document.getElementById("pageTitle").textContent=d.title||"Job Details";document.getElementById("pageSubtitle").textContent=(d.organization||"Official-source-first")+" — official notification details";let used=new Set(["title","type","state","status","official_notification_url","apply_url"]);let html="";groups.forEach((g,i)=>{let keys=g.keys.filter(k=>d[k]!==undefined);if(!keys.length)return;html+="<section class='section'><h2 class='section-title'><span class='num'>"+String(i+1).padStart(2,"0")+"</span> "+g.title+"</h2>";if(g.keys.includes("vacancy_breakdown")){html+=vacancy(d.vacancy_breakdown)}else{html+="<div class='grid'>"+keys.map(k=>card(k,d[k])).join("")+"</div>"}html+="</section>";keys.forEach(k=>used.add(k))});let a="";if(d.notification_pdf_url)a+='<a class="official" href="'+esc(d.notification_pdf_url)+'" target="_blank" rel="noopener">Official Notification PDF ↗</a>';if(d.official_notification_url)a+='<a class="official portal" href="'+esc(d.official_notification_url)+'" target="_blank" rel="noopener">Official Portal ↗</a>';if(d.apply_url)a+='<a class="apply" href="'+esc(d.apply_url)+'" target="_blank" rel="noopener">Apply / Check Status ↗</a>';html+="<div class='actions'>"+a+"</div>";document.getElementById("details").innerHTML=html;document.getElementById("status").remove()}
+const DATA_URLS=[
+  "./job-details.json?cb="+Date.now(),
+  "https://raw.githubusercontent.com/mkmurali08-dotcom/udhyoga-lakshya/main/job-details.json?cb="+Date.now()
+];
+async function loadDetails(){
+  let lastError=null;
+  for(const url of DATA_URLS){
+    const controller=new AbortController();
+    const timer=setTimeout(()=>controller.abort(),10000);
+    try{
+      const r=await fetch(url,{cache:"no-store",signal:controller.signal});
+      clearTimeout(timer);
+      if(!r.ok) throw Error("HTTP "+r.status);
+      const text=await r.text();
+      const data=JSON.parse(text);
+      if(!data || typeof data!=="object") throw Error("Invalid JSON");
+      render(requested(data));
+      return;
+    }catch(err){
+      clearTimeout(timer);
+      lastError=err;
+      console.warn("Could not load job details from",url,err);
+    }
+  }
+  document.getElementById("status").outerHTML='<div class="error"><strong>Notification details could not be loaded.</strong><br>The job details data source is temporarily unavailable. Please refresh once.</div>';
+  console.error(lastError);
+}
+loadDetails();
+</script>
+</body>
+</html>
