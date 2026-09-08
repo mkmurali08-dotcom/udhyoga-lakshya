@@ -141,16 +141,15 @@
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": [
-      "Combined Limited Departmental Competitive Examination 2026: Written exam on 29.03.2026 (Sunday), Skill Test*: 1st week of April 2026",
-      "Combined Graduate Level Examination 2026: Written exam on 31.05.2026 (Sunday), Stenography Proficiency Test*: 4th week of April 2026",
-      "Non-Ministerial (Technical) Examination 2026: Written exam on 26.07.2026 (Sunday) (PET/PST*), Skill Test*: 2nd week of August 2026",
-      "Combined Higher Secondary Level Examination 2026: Written exam on 20.09.2026 (Sunday), Skill Test*: 2nd week of October 2026",
+      "Combined Limited Departmental Competitive Examination 2026: Written exam on 29.03.2026 (Sunday); Skill Test*: 1st week of April 2026",
+      "Combined Graduate Level Examination 2026: Written exam on 31.05.2026 (Sunday); Stenography Proficiency Test*: 4th week of April 2026",
+      "Non-Ministerial (Technical) Examination 2026: Written exam on 26.07.2026 (Sunday) (PET/PST*); Skill Test*: 2nd week of August 2026",
+      "Combined Higher Secondary Level Examination 2026: Written exam on 20.09.2026 (Sunday); Skill Test*: 2nd week of October 2026",
       "Combined Secondary Level Examination 2026: Written exam on 22.11.2026 (Sunday) (PET/PST*)"
     ],
     "selection_process": [
       "Written exam",
-      "Skill Test*",
-      "Stenography Proficiency Test*",
+      "Skill Test / Stenography Proficiency Test*",
       "PET/PST*"
     ],
     "exam_pattern": [],
@@ -210,7 +209,9 @@
     ],
     "selection_process": [
       "Written Exam",
-      "Skill Test / Stenography Proficiency Test / PET / PST (as applicable)"
+      "Skill Test*",
+      "Stenography Proficiency Test*",
+      "PET/PST*"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -1231,7 +1232,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates can download their Admit Card for Research Assistant (Engineering) Examination-2025 from the official website using their credentials."
+      "Admit Card for Research Assistant (Engineering) Examination-2025 is available for download."
     ],
     "official_notification_url": "https://uppsc.up.nic.in/",
     "apply_url": "https://uppsc.up.nic.in/",
