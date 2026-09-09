@@ -2854,23 +2854,15 @@
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Lecturer (U.P. Technical Education Teaching Service)"
+      "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Uttar Pradesh",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -2894,12 +2886,14 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "apply_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "apply_url": "https://uppsc.up.nic.in/OuterPages/CandidatePages/Notifications.aspx",
     "title": "UPPSC Lecturer, U.P. Technical Education Teaching Service Exam 2025",
     "type": "Admit Card",
     "state": "Uttar Pradesh",
     "status": "Admit Card",
-    "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+    "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "90857f1c5c8d6544ee2052f48cc93e4e656390da05e11960bfef2d5823c3d601"
   },
   "uppsc-lecturer-government-inter-college-mains-exam-2025": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
