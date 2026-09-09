@@ -1,118 +1,48 @@
 {
   "pfrda-officer-grade-a-assistant-manager-recruitment-2026": {
     "organization": "Pension Fund Regulatory and Development Authority (PFRDA)",
-    "advertisement_number": "03/2026",
+    "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
       "Officer Grade 'A' (Assistant Manager)"
     ],
-    "total_vacancies": 30,
-    "vacancy_breakdown": [
-      {
-        "stream": "General",
-        "total": 25,
-        "SC": 4,
-        "ST": 2,
-        "OBC": 7,
-        "EWS": 3,
-        "UR_GEN": 9,
-        "PwBD": "1 (Blindness and Low Vision), 1 (Deaf and Hard of Hearing)"
-      },
-      {
-        "stream": "Research",
-        "total": 2,
-        "SC": 1,
-        "ST": 0,
-        "OBC": 0,
-        "EWS": 0,
-        "UR_GEN": 1,
-        "PwBD": 0
-      },
-      {
-        "stream": "Actuary",
-        "total": 2,
-        "SC": 0,
-        "ST": 0,
-        "OBC": 0,
-        "EWS": 0,
-        "UR_GEN": 2,
-        "PwBD": 0
-      },
-      {
-        "stream": "Official Language (Rajbhasha)",
-        "total": 1,
-        "SC": 0,
-        "ST": 0,
-        "OBC": 1,
-        "EWS": 0,
-        "UR_GEN": 0,
-        "PwBD": 0
-      }
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": [
+      "Not mentioned in the official notification"
     ],
-    "job_location": "New Delhi and Mumbai (liable to serve anywhere in India)",
-    "educational_qualification": [
-      "General: Master's Degree/Post Graduate Diploma (minimum two years’ duration) in any discipline or Bachelor's Degree in Law or Bachelor's Degree in Engineering from a recognized University or ACA/ FCA from ICAI or ACS/ FCS from ICSI or ACMA/ FCMA from ICMAI or CFA from CFA Institute.",
-      "Research: Master’s Degree/ Post Graduate Diploma (minimum two years’ duration) in Economics/ Commerce/ Business Administration/ Econometrics/ Quantitative Economics/ Financial Economics / Mathematical Economics/ Business Economics/ Agricultural Economics/ Industrial Economics/ Business Analytics; or Master’s Degree/ Post Graduate Diploma (minimum two years’ duration) in Finance/ Quantitative Finance/ Mathematical Finance/ Quantitative Techniques/ International Finance/ Business Finance/ International and Trade Finance/ Project and Infrastructure Finance/ Agri. Business Finance; or Master's Degree/ Post Graduate Diploma (minimum two years’ duration) in Statistics/ Mathematical Statistics/ Statistics & Informatics/ Applied Statistics & Informatics/ Data Science/ Artificial Intelligence/ Machine Learning/ Big Data Analytics; or Master's Degree in Mathematics and one year post graduate diploma in Statistics or related subjects from a recognized University/Institute.",
-      "Actuary: Graduation from a recognized University/Institute AND Pass or exemption in all Seven (07) 'Core Principles' subjects of the Institute of Actuaries of India (IAI) Examination.",
-      "Official Language (Rajbhasha): Master’s Degree in Hindi/ Hindi Translation with English as a subject at the Bachelor’s Degree level; or Master’s Degree in Sanskrit/ English/ Economics/ Commerce with Hindi as a subject at Bachelor’s Degree level; or Master's Degree in both English and Hindi/ Hindi Translation from a recognized University / Institute."
-    ],
-    "other_eligibility": [
-      "Candidates ought to be computer literate and conversant with MS-Office (Word and Excel) applications.",
-      "Candidates are permitted to apply for a maximum of 2 streams only for which he/she is eligible to apply.",
-      "Only candidates belonging to 'Non-Creamy Layer' (NCL) are eligible to apply under OBC Category."
-    ],
-    "age_limit": "A candidate must not have exceeded the age of thirty (30) years as on July 31, 2026 i.e., candidate must have been born on or after August 01, 1996.",
-    "age_relaxation": [
-      "Up to a maximum of 5 years for SC/ST candidates where posts are reserved.",
-      "Up to a maximum of 3 years for OBC candidates where posts are reserved.",
-      "10 years for PwBD candidates (whether post is reserved or not), 13 years for PwBD (OBC) where vacancies are reserved, and 15 years for PwBD (SC/ST) where vacancies are reserved.",
-      "5 years for Ex-servicemen as per rules."
-    ],
-    "application_fee": "Rs. 1,000/- (inclusive of GST) for Unreserved/GEN, EWS & OBC. Nil for SC/ST/PwBD & Ex-serviceman.",
-    "application_start": "03.09.2026",
-    "application_end": "24.09.2026",
-    "exam_date": "Phase I: October 15, 2026 (Thursday); Phase II: November 20, 2026 (Friday)",
+    "application_start": "03/09/2026",
+    "application_end": "24/09/2026",
+    "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Phase I: On-line Screening examination consisting of two papers of 100 marks each.",
-      "Phase II: On-line examination consisting of two papers of 100 marks each.",
-      "Phase III: Interview."
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
-      "Phase I - Paper 1 (All Streams - 90 Questions, 100 Marks, 60 minutes): English Language (20 Q / 25 Marks), Quantitative Aptitude (20 Q / 25 Marks), Test of Reasoning (30 Q / 25 Marks), General Awareness including Financial Sector (20 Q / 25 Marks).",
-      "Phase I - Paper 2 (General Stream - 50 Questions, 100 Marks, 40 minutes): Commerce, Accountancy, Management, Finance, Costing, Companies Act, Economics and Pension Sector, Artificial Intelligence (AI), Media, Marketing & Communication.",
-      "Phase I - Paper 2 (Research, Actuary and Official Language Streams - 50 Questions, 100 Marks, 40 minutes): Specialized subject related to stream.",
-      "Phase II - Paper 1 (All Streams - 3 Questions, 100 Marks, 60 minutes, 1/3rd weightage): English (Descriptive Test) to test drafting skills.",
-      "Phase II - Paper 2 (General Stream - 50 Questions, 100 Marks, 40 minutes, 2/3rd weightage): Commerce, Accountancy, Management, Finance, Costing, Companies Act, Economics and Pension Sector, AI, Media, Marketing & Communication.",
-      "Phase II - Paper 2 (Research, Actuary and Official Language Streams - 50 Questions, 100 Marks, 40 minutes, 2/3rd weightage): Multiple choice questions on Specialized subject related to stream."
+      "Not mentioned in the official notification"
     ],
     "syllabus": [
-      "Paper 2 General Stream: PFRDA Act 2013, Union Budget & Economic Survey, Commerce & Accountancy, Management, Finance, Costing, Companies Act, Economics, Pension Sector, Artificial Intelligence (AI)/ Machine Learning (ML), Media, Marketing & Communication.",
-      "Research Stream: Probability Theory, Descriptive Statistics, Probability Distributions, Statistical Inference, Sampling Techniques, Testing of Hypothesis, Economic Statistics, Time Series Analysis, Operations Research, Statistical Quality Control, Statistical computing.",
-      "Official Language (Rajbhasha) Stream: Bharat Sarkar ki Rajbhasha Niti, Hindi se Angrezi anuvad, Angrezi se Hindi anuvad, Vidhik Shabdavali, Pension/Administrative/Banking/Capital Market/Economics/Social Security Terminology.",
-      "Actuarial Stream: Insurance and Management (History of Indian insurance, principles, risk, legal foundations, products, valuation, solvency, and Management topics)."
+      "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Passport size photograph (4.5cm x 3.5cm)",
-      "Scanned signature (not in CAPITAL LETTERS)",
-      "Left thumb impression (or right thumb if left not available)",
-      "Handwriting declaration in English",
-      "Valid photo identity proof (PAN Card/Passport/Driving License/Voter's Card/Aadhaar/etc.)",
-      "Caste/Income and Asset/Disability certificates where applicable"
+      "Not mentioned in the official notification"
     ],
-    "salary_pay_scale": "Rs. 62500-3600(4)-76900-4050(7)-105250-EB-4050(4)-121450-4650(1)-126100 (17 years). Gross emoluments at minimum of scale approx. Rs. 2,05,000/- per month.",
+    "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates are permitted to apply for a maximum of 2 streams only.",
-      "Separate online application and requisite fee must be submitted for each stream.",
-      "No change or correction in the application form will be entertained after final submission.",
-      "Negative marking of 1/4th of the marks assigned to the question is applicable for Paper 1 and Paper 2 in Phase I and Phase II."
+      "Notification published on: 03-09-2026"
     ],
     "official_notification_url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
-    "apply_url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
-    "notification_pdf_url": "https://www.pfrda.org.in/documents/33652/212847/Recruitment+of+Officer+Grade+A+%28Assistant+Manager%29-2026.pdf",
+    "apply_url": "https://ibpsreg.ibps.in/pfrdajul26/",
     "title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
     "type": "Job",
     "state": "Central Goverment",
     "status": "Open",
-    "source_url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026"
+    "source_url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "bccd18f9ae23c3ebbff82cbdb5bd5f1943cd8cac756af33fc1b55c549c470cc0"
   },
   "final-result-special-recruitment-drive-for-uniformed-services-combined-examination-2026-01-09-2026": {
     "organization": "Arunachal Pradesh Staff Selection Board (APSSB), Itanagar",
@@ -238,68 +168,39 @@
     "source_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001"
   },
   "cgle-2026-answer-key-challenge-notice-03-09-2026": {
-    "organization": "Arunachal Pradesh Staff Selection Board (APSSB), Itanagar",
-    "advertisement_number": "NO. APSSB-13/2/2022/815",
+    "organization": "Arunachal Pradesh Staff Selection Board",
+    "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Limited Departmental Competitive Examination 2026",
-      "Combined Graduate Level Examination 2026",
-      "Non-Ministerial (Technical) Examination 2026",
-      "Combined Higher Secondary Level Examination 2026",
-      "Combined Secondary Level Examination 2026"
+      "Combined Graduate Level Examination 2026 (CGLE-2026)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Arunachal Pradesh",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": [
-      "Combined Limited Departmental Competitive Examination 2026: Written exam on 29.03.2026 (Sunday), Skill Test*: 1st week of April 2026",
-      "Combined Graduate Level Examination 2026: Written exam on 31.05.2026 (Sunday), Stenography Proficiency Test*: 4th week of April 2026",
-      "Non-Ministerial (Technical) Examination 2026: Written exam on 26.07.2026 (Sunday) (PET/PST*), Skill Test*: 2nd week of August 2026",
-      "Combined Higher Secondary Level Examination 2026: Written exam on 20.09.2026 (Sunday), Skill Test*: 2nd week of October 2026",
-      "Combined Secondary Level Examination 2026: Written exam on 22.11.2026 (Sunday) (PET/PST*)"
-    ],
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "All dates are tentative and subject to change.",
-      "The Board reserves the right to amend the exam calendar or announce any special recruitment drive for any post or category of posts as per the exigency.",
-      "*PET/ PST/ Skill Test/ Stenography Proficiency Test is subject to notification of the relevant post requiring the test."
+      "Notice regarding Answer Key Challenge for Combined Graduate Level Examination - 2026 (CGLE-2026) published on 03-09-2026."
     ],
     "official_notification_url": "https://apssb.nic.in/Index/notice",
-    "apply_url": "Not mentioned in the official notification",
-    "notification_pdf_url": "https://apssb.nic.in/upload/files/APSSB_Annual_Exam_Calendar_2026.pdf",
+    "apply_url": "https://apssb.nic.in/Index/institute_index",
     "title": "CGLE-2026 Answer Key Challenge Notice — 03/09/2026",
     "type": "Result",
     "state": "Arunachal Pradesh",
     "status": "Live",
-    "source_url": "https://apssb.nic.in/Index/notice"
+    "source_url": "https://apssb.nic.in/Index/notice",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "78ee798afa27228a01ba7bb298365dfea9d6cafd917c17588fc203268fb86aab"
   },
   "fln-mission-data-analyst-skill-test-interview-admit-card": {
     "organization": "Samagra Shiksha Axom",
@@ -2367,33 +2268,23 @@
     "source_url": "https://www.indiapost.gov.in/gdsonlineengagement"
   },
   "telangana-police-recruitment-2026-si-pc-equivalent-posts": {
-    "organization": "Telangana State Level Police Recruitment Board (TSLPRB)",
+    "organization": "Telangana Police Recruitment Board",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Sub Inspector (SI)",
-      "Police Constable (PC)",
-      "Equivalent Posts"
+      "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "Telangana",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
+    "application_start": "19/08/2026",
+    "application_end": "16/09/2026",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
       "Not mentioned in the official notification"
@@ -2412,12 +2303,14 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://www.tgprb.in/",
-    "apply_url": "https://www.tgprb.in/",
+    "apply_url": "https://www.tgprb.in/applive/login",
     "title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
     "type": "Job",
     "state": "Telangana",
-    "status": "Open",
-    "source_url": "https://www.tgprb.in/"
+    "status": "Live",
+    "source_url": "https://www.tgprb.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "2e961dc97161eaf12ac9e9b4f5e983ff37cd7136cd48eaf48b7a996525efe0ea"
   },
   "rrb-cen-04-2026-junior-engineer-dms": {
     "organization": "Railway Recruitment Boards (RRBs)",
