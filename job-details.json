@@ -519,7 +519,7 @@
   },
   "btsc-2026-recruitment-notices-latest-official-recruitment-list": {
     "organization": "Bihar Technical Service Commission",
-    "advertisement_number": "Not mentioned in the official notification",
+    "advertisement_number": "26/2026, 25/2026, 24/2026, 23/2026, 22/2026, 21/2026, 20/2026, 19/2026, 18/2025, 17/2026",
     "post_names": [
       "Technician (Bench Chemist)",
       "Assistant Bacteriologist",
@@ -533,39 +533,28 @@
       "Instructor (Leather Technology)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "Bihar",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Patna, Bihar",
     "educational_qualification": "Not mentioned in the official notification",
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
-    "application_start": "Multiple dates ranging from 15/04/2026 to 24/07/2026 depending on the specific advertisement",
-    "application_end": "Multiple dates ranging from 15/05/2026 to 23/08/2026 depending on the specific advertisement",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "24/07/2026",
+    "application_end": "23/08/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Helpdesk Toll Free No: 18003456221 (10:00 AM TO 06:00 PM)",
+      "Helpdesk Email ID: btssc-bih@gov.in",
+      "Advt 26/2026: Registration Start Date 24/07/2026, Registration End Date 23/08/2026, Application Last Date 23/08/2026, Payment Last Day 23/08/2026",
+      "Advt 25/2026: Registration Start Date 24/07/2026, Registration End Date 23/08/2026, Application Last Date 23/08/2026, Payment Last Day 23/08/2026",
+      "Advt 24/2026: Registration Start Date 20/05/2026, Registration End Date 19/06/2026, Application Last Date 19/06/2026, Payment Last Day 19/06/2026",
+      "Advt 23/2026 to 17/2026: Registration Start Date 15/04/2026, Registration End Date 15/05/2026, Application Last Date 15/05/2026, Payment Last Day 15/05/2026"
     ],
     "official_notification_url": "https://btsc.bihar.gov.in/recruitment",
     "apply_url": "https://btsc.bihar.gov.in/recruitment",
@@ -573,7 +562,9 @@
     "type": "Job",
     "state": "Bihar",
     "status": "Closed",
-    "source_url": "https://btsc.bihar.gov.in/recruitment"
+    "source_url": "https://btsc.bihar.gov.in/recruitment",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "2399fd750e5a8ea24a75217010eb554b82bda9c3435ec11c5eb3967149c9e95a"
   },
   "kerala-psc-latest-results-ranked-lists-03-09-2026": {
     "organization": "Kerala Public Service Commission",
