@@ -1262,30 +1262,22 @@
   },
   "miscellaneous-examination-advt-a-2-e-1-2026-a-3-e-1-2026": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
-    "advertisement_number": "Advt. A-2/E-1/2026 & A-3/E-1/2026",
+    "advertisement_number": "A-2/E-1/2026 & A-3/E-1/2026",
     "post_names": [
-      "Miscellaneous Examination Posts"
+      "MISCELLANEOUS EXAMINATION"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Uttar Pradesh",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Applicant's OTR number is the only registration number for submitting application form against any post published by the Commission.",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
+    "application_start": "03/08/2026",
+    "application_end": "03/09/2026",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
       "Not mentioned in the official notification"
@@ -1297,11 +1289,17 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Not mentioned in the official notification"
+      "OTR (One Time Registration) Number"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Notification appearing light grey colour is based on OTR process.",
+      "Applicant's OTR number is the only regsitration number for submitting application form against any post published by the Commission.",
+      "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc.",
+      "Fee Deposition Last Date: 03/09/2026",
+      "Last Date of Fee Reconciliation: 10/09/2026",
+      "Modification Start Date: 03/08/2026",
+      "Modification Last Date: 10/09/2026"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
     "apply_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
@@ -1309,7 +1307,9 @@
     "type": "Job",
     "state": "Uttar Pradesh",
     "status": "Closed",
-    "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx"
+    "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "86512da4f5a9f38ca3c83a267a73e6b3e21a5591d1739f9bd902a00575a0b3ea"
   },
   "radiographer-2026-online-recruitment-application": {
     "organization": "Odisha Sub-Ordinate Staff Selection Commission (OSSSC)",
