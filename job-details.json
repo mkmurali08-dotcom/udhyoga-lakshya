@@ -2937,26 +2937,16 @@
     "source_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0"
   },
   "uppsc-research-assistant-engineering-exam-2025": {
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
+    "organization": "Not mentioned in the official notification",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Research Assistant (Engineering)"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "Uttar Pradesh",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -2980,12 +2970,14 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "apply_url": "https://uppsc.up.nic.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "UPPSC Research Assistant (Engineering) Exam 2025",
     "type": "Admit Card",
     "state": "Central Government",
     "status": "Admit Card",
-    "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+    "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "48eb91452fcffcd4caeb82b0411beb41b514ab9c95fa8b96285c27dc599d79d1"
   },
   "uppsc-lecturer-u-p-technical-education-teaching-service-exam-2025": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
