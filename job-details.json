@@ -243,65 +243,46 @@
     "source_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview"
   },
   "pm-poshan-skill-test-interview-admit-card": {
-    "organization": "Axom Sarba Siksha Abhiyan Mission",
-    "advertisement_number": "SSA/PM-POSHAN/Engagement/171/2024/708",
+    "organization": "Samagra Shiksha Axom, Government of Assam",
+    "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "District MIS Manager (For District Mission Office)",
-      "Electronic Data Processor (For State Nodal Office)",
-      "State MIS Manager (For State Nodal Office)"
+      "District MIS Manager",
+      "Electronic Data Processor",
+      "State MIS Manager"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Assam",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "04.07.2024",
+    "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Skill test"
+      "Skill Test for shortlisted candidates"
     ],
-    "exam_pattern": [
-      "District MIS Manager [For District Mission Office]: 04.07.2024, 9.30 to 11.00 am",
-      "Electronic Data Processor [For State Nodal Office]: 04.07.2024, 11.45 am to 1.15 pm",
-      "State MIS Manager [For State Nodal Office]: 04.07.2024, 2.00 pm to 3.30 pm"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
     "documents_required": [
-      "Original copies of Aadhar Card",
-      "Original copies of Pan Card",
-      "Admit card"
+      "Admit Card"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "The date-wise list of short-listed candidates is uploaded in the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in",
-      "The short-listed candidates are requested to attend in the Skill test before one hour of the scheduled date and time with original copies of Aadhar Card/Pan Card and admit card.",
-      "The short-listed candidates name may be downloaded their admit card from the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in w.e.f. 27.06.2024",
-      "Venue of Skill test: Assam Engineering Institute, Chandmari, Guwahati-3"
+      "Skill Test schedule is released for shortlisted candidates for District MIS Manager, Electronic Data Processor, and State MIS Manager posts under the PM POSHAN scheme.",
+      "Shortlisted candidates are required to download their Admit Card from the official portal."
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
-    "apply_url": "https://ssa.assam.gov.in",
-    "notification_pdf_url": "https://ssa.assam.gov.in/sites/default/files/swf_utility_folder/departments/ssam_medhassu_in_oid_5/this_comm/public_notice_1.pdf",
+    "apply_url": "Not mentioned in the official notification",
     "title": "PM POSHAN — Skill Test / Interview — Admit Card",
     "type": "Admit Card",
     "state": "Assam",
     "status": "Open",
-    "source_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan"
+    "source_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "0e398380ed6124ccc030c8586d9db693bddcc38b7e30b17ff2775d4a57b8e675"
   },
   "result-of-computer-typing-test-english-31-08-2026": {
     "organization": "Not mentioned in the official notification",
@@ -407,265 +388,104 @@
     "source_url": "https://chandigarh.gov.in/public-notices/vacancies"
   },
   "walk-in-interview-finance-controller-goa-state-biodiversity-board": {
-    "organization": "Goa College of Pharmacy, Government of Goa",
+    "organization": "Goa State Biodiversity Board",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Master of Pharmacy in Pharmaceutical Quality Assurance",
-      "Master of Pharmacy in Pharmacology",
-      "Master of Pharmacy in Pharmacognosy",
-      "Master of Pharmacy in Pharmaceutical Chemistry"
+      "Finance Controller"
     ],
-    "total_vacancies": 68,
-    "vacancy_breakdown": [
-      {
-        "subject": "Pharmaceutical Quality Assurance",
-        "total_seats": 17,
-        "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
-          "Group I(c)-Sponsored": "NIL",
-          "Group I(d)-EWS": 2,
-          "Group II (SC/ST/OBC) Candidates belonging to SC/ST/OBC of Goa": {
-            "SC/ST": 2,
-            "OBC": 4
-          },
-          "Group III (open) Students passing B.Pharm exam of any University (General)": 2
-        }
-      },
-      {
-        "subject": "Pharmacology",
-        "total_seats": 17,
-        "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-(PwD) Person with Disabilities from Goa": "NIL",
-          "Group I(c)-Sponsored": 1,
-          "Group I(d)-EWS": 2,
-          "Group II (SC/ST/OBC) Candidates belonging to SC/ST/OBC of Goa": {
-            "SC/ST": 2,
-            "OBC": 4
-          },
-          "Group III (open) Students passing B.Pharm exam of any University (General)": 2
-        }
-      },
-      {
-        "subject": "Pharmacognosy",
-        "total_seats": 17,
-        "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 5,
-          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
-          "Group I(c)-Sponsored": 1,
-          "Group I(d)-EWS": 2,
-          "Group II (SC/ST/OBC) Candidates belonging to SC/ST/OBC of Goa": {
-            "SC/ST": 2,
-            "OBC": 4
-          },
-          "Group III (open) Students passing B.Pharm exam of any University (General)": 2
-        }
-      },
-      {
-        "subject": "Pharmaceutical Chemistry",
-        "total_seats": 17,
-        "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": 6,
-          "Group I(b)-(PwD) Person with Disabilities from Goa": 1,
-          "Group I(c)-Sponsored": "NIL",
-          "Group I(d)-EWS": 2,
-          "Group II (SC/ST/OBC) Candidates belonging to SC/ST/OBC of Goa": {
-            "SC/ST": 2,
-            "OBC": 4
-          },
-          "Group III (open) Students passing B.Pharm exam of any University (General)": 2
-        }
-      }
-    ],
-    "job_location": "Panaji, Goa",
-    "educational_qualification": [
-      "Passed Bachelor of Pharmacy examination from Goa College of Pharmacy and/or Pharmacy Colleges in Goa or an equivalent examination with a minimum of 55% marks in case of general category candidates and 50% in case of candidate belonging to SC/ST category (aggregate of four years of B. Pharm)",
-      "NTA score/percentile at GPAT 2025/2026",
-      "In case of sponsored candidate(s): having not less than five years professional experience after passing B. Pharm course shall have a relaxation in pass percentage from 55% to 50%, a letter from the employer must be furnished stating that the candidate is being sponsored and will not be withdrawn midway, and the research project to be proposed and fully funded by the sponsoring agency",
-      "In case of candidates with valid qualifying degree from University other than Goa University, GPAT 2025 or GPAT 2026 qualified candidates will be considered for admissions",
-      "When GPAT 2025/2026 qualified candidates are not available, admission will be given to non-GPAT candidates on merit"
-    ],
-    "other_eligibility": [
-      "Be an Indian National",
-      "Every student selected for admission must have obtained Registration with the State Pharmacy Council or should obtain the same within one month from the date of admission"
-    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": [],
+    "job_location": "Goa",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_fee": "Rs. 2,500/- through Challan/Transaction acknowledgement copy using the link: https://echallanpg.goa.gov.in",
-    "application_start": "6th July, 2026",
-    "application_end": "Monday, 20th July 2026, by 4:30pm",
+    "application_start": "31/08/2026",
+    "application_end": "As Mentioned",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Separate merit list shall be prepared for each group",
-      "Total qualifying marks computed by assigning 30% weightage to cumulative performance at First to Eighth Semester / First to Fourth Year B.Pharm. Examination for regular candidates and 70% weightage to performance at GPAT 2025/GPAT 2026",
-      "Incase total qualifying marks of two or more applicants are equal, applicant who has scored more marks in final year B. Pharm. (Sem VII and Sem VIII) will be placed higher in merit list",
-      "Candidates shall attend in person during round of admission with Acknowledgement Card, original documents, and fees"
+      "Walk-In-Interview"
     ],
     "exam_pattern": [
-      "One University examination each at end of semesters I and II",
-      "Dissertation submitted by students on project work carried out during Semesters III and IV, evaluated by University appointed examiners at the end of fourth semester",
-      "Theory course in Research Methodology and Statistics (Non-University exam) and mandatory journal club presentations during Semester III"
+      "Not mentioned in the official notification"
     ],
     "syllabus": [
-      "Research Methodology and Statistics",
-      "Subject-specific syllabi for Pharmaceutical Quality Assurance, Pharmacology, Pharmacognosy, and Pharmaceutical Chemistry as per Goa University / PCI ordinances"
+      "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Recent passport size photograph on the application form",
-      "Statement of marks/marks cards of B. Pharm (all semesters)",
-      "GPAT 2025/2026 score card",
-      "Valid caste certificates (in case of applicants claiming under Group II)",
-      "Valid disability certificate from the competent authority (Medical Board of Goa Medical College) in case of applicants claiming under Group I(b)",
-      "Sponsorship letter from the competent authority of the concerned department along with due NOC from the government under Group I (c)",
-      "Eligibility certificate from the Head of the Institution of the graduating institution duly recognized and approved by PCI/UGC in case of applicants claiming under Group III",
-      "Provisional Eligibility from Goa University (if applicable)",
-      "Migration Certificate (if applicable)",
-      "College Leaving Certificate",
-      "Copy of Aadhaar Card",
-      "Copy of income and assets certificate issued by Mamlatdar [for availing seat under EWS category I (d)]",
-      "Application fee of Rs. 2,500/- through Challan/Transaction acknowledgement copy",
-      "Registered Pharmacists Certificate / undertaking regarding submission of Registered Pharmacist Certificate within one month"
+      "Not mentioned in the official notification"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "The academic session is divided into four semesters of six months duration each.",
-      "Candidates admitted to Pharmacology are required to perform experiments on animals and hence need to take vaccines like rabies, tetanus, etc.",
-      "Candidates admitted to Pharmacognosy are required to maintain a herbal garden on a regular basis.",
-      "Admissions close by 4th September 2026.",
-      "Ragging in any form is strictly prohibited."
+      "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://www.goa.gov.in/citizen/recruitment/",
-    "apply_url": "https://www.gcp.goa.gov.in",
-    "notification_pdf_url": "https://www.goa.gov.in/wp-content/uploads/2026/06/M-Pharm-Prospectus-2026-27.pdf",
+    "apply_url": "https://www.goa.gov.in/citizen/recruitment/",
     "title": "Walk-In-Interview — Finance Controller, Goa State Biodiversity Board",
     "type": "Job",
     "state": "Goa",
     "status": "Open",
-    "source_url": "https://www.goa.gov.in/citizen/recruitment/"
+    "source_url": "https://www.goa.gov.in/citizen/recruitment/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "18394950e07eae7bc153e7345336608986abe5effe781e496f5b43c35826a6e6"
   },
   "goa-recruitment-examination-results-04-09-2026": {
-    "organization": "Goa College of Pharmacy, Government of Goa",
+    "organization": "Government of Goa",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Master of Pharmacy in Pharmaceutical Quality Assurance",
-      "Master of Pharmacy in Pharmacology",
-      "Master of Pharmacy in Pharmacognosy",
-      "Master of Pharmacy in Pharmaceutical Chemistry"
+      "Lower Division Clerk (LDC)",
+      "Administrative Officer",
+      "Accountant",
+      "Interns",
+      "Multi Tasking Staff",
+      "Driver",
+      "Junior Stenographer",
+      "Junior Engineer (Civil)",
+      "Assistant Accounts Officer"
     ],
-    "total_vacancies": "68",
-    "vacancy_breakdown": [
-      {
-        "subject": "Pharmaceutical Quality Assurance",
-        "total": 17,
-        "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": "06",
-          "Group I(b)-PwD": "01*",
-          "Group I(c)-Sponsored": "NIL",
-          "Group I(d)-EWS": "02**",
-          "Group II SC/ST/OBC": "02-SC/ST, 04-OBC",
-          "Group III(open)": "02**"
-        }
-      },
-      {
-        "subject": "Pharmacology",
-        "total": 17,
-        "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": "06",
-          "Group I(b)-PwD": "NIL",
-          "Group I(c)-Sponsored": "01*",
-          "Group I(d)-EWS": "02**",
-          "Group II SC/ST/OBC": "02-SC/ST, 04-OBC",
-          "Group III(open)": "02**"
-        }
-      },
-      {
-        "subject": "Pharmacognosy",
-        "total": 17,
-        "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": "05",
-          "Group I(b)-PwD": "01*",
-          "Group I(c)-Sponsored": "01*",
-          "Group I(d)-EWS": "02**",
-          "Group II SC/ST/OBC": "02-SC/ST, 04-OBC",
-          "Group III(open)": "02**"
-        }
-      },
-      {
-        "subject": "Pharmaceutical Chemistry",
-        "total": 17,
-        "breakdown": {
-          "Group 1(a) Students passing B.Pharm under Goa University/Goa College of Pharmacy": "06",
-          "Group I(b)-PwD": "01*",
-          "Group I(c)-Sponsored": "NIL",
-          "Group I(d)-EWS": "02**",
-          "Group II SC/ST/OBC": "02-SC/ST, 04-OBC",
-          "Group III(open)": "02**"
-        }
-      }
-    ],
-    "job_location": "Panaji, Goa",
-    "educational_qualification": [
-      "Must be an Indian National.",
-      "Passed Bachelor of Pharmacy (B. Pharm) examination from Goa College of Pharmacy and/or Pharmacy Colleges in Goa or an equivalent examination with a minimum of 55% marks for general category candidates and 50% for SC/ST category candidates (aggregate of four years of B. Pharm) with a NTA score/percentile at GPAT 2025/2026.",
-      "For sponsored candidates: minimum five years professional experience after passing B. Pharm course with a relaxation in pass percentage from 55% to 50%, employer sponsorship letter, and research project fully funded by the sponsoring agency.",
-      "Candidates with valid qualifying degree from a University other than Goa University must have valid GPAT 2025 or GPAT 2026 score."
-    ],
-    "other_eligibility": [
-      "Every student selected for admission must obtain Registration with the State Pharmacy Council or obtain the same within one month from the date of admission, failing which admission shall be cancelled."
-    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": [],
+    "job_location": "Goa",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": "Rs. 2,500/- paid through Challan/Transaction acknowledgement copy using https://echallanpg.goa.gov.in",
-    "application_start": "06th July, 2026",
-    "application_end": "20th July, 2026 by 4:30 pm",
+    "application_fee": [
+      "Not mentioned in the official notification"
+    ],
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Separate merit list prepared for each group.",
-      "Total qualifying marks computed by assigning 30% weightage to cumulative performance at First to Eighth Semester / First to Fourth Year B.Pharm. Examination for regular candidates and 70% weightage to performance (score/percentile) at GPAT 2025/GPAT 2026.",
-      "For lateral entry students, CGPA awarded by the University for Sem I and Sem II based on marks awarded for D.Pharm, and additional subjects studied, considered for aggregate percentage marks.",
-      "In case of tie in total qualifying marks, higher marks in final year B.Pharm (Sem VII and Sem VIII) will be considered.",
-      "Candidates must attend in person during the admission round with original documents and fees."
+      "Typing / Skill Test",
+      "Written Examination",
+      "Walk-In-Interview"
     ],
     "exam_pattern": [
-      "There shall be one University examination each at the end of semesters I and II.",
-      "Dissertation to be submitted on project work carried out during Semesters III and IV evaluated at the end of the fourth semester.",
-      "During Semester III, theory course in Research Methodology and Statistics (Non-University exam) and mandatory journal club presentations."
+      "Not mentioned in the official notification"
     ],
-    "syllabus": "As per PCI notifications and Goa University ordinances for Pharmaceutical Quality Assurance, Pharmacology, Pharmacognosy, and Pharmaceutical Chemistry programs.",
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
     "documents_required": [
-      "Recent passport size photograph on application form",
-      "Statement of marks/marks cards of B. Pharm (all semesters)",
-      "GPAT 2025/2026 score card",
-      "Valid caste certificates (for Group II applicants)",
-      "Valid disability certificate from Medical Board of Goa Medical College (for Group I(b) applicants)",
-      "Sponsorship letter from competent authority with due NOC from government (for Group I(c) applicants)",
-      "Eligibility certificate from the Head of the graduating institution duly recognized and approved by PCI/UGC (for Group III applicants)",
-      "Provisional Eligibility from Goa University (if applicable)",
-      "Migration Certificate (if applicable)",
-      "College Leaving Certificate",
-      "Copy of Aadhaar Card",
-      "Copy of income and assets certificate issued by Mamlatdar (for EWS category I(d))",
-      "Application fee Challan/Transaction acknowledgement copy of Rs. 2,500/-",
-      "Registered Pharmacists Certificate or undertaking regarding submission within one month"
+      "Not mentioned in the official notification"
     ],
-    "salary_pay_scale": "Not applicable (Course of Study / Master of Pharmacy)",
+    "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "The academic session is divided into four semesters of six months duration each.",
-      "A candidate shall be required to attend at least 75% of lectures and practicals separately for each subject.",
-      "Ragging in any form is strictly prohibited.",
-      "Duly filled-in application should be submitted to the Office of Principal, Goa College of Pharmacy, 18th June Road, Panaji, Goa–403001."
+      "This Page Displays Results Of Various Exams Recently Conducted/Held by Various Departments."
     ],
     "official_notification_url": "https://www.goa.gov.in/citizen/recruitment-results/",
-    "apply_url": "https://echallanpg.goa.gov.in",
-    "notification_pdf_url": "https://www.goa.gov.in/wp-content/uploads/2026/06/M-Pharm-Prospectus-2026-27.pdf",
+    "apply_url": "https://www.goa.gov.in/citizen/recruitment/",
     "title": "Goa Recruitment Examination Results — 04/09/2026",
     "type": "Result",
     "state": "Goa",
     "status": "Declared",
-    "source_url": "https://www.goa.gov.in/citizen/recruitment-results/"
+    "source_url": "https://www.goa.gov.in/citizen/recruitment-results/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "c317fceeb8528246a8cf36c9d709a40544f4a044b4c8f0fd94749209adcef90d"
   },
   "walk-in-interview-samagra-shiksha-goa": {
     "organization": "Goa College of Pharmacy, Government of Goa",
@@ -2092,33 +1912,24 @@
     "source_url": "https://ssc.gov.in/"
   },
   "ssc-mts-havaldar-2026-september-to-november-exam-window": {
-    "organization": "Staff Selection Commission (SSC)",
+    "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Multi-Tasking (Non-Technical) Staff (MTS)",
-      "Havaldar"
+      "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "September to November exam window (Year 2026)",
+    "exam_date": "Not mentioned in the official notification",
     "selection_process": [
       "Not mentioned in the official notification"
     ],
@@ -2136,12 +1947,14 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://ssc.gov.in/",
-    "apply_url": "https://ssc.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "SSC MTS & Havaldar 2026 — September to November exam window",
     "type": "Upcoming",
     "state": "Central Goverment",
     "status": "Upcoming",
-    "source_url": "https://ssc.gov.in/"
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "d2f527cc9ae2fe5953ff972b951122f4e6cc7d0c86530e08944cd76c89a32d66"
   },
   "india-post-gds-online-engagement-schedule-ii-july-2026": {
     "organization": "India Post",
