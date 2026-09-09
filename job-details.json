@@ -179,68 +179,53 @@
     "_sheet_fingerprint": "78ee798afa27228a01ba7bb298365dfea9d6cafd917c17588fc203268fb86aab"
   },
   "fln-mission-data-analyst-skill-test-interview-admit-card": {
-    "organization": "Samagra Shiksha Axom",
-    "advertisement_number": "SSA/TT/Consultant etc./FLN/308/2023/10423 dated 17.02.2024",
+    "organization": "Samagra Shiksha Axom, Government Of Assam",
+    "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Data Analyst of FLN at State PMU",
-      "Data Analyst of FLN at District PMU",
-      "Consultant of FLN at District PMU (Language)",
-      "Consultant of FLN at District PMU (Numeracy)"
+      "Data Analyst (State PMU)",
+      "Data Analyst (District PMU)",
+      "Consultant District PMU (Language)",
+      "Consultant District PMU (Numeracy)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Assam",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": [
-      "Data Analyst of FLN at State PMU: 18.08.2024 (9.30 am to 11.00 am)",
-      "Data Analyst of FLN at District PMU: 18.08.2024 (11.45 am to 1.15 pm)",
-      "Consultant of FLN at District PMU (Language): 20.08.2024 & 21.08.2024 (9.30 am)",
-      "Consultant of FLN at District PMU (Numeracy): 22.08.2024 (9.30 am)"
-    ],
+    "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Skill test/interview"
+      "Skill Test",
+      "Interview"
     ],
     "exam_pattern": [
-      "Written test"
+      "Not mentioned in the official notification"
     ],
     "syllabus": [
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Admit card (for Data Analyst of FLN at State PMU and Data Analyst of FLN at District PMU)",
-      "Call letters (for Consultant of FLN at District PMU (Language) and Consultant of FLN at District PMU (Numeracy))"
+      "Admit Card"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "The list of short-listed candidates is uploaded in the official website of Samagra Shiksha Axom at https://ssa.assam.gov.in",
-      "The short-listed candidates are requested to attend in the skill test/interview before one hour of the scheduled date and time.",
-      "Short-listed candidates of Data Analyst of FLN at State PMU and Data Analyst of FLN at District PMU may download their admit card from the official website https://ssa.assam.gov.in w.e.f. 15.08.2024.",
-      "In case of Consultant of FLN at District PMU (Language) and Consultant of FLN at District PMU (Numeracy), call letters have been sent."
+      "Public Notice - Skill test/Interview for the posts under FLN Details under downloads (including Admit Cards)."
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview",
-    "apply_url": "https://ssa.assam.gov.in",
-    "notification_pdf_url": "https://ssa.assam.gov.in/sites/default/files/swf_utility_folder/departments/ssam_medhassu_in_oid_5/this_comm/public_notice_-_fln_skill-interview_schedule.pdf",
+    "apply_url": "Not mentioned in the official notification",
     "title": "FLN Mission — Data Analyst Skill Test / Interview — Admit Card",
     "type": "Admit Card",
     "state": "Assam",
     "status": "Open",
-    "source_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview"
+    "source_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "93e78b2052af14ef1a3229c2c1fa0f1de051145362b3f3c39b18cd2fb4cee2d2"
   },
   "pm-poshan-skill-test-interview-admit-card": {
     "organization": "Samagra Shiksha Axom, Government of Assam",
