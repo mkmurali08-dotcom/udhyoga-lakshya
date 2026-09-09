@@ -96,47 +96,26 @@
     "_sheet_fingerprint": "114150f8ca7f8fad9d2a0a80cb0307efa7eecddac66cbfbbc7f0ee3ac9ea03de"
   },
   "combined-higher-secondary-level-examination-2026-admit-card": {
-    "organization": "Arunachal Pradesh Staff Selection Board (APSSB), Itanagar",
-    "advertisement_number": "NO. APSSB-13/2/2022/815",
+    "organization": "Arunachal Pradesh Staff Selection Board",
+    "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Limited Departmental Competitive Examination 2026",
-      "Combined Graduate Level Examination 2026",
-      "Non-Ministerial (Technical) Examination 2026",
-      "Combined Higher Secondary Level Examination 2026",
-      "Combined Secondary Level Examination 2026"
+      "Combined Higher Secondary Level Examination - 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Arunachal Pradesh",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": [
-      "Combined Limited Departmental Competitive Examination 2026: Written exam on 29.03.2026 (Sunday); Skill Test*: 1st week of April 2026",
-      "Combined Graduate Level Examination 2026: Written exam on 31.05.2026 (Sunday); Stenography Proficiency Test*: 4th week of April 2026",
-      "Non-Ministerial (Technical) Examination 2026: Written exam on 26.07.2026 (Sunday) (PET/PST*); Skill Test*: 2nd week of August 2026",
-      "Combined Higher Secondary Level Examination 2026: Written exam on 20.09.2026 (Sunday); Skill Test*: 2nd week of October 2026",
-      "Combined Secondary Level Examination 2026: Written exam on 22.11.2026 (Sunday) (PET/PST*)"
-    ],
+    "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Written Exam",
-      "Skill Test*",
-      "Stenography Proficiency Test*",
-      "PET/PST*"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -149,18 +128,20 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "All dates are tentative and subject to change.",
-      "The Board reserves the right to amend the exam calendar or announce any special recruitment drive for any post or category of posts as per the exigency.",
-      "*PET/ PST/ Skill Test/ Stenography Proficiency Test is subject to notification of the relevant post requiring the test."
+      "Admit Card Start Date: 03-09-2026",
+      "Admit Card Last Date: 18-09-2026",
+      "Admit Card will be available after 1.30pm",
+      "Help Desk e-mail: helpdesk-apssb[at]arn[dot]gov[dot]in, Phone: +91 94852 31286, +91 60095 62429, +91 3602291251 (Monday - Friday [10AM - 05PM])"
     ],
     "official_notification_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
-    "apply_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
-    "notification_pdf_url": "https://apssb.nic.in/upload/files/APSSB_Annual_Exam_Calendar_2026.pdf",
+    "apply_url": "https://apssb.nic.in/Index/institute_index",
     "title": "Combined Higher Secondary Level Examination 2026 — Admit Card",
     "type": "Admit Card",
     "state": "Arunachal Pradesh",
     "status": "Open",
-    "source_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001"
+    "source_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "417db47ff8800df5fb4746c2314951a8092dcad1b5dac9277ccfb2cb5a939ec9"
   },
   "cgle-2026-answer-key-challenge-notice-03-09-2026": {
     "organization": "Arunachal Pradesh Staff Selection Board",
@@ -2011,26 +1992,16 @@
     "_sheet_fingerprint": "e6d09574b4aad0ef6f930613d7c0c2eb10f531cd760e620bdd8cb57ca9cd379c"
   },
   "ssc-je-2026-paper-i-current-cycle": {
-    "organization": "Staff Selection Commission (SSC)",
+    "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Junior Engineer (Civil, Mechanical & Electrical)"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -2054,12 +2025,14 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://ssc.gov.in/",
-    "apply_url": "https://ssc.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "SSC JE 2026 — Paper-I current cycle",
     "type": "Exam",
     "state": "Central Govt Jobs",
     "status": "Current",
-    "source_url": "https://ssc.gov.in/"
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "756ced5a4171e3b020fbd76d3bdab16da4e0519943ddf6e8521911b14a33d439"
   },
   "ssc-stenographer-grade-c-d-2026-current-exam-window": {
     "organization": "Staff Selection Commission (SSC)",
