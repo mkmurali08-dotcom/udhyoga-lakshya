@@ -1850,47 +1850,26 @@
     "_sheet_fingerprint": "d2f527cc9ae2fe5953ff972b951122f4e6cc7d0c86530e08944cd76c89a32d66"
   },
   "india-post-gds-online-engagement-schedule-ii-july-2026": {
-    "organization": "India Post",
-    "advertisement_number": "Schedule-II, July 2026",
+    "organization": "India Post, Department of Posts, Government of India",
+    "advertisement_number": "Schedule-II, July-2026",
     "post_names": [
-      "Branch Postmaster (BPM)",
-      "Assistant Branch Postmaster (ABPM)",
-      "Dak Sevak"
+      "Gramin Dak Sevak (GDS)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "job_location": "All India (Various Circles)",
-    "educational_qualification": [
-      "Secondary School Examination pass certificate of 10th standard having passed in Mathematics and English (having been studied as compulsory or elective subjects) conducted by any recognized Board of School Education by the Government of India/State Governments/Union Territories in India shall be a mandatory educational qualification for all approved categories of GDS.",
-      "The applicant should have studied the local language (named in the constitutional provisions of the Eighth Schedule of the Constitution of India) of the concerned Postal Circle up to at least Secondary standard (10th standard)."
-    ],
-    "other_eligibility": [
-      "The applicant should have basic computer knowledge.",
-      "Cycling is a pre-requisite condition for all approved categories of GDS (BPM/ABPM/Dak Sevak). If a applicant does not know cycling, he/she has to produce cycling proficiency certificate within 30 days from the date of engagement.",
-      "Adequate means of livelihood.",
-      "Residence: The applicant must register themselves in the engagement portal and provide a declaration regarding accommodation/residence as per rules."
-    ],
-    "age_limit": "Minimum 18 years and Maximum 40 years",
-    "age_relaxation": [
-      "Scheduled Caste (SC) / Scheduled Tribe (ST): 5 years",
-      "Other Backward Classes (OBC): 3 years",
-      "Economically Weaker Sections (EWS): No relaxation",
-      "Persons with Benchmark Disabilities (PwBD): 10 years",
-      "Persons with Benchmark Disabilities (PwBD) + SC/ST: 15 years",
-      "Persons with Benchmark Disabilities (PwBD) + OBC: 13 years"
-    ],
-    "application_fee": [
-      "Rs. 100/- for all male applicants falling under UR, OBC, and EWS categories for each set of options.",
-      "All female applicants, SC/ST applicants, and PwBD applicants are exempted from payment of the application fee."
-    ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
+    "application_start": "02/09/2026",
+    "application_end": "21/09/2026",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Selection will be made as per the system generated merit list based on the marks obtained/conversion of Grades/Points to marks in secondary school examination of 10th standard of recognized Boards.",
-      "Passing of all the subjects as per the respective board norms is mandatory."
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -1899,29 +1878,24 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "10th standard mark sheet / certificate",
-      "Date of Birth proof",
-      "Community / Category certificate (SC/ST/OBC/EWS)",
-      "Disability certificate (if applicable)",
-      "Cycling proficiency certificate (if required post-engagement)",
-      "Medical certificate"
+      "Not mentioned in the official notification"
     ],
-    "salary_pay_scale": [
-      "Branch Postmaster (BPM): Rs. 12,000-29,380/-",
-      "Assistant Branch Postmaster (ABPM) / Dak Sevak: Rs. 10,000-24,780/-"
-    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Applicants must register on the online portal before applying.",
-      "Applications should be submitted only through online mode at https://www.indiapost.gov.in/gdsonlineengagement.",
-      "One applicant is allowed to submit only one application for a cycle."
+      "Candidates applying for GDS Online Engagement – Schedule II, July-2026 are required to register afresh. Registration Numbers generated in previous schedules will not be valid.",
+      "Candidates are advised not to trust any communications received from unauthorized or suspicious email IDs. Department of Posts communicates information only through official email IDs ending with @indiapost.gov.in or @indiapostgdsonline.gov.in.",
+      "The Department of Posts shall not be responsible for any misleading communication/fraudulent emails/messages regarding GDS Engagement/Recruitment circulated by unauthorized sources.",
+      "Edit/Correction Window Start Date: 23-09-2026, End Date: 24-09-2026 17:00 HRS."
     ],
     "official_notification_url": "https://www.indiapost.gov.in/gdsonlineengagement",
-    "apply_url": "https://www.indiapost.gov.in/gdsonlineengagement",
+    "apply_url": "https://app.indiapost.gov.in/gdscandidate",
     "title": "India Post GDS Online Engagement — Schedule-II, July 2026",
     "type": "Job",
     "state": "Central Goverment",
     "status": "Open",
-    "source_url": "https://www.indiapost.gov.in/gdsonlineengagement"
+    "source_url": "https://www.indiapost.gov.in/gdsonlineengagement",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "a854a29e4df7f9aa700f47fceb8ead96a5849a027f91521b5dda79ac3151764c"
   },
   "telangana-police-recruitment-2026-si-pc-equivalent-posts": {
     "organization": "Telangana Police Recruitment Board",
