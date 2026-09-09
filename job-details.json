@@ -2524,23 +2524,15 @@
     "organization": "Union Public Service Commission (UPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Assistant Commandants (ACs) in Central Armed Police Forces (CAPF)"
+      "Central Armed Police Forces (ACs) Examination, 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -2548,10 +2540,7 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Written Result / Written Examination",
-      "Physical Standards Tests (PST) / Physical Efficiency Tests (PET)",
-      "Medical Standards Tests",
-      "Interview / Personality Test"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -2564,8 +2553,7 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidature of all qualified candidates is provisional.",
-      "Candidates are required to produce original certificates in support of age, educational qualifications, caste, etc. at the time of the Detailed Application Form (DAF) submission as prescribed by the Commission."
+      "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "apply_url": "Not mentioned in the official notification",
@@ -2573,7 +2561,9 @@
     "type": "Result",
     "state": "Central Government",
     "status": "Declared",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result"
+    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "68273d2f38e8f51dedd7ce17573d0073064f26b72a931014c0fdb97cb6cc8932"
   },
   "upsc-indian-economic-service-indian-statistical-service-examination-2026-written-result": {
     "organization": "Union Public Service Commission (UPSC)",
