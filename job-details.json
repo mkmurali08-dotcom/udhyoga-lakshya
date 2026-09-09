@@ -1550,34 +1550,26 @@
     "organization": "Union Public Service Commission (UPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Medical Services Examination 2026"
+      "Combined Medical Services Examination, 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
-    "exam_date": "Not mentioned in the official notification",
+    "application_start": "11/03/2026",
+    "application_end": "31/03/2026 - 18:00",
+    "exam_date": "02/08/2026",
     "selection_process": [
-      "Written Result / Examination"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
-      "Not mentioned in the official notification"
+      "Duration of Examination: One Day"
     ],
     "syllabus": [
       "Not mentioned in the official notification"
@@ -1587,15 +1579,20 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Date of Notification: 11/03/2026",
+      "Last Date for Receipt of Applications: 31/03/2026 - 18:00",
+      "Date of Examination: 02/08/2026",
+      "Duration of Examination: One Day"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "apply_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "apply_url": "Not mentioned in the official notification",
     "title": "UPSC Combined Medical Services Examination 2026 — Written Result — 01/09/2026",
     "type": "Result",
     "state": "Central Goverment",
     "status": "Declared",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+    "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "daf9e97bf37610e896ccc5a066028808dd5676a9420fcc32cc81bb67cc77feca"
   },
   "upsc-cds-ii-2026-examination-13-september-2026": {
     "organization": "Union Public Service Commission (UPSC)",
