@@ -1211,34 +1211,25 @@
   },
   "professor-assistant-professor-medical-education-allopathy-advt-d-1-e-1-2026": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
-    "advertisement_number": "Advt. D-1/E-1/2026",
+    "advertisement_number": "D-1/E-1/2026",
     "post_names": [
-      "Professor",
-      "Assistant Professor"
+      "Professor / Assistant Professor — Medical Education (Allopathy)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Uttar Pradesh",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Applicant's OTR number is the only registration number for submitting application form against any post published by the Commission.",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
+    "application_start": "18/08/2026",
+    "application_end": "01/09/2026",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Direct Recruitment"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -1247,11 +1238,17 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Not mentioned in the official notification"
+      "OTR (One Time Registration) Number"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Notification is based on OTR process.",
+      "Applicant's OTR number is the only regsitration number for submitting application form against any post published by the Commission.",
+      "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc.",
+      "Fee Deposition Last Date: 01/09/2026",
+      "Last Date of Fee Reconciliation: 08/09/2026",
+      "Modification Start Date: 18/08/2026",
+      "Modification Last Date: 08/09/2026"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
     "apply_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
@@ -1259,7 +1256,9 @@
     "type": "Job",
     "state": "Uttar Pradesh",
     "status": "Closed",
-    "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx"
+    "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "697a44555b927d043fe83cf447ec744a648bfd643dd2d7d3dce96cf77523680e"
   },
   "miscellaneous-examination-advt-a-2-e-1-2026-a-3-e-1-2026": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
@@ -3519,26 +3518,16 @@
     "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
   },
   "ssc-chsl-tier-i-2026": {
-    "organization": "Staff Selection Commission (SSC)",
-    "advertisement_number": "SSC CHSL Tier-I 2026",
-    "post_names": [
-      "Not mentioned in the official notification"
-    ],
+    "organization": "Staff Selection Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -3562,12 +3551,14 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://ssc.gov.in/",
-    "apply_url": "https://ssc.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "SSC CHSL Tier-I 2026",
     "type": "Exam",
     "state": "Central Government",
     "status": "Upcoming",
-    "source_url": "https://ssc.gov.in/"
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "1c576b2a2bad7dfefc271013c6cd5fe9555f3f9e5064f4b0c070bca7c6b001da"
   },
   "ssc-cpo-2026": {
     "organization": "Staff Selection Commission (SSC)",
