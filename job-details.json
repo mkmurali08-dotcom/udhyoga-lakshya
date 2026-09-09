@@ -1134,26 +1134,16 @@
     "_sheet_fingerprint": "42545b3ef28c082d57863a9730423959778fb1cc34eedac7d972dc722c8e005c"
   },
   "lecturer-u-p-technical-education-service-examination-2025-admit-card": {
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
+    "organization": "UPPSC, Prayagraj (Uttar Pradesh Public Service Commission)",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Lecturer U.P. Technical Education Service"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Uttar Pradesh",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -1170,21 +1160,22 @@
       "Not mentioned in the official notification"
     ],
     "documents_required": [
-      "Admit Card",
-      "Photo ID proof as mentioned in the instructions"
+      "Not mentioned in the official notification"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates must bring their Admit Card to the examination center.",
-      "Check the official UPPSC website for further details and updates regarding the examination."
+      "Applicant's OTR number is the only regsitration number for submitting application form against any post published by the commission.",
+      "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc."
     ],
     "official_notification_url": "https://uppsc.up.nic.in/",
-    "apply_url": "https://uppsc.up.nic.in/",
+    "apply_url": "https://otr.pariksha.nic.in/",
     "title": "Lecturer U.P. Technical Education Service Examination-2025 — Admit Card",
     "type": "Admit Card",
     "state": "Uttar Pradesh",
     "status": "Open",
-    "source_url": "https://uppsc.up.nic.in/"
+    "source_url": "https://uppsc.up.nic.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "16b8f8d315f57df5a4358d7a715277169ecbec8b9be5c1d6a13dcca7bbf85edc"
   },
   "ap-government-job-calendar-2026-recruitment-schedule": {
     "organization": "Andhra Pradesh Public Service Commission (APPSC)",
