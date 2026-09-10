@@ -1383,26 +1383,18 @@
     "source_url": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx"
   },
   "upsc-civil-services-examination-2026-main-examination-e-admit-card": {
-    "organization": "Union Public Service Commission (UPSC)",
+    "organization": "UNION PUBLIC SERVICE COMMISSION",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Civil Services (Main) Examination, 2026"
+      "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -1423,15 +1415,22 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Important Notice (WindowCAF-CSM-26-Engl-190626.pdf) date of upload: 19/06/2026",
+      "e - Admit Card date of upload: 14/08/2026",
+      "Examination Time Table (TT-CSM-2026-Engl-100726.pdf) date of upload: 10/07/2026",
+      "Press Note (PressNote-CSM-2026-Engl-190826.pdf) date of upload: 19/08/2026",
+      "Helpline - SC/ST/OBC/EWS/PwBD: 1800-118-711",
+      "Helpdesk contact numbers: 011-24041001 / 011-40303444"
     ],
     "official_notification_url": "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026",
-    "apply_url": "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026",
+    "apply_url": "Not mentioned in the official notification",
     "title": "UPSC Civil Services Examination 2026 — Main Examination e-Admit Card",
     "type": "Admit Card",
     "state": "Central Goverment",
     "status": "Open",
-    "source_url": "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026"
+    "source_url": "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "f9e9eceb6157f6982863cd10e6719558b5ef271217e2a5fa8b2fbcb731d95f37"
   },
   "upsc-combined-medical-services-examination-2026-written-result-01-09-2026": {
     "organization": "Union Public Service Commission (UPSC)",
