@@ -3397,5 +3397,40 @@
     "state": "Central Government",
     "status": "Upcoming",
     "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+  },
+  "upsc-cds-ii-2026-admit-cards": {
+    "organization": "Union Public Service Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Combined Defence Services Examination (II), 2026"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "All candidates appearing in the UPSC Examination will undergo Face Authentication at the venue."
+    ],
+    "official_notification_url": "https://www.upsc.gov.in/",
+    "apply_url": "https://upsconline.nic.in",
+    "title": "UPSC CDS (II) 2026 — Admit Cards",
+    "type": "Admit Card",
+    "state": "Central Goverment",
+    "status": "Admit Card",
+    "source_url": "https://www.upsc.gov.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "77d4bdc3b920c1c820ed1edbdc1a2fa4b930576ffed3bcae9b47c282466e4106"
   }
 }
