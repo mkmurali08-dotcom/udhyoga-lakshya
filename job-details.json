@@ -1601,55 +1601,35 @@
     "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
   },
   "upsc-advertisement-no-10-2026-current-advertisement": {
-    "organization": "Union Public Service Commission (UPSC)",
-    "advertisement_number": "Advertisement No. 10/2026",
-    "post_names": [
-      "Not mentioned in the official notification"
-    ],
+    "organization": "Union Public Service Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "08/08/2026",
+    "application_end": "28/08/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
-    ],
+    "important_instructions": "Not mentioned in the official notification",
     "official_notification_url": "https://www.upsc.gov.in/whats-new",
-    "apply_url": "Not mentioned in the official notification",
+    "apply_url": "https://upsconline.nic.in/ora/",
     "title": "UPSC Advertisement No. 10/2026 — Current Advertisement",
     "type": "Job",
     "state": "Central Goverment",
     "status": "Closed",
-    "source_url": "https://www.upsc.gov.in/whats-new"
+    "source_url": "https://www.upsc.gov.in/whats-new",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "9bfac1bb820fbf082c6350aed6635372e577dc14221e0806fccadf6ae474e347"
   },
   "ssc-cgl-2026-tier-i-current-cycle": {
     "organization": "Staff Selection Commission",
