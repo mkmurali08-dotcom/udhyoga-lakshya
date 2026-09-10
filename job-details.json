@@ -2137,7 +2137,7 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Written Examination"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -2150,17 +2150,17 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Written Results document for Central Armed Police Forces (ACs) Examination, 2026 was uploaded on 25/08/2026."
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "apply_url": "Not mentioned in the official notification",
     "title": "UPSC Central Armed Police Forces (ACs) Examination 2026 — Written Result",
     "type": "Result",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Declared",
     "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "68273d2f38e8f51dedd7ce17573d0073064f26b72a931014c0fdb97cb6cc8932"
+    "_sheet_fingerprint": "e9a32992b810f8e6dc321814e211961ad2145a1de54f0e90563cd3369433fff2"
   },
   "upsc-indian-economic-service-indian-statistical-service-examination-2026-written-result": {
     "organization": "Union Public Service Commission (UPSC)",
