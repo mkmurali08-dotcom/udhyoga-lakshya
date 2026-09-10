@@ -838,5 +838,17 @@
     "Status": "Upcoming",
     "FirstSeen": "2026-09-10T14:39:36Z",
     "IsNew": true
+  },
+  {
+    "Type": "Job",
+    "State": "Central Goverment",
+    "Title": "SSC CPO (SI Delhi Police) 2026",
+    "Application Start": "September 10, 2026",
+    "Application End": "September 30, 2026 (until 11:00 PM)",
+    "Official Link": "https://ssc.gov.in/home",
+    "Apply Link": "https://ssc.gov.in/login",
+    "Status": "Open",
+    "FirstSeen": "2026-09-10T14:56:44Z",
+    "IsNew": true
   }
 ]
