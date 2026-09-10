@@ -2660,7 +2660,7 @@
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
-      "Online Fee Payment duration: 01/07/2026 to 26/07/2026 (Fee amount not mentioned in the official notification)"
+      "Online Fee Payment: 01/07/2026 to 26/07/2026 (Fee amount not mentioned in the official notification)"
     ],
     "application_start": "01/07/2026",
     "application_end": "26/07/2026",
@@ -2668,8 +2668,12 @@
     "selection_process": [
       "Preliminary Examination"
     ],
-    "exam_pattern": "Not mentioned in the official notification",
-    "syllabus": "Not mentioned in the official notification",
+    "exam_pattern": [
+      "Not mentioned in the official notification"
+    ],
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
     "documents_required": [
       "Photograph",
       "Signature"
@@ -2684,17 +2688,19 @@
       "Online Fee Payment: 01/07/2026 to 26/07/2026",
       "Online Application validation rules and design are based on the Notification requirement. Candidates are advised to read the notification carefully and refer 'How to Apply' & 'FAQ' pages on the main page.",
       "Application submitted through Online form does not imply that candidate has fulfilled all the criteria given in the notification. Application is subject to subsequent scrutiny and can be rejected if found to be ineligible at any point of time.",
-      "Only the candidates who have appeared for preliminary examination are eligible to provide the observations."
+      "Only the candidates who have appeared for preliminary examination are eligible to provide the observations.",
+      "Support and Best Viewed on Internet Explorer 9+; Google Chrome 30+ ; Firefox 20+",
+      "This Website is viewable only in Landscape Mode."
     ],
     "official_notification_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
     "apply_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
     "title": "IBPS CRP-PO/MT-XVI — Preliminary Exam Candidate Query Window",
     "type": "Result",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Live",
     "source_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
     "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "7d60b83e676a5857ab085fbfe3fc01e49717e9bc786bb26fe2d72b5f8a4092b4"
+    "_sheet_fingerprint": "efb99f88174deb4bd55d5e5f0e951999c1024f8b349db633b5ccb86bcc7febf6"
   },
   "uppsc-research-assistant-engineering-exam-2025": {
     "organization": "Not mentioned in the official notification",
