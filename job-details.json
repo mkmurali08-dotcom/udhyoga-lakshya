@@ -2268,26 +2268,18 @@
     "_sheet_fingerprint": "be7a6f3b415b002748a930314486a38627c311d341bbbd069b5bd1b81ad491a7"
   },
   "upsc-combined-geo-scientist-main-examination-2026-written-result": {
-    "organization": "Union Public Service Commission (UPSC)",
+    "organization": "Union Public Service Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Geo-Scientist (Main) Examination, 2026"
+      "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Not mentioned in the official notification",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -2295,8 +2287,7 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Written Result",
-      "Personality Test (Interview)"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -2309,11 +2300,8 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidature of all these candidates is provisional.",
-      "In accordance with the Rules of the Examination, all these candidates have to fill up and submit the Detailed Application Form (DAF) online for taking the Personality Test (Interview).",
-      "The dates and important instructions for filling up the DAF and its submission will be announced on the Commission's website in due course.",
-      "Candidates are also required to bring original certificates in support of their claims relating to age, educational qualifications, community, benchmark disability (wherever applicable) etc. at the time of the Personality Test.",
-      "Union Public Service Commission has a Facilitation Counter near the Examination Hall Building in its Campus. Candidates may obtain any information/clarification regarding their examination/result on working days between 10.00 A.M. and 5.00 P.M. in person or over telephone Nos. (011)-23385271/23381125/23098543 from this Counter."
+      "SC/ST/OBC/EWS/PwBD Helpline: 1800-118-711",
+      "Helpdesk Contact: 011-24041001 / 011-40303444"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "apply_url": "Not mentioned in the official notification",
@@ -2321,7 +2309,9 @@
     "type": "Result",
     "state": "Central Government",
     "status": "Declared",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result"
+    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "563d38f13e713c2627b580574a22529d272b26ea9d8a3ea774a588a564d33f37"
   },
   "ssc-chsl-2025-first-round-of-tentative-allocation": {
     "organization": "Staff Selection Commission",
