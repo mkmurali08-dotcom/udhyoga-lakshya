@@ -1718,27 +1718,16 @@
     "_sheet_fingerprint": "756ced5a4171e3b020fbd76d3bdab16da4e0519943ddf6e8521911b14a33d439"
   },
   "ssc-stenographer-grade-c-d-2026-current-exam-window": {
-    "organization": "Staff Selection Commission (SSC)",
-    "advertisement_number": "Stenographer Grade 'C' & 'D' Examination, 2026",
-    "post_names": [
-      "Stenographer Grade C",
-      "Stenographer Grade D"
-    ],
+    "organization": "Staff Selection Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "12th Standard or equivalent pass from a recognized Board or University"
-    ],
-    "other_eligibility": [
-      "Must have knowledge of shorthand and typing as applicable for the respective grades as per the notification details."
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -1746,34 +1735,30 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Computer Based Examination (CBE)",
-      "Skill Test in Stenography"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
-      "Computer Based Examination comprising objective type multiple choice questions.",
-      "Subjects generally include General Intelligence & Reasoning, General Awareness, and English Language & Comprehension."
+      "Not mentioned in the official notification"
     ],
     "syllabus": [
-      "General Intelligence & Reasoning",
-      "General Awareness",
-      "English Language & Comprehension"
+      "Not mentioned in the official notification"
     ],
     "documents_required": [
       "Not mentioned in the official notification"
     ],
-    "salary_pay_scale": [
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
       "Not mentioned in the official notification"
     ],
-    "important_instructions": [
-      "Candidates must apply online through the official website https://ssc.gov.in within the stipulated time frame."
-    ],
     "official_notification_url": "https://ssc.gov.in/",
-    "apply_url": "https://ssc.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "SSC Stenographer Grade C & D 2026 — current exam window",
     "type": "Exam",
     "state": "Central Goverment",
     "status": "Current",
-    "source_url": "https://ssc.gov.in/"
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "a73935a6e3afb34016dde3febe490ad2bb1775d0f4cac56c6934ddb827ab663b"
   },
   "ssc-mts-havaldar-2026-september-to-november-exam-window": {
     "organization": "Staff Selection Commission",
