@@ -348,15 +348,15 @@
     "IsNew": true
   },
   {
-    "Type": "Upcoming",
+    "Type": "Admit Card",
     "State": "Central Goverment",
-    "Title": "UPSC CDS (II) 2026 — Examination 13 September 2026",
+    "Title": "UPSC CDS (II) 2026 — Admit Cards",
     "Application Start": "",
     "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "Official Link": "https://www.upsc.gov.in/",
     "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-05T23:43:04Z",
+    "Status": "Admit Card",
+    "FirstSeen": "2026-09-10T16:16:44Z",
     "IsNew": true
   },
   {
@@ -380,54 +380,6 @@
     "Official Link": "https://www.upsc.gov.in/whats-new",
     "Apply Link": "",
     "Status": "Closed",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "SSC CGL 2026 — Tier-I current cycle",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Current",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "SSC JE 2026 — Paper-I current cycle",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Current",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "SSC Stenographer Grade C & D 2026 — current exam window",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Current",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Upcoming",
-    "State": "Central Goverment",
-    "Title": "SSC MTS & Havaldar 2026 — September to November exam window",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Upcoming",
     "FirstSeen": "2026-09-05T23:43:04Z",
     "IsNew": true
   },
@@ -546,30 +498,6 @@
     "Application Start": "",
     "Application End": "",
     "Official Link": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "SSC CHSL 2025 — First Round of Tentative Allocation",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Selection Update",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "SSC JE 2025 — Final Answer Keys / Marks of Paper-II",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/",
     "Apply Link": "",
     "Status": "Declared",
     "FirstSeen": "2026-09-10T15:53:07Z",
@@ -720,15 +648,15 @@
     "IsNew": true
   },
   {
-    "Type": "Exam",
+    "Type": "Admit Card",
     "State": "Central Goverment",
-    "Title": "IBPS CRP-PO/MT-XVI — Main Examination",
+    "Title": "IBPS CRP-PO/MT-XVI — Main Examination Admit Cards",
     "Application Start": "",
     "Application End": "",
     "Official Link": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
     "Apply Link": "",
     "Status": "Upcoming",
-    "FirstSeen": "2026-09-10T15:53:07Z",
+    "FirstSeen": "2026-09-10T16:16:44Z",
     "IsNew": true
   },
   {
@@ -810,9 +738,9 @@
     "Application Start": "",
     "Application End": "",
     "Official Link": "https://ssc.gov.in/home",
-    "Apply Link": "",
+    "Apply Link": "https://ssc.gov.in/login",
     "Status": "Upcoming",
-    "FirstSeen": "2026-09-10T14:39:36Z",
+    "FirstSeen": "2026-09-10T16:16:44Z",
     "IsNew": true
   },
   {
@@ -837,6 +765,18 @@
     "Apply Link": "https://ibpsreg.ibps.in/uiicljul26/",
     "Status": "Live",
     "FirstSeen": "2026-09-10T15:19:17Z",
+    "IsNew": true
+  },
+  {
+    "Type": "Result",
+    "State": "Central Goverment",
+    "Title": "SSC JE( (Junior Engineer) 2026",
+    "Application Start": "September 2, 2026",
+    "Application End": "September 22, 2026 (23:00 hours)",
+    "Official Link": "https://ssc.gov.in/",
+    "Apply Link": "https://ssc.gov.in/login",
+    "Status": "Live",
+    "FirstSeen": "2026-09-10T16:16:44Z",
     "IsNew": true
   }
 ]
