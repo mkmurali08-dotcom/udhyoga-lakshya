@@ -3080,34 +3080,26 @@
     "_sheet_fingerprint": "1c576b2a2bad7dfefc271013c6cd5fe9555f3f9e5064f4b0c070bca7c6b001da"
   },
   "ssc-cpo-2026": {
-    "organization": "Staff Selection Commission (SSC)",
+    "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Sub-Inspector in Delhi Police and Central Armed Police Forces (CAPFs) Examination, 2026"
+      "Sub-Inspector in Delhi Police & Central Armed Police Forces Examination, 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_start": "02-06-2026",
-    "application_end": "01-07-2026",
-    "exam_date": "October-November 2026",
+    "application_start": "May 2026",
+    "application_end": "June 2026",
+    "exam_date": "October – November 2026",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Paper-I (Computer Based Examination - CBE)"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -3120,16 +3112,17 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "The dates are tentative and subject to change.",
-      "Candidates are advised to check the website of the Commission regularly for further updates."
+      "*CBE- Computer Based Examination"
     ],
     "official_notification_url": "https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf",
-    "apply_url": "https://ssc.gov.in",
+    "apply_url": "Not mentioned in the official notification",
     "title": "SSC CPO 2026",
     "type": "Exam",
     "state": "Central Government",
     "status": "Upcoming",
-    "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf"
+    "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "42e8e8865a656ec1c17d33bc0d8aeef867f7ab4961e2c8342dc855754530a826"
   },
   "ibps-crp-spl-xvi-main-examination": {
     "organization": "Institute of Banking Personnel Selection (IBPS)",
