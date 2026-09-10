@@ -2797,24 +2797,14 @@
   "uppsc-lecturer-government-inter-college-mains-exam-2025": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Lecturer, Government Inter College (Mains) Exam 2025"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Uttar Pradesh",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -2838,12 +2828,14 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "apply_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "apply_url": "https://uppsc.up.nic.in/OuterPages/CandidatePages/Notifications.aspx",
     "title": "UPPSC Lecturer, Government Inter College (Mains) Exam 2025",
     "type": "Admit Card",
     "state": "Uttar Pradesh",
     "status": "Admit Card",
-    "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+    "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "26c1b591828b5e588aa7cad5d0f6125e2c2e2d125e0b6f402c5097876b774949"
   },
   "ibps-recruitment-of-500-assistants": {
     "organization": "Institute of Banking Personnel Selection (IBPS)",
