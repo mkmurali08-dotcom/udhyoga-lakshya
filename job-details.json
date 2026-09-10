@@ -1488,60 +1488,44 @@
       "Combined Defence Services Examination (II), 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "For I.M.A. and Officers' Training Academy: Degree of a recognised University or equivalent.",
-      "For Indian Naval Academy: Degree in Engineering from a recognised University/Institution.",
-      "For Air Force Academy: Degree of a recognised University (with Physics and Mathematics at 10+2 level) or Bachelor of Engineering."
-    ],
-    "other_eligibility": [
-      "Must be unmarried",
-      "Nationality: Citizen of India, or subjects of Bhutan/Nepal, or Tibetan refugee who came over to India before 1st January, 1962 with the intention of permanently settling in India, or a person of Indian origin who has migrated from Pakistan, Burma, Sri Lanka and East African countries of Kenya, Uganda, the United Republic of Tanzania, Zambia, Malawi, Zaire and Ethiopia or Vietnam with the intention of permanently settling in India."
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
-    "exam_date": "13 September 2026",
+    "application_start": "20/05/2026",
+    "application_end": "11/06/2026 - 18:00",
+    "exam_date": "13/09/2026",
     "selection_process": [
-      "Written Examination",
-      "Intelligence and Personality Test (SSB Interview)"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
-      "For Admission to Indian Military Academy, Indian Naval Academy and Air Force Academy: Subjects include English, General Knowledge, and Elementary Mathematics.",
-      "For Admission to Officers' Training Academy: Subjects include English and General Knowledge.",
-      "All subjects will consist of objective type questions only."
+      "Duration of Examination: One Day"
     ],
     "syllabus": [
-      "English: The question paper will be designed to test the candidate's understanding of English and workman - like use of words.",
-      "General Knowledge: General Knowledge including knowledge of current events and of such matters of everyday observation and experience in their scientific aspects as may be expected of an educated person who has not made a special study of any scientific subject.",
-      "Elementary Mathematics: Arithmetic, Algebra, Mensuration, Geometry, Trigonometry, and Statistics."
+      "Not mentioned in the official notification"
     ],
     "documents_required": [
       "Not mentioned in the official notification"
     ],
-    "salary_pay_scale": [
-      "Not mentioned in the official notification"
-    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates should ensure their eligibility before applying.",
-      "Detailed notification and rules are available on the UPSC website."
+      "Last Date for Receipt of Applications: 11/06/2026 - 18:00",
+      "Duration of Examination: One Day"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "apply_url": "https://upsconline.nic.in",
+    "apply_url": "Not mentioned in the official notification",
     "title": "UPSC CDS (II) 2026 — Examination 13 September 2026",
     "type": "Upcoming",
     "state": "Central Goverment",
     "status": "Upcoming",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+    "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "596c64a2c3b201816d44a3976a0b80cb11c9e24eae5c962baa39ef0a0ea3a12f"
   },
   "upsc-nda-na-ii-2026-examination-13-september-2026": {
     "organization": "Union Public Service Commission (UPSC)",
