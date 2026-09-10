@@ -2691,12 +2691,14 @@
     "_sheet_fingerprint": "efb99f88174deb4bd55d5e5f0e951999c1024f8b349db633b5ccb86bcc7febf6"
   },
   "uppsc-research-assistant-engineering-exam-2025": {
-    "organization": "Not mentioned in the official notification",
+    "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": "Not mentioned in the official notification",
+    "post_names": [
+      "Not mentioned in the official notification"
+    ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": "Not mentioned in the official notification",
-    "job_location": "Not mentioned in the official notification",
+    "vacancy_breakdown": [],
+    "job_location": "Uttar Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
@@ -2724,14 +2726,14 @@
       "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "apply_url": "Not mentioned in the official notification",
+    "apply_url": "https://uppsc.up.nic.in/OuterPages/CandidatePages/Notifications.aspx",
     "title": "UPPSC Research Assistant (Engineering) Exam 2025",
     "type": "Admit Card",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Admit Card",
     "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
     "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "48eb91452fcffcd4caeb82b0411beb41b514ab9c95fa8b96285c27dc599d79d1"
+    "_sheet_fingerprint": "50e53aac3c6b32bb97148b20d9ca46924b64d80b8de6ac8117367bd8b9505ee3"
   },
   "uppsc-lecturer-u-p-technical-education-teaching-service-exam-2025": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
