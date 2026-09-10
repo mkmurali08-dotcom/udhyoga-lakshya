@@ -2340,26 +2340,18 @@
     "source_url": "https://www.upsc.gov.in/exams-related-info/written-result"
   },
   "ssc-chsl-2025-first-round-of-tentative-allocation": {
-    "organization": "Staff Selection Commission (SSC)",
+    "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Higher Secondary (10+2) Level Examination (CHSL)"
+      "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -2367,7 +2359,7 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "First Round of Tentative Allocation"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -2380,15 +2372,17 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "This is the First Round of Tentative Allocation for SSC CHSL 2025."
+      "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://ssc.gov.in/",
-    "apply_url": "https://ssc.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "SSC CHSL 2025 — First Round of Tentative Allocation",
     "type": "Result",
     "state": "Central Government",
     "status": "Selection Update",
-    "source_url": "https://ssc.gov.in/"
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "522b24afaaa48a8b14330a1a377eefc415e8ea32a77dc5f3300bced04a7a26c1"
   },
   "ssc-je-2025-final-answer-keys-marks-of-paper-ii": {
     "organization": "Staff Selection Commission (SSC)",
@@ -2442,34 +2436,24 @@
     "source_url": "https://ssc.gov.in/"
   },
   "ssc-mts-havaldar-2025-pet-pst-schedule": {
-    "organization": "Staff Selection Commission (SSC)",
+    "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Multi Tasking (Non-Technical) Staff, and Havaldar (CBIC & CBN) Examination, 2024"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Candidates qualified in the Computer Based Examination (CBE) for the post of Havaldar"
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "PET/PST for the post of Havaldar in Multi Tasking (Non-Technical) Staff, and Havaldar (CBIC & CBN) Examination, 2024 is scheduled to be held from 28.05.2025 onwards.",
+    "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "PET (Physical Efficiency Test) / PST (Physical Standard Test)"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
       "Not mentioned in the official notification"
@@ -2482,17 +2466,17 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "The schedule of PET/PST is available on the website of the Commission.",
-      "Admission Certificates (ACs) to the qualified candidates will be uploaded on the website of the respective regional offices of the Commission in due course.",
-      "Candidates are advised to regularly visit the websites of the Commission (ssc.gov.in) and respective regional offices for updates."
+      "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://ssc.gov.in/",
-    "apply_url": "https://ssc.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "SSC MTS & Havaldar 2025 — PET/PST Schedule",
     "type": "Result",
     "state": "Central Government",
     "status": "Live",
-    "source_url": "https://ssc.gov.in/"
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "e24c354c7e732dc8f874a0ab1272bcf92e8577c5fc5d81bac2e8d5ceb4d6f61d"
   },
   "rrb-level-1-cen-09-2025-application-status": {
     "organization": "Railway Recruitment Boards (RRBs)",
