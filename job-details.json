@@ -1531,38 +1531,26 @@
     "organization": "Union Public Service Commission (UPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "National Defence Academy (NDA) - Army, Navy, and Air Force wings",
-      "Naval Academy (10+2 Cadet Entry Scheme)"
+      "National Defence Academy and Naval Academy Examination (II), 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "All India",
-    "educational_qualification": [
-      "For Army Wing of National Defence Academy: 12th Class pass of the 10+2 pattern of school education or equivalent examination conducted by a State Education Board or a University.",
-      "For Air Force and Naval Wings of National Defence Academy and for the 10+2 Cadet Entry Scheme at the Naval Academy: 12th Class pass with Physics, Chemistry and Mathematics of the 10+2 pattern of school education or equivalent conducted by a State Education Board or a University."
-    ],
-    "other_eligibility": [
-      "Candidates appearing in the 11th class exam are not eligible.",
-      "Only unmarried male/female candidates (as applicable per rules) are eligible."
-    ],
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
-    "exam_date": "13 September 2026",
+    "application_start": "20/05/2026",
+    "application_end": "11/06/2026 - 18:00",
+    "exam_date": "13/09/2026",
     "selection_process": [
-      "Written Examination",
-      "Intelligence and Personality Test (SSB Interview)"
+      "Not mentioned in the official notification"
     ],
     "exam_pattern": [
-      "Not mentioned in the official notification"
+      "Duration of Examination: One Day"
     ],
     "syllabus": [
       "Not mentioned in the official notification"
@@ -1570,19 +1558,22 @@
     "documents_required": [
       "Not mentioned in the official notification"
     ],
-    "salary_pay_scale": [
-      "Not mentioned in the official notification"
-    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Date of Notification: 20/05/2026",
+      "Last Date for Receipt of Applications: 11/06/2026 - 18:00",
+      "Date of Examination: 13/09/2026",
+      "Duration of Examination: One Day"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "apply_url": "https://upsconline.nic.in",
+    "apply_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
     "title": "UPSC NDA & NA (II) 2026 — Examination 13 September 2026",
     "type": "Upcoming",
     "state": "Central Goverment",
     "status": "Upcoming",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+    "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "8f35a935df5a9f429a7c375b754922a2d167e1d4a5721114edb863cb59dd6fdf"
   },
   "upsc-advertisement-no-10-2026-current-advertisement": {
     "organization": "Union Public Service Commission",
@@ -2359,26 +2350,18 @@
     "_sheet_fingerprint": "522b24afaaa48a8b14330a1a377eefc415e8ea32a77dc5f3300bced04a7a26c1"
   },
   "ssc-je-2025-final-answer-keys-marks-of-paper-ii": {
-    "organization": "Staff Selection Commission (SSC)",
+    "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Junior Engineer (Civil, Mechanical & Electrical) Examination, 2025"
+      "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": [],
     "job_location": "Not mentioned in the official notification",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
       "Not mentioned in the official notification"
     ],
@@ -2399,15 +2382,17 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Check Final Answer Keys and Marks of Paper-II through the official SSC website using Registered ID and Password."
+      "Not mentioned in the official notification"
     ],
     "official_notification_url": "https://ssc.gov.in/",
-    "apply_url": "https://ssc.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
     "title": "SSC JE 2025 — Final Answer Keys / Marks of Paper-II",
     "type": "Result",
     "state": "Central Government",
     "status": "Declared",
-    "source_url": "https://ssc.gov.in/"
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "f16d6251a1a506722e1f7f28919b60dbb3d9aa30770048c9f01c5ce72f2a2995"
   },
   "ssc-mts-havaldar-2025-pet-pst-schedule": {
     "organization": "Staff Selection Commission",
