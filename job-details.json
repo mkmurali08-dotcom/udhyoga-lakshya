@@ -2647,64 +2647,55 @@
     "source_url": "https://rrbsecunderabad.gov.in/"
   },
   "ibps-crp-po-mt-xvi-preliminary-exam-candidate-query-window": {
-    "organization": "IBPS",
-    "advertisement_number": "CRP-PO/MT-XVI",
+    "organization": "Institute of Banking Personnel Selection (IBPS) / Participating Banks",
+    "advertisement_number": "CRP PO/MT-XVI",
     "post_names": [
-      "Probationary Officer",
-      "Management Trainee"
+      "Probationary Officers",
+      "Management Trainees"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [],
     "job_location": "Not mentioned in the official notification",
-    "educational_qualification": [
-      "SSC/ SSLC/ 10th standard or equivalent certificate"
-    ],
-    "other_eligibility": [
-      "Candidates are required to capture and upload their live photograph through webcam or mobile phone during the registration process."
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Only the candidates who have appeared for preliminary examination are eligible to provide the observations.",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [],
+    "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
-      "Rs. 175/- (inclusive of GST) for SC/ST/PwBD candidates.",
-      "Rs. 850/- (inclusive of GST) for all others.",
-      "Rs. 200/- (inclusive of GST) as correction fee for modifying/correcting the application form through 'Edit Window'."
+      "Online Fee Payment duration: 01/07/2026 to 26/07/2026 (Fee amount not mentioned in the official notification)"
     ],
-    "application_start": "01.07.2026",
-    "application_end": "21.07.2026",
+    "application_start": "01/07/2026",
+    "application_end": "26/07/2026",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Online Application submission",
-      "Online Payment of application fees/intimation charges"
+      "Preliminary Examination"
     ],
-    "exam_pattern": [],
-    "syllabus": [],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
     "documents_required": [
       "Photograph",
-      "Signature",
-      "Left thumb impression",
-      "Hand written declaration",
-      "Certificate as mentioned in clause J (ix) (if applicable)",
-      "SSC/ SSLC/ 10th standard or equivalent certificate",
-      "Live photograph captured through webcam or mobile phone"
+      "Signature"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates can apply online only and no other mode of application will be accepted.",
-      "No change is permitted after clicking on COMPLETE REGISTRATION Button.",
-      "The particulars mentioned in the online application for 'Name', 'Email ID', 'Mobile Number', 'State/UT' field in correspondence address and Permanent Address, 'Post', and 'Nationality' fields cannot be edited and will be considered as final.",
-      "After submitting your payment information in the online application form, please wait for the intimation from the server, DO NOT press Back or Refresh button.",
-      "Candidates are advised to apply online much before the closing date and not to wait till the last date.",
-      "An edit window of 2 days will be provided after the closing date for receipt of online applications for candidates to correct/modify their online application form.",
-      "Signature and Hand written declaration in CAPITAL LETTERS shall NOT be accepted."
+      "Commencement of online registration of application: 01/07/2026",
+      "Closure of registration of application: 26/07/2026",
+      "Commencement of editing application details: 29/07/2026",
+      "Closure for editing application details: 30/07/2026",
+      "Last date for printing your application: 27/08/2026",
+      "Online Fee Payment: 01/07/2026 to 26/07/2026",
+      "Online Application validation rules and design are based on the Notification requirement. Candidates are advised to read the notification carefully and refer 'How to Apply' & 'FAQ' pages on the main page.",
+      "Application submitted through Online form does not imply that candidate has fulfilled all the criteria given in the notification. Application is subject to subsequent scrutiny and can be rejected if found to be ineligible at any point of time.",
+      "Only the candidates who have appeared for preliminary examination are eligible to provide the observations."
     ],
     "official_notification_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
     "apply_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
-    "notification_pdf_url": "https://ibpsreg.ibps.in/crppoxvijun26/uploads/loadpdf.php?file=k7m5p+fQ15erzNvj0OHb09Pb2JeEcNvImGKn6KK2rL1x&t=zLjIrOLC1Ni005njxc8=#toolbar=0&navpanes=0",
     "title": "IBPS CRP-PO/MT-XVI — Preliminary Exam Candidate Query Window",
     "type": "Result",
     "state": "Central Government",
     "status": "Live",
-    "source_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0"
+    "source_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "7d60b83e676a5857ab085fbfe3fc01e49717e9bc786bb26fe2d72b5f8a4092b4"
   },
   "uppsc-research-assistant-engineering-exam-2025": {
     "organization": "Not mentioned in the official notification",
