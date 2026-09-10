@@ -734,30 +734,6 @@
   {
     "Type": "Exam",
     "State": "Central Government",
-    "Title": "SSC CHSL Tier-I 2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-06T19:39:24Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Government",
-    "Title": "SSC CPO 2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-06T19:39:24Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Government",
     "Title": "IBPS CRP-SPL-XVI — Main Examination",
     "Application Start": "",
     "Application End": "",
@@ -849,6 +825,18 @@
     "Apply Link": "https://ssc.gov.in/login",
     "Status": "Open",
     "FirstSeen": "2026-09-10T14:56:44Z",
+    "IsNew": true
+  },
+  {
+    "Type": "Job",
+    "State": "Central Goverment",
+    "Title": "(UIIC) RECRUITMENT OF ADMINISTRATIVE OFFICERS (SCALE I) – GENERALISTS & HINDI OFFICERS",
+    "Application Start": "08/09/2026",
+    "Application End": "28/09/2026",
+    "Official Link": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf",
+    "Apply Link": "https://ibpsreg.ibps.in/uiicljul26/",
+    "Status": "Live",
+    "FirstSeen": "2026-09-10T15:19:17Z",
     "IsNew": true
   }
 ]
