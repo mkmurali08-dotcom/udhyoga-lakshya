@@ -1,18 +1,6 @@
 [
   {
     "Type": "Job",
-    "State": "Telangana",
-    "Title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
-    "Application Start": "19/08/2026",
-    "Application End": "16/09/2026",
-    "Official Link": "https://www.tgprb.in/",
-    "Apply Link": "https://www.tgprb.in/applive/login",
-    "Status": "Live",
-    "FirstSeen": "2026-09-08T16:00:53Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
     "State": "Central Goverment",
     "Title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
     "Application Start": "03/09/2026",
@@ -825,6 +813,30 @@
     "Apply Link": "",
     "Status": "Upcoming",
     "FirstSeen": "2026-09-06T19:39:24Z",
+    "IsNew": true
+  },
+  {
+    "Type": "Job",
+    "State": "Telangana",
+    "Title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
+    "Application Start": "19/08/2026",
+    "Application End": "16/09/2026",
+    "Official Link": "https://www.tgprb.in/",
+    "Apply Link": "https://www.tgprb.in/applive/login",
+    "Status": "Live",
+    "FirstSeen": "2026-09-08T16:00:53Z",
+    "IsNew": true
+  },
+  {
+    "Type": "Exam",
+    "State": "Central Goverment",
+    "Title": "SSC (CHSL) (10+2) Examination",
+    "Application Start": "",
+    "Application End": "",
+    "Official Link": "https://ssc.gov.in/home",
+    "Apply Link": "",
+    "Status": "Upcoming",
+    "FirstSeen": "2026-09-10T14:39:36Z",
     "IsNew": true
   }
 ]
