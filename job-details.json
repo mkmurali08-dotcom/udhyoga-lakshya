@@ -2166,11 +2166,11 @@
     "organization": "Union Public Service Commission (UPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Indian Economic Service",
-      "Indian Statistical Service"
+      "Indian Economic Service Examination, 2026",
+      "Indian Statistical Service Examination, 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
@@ -2180,25 +2180,24 @@
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Written Examination"
-    ],
+    "selection_process": "Not mentioned in the official notification",
     "exam_pattern": "Not mentioned in the official notification",
     "syllabus": "Not mentioned in the official notification",
     "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Written Results for Indian Economic Service Examination, 2026 and Indian Statistical Service Examination, 2026 were uploaded on 04/08/2026."
+      "Written Results for Indian Economic Service - Indian Statistical Service Examination, 2026 were uploaded on 04/08/2026.",
+      "Candidates can download the result roll lists directly from the official portal."
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "apply_url": "Not mentioned in the official notification",
     "title": "UPSC Indian Economic Service / Indian Statistical Service Examination 2026 — Written Result",
     "type": "Result",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Declared",
     "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "64f71fcdfbc9acf5cd44e086ffd9b5265d349c1d6717e976cb8883acb6c44557"
+    "_sheet_fingerprint": "dea1c0d7815d804dede9cfff1203d6a6317b6ce842f53037a18e3ac0bf397321"
   },
   "upsc-engineering-services-main-examination-2026-written-result": {
     "organization": "Union Public Service Commission",
