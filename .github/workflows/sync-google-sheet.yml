@@ -27,18 +27,20 @@ jobs:
         run: |
           set -e
 
-          PUBHTML_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vSYjRHSHCqIPxnzmWR1hXBCJtVhlc2nCgJ0WgS9x5MUghWnVTY4LBYZt7RfB4DvPaNkZSrYB3P4swXm/pubhtml?gid=2002700274&single=true"
+          SHEET_ID="1HLCzR_CwklTB6DY_XCp0XqHTBFf_lk5vWT--2-jdOK0"
 
           curl -fL --retry 3 --retry-all-errors --silent --show-error \
             -A "Mozilla/5.0" \
-            "$PUBHTML_URL" \
-            -o sheet.html
+            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=final" \
+            -o sheet.csv
 
           python - <<'PY'
-          from html.parser import HTMLParser
           import csv
 
-          REQUIRED = {
+          with open("sheet.csv", encoding="utf-8-sig", newline="") as f:
+              headers = {x.strip() for x in next(csv.reader(f), [])}
+
+          required = {
               "Type",
               "State",
               "Category",
@@ -48,83 +50,20 @@ jobs:
               "Status",
           }
 
-          class TableParser(HTMLParser):
-              def __init__(self):
-                  super().__init__()
-                  self.in_table = False
-                  self.in_row = False
-                  self.in_cell = False
-                  self.tables = []
-                  self.table = []
-                  self.row = []
-                  self.cell = []
+          if not required.issubset(headers):
+              raise SystemExit(
+                  f"ERROR: Google Sheet headers not found. Got: {sorted(headers)}"
+              )
 
-              def handle_starttag(self, tag, attrs):
-                  if tag == "table" and not self.in_table:
-                      self.in_table = True
-                      self.table = []
-                  elif self.in_table and tag == "tr":
-                      self.in_row = True
-                      self.row = []
-                  elif self.in_table and self.in_row and tag in ("td", "th"):
-                      self.in_cell = True
-                      self.cell = []
+          if not (
+              {"Date", "Application Start", "Application End"} & headers
+          ):
+              raise SystemExit(
+                  "ERROR: No Date/Application Start/Application End column found."
+              )
 
-              def handle_data(self, data):
-                  if self.in_cell:
-                      self.cell.append(data)
-
-              def handle_endtag(self, tag):
-                  if self.in_table and self.in_row and tag in ("td", "th"):
-                      value = " ".join("".join(self.cell).split())
-                      self.row.append(value)
-                      self.in_cell = False
-                  elif self.in_table and tag == "tr":
-                      if self.row:
-                          self.table.append(self.row)
-                      self.in_row = False
-                  elif tag == "table" and self.in_table:
-                      if self.table:
-                          self.tables.append(self.table)
-                      self.in_table = False
-
-          html = open("sheet.html", encoding="utf-8").read()
-
-          parser = TableParser()
-          parser.feed(html)
-
-          target = None
-
-          for table in parser.tables:
-              for row in table:
-                  headers = {x.strip() for x in row}
-                  if REQUIRED.issubset(headers) and (
-                      "Date" in headers
-                      or "Application Start" in headers
-                      or "Application End" in headers
-                  ):
-                      target = table
-                      break
-              if target:
-                  break
-
-          if not target:
-              raise SystemExit("ERROR: Published Google Sheet table was not found.")
-
-          header_index = 0
-          for i, row in enumerate(target):
-              headers = {x.strip() for x in row}
-              if REQUIRED.issubset(headers):
-                  header_index = i
-                  break
-
-          rows = target[header_index:]
-
-          with open("sheet.csv", "w", encoding="utf-8", newline="") as f:
-              writer = csv.writer(f)
-              writer.writerows(rows)
-
-          print(f"Converted published Google Sheet HTML to CSV: {len(rows)-1} data rows")
+          print("Google Sheet downloaded successfully.")
+          print("Headers:", sorted(headers))
           PY
 
       - name: Build notifications.json
