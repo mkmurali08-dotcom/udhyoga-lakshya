@@ -17,66 +17,252 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Download published Google Sheet
         shell: bash
         run: |
           set -e
-          SHEET_ID="1HLCzR_CwklTB6DY_XCp0XqHTBFf_lk5vWT--2-jdOK0"
-          URLS=(
-            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=2002700274"
-            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=2002700274"
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vSYjRHSHCqIPxnzmWR1hXBCJtVhlc2nCgJ0WgS9x5MUghWnVTY4LBYZt7RfB4DvPaNkZSrYB3P4swXm/pub?gid=2002700274&single=true&output=csv"
-          )
-          success=0
-          for url in "${URLS[@]}"; do
-            if curl -fL --retry 3 --retry-all-errors --silent --show-error -A "Mozilla/5.0" "$url" -o sheet.csv; then
-              if python -c 'import csv; f=open("sheet.csv",encoding="utf-8-sig",newline=""); h={x.strip() for x in next(csv.reader(f),[])}; req={"Type","State","Category","Title","Official Link","Apply Link","Status"}; raise SystemExit(0 if req.issubset(h) and ("Date" in h or "Application Start" in h or "Application End" in h) else 1)'; then success=1; break; fi
-            fi
-          done
-          test "$success" -eq 1
+
+          PUBHTML_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vSYjRHSHCqIPxnzmWR1hXBCJtVhlc2nCgJ0WgS9x5MUghWnVTY4LBYZt7RfB4DvPaNkZSrYB3P4swXm/pubhtml?gid=2002700274&single=true"
+
+          curl -fL --retry 3 --retry-all-errors --silent --show-error \
+            -A "Mozilla/5.0" \
+            "$PUBHTML_URL" \
+            -o sheet.html
+
+          python - <<'PY'
+          from html.parser import HTMLParser
+          import csv
+
+          REQUIRED = {
+              "Type",
+              "State",
+              "Category",
+              "Title",
+              "Official Link",
+              "Apply Link",
+              "Status",
+          }
+
+          class TableParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.in_table = False
+                  self.in_row = False
+                  self.in_cell = False
+                  self.tables = []
+                  self.table = []
+                  self.row = []
+                  self.cell = []
+
+              def handle_starttag(self, tag, attrs):
+                  if tag == "table" and not self.in_table:
+                      self.in_table = True
+                      self.table = []
+                  elif self.in_table and tag == "tr":
+                      self.in_row = True
+                      self.row = []
+                  elif self.in_table and self.in_row and tag in ("td", "th"):
+                      self.in_cell = True
+                      self.cell = []
+
+              def handle_data(self, data):
+                  if self.in_cell:
+                      self.cell.append(data)
+
+              def handle_endtag(self, tag):
+                  if self.in_table and self.in_row and tag in ("td", "th"):
+                      value = " ".join("".join(self.cell).split())
+                      self.row.append(value)
+                      self.in_cell = False
+                  elif self.in_table and tag == "tr":
+                      if self.row:
+                          self.table.append(self.row)
+                      self.in_row = False
+                  elif tag == "table" and self.in_table:
+                      if self.table:
+                          self.tables.append(self.table)
+                      self.in_table = False
+
+          html = open("sheet.html", encoding="utf-8").read()
+
+          parser = TableParser()
+          parser.feed(html)
+
+          target = None
+
+          for table in parser.tables:
+              for row in table:
+                  headers = {x.strip() for x in row}
+                  if REQUIRED.issubset(headers) and (
+                      "Date" in headers
+                      or "Application Start" in headers
+                      or "Application End" in headers
+                  ):
+                      target = table
+                      break
+              if target:
+                  break
+
+          if not target:
+              raise SystemExit("ERROR: Published Google Sheet table was not found.")
+
+          header_index = 0
+          for i, row in enumerate(target):
+              headers = {x.strip() for x in row}
+              if REQUIRED.issubset(headers):
+                  header_index = i
+                  break
+
+          rows = target[header_index:]
+
+          with open("sheet.csv", "w", encoding="utf-8", newline="") as f:
+              writer = csv.writer(f)
+              writer.writerows(rows)
+
+          print(f"Converted published Google Sheet HTML to CSV: {len(rows)-1} data rows")
+          PY
+
       - name: Build notifications.json
         run: |
           python - <<'PY'
           import csv,json
           from datetime import datetime,timedelta
           from pathlib import Path
-          out=Path("notifications.json"); now=datetime.now(); old=[]
+
+          out=Path("notifications.json")
+          now=datetime.now()
+          old=[]
+
           if out.exists():
-            try: old=json.loads(out.read_text(encoding="utf-8")); old=old if isinstance(old,list) else []
-            except Exception: old=[]
+              try:
+                  old=json.loads(out.read_text(encoding="utf-8"))
+                  old=old if isinstance(old,list) else []
+              except Exception:
+                  old=[]
+
           by={}
+
           for x in old:
-            if not isinstance(x,dict): continue
-            k=x.get("_identity")
-            if isinstance(k,list): k=tuple(k)
-            if not k:
-              link=str(x.get("officialLink","")).strip(); k=("link",link) if link else ("text",str(x.get("type","")).strip().lower(),str(x.get("state","")).strip().lower(),str(x.get("title","")).strip().lower())
-            by[k]=x
+              if not isinstance(x,dict):
+                  continue
+              k=x.get("_identity")
+              if isinstance(k,list):
+                  k=tuple(k)
+              if not k:
+                  link=str(x.get("officialLink","")).strip()
+                  k=("link",link) if link else (
+                      "text",
+                      str(x.get("type","")).strip().lower(),
+                      str(x.get("state","")).strip().lower(),
+                      str(x.get("title","")).strip().lower()
+                  )
+              by[k]=x
+
           def val(r,*names):
-            for n in names:
-              v=(r.get(n) or "").strip()
-              if v:return v
-            return ""
+              for n in names:
+                  v=(r.get(n) or "").strip()
+                  if v:
+                      return v
+              return ""
+
           output=[]
+
           with open("sheet.csv",encoding="utf-8-sig",newline="") as f:
-            for raw in csv.DictReader(f):
-              r={str(k).strip():(v or "").strip() for k,v in raw.items() if k is not None}; title=r.get("Title",""); state=r.get("State","")
-              if not title or not state: continue
-              official=r.get("Official Link",""); ident=("link",official) if official else ("text",r.get("Type","").lower(),state.lower(),title.lower()); prev=by.get(ident)
-              first=str(prev.get("firstSeen")) if prev and prev.get("firstSeen") else now.strftime("%Y-%m-%d")
-              try: is_new=(now-datetime.fromisoformat(first[:10]))<=timedelta(days=7)
-              except Exception: is_new=True
-              start=val(r,"Application Start","Start","applicationStart"); end=val(r,"Application End","End","applicationEnd"); date=val(r,"Date","date") or end or start
-              output.append({"_identity":ident,"type":r.get("Type",""),"state":state,"category":r.get("Category",""),"title":title,"applicationStart":start,"applicationEnd":end,"date":date,"officialLink":official,"applyLink":r.get("Apply Link",""),"status":r.get("Status",""),"firstSeen":first,"isNew":is_new})
-          out.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+              for raw in csv.DictReader(f):
+                  r={
+                      str(k).strip():(v or "").strip()
+                      for k,v in raw.items()
+                      if k is not None
+                  }
+
+                  title=r.get("Title","")
+                  state=r.get("State","")
+
+                  if not title or not state:
+                      continue
+
+                  official=r.get("Official Link","")
+
+                  ident=(
+                      "link",
+                      official
+                  ) if official else (
+                      "text",
+                      r.get("Type","").lower(),
+                      state.lower(),
+                      title.lower()
+                  )
+
+                  prev=by.get(ident)
+
+                  first=(
+                      str(prev.get("firstSeen"))
+                      if prev and prev.get("firstSeen")
+                      else now.strftime("%Y-%m-%d")
+                  )
+
+                  try:
+                      is_new=(now-datetime.fromisoformat(first[:10]))<=timedelta(days=7)
+                  except Exception:
+                      is_new=True
+
+                  start=val(
+                      r,
+                      "Application Start",
+                      "Start",
+                      "applicationStart"
+                  )
+
+                  end=val(
+                      r,
+                      "Application End",
+                      "End",
+                      "applicationEnd"
+                  )
+
+                  date=val(
+                      r,
+                      "Date",
+                      "date"
+                  ) or end or start
+
+                  output.append({
+                      "_identity":ident,
+                      "type":r.get("Type",""),
+                      "state":state,
+                      "category":r.get("Category",""),
+                      "title":title,
+                      "applicationStart":start,
+                      "applicationEnd":end,
+                      "date":date,
+                      "officialLink":official,
+                      "applyLink":r.get("Apply Link",""),
+                      "status":r.get("Status",""),
+                      "firstSeen":first,
+                      "isNew":is_new
+                  })
+
+          out.write_text(
+              json.dumps(output,ensure_ascii=False,indent=2)+"\n",
+              encoding="utf-8"
+          )
+
           print(f"Wrote {len(output)} notifications to notifications.json")
           PY
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add notifications.json
-          if git diff --cached --quiet; then echo "No notification changes."; else git commit -m "Sync Google Sheet notifications"; git push; fi
+          if git diff --cached --quiet; then
+            echo "No notification changes."
+          else
+            git commit -m "Sync Google Sheet notifications"
+            git push
+          fi
