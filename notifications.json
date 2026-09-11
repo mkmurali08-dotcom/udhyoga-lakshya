@@ -1,782 +1,1172 @@
 [
   {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
-    "Application Start": "03/09/2026",
-    "Application End": "24/09/2026",
-    "Official Link": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
-    "Apply Link": "https://ibpsreg.ibps.in/pfrdajul26/",
-    "Status": "Live",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Arunachal Pradesh",
-    "Title": "Final Result — Special Recruitment Drive for Uniformed Services Combined Examination 2026 — 01/09/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://apssb.nic.in/Index/notice",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Arunachal Pradesh",
-    "Title": "Combined Higher Secondary Level Examination 2026 — Admit Card",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Arunachal Pradesh",
-    "Title": "CGLE-2026 Answer Key Challenge Notice — 03/09/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://apssb.nic.in/Index/notice",
-    "Apply Link": "",
-    "Status": "Live",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Assam",
-    "Title": "FLN Mission — Data Analyst Skill Test / Interview — Admit Card",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Assam",
-    "Title": "PM POSHAN — Skill Test / Interview — Admit Card",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Chandigarh",
-    "Title": "Result of Computer Typing Test (English) — 31/08/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://chandigarh.gov.in/orders-notifications",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Chandigarh",
-    "Title": "Recruitment of Clerk & Steno — Department of Personnel",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://chandigarh.gov.in/public-notices/vacancies",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Goa",
-    "Title": "Walk-In-Interview — Finance Controller, Goa State Biodiversity Board",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.goa.gov.in/citizen/recruitment/",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Goa",
-    "Title": "Goa Recruitment Examination Results — 04/09/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.goa.gov.in/citizen/recruitment-results/",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Goa",
-    "Title": "Walk-In-Interview — Samagra Shiksha Goa",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.goa.gov.in/citizen/recruitment/",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Bihar",
-    "Title": "BTSC 2026 recruitment notices — latest official recruitment list",
-    "Application Start": "24/07/2026",
-    "Application End": "23/08/2026",
-    "Official Link": "https://btsc.bihar.gov.in/recruitment",
-    "Apply Link": "",
-    "Status": "Closed",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Kerala",
-    "Title": "Kerala PSC Latest Results / Ranked Lists — 03/09/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.keralapsc.gov.in/rankedlist",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Kerala",
-    "Title": "L D Clerk (By Transfer) — Admission Ticket",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.keralapsc.gov.in/result-notifications",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Kerala",
-    "Title": "Extra Ordinary Gazette — Cat. 130/2026 to 150/2026",
-    "Application Start": "31/08/2026",
-    "Application End": "07/10/2026",
-    "Official Link": "https://www.keralapsc.gov.in/notifications",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Andhra Pradesh",
-    "Title": "Deputy Educational Officer — Selection Notification No. 14/2023 — 02/09/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://portal-psc.ap.gov.in/HomePages/DRSelectionLists",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Uttar Pradesh",
-    "Title": "Research Assistant (Engineering) Examination-2025 — Admit Card",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://uppsc.up.nic.in/",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Uttar Pradesh",
-    "Title": "Lecturer U.P. Technical Education Service Examination-2025 — Admit Card",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://uppsc.up.nic.in/",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Uttar Pradesh",
-    "Title": "Professor / Assistant Professor — Medical Education (Allopathy), Advt. D-1/E-1/2026",
-    "Application Start": "18/08/2026",
-    "Application End": "01/09/2026",
-    "Official Link": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
-    "Apply Link": "",
-    "Status": "Closed",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Uttar Pradesh",
-    "Title": "Miscellaneous Examination — Advt. A-2/E-1/2026 & A-3/E-1/2026",
-    "Application Start": "03/08/2026",
-    "Application End": "03/09/2026",
-    "Official Link": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
-    "Apply Link": "",
-    "Status": "Closed",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Odisha",
-    "Title": "Radiographer-2026 — Online Recruitment Application",
-    "Application Start": "31/08/2026",
-    "Application End": "30/09/2026",
-    "Official Link": "https://www.osssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Odisha",
-    "Title": "RI, ICDS Supervisor, ARI, Amin & SFS — Counselling Update — 01/09/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.osssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Live",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Odisha",
-    "Title": "Sevak/Sevika and Tribal Language Teacher — Provisional Results — 21/08/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.osssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Rajasthan",
-    "Title": "Assistant Professor (Medical Education) 2024 — Interview Letter — 03/09/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://rpsc.rajasthan.gov.in/examlinks",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Upcoming",
-    "State": "Rajasthan",
-    "Title": "Rajasthan State and Subordinate Services Combined Competitive Exam 2026 — Mains: 02/05/2027",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://rpsc.rajasthan.gov.in/proposedexamdate",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Tamil Nadu",
-    "Title": "Combined Technical Services Examination (Non-Interview Posts) — Notification No. 04/2026",
-    "Application Start": "27/05/2026",
-    "Application End": "25/06/2026",
-    "Official Link": "https://tnpsc.gov.in/web/examdashboard/index.aspx",
-    "Apply Link": "",
-    "Status": "Closed",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Tamil Nadu",
-    "Title": "TNPSC Combined Technical Services — Hall Ticket",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Central Goverment",
-    "Title": "UPSC Civil Services Examination 2026 — Main Examination e-Admit Card",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "UPSC Combined Medical Services Examination 2026 — Written Result — 01/09/2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Central Goverment",
-    "Title": "UPSC CDS (II) 2026 — Admit Cards",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/",
-    "Apply Link": "",
-    "Status": "Admit Card",
-    "FirstSeen": "2026-09-10T16:16:44Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Upcoming",
-    "State": "Central Goverment",
-    "Title": "UPSC NDA & NA (II) 2026 — Examination 13 September 2026",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "UPSC Advertisement No. 10/2026 — Current Advertisement",
-    "Application Start": "08/08/2026",
-    "Application End": "28/08/2026",
-    "Official Link": "https://www.upsc.gov.in/whats-new",
-    "Apply Link": "",
-    "Status": "Closed",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "India Post GDS Online Engagement — Schedule-II, July 2026",
-    "Application Start": "02/09/2026",
-    "Application End": "21/09/2026",
-    "Official Link": "https://www.indiapost.gov.in/gdsonlineengagement",
-    "Apply Link": "",
-    "Status": "Open",
-    "FirstSeen": "2026-09-05T23:43:04Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "RRB CEN 04/2026 — Junior Engineer & DMS",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://rrbsecunderabad.gov.in/",
-    "Apply Link": "",
-    "Status": "Notification Published",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "IBPS CRP-CSA-XVI — Customer Service Associates",
-    "Application Start": "01/08/2026",
-    "Application End": "28/08/2026",
-    "Official Link": "https://www.ibps.in/",
-    "Apply Link": "",
-    "Status": "Closed",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "IBPS CRP-SPL-XVI — Specialist Officers",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.ibps.in/index.php/specialist-officers-xvi/",
-    "Apply Link": "",
-    "Status": "Current",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Andhra Pradesh",
-    "Title": "AP Government Job Calendar 2026 — Recruitment Schedule",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://psc.ap.gov.in/",
-    "Apply Link": "",
-    "Status": "Current",
-    "FirstSeen": "2026-09-06T19:39:24Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "RRB CEN 03/2026 — Section Controller",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://rrbsecunderabad.gov.in/",
-    "Apply Link": "",
-    "Status": "Current",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "UPSC Central Armed Police Forces (ACs) Examination 2026 — Written Result",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "UPSC Indian Economic Service / Indian Statistical Service Examination 2026 — Written Result",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "UPSC Engineering Services (Main) Examination 2026 — Written Result",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "UPSC Combined Geo-Scientist (Main) Examination 2026 — Written Result",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "Apply Link": "",
-    "Status": "Declared",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "SSC MTS & Havaldar 2025 — PET/PST Schedule",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ssc.gov.in/",
-    "Apply Link": "",
-    "Status": "Live",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "RRB Level-1 CEN 09/2025 — Application Status",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://rrbsecunderabad.gov.in/",
-    "Apply Link": "",
-    "Status": "Live",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "RRB NTPC Graduate CEN 06/2025 — CBT-II Questions / Responses / Keys",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://rrbsecunderabad.gov.in/",
-    "Apply Link": "",
-    "Status": "Live",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "RRB NTPC Under Graduate CEN 07/2025 — CBT-I Questions / Responses / Keys",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://rrbsecunderabad.gov.in/",
-    "Apply Link": "",
-    "Status": "Live",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "RRB JE/DMS/CMA CEN 05/2025 — CBT-II Questions / Responses / Keys",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://rrbsecunderabad.gov.in/",
-    "Apply Link": "",
-    "Status": "Live",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "IBPS CRP-PO/MT-XVI — Preliminary Exam Candidate Query Window",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
-    "Apply Link": "",
-    "Status": "Live",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Central Goverment",
-    "Title": "UPPSC Research Assistant (Engineering) Exam 2025",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "Apply Link": "",
-    "Status": "Admit Card",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Uttar Pradesh",
-    "Title": "UPPSC Lecturer, U.P. Technical Education Teaching Service Exam 2025",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "Apply Link": "",
-    "Status": "Admit Card",
-    "FirstSeen": "2026-09-06T19:39:24Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Uttar Pradesh",
-    "Title": "UPPSC Lecturer, Government Inter College (Mains) Exam 2025",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "Apply Link": "",
-    "Status": "Admit Card",
-    "FirstSeen": "2026-09-06T19:39:24Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Central Goverment",
-    "Title": "IBPS — Recruitment of 500 Assistants",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ibpsreg.ibps.in/nicljul26/oecla_aug26/login.php",
-    "Apply Link": "",
-    "Status": "Admit Card",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Central Goverment",
-    "Title": "ONGC — Recruitment of Geologists & Engineers, E1 Level",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://ibpsreg.ibps.in/ongcjul26/oecla_aug26/login.php",
-    "Apply Link": "",
-    "Status": "Admit Card",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Kerala",
-    "Title": "Kerala PSC — Tracer, Direct Recruitment (Kozhikkode)",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.keralapsc.gov.in/index.php/taxonomy/term/166?page=1",
-    "Apply Link": "",
-    "Status": "Admit Card",
-    "FirstSeen": "2026-09-06T19:39:24Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Admit Card",
-    "State": "Central Goverment",
-    "Title": "IBPS CRP-PO/MT-XVI — Main Examination Admit Cards",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-10T16:16:44Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "IBPS CRP-SPL-XVI — Main Examination",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "IBPS CRP-CSA-XVI — Preliminary Examination",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "IBPS RRB Officer Scale I — Preliminary Examination",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "IBPS RRB Office Assistants — Preliminary Examination",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "IBPS RRB Officer Scale II & III — Single Examination",
-    "Application Start": "",
-    "Application End": "",
-    "Official Link": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
-    "Apply Link": "",
-    "Status": "Upcoming",
-    "FirstSeen": "2026-09-10T15:53:07Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Telangana",
-    "Title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
-    "Application Start": "19/08/2026",
-    "Application End": "16/09/2026",
-    "Official Link": "https://www.tgprb.in/",
-    "Apply Link": "https://www.tgprb.in/applive/login",
-    "Status": "Live",
-    "FirstSeen": "2026-09-08T16:00:53Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Exam",
-    "State": "Central Goverment",
-    "Title": "SSC (CHSL) (10+2) Examination",
-    "Application Start": "07/09/2026",
-    "Application End": "07/10/2026",
-    "Official Link": "https://ssc.gov.in/home",
-    "Apply Link": "https://ssc.gov.in/login",
-    "Status": "Open",
-    "FirstSeen": "2026-09-10T16:16:44Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "SSC CPO (SI Delhi Police) 2026",
-    "Application Start": "September 10, 2026",
-    "Application End": "September 30, 2026 (until 11:00 PM)",
-    "Official Link": "https://ssc.gov.in/home",
-    "Apply Link": "https://ssc.gov.in/login",
-    "Status": "Open",
-    "FirstSeen": "2026-09-10T14:56:44Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Job",
-    "State": "Central Goverment",
-    "Title": "(UIIC) RECRUITMENT OF ADMINISTRATIVE OFFICERS (SCALE I) – GENERALISTS & HINDI OFFICERS",
-    "Application Start": "08/09/2026",
-    "Application End": "28/09/2026",
-    "Official Link": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf",
-    "Apply Link": "https://ibpsreg.ibps.in/uiicljul26/",
-    "Status": "Live",
-    "FirstSeen": "2026-09-10T15:19:17Z",
-    "IsNew": true
-  },
-  {
-    "Type": "Result",
-    "State": "Central Goverment",
-    "Title": "SSC JE( (Junior Engineer) 2026",
-    "Application Start": "September 2, 2026",
-    "Application End": "September 22, 2026 (23:00 hours)",
-    "Official Link": "https://ssc.gov.in/",
-    "Apply Link": "https://ssc.gov.in/login",
-    "Status": "Live",
-    "FirstSeen": "2026-09-10T16:16:44Z",
-    "IsNew": true
+    "_identity": [
+      "link",
+      "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
+    "applicationStart": "03/09/2026",
+    "applicationEnd": "24/09/2026",
+    "date": "24/09/2026",
+    "officialLink": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
+    "applyLink": "https://ibpsreg.ibps.in/pfrdajul26/",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://apssb.nic.in/Index/notice"
+    ],
+    "type": "Result",
+    "state": "Arunachal Pradesh",
+    "category": "Result",
+    "title": "Final Result — Special Recruitment Drive for Uniformed Services Combined Examination 2026 — 01/09/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://apssb.nic.in/Index/notice",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://apssb.nic.in/Index/admit_card/ins/RECINS001"
+    ],
+    "type": "Admit Card",
+    "state": "Arunachal Pradesh",
+    "category": "Admit Card",
+    "title": "Combined Higher Secondary Level Examination 2026 — Admit Card",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://apssb.nic.in/Index/notice"
+    ],
+    "type": "Result",
+    "state": "Arunachal Pradesh",
+    "category": "Result",
+    "title": "CGLE-2026 Answer Key Challenge Notice — 03/09/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://apssb.nic.in/Index/notice",
+    "applyLink": "",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview"
+    ],
+    "type": "Admit Card",
+    "state": "Assam",
+    "category": "Admit Card",
+    "title": "FLN Mission — Data Analyst Skill Test / Interview — Admit Card",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan"
+    ],
+    "type": "Admit Card",
+    "state": "Assam",
+    "category": "Admit Card",
+    "title": "PM POSHAN — Skill Test / Interview — Admit Card",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://chandigarh.gov.in/orders-notifications"
+    ],
+    "type": "Result",
+    "state": "Chandigarh",
+    "category": "Result",
+    "title": "Result of Computer Typing Test (English) — 31/08/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://chandigarh.gov.in/orders-notifications",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://chandigarh.gov.in/public-notices/vacancies"
+    ],
+    "type": "Job",
+    "state": "Chandigarh",
+    "category": "Job",
+    "title": "Recruitment of Clerk & Steno — Department of Personnel",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://chandigarh.gov.in/public-notices/vacancies",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.goa.gov.in/citizen/recruitment/"
+    ],
+    "type": "Job",
+    "state": "Goa",
+    "category": "Job",
+    "title": "Walk-In-Interview — Finance Controller, Goa State Biodiversity Board",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.goa.gov.in/citizen/recruitment/",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.goa.gov.in/citizen/recruitment-results/"
+    ],
+    "type": "Result",
+    "state": "Goa",
+    "category": "Result",
+    "title": "Goa Recruitment Examination Results — 04/09/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.goa.gov.in/citizen/recruitment-results/",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.goa.gov.in/citizen/recruitment/"
+    ],
+    "type": "Job",
+    "state": "Goa",
+    "category": "Job",
+    "title": "Walk-In-Interview — Samagra Shiksha Goa",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.goa.gov.in/citizen/recruitment/",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://btsc.bihar.gov.in/recruitment"
+    ],
+    "type": "Job",
+    "state": "Bihar",
+    "category": "Job",
+    "title": "BTSC 2026 recruitment notices — latest official recruitment list",
+    "applicationStart": "24/07/2026",
+    "applicationEnd": "23/08/2026",
+    "date": "23/08/2026",
+    "officialLink": "https://btsc.bihar.gov.in/recruitment",
+    "applyLink": "",
+    "status": "Closed",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.keralapsc.gov.in/rankedlist"
+    ],
+    "type": "Result",
+    "state": "Kerala",
+    "category": "Result",
+    "title": "Kerala PSC Latest Results / Ranked Lists — 03/09/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.keralapsc.gov.in/rankedlist",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.keralapsc.gov.in/result-notifications"
+    ],
+    "type": "Admit Card",
+    "state": "Kerala",
+    "category": "Admit Card",
+    "title": "L D Clerk (By Transfer) — Admission Ticket",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.keralapsc.gov.in/result-notifications",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.keralapsc.gov.in/notifications"
+    ],
+    "type": "Job",
+    "state": "Kerala",
+    "category": "Job",
+    "title": "Extra Ordinary Gazette — Cat. 130/2026 to 150/2026",
+    "applicationStart": "31/08/2026",
+    "applicationEnd": "07/10/2026",
+    "date": "07/10/2026",
+    "officialLink": "https://www.keralapsc.gov.in/notifications",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://portal-psc.ap.gov.in/HomePages/DRSelectionLists"
+    ],
+    "type": "Result",
+    "state": "Andhra Pradesh",
+    "category": "Result",
+    "title": "Deputy Educational Officer — Selection Notification No. 14/2023 — 02/09/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://portal-psc.ap.gov.in/HomePages/DRSelectionLists",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://uppsc.up.nic.in/"
+    ],
+    "type": "Admit Card",
+    "state": "Uttar Pradesh",
+    "category": "Admit Card",
+    "title": "Research Assistant (Engineering) Examination-2025 — Admit Card",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://uppsc.up.nic.in/",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://uppsc.up.nic.in/"
+    ],
+    "type": "Admit Card",
+    "state": "Uttar Pradesh",
+    "category": "Admit Card",
+    "title": "Lecturer U.P. Technical Education Service Examination-2025 — Admit Card",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://uppsc.up.nic.in/",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx"
+    ],
+    "type": "Job",
+    "state": "Uttar Pradesh",
+    "category": "Job",
+    "title": "Professor / Assistant Professor — Medical Education (Allopathy), Advt. D-1/E-1/2026",
+    "applicationStart": "18/08/2026",
+    "applicationEnd": "01/09/2026",
+    "date": "01/09/2026",
+    "officialLink": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "applyLink": "",
+    "status": "Closed",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx"
+    ],
+    "type": "Job",
+    "state": "Uttar Pradesh",
+    "category": "Job",
+    "title": "Miscellaneous Examination — Advt. A-2/E-1/2026 & A-3/E-1/2026",
+    "applicationStart": "03/08/2026",
+    "applicationEnd": "03/09/2026",
+    "date": "03/09/2026",
+    "officialLink": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "applyLink": "",
+    "status": "Closed",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.osssc.gov.in/"
+    ],
+    "type": "Job",
+    "state": "Odisha",
+    "category": "Job",
+    "title": "Radiographer-2026 — Online Recruitment Application",
+    "applicationStart": "31/08/2026",
+    "applicationEnd": "30/09/2026",
+    "date": "30/09/2026",
+    "officialLink": "https://www.osssc.gov.in/",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.osssc.gov.in/"
+    ],
+    "type": "Result",
+    "state": "Odisha",
+    "category": "Result",
+    "title": "RI, ICDS Supervisor, ARI, Amin & SFS — Counselling Update — 01/09/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.osssc.gov.in/",
+    "applyLink": "",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.osssc.gov.in/"
+    ],
+    "type": "Result",
+    "state": "Odisha",
+    "category": "Result",
+    "title": "Sevak/Sevika and Tribal Language Teacher — Provisional Results — 21/08/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.osssc.gov.in/",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://rpsc.rajasthan.gov.in/examlinks"
+    ],
+    "type": "Admit Card",
+    "state": "Rajasthan",
+    "category": "Admit Card",
+    "title": "Assistant Professor (Medical Education) 2024 — Interview Letter — 03/09/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://rpsc.rajasthan.gov.in/examlinks",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://rpsc.rajasthan.gov.in/proposedexamdate"
+    ],
+    "type": "Upcoming",
+    "state": "Rajasthan",
+    "category": "Upcoming",
+    "title": "Rajasthan State and Subordinate Services Combined Competitive Exam 2026 — Mains: 02/05/2027",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://rpsc.rajasthan.gov.in/proposedexamdate",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://tnpsc.gov.in/web/examdashboard/index.aspx"
+    ],
+    "type": "Job",
+    "state": "Tamil Nadu",
+    "category": "Job",
+    "title": "Combined Technical Services Examination (Non-Interview Posts) — Notification No. 04/2026",
+    "applicationStart": "27/05/2026",
+    "applicationEnd": "25/06/2026",
+    "date": "25/06/2026",
+    "officialLink": "https://tnpsc.gov.in/web/examdashboard/index.aspx",
+    "applyLink": "",
+    "status": "Closed",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx"
+    ],
+    "type": "Admit Card",
+    "state": "Tamil Nadu",
+    "category": "Admit Card",
+    "title": "TNPSC Combined Technical Services — Hall Ticket",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026"
+    ],
+    "type": "Admit Card",
+    "state": "Central Goverment",
+    "category": "Admit Card",
+    "title": "UPSC Civil Services Examination 2026 — Main Examination e-Admit Card",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "UPSC Combined Medical Services Examination 2026 — Written Result — 01/09/2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/"
+    ],
+    "type": "Admit Card",
+    "state": "Central Goverment",
+    "category": "Admit Card",
+    "title": "UPSC CDS (II) 2026 — Admit Cards",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.upsc.gov.in/",
+    "applyLink": "",
+    "status": "Admit Card",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
+    ],
+    "type": "Upcoming",
+    "state": "Central Goverment",
+    "category": "Upcoming",
+    "title": "UPSC NDA & NA (II) 2026 — Examination 13 September 2026",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/whats-new"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "UPSC Advertisement No. 10/2026 — Current Advertisement",
+    "applicationStart": "08/08/2026",
+    "applicationEnd": "28/08/2026",
+    "date": "28/08/2026",
+    "officialLink": "https://www.upsc.gov.in/whats-new",
+    "applyLink": "",
+    "status": "Closed",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.indiapost.gov.in/gdsonlineengagement"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "India Post GDS Online Engagement — Schedule-II, July 2026",
+    "applicationStart": "02/09/2026",
+    "applicationEnd": "21/09/2026",
+    "date": "21/09/2026",
+    "officialLink": "https://www.indiapost.gov.in/gdsonlineengagement",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://rrbsecunderabad.gov.in/"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "RRB CEN 04/2026 — Junior Engineer & DMS",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://rrbsecunderabad.gov.in/",
+    "applyLink": "",
+    "status": "Notification Published",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.ibps.in/"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "IBPS CRP-CSA-XVI — Customer Service Associates",
+    "applicationStart": "01/08/2026",
+    "applicationEnd": "28/08/2026",
+    "date": "28/08/2026",
+    "officialLink": "https://www.ibps.in/",
+    "applyLink": "",
+    "status": "Closed",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.ibps.in/index.php/specialist-officers-xvi/"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "IBPS CRP-SPL-XVI — Specialist Officers",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.ibps.in/index.php/specialist-officers-xvi/",
+    "applyLink": "",
+    "status": "Current",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://psc.ap.gov.in/"
+    ],
+    "type": "Job",
+    "state": "Andhra Pradesh",
+    "category": "Job",
+    "title": "AP Government Job Calendar 2026 — Recruitment Schedule",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://psc.ap.gov.in/",
+    "applyLink": "",
+    "status": "Current",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://rrbsecunderabad.gov.in/"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "RRB CEN 03/2026 — Section Controller",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://rrbsecunderabad.gov.in/",
+    "applyLink": "",
+    "status": "Current",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/exams-related-info/written-result"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "UPSC Central Armed Police Forces (ACs) Examination 2026 — Written Result",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/exams-related-info/written-result"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "UPSC Indian Economic Service / Indian Statistical Service Examination 2026 — Written Result",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/exams-related-info/written-result"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "UPSC Engineering Services (Main) Examination 2026 — Written Result",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.upsc.gov.in/exams-related-info/written-result"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "UPSC Combined Geo-Scientist (Main) Examination 2026 — Written Result",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ssc.gov.in/"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "SSC MTS & Havaldar 2025 — PET/PST Schedule",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://ssc.gov.in/",
+    "applyLink": "",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://rrbsecunderabad.gov.in/"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "RRB Level-1 CEN 09/2025 — Application Status",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://rrbsecunderabad.gov.in/",
+    "applyLink": "",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://rrbsecunderabad.gov.in/"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "RRB NTPC Graduate CEN 06/2025 — CBT-II Questions / Responses / Keys",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://rrbsecunderabad.gov.in/",
+    "applyLink": "",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://rrbsecunderabad.gov.in/"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "RRB NTPC Under Graduate CEN 07/2025 — CBT-I Questions / Responses / Keys",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://rrbsecunderabad.gov.in/",
+    "applyLink": "",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://rrbsecunderabad.gov.in/"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "RRB JE/DMS/CMA CEN 05/2025 — CBT-II Questions / Responses / Keys",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://rrbsecunderabad.gov.in/",
+    "applyLink": "",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "IBPS CRP-PO/MT-XVI — Preliminary Exam Candidate Query Window",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
+    "applyLink": "",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+    ],
+    "type": "Admit Card",
+    "state": "Central Goverment",
+    "category": "Admit Card",
+    "title": "UPPSC Research Assistant (Engineering) Exam 2025",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "applyLink": "",
+    "status": "Admit Card",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+    ],
+    "type": "Admit Card",
+    "state": "Uttar Pradesh",
+    "category": "Admit Card",
+    "title": "UPPSC Lecturer, U.P. Technical Education Teaching Service Exam 2025",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "applyLink": "",
+    "status": "Admit Card",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+    ],
+    "type": "Admit Card",
+    "state": "Uttar Pradesh",
+    "category": "Admit Card",
+    "title": "UPPSC Lecturer, Government Inter College (Mains) Exam 2025",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "applyLink": "",
+    "status": "Admit Card",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ibpsreg.ibps.in/nicljul26/oecla_aug26/login.php"
+    ],
+    "type": "Admit Card",
+    "state": "Central Goverment",
+    "category": "Admit Card",
+    "title": "IBPS — Recruitment of 500 Assistants",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://ibpsreg.ibps.in/nicljul26/oecla_aug26/login.php",
+    "applyLink": "",
+    "status": "Admit Card",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ibpsreg.ibps.in/ongcjul26/oecla_aug26/login.php"
+    ],
+    "type": "Admit Card",
+    "state": "Central Goverment",
+    "category": "Admit Card",
+    "title": "ONGC — Recruitment of Geologists & Engineers, E1 Level",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://ibpsreg.ibps.in/ongcjul26/oecla_aug26/login.php",
+    "applyLink": "",
+    "status": "Admit Card",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.keralapsc.gov.in/index.php/taxonomy/term/166?page=1"
+    ],
+    "type": "Admit Card",
+    "state": "Kerala",
+    "category": "Admit Card",
+    "title": "Kerala PSC — Tracer, Direct Recruitment (Kozhikkode)",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.keralapsc.gov.in/index.php/taxonomy/term/166?page=1",
+    "applyLink": "",
+    "status": "Admit Card",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    ],
+    "type": "Admit Card",
+    "state": "Central Goverment",
+    "category": "Admit Card",
+    "title": "IBPS CRP-PO/MT-XVI — Main Examination Admit Cards",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    ],
+    "type": "Exam",
+    "state": "Central Goverment",
+    "category": "Exam",
+    "title": "IBPS CRP-SPL-XVI — Main Examination",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    ],
+    "type": "Exam",
+    "state": "Central Goverment",
+    "category": "Exam",
+    "title": "IBPS CRP-CSA-XVI — Preliminary Examination",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    ],
+    "type": "Exam",
+    "state": "Central Goverment",
+    "category": "Exam",
+    "title": "IBPS RRB Officer Scale I — Preliminary Examination",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    ],
+    "type": "Exam",
+    "state": "Central Goverment",
+    "category": "Exam",
+    "title": "IBPS RRB Office Assistants — Preliminary Examination",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    ],
+    "type": "Exam",
+    "state": "Central Goverment",
+    "category": "Exam",
+    "title": "IBPS RRB Officer Scale II & III — Single Examination",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "date": "",
+    "officialLink": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://www.tgprb.in/"
+    ],
+    "type": "Job",
+    "state": "Telangana",
+    "category": "Job",
+    "title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
+    "applicationStart": "19/08/2026",
+    "applicationEnd": "16/09/2026",
+    "date": "16/09/2026",
+    "officialLink": "https://www.tgprb.in/",
+    "applyLink": "https://www.tgprb.in/applive/login",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ssc.gov.in/home"
+    ],
+    "type": "Exam",
+    "state": "Central Goverment",
+    "category": "Exam",
+    "title": "SSC (CHSL) (10+2) Examination",
+    "applicationStart": "07/09/2026",
+    "applicationEnd": "07/10/2026",
+    "date": "07/10/2026",
+    "officialLink": "https://ssc.gov.in/home",
+    "applyLink": "https://ssc.gov.in/login",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ssc.gov.in/home"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "SSC CPO (SI Delhi Police) 2026",
+    "applicationStart": "September 10, 2026",
+    "applicationEnd": "",
+    "date": "September 10, 2026",
+    "officialLink": "https://ssc.gov.in/home",
+    "applyLink": "https://ssc.gov.in/login",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "(UIIC) RECRUITMENT OF ADMINISTRATIVE OFFICERS (SCALE I) – GENERALISTS & HINDI OFFICERS",
+    "applicationStart": "08/09/2026",
+    "applicationEnd": "28/09/2026",
+    "date": "28/09/2026",
+    "officialLink": "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf",
+    "applyLink": "https://ibpsreg.ibps.in/uiicljul26/",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ssc.gov.in/"
+    ],
+    "type": "Result",
+    "state": "Central Goverment",
+    "category": "Result",
+    "title": "SSC JE( (Junior Engineer) 2026",
+    "applicationStart": "September 2, 2026",
+    "applicationEnd": "",
+    "date": "September 2, 2026",
+    "officialLink": "https://ssc.gov.in/",
+    "applyLink": "https://ssc.gov.in/login",
+    "status": "Live",
+    "firstSeen": "2026-09-11",
+    "isNew": true
   }
 ]
