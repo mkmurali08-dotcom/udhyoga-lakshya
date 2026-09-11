@@ -2381,7 +2381,9 @@
   "ssc-mts-havaldar-2025-pet-pst-schedule": {
     "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": "Not mentioned in the official notification",
+    "post_names": [
+      "Not mentioned in the official notification"
+    ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [],
     "job_location": "Not mentioned in the official notification",
@@ -2415,11 +2417,11 @@
     "apply_url": "Not mentioned in the official notification",
     "title": "SSC MTS & Havaldar 2025 — PET/PST Schedule",
     "type": "Result",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Live",
     "source_url": "https://ssc.gov.in/",
     "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "e24c354c7e732dc8f874a0ab1272bcf92e8577c5fc5d81bac2e8d5ceb4d6f61d"
+    "_sheet_fingerprint": "12dccb97d51e26418b002a316ccc9ec3dcee23238254356c6b0f0184b4886dd3"
   },
   "rrb-level-1-cen-09-2025-application-status": {
     "organization": "Railway Recruitment Boards (RRBs)",
