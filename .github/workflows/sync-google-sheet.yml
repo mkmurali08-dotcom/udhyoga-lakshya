@@ -1,6 +1,12 @@
 name: Sync Google Sheet Notifications
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "sheet-notifications.js"
+      - ".github/workflows/sync-google-sheet.yml"
   workflow_dispatch:
   schedule:
     - cron: "*/10 * * * *"
@@ -12,15 +18,65 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-      - name: Build notifications.json from Google Sheet
-        run: python build-notifications.py
-      - name: Commit generated data
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download published Google Sheet
+        shell: bash
+        run: |
+          set -e
+          SHEET_ID="1HLCzR_CwkITB6DY_XCp0XqHTBf_lk5W--2-jdOK0"
+          URLS=(
+            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=0"
+            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=0"
+            "https://docs.google.com/spreadsheets/d/e/2PACX-1vSYjRHSHCqIPxnzmWR1hXBCJtVhlc2nCgJ0WgS9x5MUghWnVTY4LBYZt7RfB4DvPaNkZSrYB3P4swXm/pub?gid=0&single=true&output=csv"
+          )
+          success=0
+          for url in "${URLS[@]}"; do
+            if curl -fL --retry 3 --retry-all-errors --silent --show-error -A "Mozilla/5.0" "$url" -o sheet.csv; then
+              if python -c 'import csv; f=open("sheet.csv",encoding="utf-8-sig",newline=""); h={x.strip() for x in next(csv.reader(f),[])}; req={"Type","State","Category","Title","Official Link","Apply Link","Status"}; raise SystemExit(0 if req.issubset(h) and ("Date" in h or "Application Start" in h or "Application End" in h) else 1)'; then success=1; break; fi
+            fi
+          done
+          test "$success" -eq 1
+      - name: Build notifications.json
+        run: |
+          python - <<'PY'
+          import csv,json
+          from datetime import datetime,timedelta
+          from pathlib import Path
+          out=Path("notifications.json"); now=datetime.now(); old=[]
+          if out.exists():
+            try: old=json.loads(out.read_text(encoding="utf-8")); old=old if isinstance(old,list) else []
+            except Exception: old=[]
+          by={}
+          for x in old:
+            if not isinstance(x,dict): continue
+            k=x.get("_identity")
+            if isinstance(k,list): k=tuple(k)
+            if not k:
+              link=str(x.get("officialLink","")).strip(); k=("link",link) if link else ("text",str(x.get("type","")).strip().lower(),str(x.get("state","")).strip().lower(),str(x.get("title","")).strip().lower())
+            by[k]=x
+          def val(r,*names):
+            for n in names:
+              v=(r.get(n) or "").strip()
+              if v:return v
+            return ""
+          output=[]
+          with open("sheet.csv",encoding="utf-8-sig",newline="") as f:
+            for raw in csv.DictReader(f):
+              r={str(k).strip():(v or "").strip() for k,v in raw.items() if k is not None}; title=r.get("Title",""); state=r.get("State","")
+              if not title or not state: continue
+              official=r.get("Official Link",""); ident=("link",official) if official else ("text",r.get("Type","").lower(),state.lower(),title.lower()); prev=by.get(ident)
+              first=str(prev.get("firstSeen")) if prev and prev.get("firstSeen") else now.strftime("%Y-%m-%d")
+              try: is_new=(now-datetime.fromisoformat(first[:10]))<=timedelta(days=7)
+              except Exception: is_new=True
+              start=val(r,"Application Start","Start","applicationStart"); end=val(r,"Application End","End","applicationEnd"); date=val(r,"Date","date") or end or start
+              output.append({"_identity":ident,"type":r.get("Type",""),"state":state,"category":r.get("Category",""),"title":title,"applicationStart":start,"applicationEnd":end,"date":date,"officialLink":official,"applyLink":r.get("Apply Link",""),"status":r.get("Status",""),"firstSeen":first,"isNew":is_new})
+          out.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print(f"Wrote {len(output)} notifications to notifications.json")
+          PY
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add notifications.json
-          git diff --cached --quiet || (git commit -m "Sync notifications from Google Sheet" && git push)
+          if git diff --cached --quiet; then echo "No notification changes."; else git commit -m "Sync Google Sheet notifications"; git push; fi
