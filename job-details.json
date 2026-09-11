@@ -2201,11 +2201,9 @@
     "_sheet_fingerprint": "64f71fcdfbc9acf5cd44e086ffd9b5265d349c1d6717e976cb8883acb6c44557"
   },
   "upsc-engineering-services-main-examination-2026-written-result": {
-    "organization": "Union Public Service Commission (UPSC)",
+    "organization": "Union Public Service Commission",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Not mentioned in the official notification"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [],
     "job_location": "Not mentioned in the official notification",
@@ -2239,11 +2237,11 @@
     "apply_url": "Not mentioned in the official notification",
     "title": "UPSC Engineering Services (Main) Examination 2026 — Written Result",
     "type": "Result",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Declared",
     "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "be7a6f3b415b002748a930314486a38627c311d341bbbd069b5bd1b81ad491a7"
+    "_sheet_fingerprint": "faebe65437dc8ff65a1c32fa3b3ca2fc02eccaa81c958cb1abf5ce5eb6651b71"
   },
   "upsc-combined-geo-scientist-main-examination-2026-written-result": {
     "organization": "Union Public Service Commission",
