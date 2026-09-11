@@ -3521,5 +3521,50 @@
     "source_url": "https://ssc.gov.in/home",
     "_extractor_version": "2026-09-09-universal-final-v1",
     "_sheet_fingerprint": "fbe9f4955834b41b967e4d27e79ad015f6658c0205c9d5e4f8745f011fdda91f"
+  },
+  "ssc-cpo-si-delhi-police-2026": {
+    "organization": "Staff Selection Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Not mentioned in the official notification"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": [],
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": [
+      "Not mentioned in the official notification"
+    ],
+    "application_start": "September 10, 2026",
+    "application_end": "September 30, 2026 (until 11:00 PM)",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": [
+      "Not mentioned in the official notification"
+    ],
+    "exam_pattern": [
+      "Not mentioned in the official notification"
+    ],
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
+    "documents_required": [
+      "Not mentioned in the official notification"
+    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Not mentioned in the official notification"
+    ],
+    "official_notification_url": "https://ssc.gov.in/home",
+    "apply_url": "https://ssc.gov.in/login",
+    "title": "SSC CPO (SI Delhi Police) 2026",
+    "type": "Job",
+    "state": "Central Goverment",
+    "status": "Open",
+    "source_url": "https://ssc.gov.in/home",
+    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_sheet_fingerprint": "a02c6e7dc7cb19741e8d72d6eb71483d49d25a1d71fe08779ca42d158175eebc"
   }
 }
