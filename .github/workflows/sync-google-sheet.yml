@@ -29,41 +29,33 @@ jobs:
 
           SHEET_ID="1HLCzR_CwklTB6DY_XCp0XqHTBFf_lk5vWT--2-jdOK0"
 
-          curl -fL --retry 3 --retry-all-errors --silent --show-error \
-            -A "Mozilla/5.0" \
-            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=final" \
-            -o sheet.csv
+          curl -fL --retry 3 --retry-all-errors --silent --show-error             -A "Mozilla/5.0"             "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=final"             -o sheet.csv
 
           python - <<'PY'
           import csv
 
           with open("sheet.csv", encoding="utf-8-sig", newline="") as f:
-              headers = {x.strip() for x in next(csv.reader(f), [])}
+              headers = [x.strip() for x in next(csv.reader(f), [])]
 
           required = {
               "Type",
               "State",
-              "Category",
               "Title",
+              "Application Start",
+              "Application End",
               "Official Link",
               "Apply Link",
               "Status",
           }
 
-          if not required.issubset(headers):
+          missing = required - set(headers)
+          if missing:
               raise SystemExit(
-                  f"ERROR: Google Sheet headers not found. Got: {sorted(headers)}"
-              )
-
-          if not (
-              {"Date", "Application Start", "Application End"} & headers
-          ):
-              raise SystemExit(
-                  "ERROR: No Date/Application Start/Application End column found."
+                  f"ERROR: Required Google Sheet headers missing: {sorted(missing)}. Got: {headers}"
               )
 
           print("Google Sheet downloaded successfully.")
-          print("Headers:", sorted(headers))
+          print("Headers:", headers)
           PY
 
       - name: Build notifications.json
@@ -174,7 +166,7 @@ jobs:
                       "_identity":ident,
                       "type":r.get("Type",""),
                       "state":state,
-                      "category":r.get("Category",""),
+                      "category":r.get("Category","") or r.get("Type",""),
                       "title":title,
                       "applicationStart":start,
                       "applicationEnd":end,
