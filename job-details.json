@@ -2245,48 +2245,33 @@
   "upsc-combined-geo-scientist-main-examination-2026-written-result": {
     "organization": "Union Public Service Commission",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Not mentioned in the official notification"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "SC/ST/OBC/EWS/PwBD Helpline: 1800-118-711",
-      "Helpdesk Contact: 011-24041001 / 011-40303444"
-    ],
+    "important_instructions": "Not mentioned in the official notification",
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "apply_url": "Not mentioned in the official notification",
     "title": "UPSC Combined Geo-Scientist (Main) Examination 2026 — Written Result",
     "type": "Result",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Declared",
     "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "563d38f13e713c2627b580574a22529d272b26ea9d8a3ea774a588a564d33f37"
+    "_sheet_fingerprint": "483d47001fff0d697d1d643a334f9d30de5a345a2e145bbce31801e187a8ea46"
   },
   "ssc-chsl-2025-first-round-of-tentative-allocation": {
     "organization": "Staff Selection Commission",
