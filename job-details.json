@@ -2157,15 +2157,15 @@
     "apply_url": "https://www.tgprb.in/applive/login",
     "portal_category": "upcoming-exams",
     "priority_score": 50,
-    "priority_reason": "The official source mentions Telangana Police Recruitment 2026 for SI, PC and Equivalent Posts, but no active application window, dates, or detailed notifications are provided yet.",
+    "priority_reason": "The source is an official portal placeholder for Telangana Police Recruitment 2026, indicating future recruitment exams without active application dates provided.",
     "title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
     "type": "Job",
     "state": "Telangana",
-    "status": "Current",
+    "status": "Open",
     "category": "",
     "source_url": "https://www.tgprb.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "b3fdfe263eebd2fda61b784d8cd287a0dd70cab9e6a5a29d195a3f969cafb5e9"
+    "_sheet_fingerprint": "dc38e69a61668fe9bf976d5299fd4f3997e1ffedebc5b8be8564a11e70ba2c0a"
   },
   "rrb-cen-04-2026-junior-engineer-dms": {
     "organization": "Railway Recruitment Boards (RRBs)",
@@ -3864,20 +3864,22 @@
     "apply_url": "https://ssc.gov.in/login",
     "portal_category": "upcoming-exams",
     "priority_score": 10,
-    "priority_reason": "The provided source is only a homepage stub without any recruitment notification details or active application windows.",
+    "priority_reason": "The provided source content is only a generic home page of the Staff Selection Commission with no active notification details or application window for SSC JE 2026.",
     "title": "SSC JE( (Junior Engineer) 2026",
     "type": "Result",
     "state": "Central Goverment",
-    "status": "Current",
+    "status": "Open",
     "category": "",
     "source_url": "https://ssc.gov.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "25f6936b08114c7ab0ffc01ea601d8306dd3d7ad192d49032821fbb195968b46"
+    "_sheet_fingerprint": "2ac27765ea8d7e5aaff7ba7435202434a1e768eed07b9d5ee787297e826537b7"
   },
   "ssc-chsl-10-2-examination": {
-    "organization": "Staff Selection Commission (SSC)",
+    "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": "Not mentioned in the official notification",
+    "post_names": [
+      "Not mentioned in the official notification"
+    ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
@@ -3885,37 +3887,55 @@
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": "Not mentioned in the official notification",
+    "application_fee": [
+      "Not mentioned in the official notification"
+    ],
     "application_start": "07/09/2026",
     "application_end": "07/10/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": "Not mentioned in the official notification",
-    "exam_pattern": "Not mentioned in the official notification",
-    "syllabus": "Not mentioned in the official notification",
-    "documents_required": "Not mentioned in the official notification",
+    "selection_process": [
+      "Not mentioned in the official notification"
+    ],
+    "exam_pattern": [
+      "Not mentioned in the official notification"
+    ],
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
+    "documents_required": [
+      "Not mentioned in the official notification"
+    ],
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Not mentioned in the official notification"
+    ],
     "how_to_apply": "Not mentioned in the official notification",
     "reservation_policy": "Not mentioned in the official notification",
-    "physical_standards": "Not mentioned in the official notification",
-    "medical_standards": "Not mentioned in the official notification",
+    "physical_standards": [
+      "Not mentioned in the official notification"
+    ],
+    "medical_standards": [
+      "Not mentioned in the official notification"
+    ],
     "exam_centers": "Not mentioned in the official notification",
     "probation_training": "Not mentioned in the official notification",
     "career_progression": "Not mentioned in the official notification",
-    "other_official_details": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Not mentioned in the official notification"
+    ],
     "official_notification_url": "https://ssc.gov.in/home",
     "apply_url": "https://ssc.gov.in/login",
     "portal_category": "latest-notifications",
-    "priority_score": 10,
-    "priority_reason": "The source content only provides the home page of the Staff Selection Commission without any specific recruitment notification details.",
+    "priority_score": 0,
+    "priority_reason": "The provided source content only contains the homepage title and lacks any recruitment notification details, vacancies, or active application windows.",
     "title": "SSC (CHSL) (10+2) Examination",
     "type": "Exam",
     "state": "Central Goverment",
-    "status": "Current",
+    "status": "Open",
     "category": "",
     "source_url": "https://ssc.gov.in/home",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "58018771ecabe67ad315d869e2284fd184b49c4d4e84aadb5954c11ec7db3af0"
+    "_sheet_fingerprint": "fbe9f4955834b41b967e4d27e79ad015f6658c0205c9d5e4f8745f011fdda91f"
   },
   "ssc-cpo-si-delhi-police-2026": {
     "organization": "Staff Selection Commission",
@@ -3947,316 +3967,317 @@
     "exam_centers": "Not mentioned in the official notification",
     "probation_training": "Not mentioned in the official notification",
     "career_progression": "Not mentioned in the official notification",
-    "other_official_details": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Source content only contains the home page text: Home | Staff Selection Commission | GoI"
+    ],
     "official_notification_url": "https://ssc.gov.in/home",
     "apply_url": "https://ssc.gov.in/login",
-    "portal_category": "upcoming-exams",
-    "priority_score": 50,
-    "priority_reason": "The provided source is only the home page of the Staff Selection Commission and lacks any specific recruitment details, vacancy counts, or live application dates for SSC CPO 2026.",
+    "portal_category": "latest-notifications",
+    "priority_score": 0,
+    "priority_reason": "The provided source content is only a general home page with no notification details, vacancies, or active recruitment dates.",
     "title": "SSC CPO (SI Delhi Police) 2026",
     "type": "Job",
     "state": "Central Goverment",
-    "status": "Current",
+    "status": "Open",
     "category": "",
     "source_url": "https://ssc.gov.in/home",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "2e0692ce96bd5bb7321814fb04a578090f627c1a4cb9b3787619ed05567548eb"
+    "_sheet_fingerprint": "c6d0674d9bd869f8110848283d178f9e7354fb43761c21199a9aee1a7f92d99b"
   },
   "ssc-cpo-si-vacancy-2026": {
-    "organization": "Staff Selection Commission",
+    "organization": "Staff Selection Commission (SSC)",
     "advertisement_number": "E/37/2026-C-2 SECTION",
     "post_names": [
       "Sub-Inspector (GD) in CAPFs",
       "Sub-Inspector (Executive) - (Male/Female) in Delhi Police",
       "Sub-Inspector (FIRE) - (Male) in CISF"
     ],
-    "total_vacancies": "1794",
+    "total_vacancies": 1789,
     "vacancy_breakdown": [
       {
-        "post_or_force": "Sub-Inspector (Exe.) in Delhi Police-Male",
+        "post_or_force": "Sub-Inspector (Exe.) in Delhi Police - Male",
         "details": "OPEN",
-        "ur": "77",
-        "obc": "49",
-        "sc": "27",
-        "st": "13",
-        "ews": "18",
-        "total": "184"
+        "ur": 77,
+        "obc": 49,
+        "sc": 27,
+        "st": 13,
+        "ews": 18,
+        "total": 184
       },
       {
-        "post_or_force": "Sub-Inspector (Exe.) in Delhi Police-Male",
+        "post_or_force": "Sub-Inspector (Exe.) in Delhi Police - Male",
         "details": "Ex-Servicemen (others)",
-        "ur": "05",
-        "obc": "03",
-        "sc": "02",
-        "st": "01",
-        "ews": "01",
-        "total": "12"
+        "ur": 5,
+        "obc": 3,
+        "sc": 2,
+        "st": 1,
+        "ews": 1,
+        "total": 12
       },
       {
-        "post_or_force": "Sub-Inspector (Exe.) in Delhi Police-Male",
+        "post_or_force": "Sub-Inspector (Exe.) in Delhi Police - Male",
         "details": "Ex-Servicemen (Spl. category)",
-        "ur": "05",
-        "obc": "02",
-        "sc": "01",
-        "st": "-",
-        "ews": "01",
-        "total": "09"
+        "ur": 5,
+        "obc": 2,
+        "sc": 1,
+        "st": 0,
+        "ews": 1,
+        "total": 9
       },
       {
-        "post_or_force": "Sub-Inspector (Exe.) in Delhi Police-Female",
+        "post_or_force": "Sub-Inspector (Exe.) in Delhi Police - Female",
         "details": "OPEN",
-        "ur": "47",
-        "obc": "30",
-        "sc": "16",
-        "st": "08",
-        "ews": "11",
-        "total": "112"
+        "ur": 47,
+        "obc": 30,
+        "sc": 16,
+        "st": 8,
+        "ews": 11,
+        "total": 112
       },
       {
         "post_or_force": "CRPF",
         "gender": "Male",
-        "ur": "90",
-        "ews": "23",
-        "obc": "61",
-        "sc": "34",
-        "st": "17",
-        "total": "225",
-        "grand_total": "254",
-        "esm_10_percent": "25"
+        "ur": 90,
+        "ews": 23,
+        "obc": 61,
+        "sc": 34,
+        "st": 17,
+        "total": 225,
+        "grand_total": 254,
+        "esm_10_percent": 25
       },
       {
         "post_or_force": "CRPF",
         "gender": "Female",
-        "ur": "12",
-        "ews": "3",
-        "obc": "8",
-        "sc": "4",
-        "st": "2",
-        "total": "29"
+        "ur": 12,
+        "ews": 3,
+        "obc": 8,
+        "sc": 4,
+        "st": 2,
+        "total": 29
       },
       {
         "post_or_force": "BSF",
         "gender": "Male",
-        "ur": "178",
-        "ews": "43",
-        "obc": "117",
-        "sc": "65",
-        "st": "32",
-        "total": "435",
-        "grand_total": "457",
-        "esm_10_percent": "46"
+        "ur": 178,
+        "ews": 43,
+        "obc": 117,
+        "sc": 65,
+        "st": 32,
+        "total": 435,
+        "grand_total": 457,
+        "esm_10_percent": 46
       },
       {
         "post_or_force": "BSF",
         "gender": "Female",
-        "ur": "9",
-        "ews": "2",
-        "obc": "6",
-        "sc": "3",
-        "st": "2",
-        "total": "22"
+        "ur": 9,
+        "ews": 2,
+        "obc": 6,
+        "sc": 3,
+        "st": 2,
+        "total": 22
       },
       {
         "post_or_force": "ITBP",
         "gender": "Male",
-        "ur": "89",
-        "ews": "21",
-        "obc": "30",
-        "sc": "18",
-        "st": "1",
-        "total": "159",
-        "grand_total": "187",
-        "esm_10_percent": "19"
+        "ur": 89,
+        "ews": 21,
+        "obc": 30,
+        "sc": 18,
+        "st": 1,
+        "total": 159,
+        "grand_total": 187,
+        "esm_10_percent": 19
       },
       {
         "post_or_force": "ITBP",
         "gender": "Female",
-        "ur": "16",
-        "ews": "4",
-        "obc": "5",
-        "sc": "3",
-        "st": "0",
-        "total": "28"
+        "ur": 16,
+        "ews": 4,
+        "obc": 5,
+        "sc": 3,
+        "st": 0,
+        "total": 28
       },
       {
         "post_or_force": "CISF",
         "gender": "Male",
-        "ur": "82",
-        "ews": "20",
-        "obc": "54",
-        "sc": "30",
-        "st": "14",
-        "total": "200",
-        "grand_total": "250",
-        "esm_10_percent": "25"
+        "ur": 82,
+        "ews": 20,
+        "obc": 54,
+        "sc": 30,
+        "st": 14,
+        "total": 200,
+        "grand_total": 250,
+        "esm_10_percent": 25
       },
       {
         "post_or_force": "CISF",
         "gender": "Female",
-        "ur": "21",
-        "ews": "5",
-        "obc": "13",
-        "sc": "7",
-        "st": "4",
-        "total": "50"
+        "ur": 21,
+        "ews": 5,
+        "obc": 13,
+        "sc": 7,
+        "st": 4,
+        "total": 50
       },
       {
         "post_or_force": "SSB",
         "gender": "Male",
-        "ur": "103",
-        "ews": "11",
-        "obc": "18",
-        "sc": "16",
-        "st": "6",
-        "total": "154",
-        "grand_total": "172",
-        "esm_10_percent": "17"
+        "ur": 103,
+        "ews": 11,
+        "obc": 18,
+        "sc": 16,
+        "st": 6,
+        "total": 154,
+        "grand_total": 172,
+        "esm_10_percent": 17
       },
       {
         "post_or_force": "SSB",
         "gender": "Female",
-        "ur": "1",
-        "ews": "6",
-        "obc": "7",
-        "sc": "3",
-        "st": "1",
-        "total": "18"
+        "ur": 1,
+        "ews": 6,
+        "obc": 7,
+        "sc": 3,
+        "st": 1,
+        "total": 18
       },
       {
         "post_or_force": "Sub Inspector (Fire) in CISF-Male",
-        "ur": "74",
-        "obc": "75",
-        "sc": "52",
-        "st": "16",
-        "ews": "17",
-        "total": "234",
-        "esm_10_percent": "18"
+        "ur": 74,
+        "obc": 75,
+        "sc": 52,
+        "st": 16,
+        "ews": 17,
+        "total": 234,
+        "esm_10_percent": 18
       }
     ],
-    "job_location": "All India (Candidates selected for appointment to posts of SI in CAPFs are liable to serve anywhere in India. Delhi Police posts located in Delhi.)",
+    "job_location": "Anywhere in India",
     "educational_qualification": [
-      "For Sub Inspector in Delhi Police and Sub Inspector (GD) in CAPFs: Bachelor’s degree from a recognized university or equivalent. Candidates who have appeared in their Bachelor’s degree or equivalent examination can also apply; however they must possess Essential Qualification on or before the closing date; i.e., closing date of receipt of applications.",
-      "For Sub Inspector (Fire) in CISF: Bachelor’s degree in science with physics, Chemistry and Mathematics of a recognized University or equivalent; OR Matriculation or equivalent and three years diploma in Mechanical, Civil, Electrical, Automobiles, Chemical, Mining, Aeronautical, Telecommunication Engineering OR equivalent examination passed from a recognized University or Board or Institutions. The higher qualification i.e. B. Tech/M Tech in relevant fields can be allowed as the same will be value addition for the post subject to basic qualification (Diploma) being there."
+      "For Sub Inspector in Delhi Police and Sub Inspector (GD) in CAPFs: Bachelor’s degree from a recognized university or equivalent. Candidates who have appeared in their Bachelor’s degree or equivalent examination can also apply; however they must possess Essential Qualification on or before the cut-off date i.e., closing date of receipt of applications.",
+      "For Sub Inspector (Fire) in CISF: Bachelor’s degree in science with physics, Chemistry and Mathematics of a recognized University or equivalent; OR Matriculation or equivalent and three years diploma in Mechanical, Civil, Electrical, Automobiles, Chemical, Mining, Aeronautical, Telecommunication Engineering OR equivalent examination passed from a recognized University or Board or Institutions. Higher qualification i.e. B.Tech/M.Tech in relevant fields can be allowed as value addition subject to basic qualification (Diploma) being there."
     ],
     "other_eligibility": [
-      "For the post of Sub Inspector in Delhi Police (Male candidates only): Male candidates must possess a valid Driving License for LMV (Motorcycle and Car) on the date fixed for Physical Endurance and Measurement Tests (PE&MT) to be eligible for the post of Sub Inspector in Delhi Police. The male candidates who do not have a Valid Driving License for LMV (Motorcycle and Car) are eligible for the post of Sub-Inspector in CAPFs only."
+      "For the post of Sub Inspector in Delhi Police (Male candidates only): Male candidates must possess a valid Driving License for LMV (Motorcycle and Car) on the date fixed for Physical Endurance and Measurement Tests (PE&MT)."
     ],
-    "age_limit": "Age limit for all posts except SI(FIRE) in CISF is 20-25 years; i.e. Candidate must have been born not earlier than 02.08.2001 and not later than 01.08.2006 to be eligible to apply. Age limit for SI(FIRE) in CISF is 18-30 years; i.e. Candidate must have been born not earlier than 02.08.1996 and not later than 01.08.2008 to be eligible to apply.",
+    "age_limit": "Age limit for all posts except SI(FIRE) in CISF is 20-25 years as on 01.08.2026 (Candidates must have been born not earlier than 02.08.2001 and not later than 01.08.2006). Age limit for SI(FIRE) in CISF is 18-30 years as on 01.08.2026 (Candidates must have been born not earlier than 02.08.1996 and not later than 01.08.2008).",
     "age_relaxation": [
       "SC/ST: 5 years",
       "OBC: 3 years",
-      "Ex-Servicemen (ESM): 3 years after deduction of the military service rendered from the actual age as on the closing date for receipt of online applications.",
-      "For the post of SI in Delhi Police (Category Codes-12 and 13) - Widows, divorced women and women judicially separated from their husbands and who are not re-married: Up to 35 years of age",
-      "For the post of SI in Delhi Police (Category Codes-12 and 13) - Widows, divorced women and women judicially separated from their husbands and who are not re-married. (SC/ST): Up to 40 years of age",
-      "For Departmental candidates of Delhi Police against the vacancies of Delhi Police only (Category Codes-17, 18 and 19) - Departmental candidates (UR/EWS) who have rendered not less than 3 years of regular and continuous service as on closing date for receipt of online applications: Up to 30 years of age",
-      "For Departmental candidates of Delhi Police against the vacancies of Delhi Police only (Category Codes-17, 18 and 19) - Departmental candidates (OBC) who have rendered not less than 3 years of regular and continuous service as on closing date for receipt of online applications: Up to 33 years of age",
-      "For Departmental candidates of Delhi Police against the vacancies of Delhi Police only (Category Codes-17, 18 and 19) - Departmental candidates (SC/ST) who have rendered not less than 3 years of regular and continuous service as on closing date for receipt of online applications: Up to 35 years of age"
+      "Ex-Servicemen (ESM): 3 years after deduction of the military service rendered from the actual age as on the closing date for receipt of online applications",
+      "Widows, divorced women and women judicially separated from their husbands and who are not re-married (for SI in Delhi Police): Up to 35 years of age",
+      "Widows, divorced women and women judicially separated from their husbands and who are not re-married (SC/ST) (for SI in Delhi Police): Up to 40 years of age",
+      "Departmental candidates of Delhi Police (UR/EWS) with not less than 3 years regular service: Up to 30 years of age",
+      "Departmental candidates of Delhi Police (OBC) with not less than 3 years regular service: Up to 33 years of age",
+      "Departmental candidates of Delhi Police (SC/ST) with not less than 3 years regular service: Up to 35 years of age"
     ],
     "application_fee": [
-      "Fee payable: Rs.100/- (Rupees One Hundred only).",
-      "Women candidates and candidates belonging to Scheduled Castes (SC), Scheduled Tribes (ST) and Ex-Servicemen eligible for reservation are exempted from payment of fee.",
-      "Fee can be paid only through online payment modes, namely BHIM UPI, Net Banking, or by using Visa, MasterCard, Maestro, or RuPay Debit card."
+      "Fee payable: Rs.100/- (Rupees One Hundred only)",
+      "Women candidates and candidates belonging to Scheduled Castes (SC), Scheduled Tribes (ST) and Ex-Servicemen eligible for reservation are exempted from payment of fee."
     ],
     "application_start": "September 10, 2026",
     "application_end": "30/09/2026",
     "exam_date": "To be notified later",
     "selection_process": [
-      "Computer Based Examination (Paper-I)",
+      "Paper-I",
       "Physical Standard Test (PST) / Physical Endurance Test (PET)",
       "Paper-II",
       "Detailed Medical Examination (DME) / Review Medical Examination (RME)",
       "Document Verification"
     ],
     "exam_pattern": [
-      "Paper-I: Part I - General Intelligence and Reasoning (25 Questions, 25 Marks), Part II - General Knowledge and General Awareness (25 Questions, 25 Marks), Part III - Quantitative Aptitude (25 Questions, 25 Marks), Part IV - English Comprehension (25 Questions, 25 Marks). Total Time Duration: 1 Hour (With sectional timer of 15 Minutes for each part).",
-      "Paper-II: Part I - General Intelligence and Reasoning (20 Questions, 40 Marks), Part II - General Knowledge and General Awareness (20 Questions, 40 Marks), Part III - Quantitative Aptitude (20 Questions, 40 Marks), Part IV - English Comprehension (100 Questions, 200 Marks). Total Time Duration: 1 Hour (With sectional timer of 20 Minutes for each part for Parts I, II, III and 1 Hour for Part IV).",
-      "Questions in both papers will be of Objective Multiple Choice Type. Questions will be set in Hindi and English in Parts-I, II and III of Paper-I and Paper-II.",
-      "Negative marking of 0.25 marks for each wrong answer in Paper-I and 0.50 marks for each wrong answer in Paper-II."
+      "Paper-I: Part-I: General Intelligence and Reasoning (25 Questions, 25 Marks), Part-II: General Knowledge and General Awareness (25 Questions, 25 Marks), Part-III: Quantitative Aptitude (25 Questions, 25 Marks), Part-IV: English Comprehension (25 Questions, 25 Marks). Total Time: 1 Hour (With sectional timer of 15 Minutes for each part).",
+      "Paper-II: Part-I: General Intelligence and Reasoning (20 Questions, 40 Marks), Part-II: General Knowledge and General Awareness (20 Questions, 40 Marks), Part-III: Quantitative Aptitude (20 Questions, 40 Marks), Part-IV: English Comprehension (100 Questions, 200 Marks). Total Time: 1 Hour for Parts I-III (with sectional timer of 20 minutes for each part) and 1 Hour for Part IV.",
+      "Objective Multiple Choice Type questions set in Hindi and English in Parts-I, II and III of Paper-I and Paper-II.",
+      "Negative marking of 0.25 marks for each wrong answer in Paper-I and 0.50 marks for each wrong answer in Paper-II.",
+      "NCC certificate holders given bonus marks added to normalized scores: NCC 'C' (5% of maximum marks), NCC 'B' (3% of maximum marks), NCC 'A' (2% of maximum marks) in each paper."
     ],
     "syllabus": [
-      "General Intelligence and Reasoning: Verbal and non-verbal type. Analogies, similarities and differences, space visualization, spatial orientation, problem solving, analysis, judgment, decision making, visual memory, discrimination, observation, relationship concepts, arithmetical reasoning and figural classification, arithmetic number series, non-verbal series, coding and decoding, statement conclusion, syllogistic reasoning, Semantic Analogy, Symbolic/Number Analogy, Figural Analogy, Semantic Classification, Symbolic/ Number Classification, Figural Classification, Semantic Series, Number Series, Figural Series, Problem Solving, Word Building, Coding & de-coding, Numerical Operations, symbolic Operations, Trends, Space Orientation, Space Visualization, Venn Diagrams, Drawing inferences, Punched hole/ pattern-folding & un-folding, Figural Pattern-folding and completion, Indexing, Address matching, Date & city matching Classification of centre codes/ roll numbers, Small & Capital letters/ numbers coding, decoding and classification, Embedded Figures, Critical thinking, Emotional Intelligence, Social Intelligence, etc.",
-      "General Knowledge and General Awareness: Environment around him and its application to society, current events, everyday observations and experience in their scientific aspect. India and its neighboring countries especially pertaining to History, Culture, Geography, Economic Scene, General Polity, Indian Constitution, Scientific Research, etc.",
+      "General Intelligence and Reasoning: Analogies, similarities and differences, space visualization, spatial orientation, problem solving, analysis, judgment, decision making, visual memory, discrimination, observation, relationship concepts, arithmetical reasoning and figural classification, arithmetic number series, non-verbal series, coding and decoding, statement conclusion, syllogistic reasoning, Semantic Analogy, Symbolic/Number Analogy, Figural Analogy, Semantic Classification, Symbolic/ Number Classification, Figural Classification, Semantic Series, Number Series, Figural Series, Problem Solving, Word Building, Coding & de-coding, Numerical Operations, symbolic Operations, Trends, Space Orientation, Space Visualization, Venn Diagrams, Drawing inferences, Punched hole/ pattern-folding & un-folding, Figural Pattern-folding and completion, Indexing, Address matching, Date & city matching Classification of centre codes/ roll numbers, Small & Capital letters/ numbers coding, decoding and classification, Embedded Figures, Critical thinking, Emotional Intelligence, Social Intelligence, etc.",
+      "General Knowledge and General Awareness: Environment around him and its application to society, current events, everyday observations in scientific aspect, India and its neighboring countries, History, Culture, Geography, Economic Scene, General Polity, Indian Constitution, Scientific Research, etc.",
       "Quantitative Aptitude: Whole numbers, decimals, fractions and relationships between numbers, Percentage, Ratio and Proportion, Square roots, Averages, Interest, Profit & Loss, Discount, Partnership Business, Mixture and Alligation, Time and distance, Time & work, Basic algebraic identities of School Algebra and Elementary surds, Graphs of Linear Equations, Triangle and its various kinds of centres, Congruence and similarity of triangles, Circle and its chords, tangents, angles subtended by chords of a circle, common tangents to two or more circles, Triangle, Quadrilaterals, Regular Polygons, Circle, Right Prism, Right Circular Cone, Right Circular Cylinder, Sphere, Hemispheres, Rectangular Parallelepiped, Regular Right Pyramid with triangular or square base, Trigonometric ratio, Degree and Radian Measures, Standard Identities, Complementary angles, Heights and Distances, Histogram, Frequency polygon, Bar diagram & Pie chart.",
       "English Comprehension: Error recognition, filling in the blanks (using verbs, preposition, articles, etc.), Vocabulary, Spellings, Grammar, Sentence Structure, Synonyms, Antonyms, Sentence Completion, Phrases and Idiomatic use of words, comprehension, etc."
     ],
     "documents_required": [
       "Matriculation/Secondary Certificate",
       "Educational Qualification Certificate",
-      "Order/letter in respect of equivalent Educational Qualifications claimed",
-      "Caste/ Category Certificate, if belongs to reserved categories",
-      "Driving License for Motor Cycle and Car (issued before the date of PST/PET) for Delhi Police preference (male candidates only)",
-      "For Ex-Servicemen (ESM): Undertaking as per Annexure-IV, Serving Defence Personnel Certificate as per Annexure-III (if applicable), Discharge Certificate, Certificate/Documentary evidence for special categories of Ex-servicemen",
-      "Relevant Certificate if seeking any age relaxation",
+      "Order/letter in respect of equivalent Educational Qualifications claimed, indicating the Authority",
+      "Caste/Category Certificate",
+      "Driving License for Motor Cycle and Car (issued before PST/PET) for Delhi Police preference (male candidates only)",
+      "Undertaking as per Annexure-IV for Ex-Servicemen",
+      "Serving Defence Personnel Certificate as per Annexure-III (if applicable)",
+      "Discharge Certificate (if discharged from Armed Forces)",
+      "Relevant Certificate if seeking age relaxation",
       "Certificate as per Annexure-IX by Departmental candidates of Delhi Police",
-      "No Objection Certificate, in case already employed in Government",
-      "Documents for change in name after matriculation on marriage, re-marriage, divorce, etc.",
-      "Any other document specified in the Admission Certificate for Document Verification"
+      "No Objection Certificate if already employed in Government",
+      "Documents for change in name after matriculation on marriage/re-marriage/divorce (Marriage certificate, Divorce Decree, Affidavit, Gazette Notification, etc.)"
     ],
-    "salary_pay_scale": "Level-6 (Rs.35,400-Rs.1,12,400/-)",
+    "salary_pay_scale": "Level-6 (Rs.35,400 - Rs.1,12,400/-), Group 'B' (Non-Gazetted), Non-Ministerial (except SI in Delhi Police which is Group 'C')",
     "important_instructions": [
-      "Candidates must complete their One-Time Registration (OTR) on the new website https://ssc.gov.in.",
-      "Applications must be submitted only in online mode through the website of SSC (HQ) or the 'mySSC' mobile app.",
+      "Candidates must complete One-Time Registration (OTR) on the new website https://ssc.gov.in.",
+      "Applications must be submitted only in online mode through https://ssc.gov.in or 'mySSC' mobile app.",
       "Aadhaar-Based Authentication is advised during OTR.",
-      "Live photograph capturing feature is included in the online application module; pre-existing photographs are not allowed unless Aadhaar authentication is used.",
-      "Window for Application Form Correction: 08.10.2026 to 10.10.2026 (23:00 hrs)."
+      "Live photograph captured during online application form filling is mandatory.",
+      "Window for Application Form Correction: 08.10.2026 to 10.10.2026 (23:00 hrs) with uniform correction charges of ₹200 for first time and ₹500 for second time."
     ],
     "how_to_apply": [
-      "Complete One-Time Registration (OTR) on https://ssc.gov.in using mobile number, email ID, and Aadhaar or other identity proofs.",
-      "Log in with Registration Number and Password.",
+      "Complete One-Time Registration (OTR) on https://ssc.gov.in.",
+      "Log in using Registration Number and Password.",
       "Click 'Apply' link in 'Sub-Inspector in Delhi Police and Central Armed Police Forces Examination 2026' Section under 'Latest Notifications' tab.",
-      "Fill in Personal, Educational, and Additional details.",
-      "Upload live photograph and scanned signature in JPEG format (10 to 20 KB).",
-      "Preview the form, submit, and pay the application fee (if not exempted)."
+      "Fill up personal, educational, and additional details.",
+      "Capture live photograph and upload scanned signature.",
+      "Preview the application form and submit.",
+      "Pay the application fee online through BHIM UPI, Net Banking, or Visa/MasterCard/Maestro/RuPay Debit Card."
     ],
-    "reservation_policy": "Reservation for Scheduled Castes (SC), Scheduled Tribes (ST), Other Backward Classes (OBC), Economically Weaker Sections (EWS), and Ex-Servicemen (ESM) is applicable as determined and communicated by the CAPFs, Ministry of Home Affairs (MHA), and Delhi Police.",
+    "reservation_policy": "Reservation for SC/ST/OBC/EWS/ESM is applicable as per extant Government Orders, Rules & Regulations determined by CAPFs, MHA, and Delhi Police. 50% of Ex-Servicemen quota is reserved for specified commando/special forces categories.",
     "physical_standards": [
-      "Height norms for SI in Delhi Police (Male): UR/OBC/EWS/SC/others except listed: 170 cm; Hill areas candidates: 165 cm; Scheduled Tribes: 162.5 cm.",
-      "Chest norms for SI in Delhi Police (Male): Unexpanded 80 cm, Expanded 85 cm (For ST: Unexpanded 77 cm, Expanded 82 cm).",
-      "Height norms for SI in Delhi Police (Female): UR/OBC/EWS/SC/others except listed: 157 cm; Hill areas candidates: 155 cm; Scheduled Tribes: 154 cm.",
-      "Height norms for SI in CAPFs (Male): UR/OBC/EWS/others except listed: 170 cm; Hill areas candidates: 165 cm; Male Gorkhas: 157 cm; Scheduled Tribes: 162.5 cm (ST of North-Eastern States: 157 cm).",
-      "Chest norms for SI in CAPFs (Male): Unexpanded 80 cm, Expanded 85 cm (For Gorkhas: Unexpanded 80 cm, Expanded 85 cm; For ST: Unexpanded 77 cm, Expanded 82 cm).",
-      "Height norms for SI in CAPFs (Female): UR/OBC/EWS/others except listed: 157 cm; Hill areas candidates: 155 cm; Scheduled Tribes: 154 cm.",
-      "Height norms for SI(Fire) in CISF (Male): UR/OBC/EWS/others except listed: 170 cm; Hill areas candidates: 165 cm; Scheduled Tribes including Mizos and Nagas: 162.5 cm.",
-      "Chest norms for SI(Fire) in CISF (Male): UR/OBC/EWS/others except listed: Unexpanded 81 cm, Expanded 86 cm; Hill areas candidates: Unexpanded 81 cm, Expanded 86 cm; Scheduled Tribes: Unexpanded 77 cm, Expanded 82 cm.",
-      "PET for Male candidates: 100 metre race in 16 seconds, 1.6 Kms race in 6.5 minutes, Long Jump: 3.65 metre in 3 chances, High Jump: 1.2 metre in 3 chances, Shot put (16 Lbs): 4.5 metre in 3 chances.",
-      "PET for Female candidates: 100 metre race in 18 seconds, 800 metre race in 4 minutes, Long Jump: 2.7 metre in 3 chances, High Jump: 0.9 metre in 3 chances."
+      "Height norms for SI in Delhi Police - Male (General: 170 cm, Chest: 80-85 cm; Hill areas: 165 cm, Chest: 80-85 cm; ST: 162.5 cm, Chest: 77-82 cm).",
+      "Height norms for SI in Delhi Police - Female (General: 157 cm; Hill areas: 155 cm; ST: 154 cm).",
+      "Height norms for SI in CAPFs - Male (General: 170 cm, Chest: 80-85 cm; Hill areas: 165 cm, Chest: 80-85 cm; Gorkhas: 157 cm, Chest: 80-85 cm; ST: 162.5 cm, Chest: 77-82 cm; ST of North-Eastern States: 157 cm, Chest: 77-82 cm).",
+      "Height norms for SI in CAPFs - Female (General: 157 cm; Hill areas: 155 cm; ST: 154 cm).",
+      "Height norms for SI(Fire) in CISF - Male (General: 170 cm, Chest: 81-86 cm; Hill areas: 165 cm, Chest: 81-86 cm; ST including Mizos and Nagas: 162.5 cm, Chest: 77-82 cm).",
+      "PET for Male: 100 metre race in 16 seconds, 1.6 Kms race in 6.5 minutes, Long Jump: 3.65 metre in 3 chances, High Jump: 1.2 metre in 3 chances, Shot put (16 Lbs): 4.5 metre in 3 chances.",
+      "PET for Female: 100 metre race in 18 seconds, 800 metre race in 4 minutes, Long Jump: 2.7 metre in 3 chances, High Jump: 0.9 metre in 3 chances."
     ],
     "medical_standards": [
       "Minimum near vision: N6 (better eye) and N9 (worse eye).",
-      "Minimum distant vision: 6/6 (better eye) and 6/9 (worse eye) of both eyes without any correction.",
-      "Candidates must not have knock knee, flat foot, varicose vein or squint in eyes and must possess high colour vision.",
+      "Minimum distant vision: 6/6 (better eye) and 6/9 (worse eye) without correction.",
+      "Must not have knock knee, flat foot, varicose vein or squint in eyes, and must possess high colour vision.",
       "Must be in good mental and bodily health and free from any physical defect."
     ],
     "exam_centers": [
-      "Central Region (CR) - Bhagalpur, Muzaffarpur, Patna, Gaya, Chapra, Saharsa, Darbhanga, Purnea, Munger, Agra, Bareilly, Gorakhpur, Jhansi, Kanpur, Lucknow, Meerut, Prayagraj",
-      "Eastern Region (ER) - Sri Vijaya Puram, Dhanbad, Jamshedpur, Ranchi, Bokaro, Balasore, Berhampore Ganjam, Bhubaneswar, Cuttack, Rourkela, Dhenkanal, Sambalpur, Burdwan, Durgapur, Kalyani, Kolkata/Howrah, Siliguri, Suri, Malda, Gangtok",
-      "Karnataka, Kerala Region (KKR) - Bengaluru, Belagavi, Kalaburagi, Mangaluru, Mysuru, Shivamogga, Hubballi, Udupi, Alappuzha, Kannur, Kottayam, Kozhikode, Malappuram, Kollam, Thiruvananthapuram, Thrissur, Ernakulam, Kavaratti",
-      "Madhya Pradesh Region (MPR) - Bhopal, Gwalior, Indore, Jabalpur, Satna, Sagar, Ujjain, Bilaspur, Raipur, Durg-Bhilai",
-      "North Eastern Region (NER) - Itanagar, Dibrugarh, Guwahati, Jorhat, Silchar, Imphal, Churachandpur, Shillong, Aizwal, Dimapur, Kohima, Agartala",
-      "Northern Region (NR) - Delhi, Dehradun, Haldwani, Roorkee, Jaipur, Sikar, Bikaner, Jodhpur",
-      "North Western Region (NWR) - Chandigarh/Mohali, Shimla, Jammu, Samba, Srinagar, Leh, Amritsar, Jalandhar, Patiala, Bathinda",
-      "Southern Region (SR) - Guntur, Kurnool, Rajahmundry, Tirupati, Visakhapatnam, Vijayawada, Kakinada, Nellore, Ongole, Srikakulam, Eluru, Puducherry, Chennai, Coimbatore, Madurai, Salem, Tiruchirappalli, Tirunelveli, Vellore, Krishnagiri, Hyderabad, Warangal, Karimnagar, Siddipet",
-      "Western Region (WR) - Ahmedabad, Vadodara, Rajkot, Surat, Gandhinagar, Amravati, Chhatrapati Sambhaji Nagar, Kolhapur, Mumbai, Nagpur, Nanded, Nashik, Pune, Jalgaon, Panaji"
+      "Central Region (CR): Bhagalpur, Muzaffarpur, Patna, Gaya, Chapra, Saharsa, Darbhanga, Purnea, Munger, Agra, Bareilly, Gorakhpur, Jhansi, Kanpur, Lucknow, Meerut, Prayagraj.",
+      "Eastern Region (ER): Sri Vijaya Puram, Dhanbad, Jamshedpur, Ranchi, Bokaro, Balasore, Berhampore Ganjam, Bhubaneswar, Cuttack, Rourkela, Dhenkanal, Sambalpur, Burdwan, Durgapur, Kalyani, Kolkata/Howrah, Siliguri, Suri, Malda, Gangtok.",
+      "Karnataka, Kerala Region (KKR): Bengaluru, Belagavi, Kalaburagi, Mangaluru, Mysuru, Shivamogga, Hubballi, Udupi, Alappuzha, Kannur, Kottayam, Kozhikode, Malappuram, Kollam, Thiruvananthapuram, Thrissur, Ernakulam, Kavaratti.",
+      "Madhya Pradesh Region (MPR): Bhopal, Gwalior, Indore, Jabalpur, Satna, Sagar, Ujjain, Bilaspur, Raipur, Durg-Bhilai.",
+      "North Eastern Region (NER): Itanagar, Dibrugarh, Guwahati, Jorhat, Silchar, Imphal, Churachandpur, Shillong, Aizwal, Dimapur, Kohima, Agartala.",
+      "Northern Region (NR): Delhi, Dehradun, Haldwani, Roorkee, Jaipur, Sikar, Bikaner, Jodhpur.",
+      "North Western Region (NWR): Chandigarh/Mohali, Shimla, Jammu, Samba, Srinagar, Leh, Amritsar, Jalandhar, Patiala, Bathinda.",
+      "Southern Region (SR): Guntur, Kurnool, Rajahmundry, Tirupati, Visakhapatnam, Vijayawada, Kakinada, Nellore, Ongole, Srikakulam, Eluru, Puducherry, Chennai, Coimbatore, Madurai, Salem, Tiruchirappalli, Tirunelveli, Vellore, Krishnagiri, Hyderabad, Warangal, Karimnagar, Siddipet.",
+      "Western Region (WR): Ahmedabad, Vadodara, Rajkot, Surat, Gandhinagar, Amravati, Chhatrapati Sambhaji Nagar, Kolhapur, Mumbai, Nagpur, Nanded, Nashik, Pune, Jalgaon, Panaji."
     ],
-    "probation_training": "Candidates appointed on the basis of this examination shall be on probation for a period of two years and during probation, will undergo training and pass examinations as prescribed by the Controlling Authority.",
+    "probation_training": "Candidates appointed shall be on probation for a period of two years and undergo training and pass examinations as prescribed.",
     "career_progression": "Not mentioned in the official notification",
     "other_official_details": [
-      "Toll-Free Helpline Number: 1800 309 3063",
-      "NCC Certificate Holders Bonus Marks: NCC 'C' - 5%, NCC 'B' - 3%, NCC 'A' - 2% of the maximum marks in each paper."
+      "Toll-Free Helpline: 1800 309 3063",
+      "All posts except SI in Delhi Police carry All India Service Liability (AISL)."
     ],
     "official_notification_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf",
     "apply_url": "https://ssc.gov.in/login",
     "portal_category": "latest-notifications",
     "priority_score": 95,
-    "priority_reason": "This is a major central government recruitment notification (SSC CPO SI Examination, 2026) with active application dates (10.09.2026 to 30.09.2026) carrying high importance for government job aspirants.",
+    "priority_reason": "Major national-level central recruitment notification (SSC CPO 2026) published by the Staff Selection Commission for Sub-Inspector posts across Delhi Police and multiple CAPFs with active open application windows.",
     "title": "SSC CPO SI Vacancy 2026",
     "type": "Job",
     "state": "Central Goverment",
-    "status": "Current",
+    "status": "Open",
     "category": "",
     "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "212398a5b7ec4db0753462c14b16e9e50382620591e97b37f3deff6311383d8e"
+    "_sheet_fingerprint": "b8aa49488a2c072e8bea5571ec6cb32203613080e66d9640245de88633ac4ba1"
   },
   "wdcw-nagarkurnool-anganwadi-recruitment-2026": {
     "organization": "Women Development and Child Welfare Department, Nagarkurnool District, Government of Telangana",
