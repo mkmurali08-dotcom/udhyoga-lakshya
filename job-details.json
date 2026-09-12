@@ -19,18 +19,10 @@
     "selection_process": "Not mentioned in the official notification",
     "exam_pattern": "Not mentioned in the official notification",
     "syllabus": "Not mentioned in the official notification",
-    "documents_required": [
-      "Scribe declaration form",
-      "Form VI certificate of disability",
-      "EWS income and asset certificate",
-      "Form V certificate of disability",
-      "OBC certificate",
-      "SC/ST certificate",
-      "Form VII certificate of disability"
-    ],
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": "Not mentioned in the official notification",
-    "how_to_apply": "Candidates can apply online through the official application link provided on the PFRDA website.",
+    "how_to_apply": "Not mentioned in the official notification",
     "reservation_policy": "Not mentioned in the official notification",
     "physical_standards": "Not mentioned in the official notification",
     "medical_standards": "Not mentioned in the official notification",
@@ -39,21 +31,21 @@
     "career_progression": "Not mentioned in the official notification",
     "other_official_details": [
       "Published on: 03-09-2026",
-      "PDF file size: 790 KB"
+      "PDF file available for download (790 KB)"
     ],
     "official_notification_url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
     "apply_url": "https://ibpsreg.ibps.in/pfrdajul26/",
     "portal_category": "latest-notifications",
     "priority_score": 95,
-    "priority_reason": "Official central government regulatory authority recruitment notification for Officer Grade 'A' (Assistant Manager) with active online application link.",
+    "priority_reason": "Official central regulatory body recruitment notification for Officer Grade A (Assistant Manager) with a live apply link published in September 2026.",
     "title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
     "type": "Job",
     "state": "Central Goverment",
-    "status": "Live",
+    "status": "Current",
     "category": "",
     "source_url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "10706dc8217ab26125a6ed7e63b44d94c669069bea3abb460b00e6fc8d166161"
+    "_sheet_fingerprint": "fc79e0e9220a1f02a50b0b7792c4dd77a6f3ee2e7d9809c44ec0bed3582f984c"
   },
   "final-result-special-recruitment-drive-for-uniformed-services-combined-examination-2026-01-09-2026": {
     "organization": "Arunachal Pradesh Staff Selection Board (APSSB)",
@@ -2077,14 +2069,14 @@
     "_sheet_fingerprint": "d2f527cc9ae2fe5953ff972b951122f4e6cc7d0c86530e08944cd76c89a32d66"
   },
   "india-post-gds-online-engagement-schedule-ii-july-2026": {
-    "organization": "Department of Posts, Government of India",
+    "organization": "India Post",
     "advertisement_number": "GDS Online Engagement – Schedule-II, July 2026",
     "post_names": [
       "Gramin Dak Sevak (GDS)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": "Not mentioned in the official notification",
-    "job_location": "Not mentioned in the official notification",
+    "job_location": "Central Government",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
@@ -2099,16 +2091,12 @@
     "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates applying for GDS Online Engagement – Schedule II, July-2026 are required to register afresh. Registration Numbers generated in previous schedules will not be valid.",
+      "Candidates applying for GDS Online Engagement – Schedule II, July-2026 are required to register afresh.",
+      "Registration Numbers generated in previous schedules will not be valid.",
       "Candidates are advised not to trust any communications received from unauthorized or suspicious email IDs.",
-      "Department of Posts communicates information only through official email IDs ending with @indiapost.gov.in or @indiapostgdsonline.gov.in .",
-      "The Department of Posts shall not be responsible for any misleading communication/fraudulent emails/messages regarding GDS Engagement/Recruitment circulated by unauthorized sources."
+      "Department of Posts communicates information only through official email IDs ending with @indiapost.gov.in or @indiapostgdsonline.gov.in."
     ],
-    "how_to_apply": [
-      "Complete User Registration starting from 31-08-2026 to 19-09-2026 (17:00 HRS).",
-      "Submit Application starting from 02-09-2026 to 21-09-2026 (17:00 HRS).",
-      "Use the Edit/Correction Window from 23-09-2026 to 24-09-2026 (17:00 HRS) if needed."
-    ],
+    "how_to_apply": "Candidates need to register and apply through the official portal using the registration link provided.",
     "reservation_policy": "Not mentioned in the official notification",
     "physical_standards": "Not mentioned in the official notification",
     "medical_standards": "Not mentioned in the official notification",
@@ -2116,22 +2104,21 @@
     "probation_training": "Not mentioned in the official notification",
     "career_progression": "Not mentioned in the official notification",
     "other_official_details": [
-      "Edit/Correction Window Start Date: 23-09-2026, End Date: 24-09-2026 17:00 HRS",
-      "Active Notification sections available: Notification-English, Notification-Hindi, Circlewise Posts Notified, Registration Instructions, Application Instructions, Fee Instructions, Edit/Correction Instructions, Vacant Posts, Annexures, Helpdesk"
+      "Edit/Correction Window Start Date: 23-09-2026, End Date: 24-09-2026 17:00 HRS"
     ],
     "official_notification_url": "https://www.indiapost.gov.in/gdsonlineengagement",
     "apply_url": "https://app.indiapost.gov.in/gdscandidate",
     "portal_category": "latest-notifications",
-    "priority_score": 95,
-    "priority_reason": "The notification represents a live, active central government recruitment process (India Post GDS Schedule-II July 2026) with open registration and application dates.",
+    "priority_score": 90,
+    "priority_reason": "The registration and application window is live with active dates for Schedule-II July 2026 GDS recruitment.",
     "title": "India Post GDS Online Engagement — Schedule-II, July 2026",
     "type": "Job",
     "state": "Central Goverment",
-    "status": "Open",
+    "status": "Current",
     "category": "",
     "source_url": "https://www.indiapost.gov.in/gdsonlineengagement",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "a854a29e4df7f9aa700f47fceb8ead96a5849a027f91521b5dda79ac3151764c"
+    "_sheet_fingerprint": "34d19db9cccc57e6eea67bf179ee16b06cea312c4de20e7c0813cd613f7e73ed"
   },
   "telangana-police-recruitment-2026-si-pc-equivalent-posts": {
     "organization": "Telangana Police Recruitment Board",
@@ -2170,15 +2157,15 @@
     "apply_url": "https://www.tgprb.in/applive/login",
     "portal_category": "upcoming-exams",
     "priority_score": 50,
-    "priority_reason": "The official source mentions Telangana Police Recruitment 2026 for SI, PC and equivalent posts, but lacks detailed operational notification data.",
+    "priority_reason": "The official source mentions Telangana Police Recruitment 2026 for SI, PC and Equivalent Posts, but no active application window, dates, or detailed notifications are provided yet.",
     "title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
     "type": "Job",
     "state": "Telangana",
-    "status": "Live",
+    "status": "Current",
     "category": "",
     "source_url": "https://www.tgprb.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "2e961dc97161eaf12ac9e9b4f5e983ff37cd7136cd48eaf48b7a996525efe0ea"
+    "_sheet_fingerprint": "b3fdfe263eebd2fda61b784d8cd287a0dd70cab9e6a5a29d195a3f969cafb5e9"
   },
   "rrb-cen-04-2026-junior-engineer-dms": {
     "organization": "Railway Recruitment Boards (RRBs)",
@@ -3877,22 +3864,20 @@
     "apply_url": "https://ssc.gov.in/login",
     "portal_category": "upcoming-exams",
     "priority_score": 10,
-    "priority_reason": "The provided source content only displays the homepage of the Staff Selection Commission and contains no active recruitment notification details, dates, or application links for SSC JE 2026.",
+    "priority_reason": "The provided source is only a homepage stub without any recruitment notification details or active application windows.",
     "title": "SSC JE( (Junior Engineer) 2026",
     "type": "Result",
     "state": "Central Goverment",
-    "status": "Live",
+    "status": "Current",
     "category": "",
     "source_url": "https://ssc.gov.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "93c8243eb5e24b4548d33b8b2a1b4cf0fadcb6bbc7132cdb5f18039768683f61"
+    "_sheet_fingerprint": "25f6936b08114c7ab0ffc01ea601d8306dd3d7ad192d49032821fbb195968b46"
   },
   "ssc-chsl-10-2-examination": {
-    "organization": "Staff Selection Commission",
+    "organization": "Staff Selection Commission (SSC)",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Not mentioned in the official notification"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
@@ -3900,61 +3885,43 @@
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "07/09/2026",
     "application_end": "07/10/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
-    ],
+    "important_instructions": "Not mentioned in the official notification",
     "how_to_apply": "Not mentioned in the official notification",
     "reservation_policy": "Not mentioned in the official notification",
-    "physical_standards": [
-      "Not mentioned in the official notification"
-    ],
-    "medical_standards": [
-      "Not mentioned in the official notification"
-    ],
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
     "exam_centers": "Not mentioned in the official notification",
     "probation_training": "Not mentioned in the official notification",
     "career_progression": "Not mentioned in the official notification",
-    "other_official_details": [
-      "Not mentioned in the official notification"
-    ],
+    "other_official_details": "Not mentioned in the official notification",
     "official_notification_url": "https://ssc.gov.in/home",
     "apply_url": "https://ssc.gov.in/login",
     "portal_category": "latest-notifications",
-    "priority_score": 0,
-    "priority_reason": "The official source page contains no recruitment notification content, vacancy details, application dates, or exam schedules.",
+    "priority_score": 10,
+    "priority_reason": "The source content only provides the home page of the Staff Selection Commission without any specific recruitment notification details.",
     "title": "SSC (CHSL) (10+2) Examination",
     "type": "Exam",
     "state": "Central Goverment",
-    "status": "Open",
+    "status": "Current",
     "category": "",
     "source_url": "https://ssc.gov.in/home",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "fbe9f4955834b41b967e4d27e79ad015f6658c0205c9d5e4f8745f011fdda91f"
+    "_sheet_fingerprint": "58018771ecabe67ad315d869e2284fd184b49c4d4e84aadb5954c11ec7db3af0"
   },
   "ssc-cpo-si-delhi-police-2026": {
     "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Sub-Inspector (SI) in Delhi Police"
+      "Sub-Inspector (SI) in Delhi Police and Central Armed Police Forces (CAPFs)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": "Not mentioned in the official notification",
@@ -3980,22 +3947,20 @@
     "exam_centers": "Not mentioned in the official notification",
     "probation_training": "Not mentioned in the official notification",
     "career_progression": "Not mentioned in the official notification",
-    "other_official_details": [
-      "Home | Staff Selection Commission | GoI"
-    ],
+    "other_official_details": "Not mentioned in the official notification",
     "official_notification_url": "https://ssc.gov.in/home",
     "apply_url": "https://ssc.gov.in/login",
     "portal_category": "upcoming-exams",
     "priority_score": 50,
-    "priority_reason": "The source is only a generic home page of the Staff Selection Commission without specific live notification details.",
+    "priority_reason": "The provided source is only the home page of the Staff Selection Commission and lacks any specific recruitment details, vacancy counts, or live application dates for SSC CPO 2026.",
     "title": "SSC CPO (SI Delhi Police) 2026",
     "type": "Job",
     "state": "Central Goverment",
-    "status": "Open",
+    "status": "Current",
     "category": "",
     "source_url": "https://ssc.gov.in/home",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "c6d0674d9bd869f8110848283d178f9e7354fb43761c21199a9aee1a7f92d99b"
+    "_sheet_fingerprint": "2e0692ce96bd5bb7321814fb04a578090f627c1a4cb9b3787619ed05567548eb"
   },
   "ssc-cpo-si-vacancy-2026": {
     "organization": "Staff Selection Commission",
@@ -4281,5 +4246,118 @@
     "source_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "e460cd0b7d309b6b2c31bef8bd3bba69ab02a118f45bde2abfaf1f85be9c6565"
+  },
+  "wdcw-nagarkurnool-anganwadi-recruitment-2026": {
+    "organization": "Women Development and Child Welfare Department, Nagarkurnool District, Government of Telangana",
+    "advertisement_number": "185/A/DWO-NGKL/2026",
+    "post_names": [
+      "Anganwadi Teacher",
+      "Anganwadi Aya / Helper"
+    ],
+    "total_vacancies": "255",
+    "vacancy_breakdown": [
+      {
+        "serial_number": "01",
+        "project_name": "Achampet",
+        "anganwadi_teacher_posts_vacant": "36",
+        "anganwadi_ayas_itda_st_sub_plan_vacant": "41",
+        "total": "77"
+      },
+      {
+        "serial_number": "02",
+        "project_name": "Balmoor",
+        "anganwadi_teacher_posts_vacant": "36",
+        "anganwadi_ayas_itda_st_sub_plan_vacant": "28",
+        "total": "64"
+      },
+      {
+        "serial_number": "03",
+        "project_name": "Kalwakurthy",
+        "anganwadi_teacher_posts_vacant": "21",
+        "anganwadi_ayas_itda_st_sub_plan_vacant": "17",
+        "total": "38"
+      },
+      {
+        "serial_number": "04",
+        "project_name": "Kollapur",
+        "anganwadi_teacher_posts_vacant": "22",
+        "anganwadi_ayas_itda_st_sub_plan_vacant": "12",
+        "total": "34"
+      },
+      {
+        "serial_number": "05",
+        "project_name": "Nagarkurnool",
+        "anganwadi_teacher_posts_vacant": "33",
+        "anganwadi_ayas_itda_st_sub_plan_vacant": "9",
+        "total": "42"
+      },
+      {
+        "serial_number": "Total",
+        "project_name": "Total",
+        "anganwadi_teacher_posts_vacant": "148",
+        "anganwadi_ayas_itda_st_sub_plan_vacant": "107",
+        "total": "255"
+      }
+    ],
+    "job_location": "Nagarkurnool District, Telangana",
+    "educational_qualification": [
+      "For Anganwadi Teacher / Anganwadi Aya: Must have mandatorily passed 12th class (Intermediate).",
+      "For Anganwadi Helper: If Intermediate/12 standard is not available, the next lower class/standard will be considered."
+    ],
+    "other_eligibility": [
+      "Only female candidates are eligible for Anganwadi posts.",
+      "The candidate must mandatorily reside in the respective village, thanda, and municipal ward.",
+      "For rural areas, candidates must be locals belonging to the Gram Panchayat limit of the vacancy.",
+      "For SC, ST, Habitations, vacancies are local to candidates belonging to those habitations only.",
+      "For municipal limits, only candidates belonging to the respective ward are eligible.",
+      "Differently-abled candidates who can hear using hearing aids, can operate without others' help (Escort), and can perform primary education, child care, and other activities without hindrance to limbs/hands can also apply."
+    ],
+    "age_limit": "18 to 35 years as on the date of notification release (01.07.2026)",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "07/09/2026",
+    "application_end": "21/09/2026",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": [
+      "Date of birth / Age proof certificate - 10th class marks memo",
+      "Caste certificate - Caste certificate issued through Meeseva only will be taken into consideration",
+      "Educational qualification certificate - Intermediate / 12 standard marks memo",
+      "Residential proof certificate - Residential certificate issued through Meeseva only will be taken into consideration",
+      "For differently-abled persons, Medical Officer's certificate - SADARAM CERTIFICATE only will be accepted",
+      "Widow certificate (if applicable) - Husband's death certificate",
+      "Orphan certificate (if applicable) - Certificate issued exclusively by the supervisor of government orphanages where the candidate studied"
+    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "The District Collector / Chairman, Nagarkurnool has full authority to cancel or modify this notification completely."
+    ],
+    "how_to_apply": [
+      "Applications must be submitted online through the official website: https://wdcw.tg.nic.in / https://mis.tgwdcw.in"
+    ],
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "DIPR R.O.No. 9373-PP/CL/ADVT/2026-27 Dated 07-9-2026"
+    ],
+    "official_notification_url": "https://mis.tgwdcw.in/AWTNotification2026/NAGARKURNOOL_NOTIFICATION_GUIDELINES_07.09.2026.pdf",
+    "apply_url": "https://mis.tgwdcw.in/Recruit_Inter.aspx",
+    "portal_category": "latest-notifications",
+    "priority_score": 90,
+    "priority_reason": "Active district-level government recruitment notification with a direct live application window and specified vacancy count.",
+    "title": "WDCW Nagarkurnool Anganwadi Recruitment 2026",
+    "type": "Job",
+    "state": "Telangana",
+    "status": "Current",
+    "category": "",
+    "source_url": "https://mis.tgwdcw.in/AWTNotification2026/NAGARKURNOOL_NOTIFICATION_GUIDELINES_07.09.2026.pdf",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "ef15da921b4023f4515b2da244413bd2ced7aa88386879ea2ab203b4b39a4fc5"
   }
 }
