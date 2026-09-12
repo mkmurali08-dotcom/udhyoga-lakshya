@@ -2170,15 +2170,15 @@
     "apply_url": "https://www.tgprb.in/applive/login",
     "portal_category": "upcoming-exams",
     "priority_score": 50,
-    "priority_reason": "The official source mentions Telangana Police Recruitment 2026 for SI, PC & Equivalent Posts, but no application window or detailed notification data is currently live.",
+    "priority_reason": "The official source mentions Telangana Police Recruitment 2026 for SI, PC and equivalent posts, but lacks detailed operational notification data.",
     "title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
     "type": "Job",
     "state": "Telangana",
-    "status": "Extended",
+    "status": "Live",
     "category": "",
     "source_url": "https://www.tgprb.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "42a6de22bfe1ad71741a2a4b5cee132976faca04159cd824795aceb591441d46"
+    "_sheet_fingerprint": "2e961dc97161eaf12ac9e9b4f5e983ff37cd7136cd48eaf48b7a996525efe0ea"
   },
   "rrb-cen-04-2026-junior-engineer-dms": {
     "organization": "Railway Recruitment Boards (RRBs)",
