@@ -1,7 +1,8 @@
 (function(){
   "use strict";
   const DATA_URL="notifications.json", DETAILS_URL="job-details.json";
-  const page=(document.body.dataset.notificationPage||"").trim();
+  const pageKey=(document.body.dataset.notificationPage||"").trim();
+  const page=({latest:"latest-notifications",upcoming:"upcoming-exams",results:"results-admit-cards"})[pageKey]||pageKey;
   const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
   const norm=v=>String(v??"").trim().toLowerCase().replace(/&/g,"and").replace(/\s+/g," ");
   function parseDate(v){const s=String(v??"").trim();if(!s)return null;let m=s.match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})$/);if(m)return new Date(+m[3],+m[2]-1,+m[1],23,59,59,999);m=s.match(/^(\d{4})[\/-](\d{1,2})[\/-](\d{1,2})$/);if(m)return new Date(+m[1],+m[2]-1,+m[3],23,59,59,999);const n=Number(s);if(Number.isFinite(n)&&n>20000&&n<80000){const d=new Date(Date.UTC(1899,11,30)+n*86400000);return new Date(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate(),23,59,59,999)}const d=new Date(s.replace(/\bSept\b/i,"Sep").replace(/\./g,""));return Number.isNaN(d.getTime())?null:new Date(d.getFullYear(),d.getMonth(),d.getDate(),23,59,59,999)}
