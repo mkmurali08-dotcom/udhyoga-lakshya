@@ -136,9 +136,16 @@ def extract_one(client,row):
 def rule_category(row):
     typ=first(row,'type','Type').lower(); cat=first(row,'category','Category').lower(); title=first(row,'title','Title').lower(); status=first(row,'status','Status').lower()
     blob=' '.join((typ,cat,title,status))
-    if re.search(r'\b(result|admit\s*card|answer\s*key|selection|allocation|call\s*letter|hall\s*ticket)\b',blob): return 'results-admit-cards'
-    if re.search(r'\b(upcoming\s*exam|exam\s*calendar|exam\s*date)\b',blob) and not re.search(r'\b(application|recruitment|vacanc|job)\b',blob): return 'upcoming-exams'
-    if re.search(r'\b(job|recruitment|vacanc|application|engagement|hiring)\b',blob): return 'latest-notifications'
+    if re.search(r'\b(result|admit\s*card|answer\s*key|selection|allocation|call\s*letter|hall\s*ticket|e-admit|ecall|ranked\s*list)\b',blob):
+        return 'results-admit-cards'
+    if re.search(r'\b(open|live|active|apply|applications?\s+open|accepting\s+applications?)\b',status):
+        return 'latest-notifications'
+    if re.search(r'\b(upcoming|scheduled|tentative|calendar|to\s*be\s*held|forthcoming)\b',status):
+        return 'upcoming-exams'
+    if typ == 'exam' or re.search(r'\b(upcoming exam|exam calendar|scheduled exam)\b',blob):
+        return 'upcoming-exams'
+    if re.search(r'\b(job|recruitment|vacanc|application|engagement|hiring|notification)\b',blob):
+        return 'latest-notifications'
     return 'latest-notifications'
 
 def main():
