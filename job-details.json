@@ -3526,7 +3526,7 @@
       "Not mentioned in the official notification"
     ],
     "application_start": "September 10, 2026",
-    "application_end": "September 30, 2026 (until 11:00 PM)",
+    "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
       "Not mentioned in the official notification"
@@ -3552,6 +3552,6 @@
     "status": "Open",
     "source_url": "https://ssc.gov.in/home",
     "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "a02c6e7dc7cb19741e8d72d6eb71483d49d25a1d71fe08779ca42d158175eebc"
+    "_sheet_fingerprint": "c6d0674d9bd869f8110848283d178f9e7354fb43761c21199a9aee1a7f92d99b"
   }
 }
