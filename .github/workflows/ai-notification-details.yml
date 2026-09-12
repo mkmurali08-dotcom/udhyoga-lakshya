@@ -1,28 +1,66 @@
 name: AI Notification Details
+
 on:
+  workflow_run:
+    workflows: ["Sync Google Sheet Notifications"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: "*/30 * * * *"
+
+
 permissions:
   contents: write
+
 jobs:
   extract:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-      - name: Install AI client
-        run: pip install -q google-genai requests
-      - name: Extract official notification details with Gemini
+          python-version: "3.12"
+
+      - name: Install Gemini SDK
+        run: pip install --disable-pip-version-check google-genai
+
+      - name: Run AI official-notification extractor
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-3.7-flash
+          GEMINI_MODEL: gemini-3.5-flash-lite
         run: python ai-notification-extractor.py
-      - name: Commit generated details
+
+      - name: Merge AI classification into notification feed
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          npath=Path('notifications.json'); dpath=Path('job-details.json')
+          notifications=json.loads(npath.read_text(encoding='utf-8'))
+          details=json.loads(dpath.read_text(encoding='utf-8')) if dpath.exists() else {}
+          by_title={str(v.get('title','')).strip().lower():v for v in details.values() if isinstance(v,dict)}
+          for r in notifications:
+              d=by_title.get(str(r.get('title','')).strip().lower())
+              if not d: continue
+              for k in ('portal_category','priority_score','priority_reason','exam_date','organization'):
+                  if k in d and d[k] not in (None,'',[]): r[k]=d[k]
+          npath.write_text(json.dumps(notifications,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(f'Merged AI classification into {len(notifications)} notification rows.')
+          PY
+
+      - name: Commit AI details and classification
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add job-details.json
-          git diff --cached --quiet || (git commit -m "AI: extract official notification details" && git push)
+          git add job-details.json notifications.json
+          if git diff --cached --quiet; then
+            echo "No AI changes."
+          else
+            git commit -m "Update AI notification details"
+            git push
+          fi
