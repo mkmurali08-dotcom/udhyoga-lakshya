@@ -15,12 +15,7 @@
     "applyLink": "https://ibpsreg.ibps.in/pfrdajul26/",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 95,
-    "priority_reason": "Official central government regulatory authority recruitment notification for Officer Grade 'A' (Assistant Manager) with active online application link.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Pension Fund Regulatory and Development Authority (PFRDA)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -38,12 +33,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 85,
-    "priority_reason": "This is an official final result notification for a major state-level uniformed services combined examination recruitment drive, making it high priority for candidates seeking results.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Arunachal Pradesh Staff Selection Board (APSSB)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -61,12 +51,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 90,
-    "priority_reason": "The official notification is an active admit card download link and notice for the Combined Higher Secondary Level Examination 2026, which is crucial for candidates scheduled to download their admit cards between 03-09-2026 and 18-09-2026.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Arunachal Pradesh Staff Selection Board (APSSB)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -84,12 +69,7 @@
     "applyLink": "",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 70,
-    "priority_reason": "The official notification is an Answer Key Challenge notice for the Combined Graduate Level Examination (CGLE) 2026, which falls under results, answer keys, and candidate evaluation updates.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Arunachal Pradesh Staff Selection Board (APSSB)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -107,12 +87,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 85,
-    "priority_reason": "The official notification provides admit cards and shortlisted candidate lists for skill tests and interviews under the FLN Mission by Samagra Shiksha Axom, which is critical for candidates checking their selection or exam status.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Samagra Shiksha Axom (SSA), Government of Assam"
+    "isNew": true
   },
   {
     "_identity": [
@@ -130,12 +105,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 85,
-    "priority_reason": "The official notification pertains to admit card downloads and schedules for skill tests/interviews for shortlisted candidates under a government scheme, making it a critical time-sensitive update for applicants.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Samagra Shiksha Axom, Government of Assam"
+    "isNew": true
   },
   {
     "_identity": [
@@ -153,9 +123,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Not mentioned in the official notification"
+    "isNew": true
   },
   {
     "_identity": [
@@ -173,9 +141,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Department of Personnel, Chandigarh"
+    "isNew": true
   },
   {
     "_identity": [
@@ -193,12 +159,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 85,
-    "priority_reason": "Active walk-in interview recruitment notification for a professional post published on the official Government of Goa portal.",
-    "exam_date": "As Mentioned",
-    "organization": "Goa State Biodiversity Board"
+    "isNew": true
   },
   {
     "_identity": [
@@ -216,12 +177,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 75,
-    "priority_reason": "The source page is an official Government portal publishing recruitment examination results and shortlisted candidate lists, which falls under results and admit cards category for job seekers.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Government Of Goa"
+    "isNew": true
   },
   {
     "_identity": [
@@ -239,12 +195,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 75,
-    "priority_reason": "The notification represents an active walk-in interview recruitment announcement by Samagra Shiksha Govt. of Goa listed on the official Goa recruitment portal.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Samagra Shiksha Govt. of Goa"
+    "isNew": true
   },
   {
     "_identity": [
@@ -262,12 +213,7 @@
     "applyLink": "",
     "status": "Closed",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 50,
-    "priority_reason": "The page lists official recruitment advertisements from the Bihar Technical Service Commission, but all current listings are closed advertisements.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Bihar Technical Service Commission (BTSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -285,9 +231,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Kerala Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -305,9 +249,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Kerala Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -325,9 +267,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Kerala Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -345,9 +285,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Andhra Pradesh Public Service Commission (APPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -365,12 +303,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 85,
-    "priority_reason": "Official UPPSC notification regarding admit card/examination details for Research Assistant (Engineering) Examination-2025.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC), Prayagraj"
+    "isNew": true
   },
   {
     "_identity": [
@@ -388,12 +321,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 50,
-    "priority_reason": "The page contains notices and results related to UPPSC examinations such as lists of candidates qualified for interview/selection for technical education services.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC), Prayagraj"
+    "isNew": true
   },
   {
     "_identity": [
@@ -411,12 +339,7 @@
     "applyLink": "",
     "status": "Closed",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 90,
-    "priority_reason": "The recruitment notification has an active online application window starting from 18/08/2026 to 01/09/2026, making it an urgent public notice for prospective applicants.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -434,12 +357,7 @@
     "applyLink": "",
     "status": "Closed",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 90,
-    "priority_reason": "Active state public service commission notification with live application window for miscellaneous examinations.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -457,9 +375,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Odisha Sub-Ordinate Staff Selection Commission (OSSSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -477,9 +393,7 @@
     "applyLink": "",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Odisha Sub-Ordinate Staff Selection Commission (OSSSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -497,9 +411,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Odisha Sub-Ordinate Staff Selection Commission (OSSSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -517,9 +429,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Rajasthan Public Service Commission (RPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -537,9 +447,7 @@
     "applyLink": "",
     "status": "Upcoming",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Mains: 02/05/2027",
-    "organization": "Rajasthan Public Service Commission (RPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -557,9 +465,7 @@
     "applyLink": "",
     "status": "Closed",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Tamil Nadu Public Service Commission (TNPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -577,9 +483,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Tamil Nadu Public Service Commission (TNPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -597,9 +501,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "UNION PUBLIC SERVICE COMMISSION"
+    "isNew": true
   },
   {
     "_identity": [
@@ -617,12 +519,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 85,
-    "priority_reason": "The notification is an official central government examination notification from UPSC (Combined Medical Services Examination 2026) with a specific application window and exam date.",
-    "exam_date": "02/08/2026",
-    "organization": "Union Public Service Commission (UPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -640,12 +537,7 @@
     "applyLink": "",
     "status": "Admit Card",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 90,
-    "priority_reason": "Official UPSC admit card and examination notice for CDS (II) 2026, which is crucial for candidates appearing in the live examination process.",
-    "exam_date": "13.09.2026",
-    "organization": "Union Public Service Commission (UPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -663,12 +555,7 @@
     "applyLink": "",
     "status": "Upcoming",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 95,
-    "priority_reason": "High-priority national defense examination conducted by UPSC with fixed application and exam dates.",
-    "exam_date": "13/09/2026",
-    "organization": "Union Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -686,12 +573,7 @@
     "applyLink": "",
     "status": "Closed",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 95,
-    "priority_reason": "Official notification page from the Union Public Service Commission (UPSC) detailing active advertisements, exam notices, and results for central government positions.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Union Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -709,12 +591,7 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 95,
-    "priority_reason": "The notification represents a live, active central government recruitment process (India Post GDS Schedule-II July 2026) with open registration and application dates.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Department of Posts, Government of India"
+    "isNew": true
   },
   {
     "_identity": [
@@ -732,9 +609,7 @@
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Railway Recruitment Boards (RRBs)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -752,9 +627,7 @@
     "applyLink": "",
     "status": "Closed",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -772,9 +645,7 @@
     "applyLink": "",
     "status": "Current",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -792,9 +663,7 @@
     "applyLink": "",
     "status": "Current",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Andhra Pradesh Public Service Commission (APPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -812,9 +681,7 @@
     "applyLink": "",
     "status": "Current",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Railway Recruitment Boards (RRBs)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -832,12 +699,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 90,
-    "priority_reason": "Official written result declaration for a major central government examination (UPSC Central Armed Police Forces Examination 2026).",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Union Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -855,12 +717,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 85,
-    "priority_reason": "Official written results declared by UPSC for the Indian Economic Service and Indian Statistical Service Examination 2026, highly important for candidates checking exam status.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Union Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -878,12 +735,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 90,
-    "priority_reason": "The page provides official written examination results from the Union Public Service Commission (UPSC), which are critical updates for candidates who appeared for these central government examinations.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Union Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -901,12 +753,7 @@
     "applyLink": "",
     "status": "Declared",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 85,
-    "priority_reason": "This is an official written exam result page published by the Union Public Service Commission (UPSC) for major central government examinations.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Union Public Service Commission (UPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -924,12 +771,7 @@
     "applyLink": "",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "results-admit-cards",
-    "priority_score": 75,
-    "priority_reason": "The source content corresponds to the official Staff Selection Commission home page announcing schedule details for SSC MTS & Havaldar PET/PST, which pertains to active examination event updates.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Staff Selection Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -947,9 +789,7 @@
     "applyLink": "",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Railway Recruitment Boards (RRBs)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -967,9 +807,7 @@
     "applyLink": "",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Railway Recruitment Boards (RRBs)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -987,9 +825,7 @@
     "applyLink": "",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Railway Recruitment Boards (RRBs)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1007,9 +843,7 @@
     "applyLink": "",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Railway Recruitment Boards (RRBs)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1027,12 +861,7 @@
     "applyLink": "",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 90,
-    "priority_reason": "The notification represents a major live central government banking recruitment process (IBPS CRP PO/MT-XVI) with active online registration dates starting 01/07/2026.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1050,12 +879,7 @@
     "applyLink": "",
     "status": "Admit Card",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 50,
-    "priority_reason": "The official source page contains multiple active notifications, application forms, admit card download links, and document verification links for UPPSC examinations.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1073,12 +897,7 @@
     "applyLink": "",
     "status": "Admit Card",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 85,
-    "priority_reason": "The source contains active official notices, application links, document verification schedules, and admit card download links for multiple major UPPSC examinations.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1096,12 +915,7 @@
     "applyLink": "",
     "status": "Admit Card",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 50,
-    "priority_reason": "The notification title indicates a specific state-level examination, but the source content primarily lists general notice board links for UPPSC without direct recruitment details for this specific title.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1119,9 +933,7 @@
     "applyLink": "",
     "status": "Admit Card",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1139,9 +951,7 @@
     "applyLink": "",
     "status": "Admit Card",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Oil and Natural Gas Corporation Limited (ONGC)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1159,9 +969,7 @@
     "applyLink": "",
     "status": "Admit Card",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Kerala Public Service Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1197,9 +1005,7 @@
     "applyLink": "",
     "status": "Upcoming",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "07.02.2027",
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1217,21 +1023,7 @@
     "applyLink": "",
     "status": "Upcoming",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": [
-      "CRP RRBs-XVI Officers Scale-I Preliminary: 01.08.2026, 02.08.2026, 08.08.2026, 09.08.2026, 16.08.2026",
-      "CRP RRBs-XVI Office Assistants Preliminary: 08.08.2026, 09.08.2026, 16.08.2026, 22.08.2026, 23.08.2026",
-      "CRP RRBs-XVI Single Examination for Officers Scale II & III: 27.09.2026",
-      "CRP RRBs-XVI Main Examination for Officers Scale-I: 27.09.2026",
-      "CRP RRBs-XVI Main Examination for Office Assistants: 04.10.2026",
-      "CRP-PSBs-XV Preliminary Examination for Clerk: 29.08.2030 (as listed in calendar, 29.08.2026, 30.08.2026, 05.09.2026)",
-      "CRP-PSBs-XV Main Examination for Clerk: 11.10.2026",
-      "CRP-PSBs-XV Preliminary Examination for PO/MT: 10.10.2026, 11.10.2026, 17.10.2026",
-      "CRP-PSBs-XV Main Examination for PO/MT: 29.11.2026",
-      "CRP-PSBs-XV Preliminary Examination for Specialist Officers: 06.12.2026",
-      "CRP-PSBs-XV Main Examination for Specialist Officers: 24.01.2027"
-    ],
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1249,9 +1041,7 @@
     "applyLink": "",
     "status": "Upcoming",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "02.08.2026, 08.08.2026, 09.08.2026, 16.08.2026, 22.08.2026",
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1269,9 +1059,7 @@
     "applyLink": "",
     "status": "Upcoming",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Preliminary Examination: 02.08.2025, 03.08.2025, 09.08.2025, 10.08.2025, 16.08.2025 and 17.08.2025 (Dates are tentative)",
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1289,9 +1077,7 @@
     "applyLink": "",
     "status": "Upcoming",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "exam_date": "Single Examination: September 2026",
-    "organization": "Institute of Banking Personnel Selection (IBPS)"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1309,12 +1095,7 @@
     "applyLink": "https://www.tgprb.in/applive/login",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "upcoming-exams",
-    "priority_score": 50,
-    "priority_reason": "The official source mentions Telangana Police Recruitment 2026 for SI, PC and Equivalent Posts without detailed notification specifics or live application dates yet.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Telangana Police Recruitment Board"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1332,12 +1113,7 @@
     "applyLink": "https://ssc.gov.in/login",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "latest-notifications",
-    "priority_score": 0,
-    "priority_reason": "The official source page contains no recruitment notification content, vacancy details, application dates, or exam schedules.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Staff Selection Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1355,12 +1131,7 @@
     "applyLink": "https://ssc.gov.in/login",
     "status": "Open",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "upcoming-exams",
-    "priority_score": 50,
-    "priority_reason": "The source is only a generic home page of the Staff Selection Commission without specific live notification details.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Staff Selection Commission"
+    "isNew": true
   },
   {
     "_identity": [
@@ -1396,11 +1167,6 @@
     "applyLink": "https://ssc.gov.in/login",
     "status": "Live",
     "firstSeen": "2026-09-11",
-    "isNew": true,
-    "portal_category": "upcoming-exams",
-    "priority_score": 10,
-    "priority_reason": "The provided source content only displays the homepage of the Staff Selection Commission and contains no active recruitment notification details, dates, or application links for SSC JE 2026.",
-    "exam_date": "Not mentioned in the official notification",
-    "organization": "Staff Selection Commission"
+    "isNew": true
   }
 ]
