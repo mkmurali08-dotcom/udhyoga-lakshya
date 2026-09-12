@@ -19,126 +19,108 @@
     "selection_process": "Not mentioned in the official notification",
     "exam_pattern": "Not mentioned in the official notification",
     "syllabus": "Not mentioned in the official notification",
-    "documents_required": "Not mentioned in the official notification",
+    "documents_required": [
+      "Scribe declaration form",
+      "Form VI certificate of disability",
+      "EWS income and asset certificate",
+      "Form V certificate of disability",
+      "OBC certificate",
+      "SC/ST certificate",
+      "Form VII certificate of disability"
+    ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Candidates can apply online through the official application link provided on the PFRDA website.",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Published on: 03-09-2026",
+      "PDF file size: 790 KB"
+    ],
     "official_notification_url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
     "apply_url": "https://ibpsreg.ibps.in/pfrdajul26/",
+    "portal_category": "latest-notifications",
+    "priority_score": 95,
+    "priority_reason": "Official central government regulatory authority recruitment notification for Officer Grade 'A' (Assistant Manager) with active online application link.",
     "title": "PFRDA Officer Grade A (Assistant Manager) Recruitment 2026",
     "type": "Job",
     "state": "Central Goverment",
     "status": "Live",
+    "category": "",
     "source_url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "10706dc8217ab26125a6ed7e63b44d94c669069bea3abb460b00e6fc8d166161"
   },
   "final-result-special-recruitment-drive-for-uniformed-services-combined-examination-2026-01-09-2026": {
     "organization": "Arunachal Pradesh Staff Selection Board (APSSB)",
-    "advertisement_number": "APSSB-13/6/2026/1342",
+    "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Constable Band (IRBn)",
-      "Constable Bugler (IRBn)",
-      "Constable (IRBn)",
-      "Constable Civil Police (Female)",
-      "Constable Civil Police (Male)",
-      "Fireman",
-      "Special Tiger Guard (STPF)"
+      "Special Recruitment Drive for Uniformed Services Combined Examination 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Arunachal Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Physical Standard Test (PST) and Physical Efficiency Test (PET)",
+      "Trade Test",
+      "Medical Fitness Test",
+      "Written Examination",
+      "Document Verification"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
     "documents_required": [
-      "Not mentioned in the official notification"
+      "Original documents during verification"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "NOTICE regarding Final Result Notice issued vide no. APSSB-13/6/2026/1342, Dtd 01.09.2026 (Special Recruitment Drive for Uniformed Services Combined Examination – 2026) published on 01-09-2026."
+      "Check official website for final result details regarding the Special Recruitment Drive for Uniformed Services Combined Examination 2026."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Final Result Notice published on 05-09-2026 for Special Recruitment Drive for Uniformed Services Combined Exam 2026.",
+      "Related notices include medical fitness tests, trade tests, PST/PET results, and disqualification lists."
     ],
     "official_notification_url": "https://apssb.nic.in/Index/notice",
-    "apply_url": "https://apssb.nic.in/Index/institute_index",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 85,
+    "priority_reason": "This is an official final result notification for a major state-level uniformed services combined examination recruitment drive, making it high priority for candidates seeking results.",
     "title": "Final Result — Special Recruitment Drive for Uniformed Services Combined Examination 2026 — 01/09/2026",
     "type": "Result",
     "state": "Arunachal Pradesh",
     "status": "Declared",
+    "category": "",
     "source_url": "https://apssb.nic.in/Index/notice",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "114150f8ca7f8fad9d2a0a80cb0307efa7eecddac66cbfbbc7f0ee3ac9ea03de"
   },
   "combined-higher-secondary-level-examination-2026-admit-card": {
-    "organization": "Arunachal Pradesh Staff Selection Board",
+    "organization": "Arunachal Pradesh Staff Selection Board (APSSB)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
       "Combined Higher Secondary Level Examination - 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
-    "job_location": "Arunachal Pradesh",
-    "educational_qualification": "Not mentioned in the official notification",
-    "other_eligibility": "Not mentioned in the official notification",
-    "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
-    "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
-    "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Admit Card Start Date: 03-09-2026",
-      "Admit Card Last Date: 18-09-2026",
-      "Admit Card will be available after 1.30pm",
-      "Help Desk e-mail: helpdesk-apssb[at]arn[dot]gov[dot]in, Phone: +91 94852 31286, +91 60095 62429, +91 3602291251 (Monday - Friday [10AM - 05PM])"
-    ],
-    "official_notification_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
-    "apply_url": "https://apssb.nic.in/Index/institute_index",
-    "title": "Combined Higher Secondary Level Examination 2026 — Admit Card",
-    "type": "Admit Card",
-    "state": "Arunachal Pradesh",
-    "status": "Open",
-    "source_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
-    "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "417db47ff8800df5fb4746c2314951a8092dcad1b5dac9277ccfb2cb5a939ec9"
-  },
-  "cgle-2026-answer-key-challenge-notice-03-09-2026": {
-    "organization": "Arunachal Pradesh Staff Selection Board",
-    "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Combined Graduate Level Examination 2026 (CGLE-2026)"
-    ],
-    "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Arunachal Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
@@ -154,65 +136,149 @@
     "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Notice regarding Answer Key Challenge for Combined Graduate Level Examination - 2026 (CGLE-2026) published on 03-09-2026."
+      "Due to some maintenance work login will be closed at the moment.",
+      "Admit Card will be available shortly!",
+      "Admit Card will be available after 1.30pm",
+      "Best viewed on the latest versions of Chrome, Firefox, and Edge.",
+      "Optimized for screen resolutions of 1920x1080 and above."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Admit card download period for Combined Higher Secondary Level Examination - 2026 is from 03-09-2026 to 18-09-2026.",
+      "Help Desk e-mail: helpdesk-apssb[at]arn[dot]gov[dot]in",
+      "Help Desk Phone: +91 94852 31286, +91 60095 62429, +91 3602291251 (Monday - Friday [10AM - 05PM])"
+    ],
+    "official_notification_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
+    "apply_url": "https://apssb.nic.in/Index/institute_index",
+    "portal_category": "results-admit-cards",
+    "priority_score": 90,
+    "priority_reason": "The official notification is an active admit card download link and notice for the Combined Higher Secondary Level Examination 2026, which is crucial for candidates scheduled to download their admit cards between 03-09-2026 and 18-09-2026.",
+    "title": "Combined Higher Secondary Level Examination 2026 — Admit Card",
+    "type": "Admit Card",
+    "state": "Arunachal Pradesh",
+    "status": "Open",
+    "category": "",
+    "source_url": "https://apssb.nic.in/Index/admit_card/ins/RECINS001",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "417db47ff8800df5fb4746c2314951a8092dcad1b5dac9277ccfb2cb5a939ec9"
+  },
+  "cgle-2026-answer-key-challenge-notice-03-09-2026": {
+    "organization": "Arunachal Pradesh Staff Selection Board (APSSB)",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Combined Graduate Level Examination (CGLE) - 2026"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Arunachal Pradesh",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": [
+      "Combined Graduate Level Examination 2026",
+      "Answer Key Challenge"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Notice regarding Answer Key Challenge for Combined Graduate Level Examination - 2026 published on 03-09-2026."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Publish date of the answer key challenge notice: 03-09-2026"
     ],
     "official_notification_url": "https://apssb.nic.in/Index/notice",
-    "apply_url": "https://apssb.nic.in/Index/institute_index",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 70,
+    "priority_reason": "The official notification is an Answer Key Challenge notice for the Combined Graduate Level Examination (CGLE) 2026, which falls under results, answer keys, and candidate evaluation updates.",
     "title": "CGLE-2026 Answer Key Challenge Notice — 03/09/2026",
     "type": "Result",
     "state": "Arunachal Pradesh",
     "status": "Live",
+    "category": "",
     "source_url": "https://apssb.nic.in/Index/notice",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "78ee798afa27228a01ba7bb298365dfea9d6cafd917c17588fc203268fb86aab"
   },
   "fln-mission-data-analyst-skill-test-interview-admit-card": {
-    "organization": "Samagra Shiksha Axom, Government Of Assam",
+    "organization": "Samagra Shiksha Axom (SSA), Government of Assam",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
       "Data Analyst (State PMU)",
       "Data Analyst (District PMU)",
-      "Consultant District PMU (Language)",
-      "Consultant District PMU (Numeracy)"
+      "Consultant of FLN District PMU (Language)",
+      "Consultant of FLN District PMU (Numeracy)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Assam",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Skill Test",
+      "Skill test",
       "Interview"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Admit Card"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Public Notice - Skill test/Interview for the posts under FLN Details under downloads (including Admit Cards)."
+      "Admit cards and shortlisted candidate lists are available for download for posts under FLN."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Public notice for Skill test/Interview for the posts under FLN",
+      "Admit Card - Data Analyst (State PMU) available",
+      "Admit Card - Data Analyst (District PMU) available",
+      "Shortlisted Data Analyst of FLN at State PMU list available",
+      "Shortlisted Consultant of FLN District PMU (Language) list available",
+      "Shortlisted Data Analyst of FLN at District PMU list available",
+      "Shortlisted Consultant of FLN District PMU (Numeracy) list available"
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview",
     "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 85,
+    "priority_reason": "The official notification provides admit cards and shortlisted candidate lists for skill tests and interviews under the FLN Mission by Samagra Shiksha Axom, which is critical for candidates checking their selection or exam status.",
     "title": "FLN Mission — Data Analyst Skill Test / Interview — Admit Card",
     "type": "Admit Card",
     "state": "Assam",
     "status": "Open",
+    "category": "",
     "source_url": "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "93e78b2052af14ef1a3229c2c1fa0f1de051145362b3f3c39b18cd2fb4cee2d2"
   },
   "pm-poshan-skill-test-interview-admit-card": {
@@ -235,26 +301,37 @@
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Skill Test for shortlisted candidates"
+      "Skill Test / Interview"
     ],
     "exam_pattern": "Not mentioned in the official notification",
     "syllabus": "Not mentioned in the official notification",
-    "documents_required": [
-      "Admit Card"
-    ],
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Skill Test schedule is released for shortlisted candidates for District MIS Manager, Electronic Data Processor, and State MIS Manager posts under the PM POSHAN scheme.",
-      "Shortlisted candidates are required to download their Admit Card from the official portal."
+      "Download Admit Card for the respective posts through the provided links for the Skill Test / Interview."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "The notification provides the schedule and admit card download links for the skill test of shortlisted candidates for posts under the PM POSHAN scheme."
     ],
     "official_notification_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
     "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 85,
+    "priority_reason": "The official notification pertains to admit card downloads and schedules for skill tests/interviews for shortlisted candidates under a government scheme, making it a critical time-sensitive update for applicants.",
     "title": "PM POSHAN — Skill Test / Interview — Admit Card",
     "type": "Admit Card",
     "state": "Assam",
     "status": "Open",
+    "category": "",
     "source_url": "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "0e398380ed6124ccc030c8586d9db693bddcc38b7e30b17ff2775d4a57b8e675"
   },
   "result-of-computer-typing-test-english-31-08-2026": {
@@ -367,49 +444,55 @@
       "Finance Controller"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Goa",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "31/08/2026",
     "application_end": "As Mentioned",
-    "exam_date": "Not mentioned in the official notification",
+    "exam_date": "As Mentioned",
     "selection_process": [
       "Walk-In-Interview"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Eligible candidates are invited to attend a Walk-in-Interview for the position of Finance Controller at Goa State Biodiversity Board."
+    ],
+    "how_to_apply": "Attend the Walk-in-Interview as mentioned in the official notification.",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Walk-In-Interview For The Postion Of Finance Controller, Goa State Biodiversity Board, Issue Date: 31/08/2026"
     ],
     "official_notification_url": "https://www.goa.gov.in/citizen/recruitment/",
     "apply_url": "https://www.goa.gov.in/citizen/recruitment/",
+    "portal_category": "latest-notifications",
+    "priority_score": 85,
+    "priority_reason": "Active walk-in interview recruitment notification for a professional post published on the official Government of Goa portal.",
     "title": "Walk-In-Interview — Finance Controller, Goa State Biodiversity Board",
     "type": "Job",
     "state": "Goa",
     "status": "Open",
+    "category": "",
     "source_url": "https://www.goa.gov.in/citizen/recruitment/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "18394950e07eae7bc153e7345336608986abe5effe781e496f5b43c35826a6e6"
   },
   "goa-recruitment-examination-results-04-09-2026": {
-    "organization": "Government of Goa",
+    "organization": "Government Of Goa",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Lower Division Clerk (LDC)",
+      "LDC",
       "Administrative Officer",
       "Accountant",
       "Interns",
@@ -420,94 +503,110 @@
       "Assistant Accounts Officer"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": [
+      {
+        "post_name": "LDC",
+        "department": "Goa State SC & OBC Finance & Development Corporation Ltd",
+        "vacancies": "02 posts (Typing/Skill Test result)"
+      }
+    ],
     "job_location": "Goa",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Typing / Skill Test",
       "Written Examination",
+      "Typing/Skill Test",
       "Walk-In-Interview"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "This Page Displays Results Of Various Exams Recently Conducted/Held by Various Departments."
+      "This page displays results of various exams recently conducted/held by various departments."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Results of various recruitment examinations and interviews conducted by different departments of the Government of Goa are published on this page."
     ],
     "official_notification_url": "https://www.goa.gov.in/citizen/recruitment-results/",
-    "apply_url": "https://www.goa.gov.in/citizen/recruitment/",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 75,
+    "priority_reason": "The source page is an official Government portal publishing recruitment examination results and shortlisted candidate lists, which falls under results and admit cards category for job seekers.",
     "title": "Goa Recruitment Examination Results — 04/09/2026",
     "type": "Result",
     "state": "Goa",
     "status": "Declared",
+    "category": "",
     "source_url": "https://www.goa.gov.in/citizen/recruitment-results/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "c317fceeb8528246a8cf36c9d709a40544f4a044b4c8f0fd94749209adcef90d"
   },
   "walk-in-interview-samagra-shiksha-goa": {
     "organization": "Samagra Shiksha Govt. of Goa",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Various Posts"
+      "Various Posts - Samagra Shiksha Govt. of Goa"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Goa",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "28/08/2026",
     "application_end": "As Mentioned",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
       "Walk-In-Interview"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Eligible candidates are invited to attend the Walk-in-Interview as per the official notification details.",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Walk-In-Interview for the various posts under Samagra Shiksha Govt. of Goa published on 28/08/2026."
     ],
     "official_notification_url": "https://www.goa.gov.in/citizen/recruitment/",
     "apply_url": "https://www.goa.gov.in/citizen/recruitment/",
+    "portal_category": "latest-notifications",
+    "priority_score": 75,
+    "priority_reason": "The notification represents an active walk-in interview recruitment announcement by Samagra Shiksha Govt. of Goa listed on the official Goa recruitment portal.",
     "title": "Walk-In-Interview — Samagra Shiksha Goa",
     "type": "Job",
     "state": "Goa",
     "status": "Open",
+    "category": "",
     "source_url": "https://www.goa.gov.in/citizen/recruitment/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "550ee1fd83aaf44b4d1d90e07aa316a6795110438cca7c11b5d15809c9389331"
   },
   "btsc-2026-recruitment-notices-latest-official-recruitment-list": {
-    "organization": "Bihar Technical Service Commission",
-    "advertisement_number": "26/2026, 25/2026, 24/2026, 23/2026, 22/2026, 21/2026, 20/2026, 19/2026, 18/2025, 17/2026",
+    "organization": "Bihar Technical Service Commission (BTSC)",
+    "advertisement_number": "Multiple (26/2026, 25/2026, 24/2026, 23/2026, 22/2026, 21/2026, 20/2026, 19/2026, 18/2025, 17/2026)",
     "post_names": [
       "Technician (Bench Chemist)",
       "Assistant Bacteriologist",
@@ -521,8 +620,8 @@
       "Instructor (Leather Technology)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": "Not mentioned in the official notification",
-    "job_location": "Patna, Bihar",
+    "vacancy_breakdown": [],
+    "job_location": "Bihar",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
@@ -537,21 +636,32 @@
     "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Helpdesk Toll Free No: 18003456221 (10:00 AM TO 06:00 PM)",
-      "Helpdesk Email ID: btssc-bih@gov.in",
-      "Advt 26/2026: Registration Start Date 24/07/2026, Registration End Date 23/08/2026, Application Last Date 23/08/2026, Payment Last Day 23/08/2026",
-      "Advt 25/2026: Registration Start Date 24/07/2026, Registration End Date 23/08/2026, Application Last Date 23/08/2026, Payment Last Day 23/08/2026",
-      "Advt 24/2026: Registration Start Date 20/05/2026, Registration End Date 19/06/2026, Application Last Date 19/06/2026, Payment Last Day 19/06/2026",
-      "Advt 23/2026 to 17/2026: Registration Start Date 15/04/2026, Registration End Date 15/05/2026, Application Last Date 15/05/2026, Payment Last Day 15/05/2026"
+      "All listed advertisements on the current page show status as 'Advertisement Closed'."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Address: 19, Harding Road, Patna - 800001",
+      "Toll Free No: 18003456221",
+      "Email ID: btssc-bih@gov.in"
     ],
     "official_notification_url": "https://btsc.bihar.gov.in/recruitment",
     "apply_url": "https://btsc.bihar.gov.in/recruitment",
+    "portal_category": "latest-notifications",
+    "priority_score": 50,
+    "priority_reason": "The page lists official recruitment advertisements from the Bihar Technical Service Commission, but all current listings are closed advertisements.",
     "title": "BTSC 2026 recruitment notices — latest official recruitment list",
     "type": "Job",
     "state": "Bihar",
     "status": "Closed",
+    "category": "",
     "source_url": "https://btsc.bihar.gov.in/recruitment",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "2399fd750e5a8ea24a75217010eb554b82bda9c3435ec11c5eb3967149c9e95a"
   },
   "kerala-psc-latest-results-ranked-lists-03-09-2026": {
@@ -764,93 +874,98 @@
     "source_url": "https://portal-psc.ap.gov.in/HomePages/DRSelectionLists"
   },
   "research-assistant-engineering-examination-2025-admit-card": {
-    "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
-    "advertisement_number": "Not mentioned in the official notification",
+    "organization": "Uttar Pradesh Public Service Commission (UPPSC), Prayagraj",
+    "advertisement_number": "Research Assistant (Engineering) Examination-2025",
     "post_names": [
-      "Not mentioned in the official notification"
+      "Research Assistant (Engineering)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Uttar Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Applicant's OTR number is the only regsitration number for submitting application form against any post published by the commission.",
-      "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc."
-    ],
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": "Not mentioned in the official notification",
     "official_notification_url": "https://uppsc.up.nic.in/",
     "apply_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "portal_category": "results-admit-cards",
+    "priority_score": 85,
+    "priority_reason": "Official UPPSC notification regarding admit card/examination details for Research Assistant (Engineering) Examination-2025.",
     "title": "Research Assistant (Engineering) Examination-2025 — Admit Card",
     "type": "Admit Card",
     "state": "Uttar Pradesh",
     "status": "Open",
+    "category": "",
     "source_url": "https://uppsc.up.nic.in/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "42545b3ef28c082d57863a9730423959778fb1cc34eedac7d972dc722c8e005c"
   },
   "lecturer-u-p-technical-education-service-examination-2025-admit-card": {
-    "organization": "UPPSC, Prayagraj (Uttar Pradesh Public Service Commission)",
+    "organization": "Uttar Pradesh Public Service Commission (UPPSC), Prayagraj",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": "Not mentioned in the official notification",
+    "post_names": [
+      "Lecturer U.P. Technical Education Service"
+    ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Uttar Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Applicant's OTR number is the only regsitration number for submitting application form against any post published by the commission.",
+      "Applicant's OTR number is the only registration number for submitting application form against any post published by the commission.",
       "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "List of candidates qualified for interview in Advt. No. A-7/E-1/2021, U.P. Tech. Edu.(Tchg.) Service Examination-2021 is available."
     ],
     "official_notification_url": "https://uppsc.up.nic.in/",
     "apply_url": "https://otr.pariksha.nic.in/",
+    "portal_category": "results-admit-cards",
+    "priority_score": 50,
+    "priority_reason": "The page contains notices and results related to UPPSC examinations such as lists of candidates qualified for interview/selection for technical education services.",
     "title": "Lecturer U.P. Technical Education Service Examination-2025 — Admit Card",
     "type": "Admit Card",
     "state": "Uttar Pradesh",
     "status": "Open",
+    "category": "",
     "source_url": "https://uppsc.up.nic.in/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "16b8f8d315f57df5a4358d7a715277169ecbec8b9be5c1d6a13dcca7bbf85edc"
   },
   "ap-government-job-calendar-2026-recruitment-schedule": {
@@ -908,102 +1023,123 @@
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
     "advertisement_number": "D-1/E-1/2026",
     "post_names": [
-      "Professor / Assistant Professor — Medical Education (Allopathy)"
+      "Professor",
+      "Assistant Professor"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Uttar Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
-    "other_eligibility": "Applicant's OTR number is the only registration number for submitting application form against any post published by the Commission.",
+    "other_eligibility": "Notification appearing light grey colour is based on OTR process. Applicant's OTR number is the only registration number for submitting application form against any post published by the Commission.",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "18/08/2026",
     "application_end": "01/09/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Direct Recruitment"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "OTR (One Time Registration) Number"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Notification is based on OTR process.",
-      "Applicant's OTR number is the only regsitration number for submitting application form against any post published by the Commission.",
-      "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc.",
+      "Advertisement applicable for online submission only",
+      "Applicant's OTR number is the only registration number for submitting application form against any post published by the Commission",
+      "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc"
+    ],
+    "how_to_apply": [
+      "Apply online through the official UPPSC portal using OTR registration number."
+    ],
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Mode of Recruitment: Direct Recruitment",
+      "Examination Name: GENERAL-SPECIAL RECTT. BOTH",
       "Fee Deposition Last Date: 01/09/2026",
       "Last Date of Fee Reconciliation: 08/09/2026",
       "Modification Start Date: 18/08/2026",
-      "Modification Last Date: 08/09/2026"
+      "Modification Last Date: 08/09/2026",
+      "Notification Date: 18/08/2026"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
     "apply_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "portal_category": "latest-notifications",
+    "priority_score": 90,
+    "priority_reason": "The recruitment notification has an active online application window starting from 18/08/2026 to 01/09/2026, making it an urgent public notice for prospective applicants.",
     "title": "Professor / Assistant Professor — Medical Education (Allopathy), Advt. D-1/E-1/2026",
     "type": "Job",
     "state": "Uttar Pradesh",
     "status": "Closed",
+    "category": "",
     "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "697a44555b927d043fe83cf447ec744a648bfd643dd2d7d3dce96cf77523680e"
   },
   "miscellaneous-examination-advt-a-2-e-1-2026-a-3-e-1-2026": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
     "advertisement_number": "A-2/E-1/2026 & A-3/E-1/2026",
     "post_names": [
-      "MISCELLANEOUS EXAMINATION"
+      "Miscellaneous Examination Posts"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Uttar Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Applicant's OTR number is the only registration number for submitting application form against any post published by the Commission.",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "03/08/2026",
     "application_end": "03/09/2026",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Examination",
+      "Interview"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "OTR (One Time Registration) Number"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Notification appearing light grey colour is based on OTR process.",
-      "Applicant's OTR number is the only regsitration number for submitting application form against any post published by the Commission.",
-      "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc.",
+      "Advertisement applicable for online submission only",
+      "Notification appearing light grey colour is based on OTR process",
+      "Applicant's OTR number is the only registration number for submitting application form against any post published by the Commission",
+      "Kindly login in to 'Candidate Dashboard' to know the details regarding Application Form, Examination, Interview etc."
+    ],
+    "how_to_apply": [
+      "Visit the official website notifications page",
+      "Check User Instructions and View Advertisement",
+      "Apply through the online application link using OTR (One Time Registration) number"
+    ],
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
       "Fee Deposition Last Date: 03/09/2026",
       "Last Date of Fee Reconciliation: 10/09/2026",
       "Modification Start Date: 03/08/2026",
-      "Modification Last Date: 10/09/2026"
+      "Last Date of Modification: 10/09/2026",
+      "Mode of Recruitment: Examination"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
     "apply_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "portal_category": "latest-notifications",
+    "priority_score": 90,
+    "priority_reason": "Active state public service commission notification with live application window for miscellaneous examinations.",
     "title": "Miscellaneous Examination — Advt. A-2/E-1/2026 & A-3/E-1/2026",
     "type": "Job",
     "state": "Uttar Pradesh",
     "status": "Closed",
+    "category": "",
     "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "86512da4f5a9f38ca3c83a267a73e6b3e21a5591d1739f9bd902a00575a0b3ea"
   },
   "radiographer-2026-online-recruitment-application": {
@@ -1427,45 +1563,45 @@
       "Combined Medical Services Examination, 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "11/03/2026",
     "application_end": "31/03/2026 - 18:00",
     "exam_date": "02/08/2026",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Duration of Examination: One Day"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
       "Date of Notification: 11/03/2026",
-      "Last Date for Receipt of Applications: 31/03/2026 - 18:00",
-      "Date of Examination: 02/08/2026",
       "Duration of Examination: One Day"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
     "apply_url": "Not mentioned in the official notification",
+    "portal_category": "latest-notifications",
+    "priority_score": 85,
+    "priority_reason": "The notification is an official central government examination notification from UPSC (Combined Medical Services Examination 2026) with a specific application window and exam date.",
     "title": "UPSC Combined Medical Services Examination 2026 — Written Result — 01/09/2026",
     "type": "Result",
     "state": "Central Goverment",
     "status": "Declared",
+    "category": "",
     "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "daf9e97bf37610e896ccc5a066028808dd5676a9420fcc32cc81bb67cc77feca"
   },
   "upsc-cds-ii-2026-examination-13-september-2026": {
@@ -1515,56 +1651,58 @@
     "_sheet_fingerprint": "596c64a2c3b201816d44a3976a0b80cb11c9e24eae5c962baa39ef0a0ea3a12f"
   },
   "upsc-nda-na-ii-2026-examination-13-september-2026": {
-    "organization": "Union Public Service Commission (UPSC)",
+    "organization": "Union Public Service Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
       "National Defence Academy and Naval Academy Examination (II), 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
-    "job_location": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "All India",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "20/05/2026",
     "application_end": "11/06/2026 - 18:00",
     "exam_date": "13/09/2026",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Written Examination",
+      "Intelligence and Personality Test"
     ],
-    "exam_pattern": [
-      "Duration of Examination: One Day"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Date of Notification: 20/05/2026",
-      "Last Date for Receipt of Applications: 11/06/2026 - 18:00",
-      "Date of Examination: 13/09/2026",
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
       "Duration of Examination: One Day"
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "apply_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "latest-notifications",
+    "priority_score": 95,
+    "priority_reason": "High-priority national defense examination conducted by UPSC with fixed application and exam dates.",
     "title": "UPSC NDA & NA (II) 2026 — Examination 13 September 2026",
     "type": "Upcoming",
     "state": "Central Goverment",
     "status": "Upcoming",
+    "category": "",
     "source_url": "https://www.upsc.gov.in/exams-related-info/exam-notification/archives",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "8f35a935df5a9f429a7c375b754922a2d167e1d4a5721114edb863cb59dd6fdf"
   },
   "upsc-advertisement-no-10-2026-current-advertisement": {
     "organization": "Union Public Service Commission",
-    "advertisement_number": "Not mentioned in the official notification",
+    "advertisement_number": "Advertisement No. 10/2026",
     "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": "Not mentioned in the official notification",
@@ -1582,15 +1720,75 @@
     "syllabus": "Not mentioned in the official notification",
     "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Common mistakes done while filling OMR Sheet/Scannable Attendance List"
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Notice regarding change in recruitment process for six (06) posts advertised vide Advt. No. 13-2025",
+      "Advertisement No.11 - 2026",
+      "Marks of Recommended Candidates: CISF AC(EXE) LDCE-2026",
+      "Final Result: 02 Posts of Assistant Director Grade-II (IEDS) (Leather & Footwear), Ministry of MSME",
+      "Notice: Central Armed Police Forces (ACs) Examination, 2026",
+      "Written Result (with name): Central Armed Police Forces (ACs) Examination, 2026",
+      "Final Result: 03 Posts of Assistant Director Grade-II (IEDS) (Chemical), Ministry of MSME",
+      "Notice: Combined Medical Services Examination, 2026",
+      "Interview Schedule: Engineering Services (Main) Examination, 2026",
+      "Notice: 02 Posts of Senior Scientific Assistant (Electrical), Ministry of Defence",
+      "Press Note: Combined Defence Services Examination (II), 2026",
+      "e - Admit Card: Combined Defence Services Examination (II), 2026",
+      "Press Note: National Defence Academy and Naval Academy Examination (II), 2026",
+      "e - Admit Card: National Defence Academy and Naval Academy Examination (II), 2026",
+      "Final Result: CISF AC(EXE) LDCE-2026",
+      "Exam Notification: Combined Geo-Scientist (Preliminary) Examination, 2027",
+      "Interview Schedule: Combined Geo-Scientist (Main) Examination, 2026",
+      "Written Result (with name): Combined Medical Services Examination, 2026",
+      "Written Result: Combined Medical Services Examination, 2026",
+      "Marks of Recommended Candidates (Reserve List): Central Armed Police Forces (ACs) Examination, 2024",
+      "Written Result: Central Armed Police Forces (ACs) Examination, 2026",
+      "Marks of Recommended Candidates: Combined Defence Services Examination (II), 2025",
+      "Addendum Notice: 06 Posts Deputy Central Intelligence Officer (DCIO) (Technical), Ministry of Home Affairs",
+      "Advertisement No.52 - 2026 (Special)",
+      "Addendum Notice: 09 posts of Scientist-B (Instrumentation) in Ministry of Earth Sciences",
+      "Addendum Notice: 30 posts of Scientist-B (General Meteorology) in Ministry of Earth Sciences",
+      "Addendum Notice: 07 posts of Scientist-B (Atmospheric Sciences) in Ministry of Earth Sciences",
+      "Addendum Notice: 04 posts of Assistant Director Grade-II (IEDS) (Leather & Footwear) in Ministry of MSME",
+      "Addendum Notice: 04 posts of Assistant Director Grade-II (IEDS) (Hosiery) in Ministry of MSME",
+      "Addendum Notice: 04 posts of Assistant Director Grade-II (IEDS) (Food) in Ministry of MSME",
+      "Addendum Notice: 03 posts of Assistant Director Grade-II (IEDS) (Chemical) in Ministry of MSME",
+      "Addendum Notice: 01 post of Assistant Director Grade-I (IEDS) (Metal Finishing) in Ministry of MSME",
+      "Addendum Notice: 03 posts of Assistant Director Grade-I (IEDS) (Leather & Footwear) in Ministry of MSME",
+      "Addendum Notice: 02 posts of Assistant Director Grade-I (IEDS) (Hosiery) in Ministry of MSME",
+      "Addendum Notice: 03 posts of Assistant Director Grade-I (IEDS) (Food) in Ministry of MSME",
+      "Addendum Notice: 02 posts of Assistant Director Grade-I (IEDS) (Chemical) in Ministry of MSME",
+      "Final Result: 20 Posts of Drugs Inspector (Medical Devices), Ministry of Health and Family Welfare",
+      "Final Result: 25 Posts of Public Prosecutor in CBI",
+      "Marks of Recommended Candidates: Central Armed Police Forces (ACs) Examination, 2025",
+      "Examination Time Table: National Defence Academy and Naval Academy Examination (II), 2026",
+      "Final Result: 03 Posts of Assistant Director (Corporate Law), Ministry of Corporate Affairs",
+      "Examination Time Table: Combined Defence Services Examination (II), 2026",
+      "Addendum Notice: 32 Posts of Accounts Officer, Administration of Union Territory of Ladakh",
+      "Addendum Notice: 19 Posts of Manager Grade - I - Section Officer, Ministry of Defence",
+      "Addendum Notice: 08 Posts of Administrative Officer Grade - I, Ministry of Defence"
+    ],
     "official_notification_url": "https://www.upsc.gov.in/whats-new",
     "apply_url": "https://upsconline.nic.in/ora/",
+    "portal_category": "latest-notifications",
+    "priority_score": 95,
+    "priority_reason": "Official notification page from the Union Public Service Commission (UPSC) detailing active advertisements, exam notices, and results for central government positions.",
     "title": "UPSC Advertisement No. 10/2026 — Current Advertisement",
     "type": "Job",
     "state": "Central Goverment",
     "status": "Closed",
+    "category": "",
     "source_url": "https://www.upsc.gov.in/whats-new",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "9bfac1bb820fbf082c6350aed6635372e577dc14221e0806fccadf6ae474e347"
   },
   "ssc-cgl-2026-tier-i-current-cycle": {
@@ -1768,96 +1966,107 @@
     "_sheet_fingerprint": "d2f527cc9ae2fe5953ff972b951122f4e6cc7d0c86530e08944cd76c89a32d66"
   },
   "india-post-gds-online-engagement-schedule-ii-july-2026": {
-    "organization": "India Post, Department of Posts, Government of India",
-    "advertisement_number": "Schedule-II, July-2026",
+    "organization": "Department of Posts, Government of India",
+    "advertisement_number": "GDS Online Engagement – Schedule-II, July 2026",
     "post_names": [
       "Gramin Dak Sevak (GDS)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "02/09/2026",
     "application_end": "21/09/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
       "Candidates applying for GDS Online Engagement – Schedule II, July-2026 are required to register afresh. Registration Numbers generated in previous schedules will not be valid.",
-      "Candidates are advised not to trust any communications received from unauthorized or suspicious email IDs. Department of Posts communicates information only through official email IDs ending with @indiapost.gov.in or @indiapostgdsonline.gov.in.",
-      "The Department of Posts shall not be responsible for any misleading communication/fraudulent emails/messages regarding GDS Engagement/Recruitment circulated by unauthorized sources.",
-      "Edit/Correction Window Start Date: 23-09-2026, End Date: 24-09-2026 17:00 HRS."
+      "Candidates are advised not to trust any communications received from unauthorized or suspicious email IDs.",
+      "Department of Posts communicates information only through official email IDs ending with @indiapost.gov.in or @indiapostgdsonline.gov.in .",
+      "The Department of Posts shall not be responsible for any misleading communication/fraudulent emails/messages regarding GDS Engagement/Recruitment circulated by unauthorized sources."
+    ],
+    "how_to_apply": [
+      "Complete User Registration starting from 31-08-2026 to 19-09-2026 (17:00 HRS).",
+      "Submit Application starting from 02-09-2026 to 21-09-2026 (17:00 HRS).",
+      "Use the Edit/Correction Window from 23-09-2026 to 24-09-2026 (17:00 HRS) if needed."
+    ],
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Edit/Correction Window Start Date: 23-09-2026, End Date: 24-09-2026 17:00 HRS",
+      "Active Notification sections available: Notification-English, Notification-Hindi, Circlewise Posts Notified, Registration Instructions, Application Instructions, Fee Instructions, Edit/Correction Instructions, Vacant Posts, Annexures, Helpdesk"
     ],
     "official_notification_url": "https://www.indiapost.gov.in/gdsonlineengagement",
     "apply_url": "https://app.indiapost.gov.in/gdscandidate",
+    "portal_category": "latest-notifications",
+    "priority_score": 95,
+    "priority_reason": "The notification represents a live, active central government recruitment process (India Post GDS Schedule-II July 2026) with open registration and application dates.",
     "title": "India Post GDS Online Engagement — Schedule-II, July 2026",
     "type": "Job",
     "state": "Central Goverment",
     "status": "Open",
+    "category": "",
     "source_url": "https://www.indiapost.gov.in/gdsonlineengagement",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "a854a29e4df7f9aa700f47fceb8ead96a5849a027f91521b5dda79ac3151764c"
   },
   "telangana-police-recruitment-2026-si-pc-equivalent-posts": {
     "organization": "Telangana Police Recruitment Board",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Not mentioned in the official notification"
+      "Sub Inspector (SI)",
+      "Police Constable (PC)",
+      "Equivalent Posts"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
-    "job_location": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Telangana",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "19/08/2026",
     "application_end": "16/09/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
-    ],
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": "Not mentioned in the official notification",
     "official_notification_url": "https://www.tgprb.in/",
     "apply_url": "https://www.tgprb.in/applive/login",
+    "portal_category": "upcoming-exams",
+    "priority_score": 50,
+    "priority_reason": "The official source mentions Telangana Police Recruitment 2026 for SI, PC and Equivalent Posts without detailed notification specifics or live application dates yet.",
     "title": "Telangana Police Recruitment 2026 — SI, PC & Equivalent Posts",
     "type": "Job",
     "state": "Telangana",
     "status": "Live",
+    "category": "",
     "source_url": "https://www.tgprb.in/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "2e961dc97161eaf12ac9e9b4f5e983ff37cd7136cd48eaf48b7a996525efe0ea"
   },
   "rrb-cen-04-2026-junior-engineer-dms": {
@@ -2118,10 +2327,110 @@
     "source_url": "https://rrbsecunderabad.gov.in/"
   },
   "upsc-central-armed-police-forces-acs-examination-2026-written-result": {
-    "organization": "Union Public Service Commission (UPSC)",
+    "organization": "Union Public Service Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Central Armed Police Forces (ACs) Examination, 2026"
+      "Central Armed Police Forces (ACs)"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": [
+      "Written Examination"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Central Armed Police Forces (ACs) Examination, 2026 Written Result uploaded on 25/08/2026."
+    ],
+    "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 90,
+    "priority_reason": "Official written result declaration for a major central government examination (UPSC Central Armed Police Forces Examination 2026).",
+    "title": "UPSC Central Armed Police Forces (ACs) Examination 2026 — Written Result",
+    "type": "Result",
+    "state": "Central Goverment",
+    "status": "Declared",
+    "category": "",
+    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "e9a32992b810f8e6dc321814e211961ad2145a1de54f0e90563cd3369433fff2"
+  },
+  "upsc-indian-economic-service-indian-statistical-service-examination-2026-written-result": {
+    "organization": "Union Public Service Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Indian Economic Service",
+      "Indian Statistical Service"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": [
+      "Written Result",
+      "Not mentioned in the official notification"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Indian Economic Service - Indian Statistical Service Examination, 2026 written results uploaded on 04/08/2026"
+    ],
+    "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 85,
+    "priority_reason": "Official written results declared by UPSC for the Indian Economic Service and Indian Statistical Service Examination 2026, highly important for candidates checking exam status.",
+    "title": "UPSC Indian Economic Service / Indian Statistical Service Examination 2026 — Written Result",
+    "type": "Result",
+    "state": "Central Goverment",
+    "status": "Declared",
+    "category": "",
+    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "dea1c0d7815d804dede9cfff1203d6a6317b6ce842f53037a18e3ac0bf397321"
+  },
+  "upsc-engineering-services-main-examination-2026-written-result": {
+    "organization": "Union Public Service Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": [],
@@ -2130,18 +2439,14 @@
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
       "Written Examination"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
     "syllabus": [
       "Not mentioned in the official notification"
     ],
@@ -2150,22 +2455,45 @@
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Written Results document for Central Armed Police Forces (ACs) Examination, 2026 was uploaded on 25/08/2026."
+      "Not mentioned in the official notification"
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": [
+      "Not mentioned in the official notification"
+    ],
+    "medical_standards": [
+      "Not mentioned in the official notification"
+    ],
+    "exam_centers": [
+      "Not mentioned in the official notification"
+    ],
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "This page lists written results for examinations conducted by the Union Public Service Commission."
     ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "apply_url": "Not mentioned in the official notification",
-    "title": "UPSC Central Armed Police Forces (ACs) Examination 2026 — Written Result",
+    "portal_category": "results-admit-cards",
+    "priority_score": 90,
+    "priority_reason": "The page provides official written examination results from the Union Public Service Commission (UPSC), which are critical updates for candidates who appeared for these central government examinations.",
+    "title": "UPSC Engineering Services (Main) Examination 2026 — Written Result",
     "type": "Result",
     "state": "Central Goverment",
     "status": "Declared",
+    "category": "",
     "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "e9a32992b810f8e6dc321814e211961ad2145a1de54f0e90563cd3369433fff2"
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "faebe65437dc8ff65a1c32fa3b3ca2fc02eccaa81c958cb1abf5ce5eb6651b71"
   },
-  "upsc-indian-economic-service-indian-statistical-service-examination-2026-written-result": {
+  "upsc-combined-geo-scientist-main-examination-2026-written-result": {
     "organization": "Union Public Service Commission (UPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
+      "Combined Geo-Scientist Examination, 2026",
+      "Combined Medical Services Examination, 2026",
+      "Central Armed Police Forces (ACs) Examination, 2026",
       "Indian Economic Service Examination, 2026",
       "Indian Statistical Service Examination, 2026"
     ],
@@ -2180,97 +2508,37 @@
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": "Not mentioned in the official notification",
-    "exam_pattern": "Not mentioned in the official notification",
-    "syllabus": "Not mentioned in the official notification",
-    "documents_required": "Not mentioned in the official notification",
-    "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Written Results for Indian Economic Service - Indian Statistical Service Examination, 2026 were uploaded on 04/08/2026.",
-      "Candidates can download the result roll lists directly from the official portal."
-    ],
-    "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "apply_url": "Not mentioned in the official notification",
-    "title": "UPSC Indian Economic Service / Indian Statistical Service Examination 2026 — Written Result",
-    "type": "Result",
-    "state": "Central Goverment",
-    "status": "Declared",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "dea1c0d7815d804dede9cfff1203d6a6317b6ce842f53037a18e3ac0bf397321"
-  },
-  "upsc-engineering-services-main-examination-2026-written-result": {
-    "organization": "Union Public Service Commission",
-    "advertisement_number": "Not mentioned in the official notification",
-    "post_names": "Not mentioned in the official notification",
-    "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
-    "job_location": "Not mentioned in the official notification",
-    "educational_qualification": "Not mentioned in the official notification",
-    "other_eligibility": "Not mentioned in the official notification",
-    "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
-    "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "Written Result / Written Examination"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
-    "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
-    ],
-    "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "apply_url": "Not mentioned in the official notification",
-    "title": "UPSC Engineering Services (Main) Examination 2026 — Written Result",
-    "type": "Result",
-    "state": "Central Goverment",
-    "status": "Declared",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "_extractor_version": "2026-09-09-universal-final-v1",
-    "_sheet_fingerprint": "faebe65437dc8ff65a1c32fa3b3ca2fc02eccaa81c958cb1abf5ce5eb6651b71"
-  },
-  "upsc-combined-geo-scientist-main-examination-2026-written-result": {
-    "organization": "Union Public Service Commission",
-    "advertisement_number": "Not mentioned in the official notification",
-    "post_names": "Not mentioned in the official notification",
-    "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": "Not mentioned in the official notification",
-    "job_location": "Not mentioned in the official notification",
-    "educational_qualification": "Not mentioned in the official notification",
-    "other_eligibility": "Not mentioned in the official notification",
-    "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": "Not mentioned in the official notification",
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
-    "exam_date": "Not mentioned in the official notification",
-    "selection_process": "Not mentioned in the official notification",
     "exam_pattern": "Not mentioned in the official notification",
     "syllabus": "Not mentioned in the official notification",
     "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Helpline - SC/ST/OBC/EWS/PwBD: 1800-118-711",
+      "Helpdesk: 011-24041001 / 011-40303444"
+    ],
     "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
     "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 85,
+    "priority_reason": "This is an official written exam result page published by the Union Public Service Commission (UPSC) for major central government examinations.",
     "title": "UPSC Combined Geo-Scientist (Main) Examination 2026 — Written Result",
     "type": "Result",
     "state": "Central Goverment",
     "status": "Declared",
+    "category": "",
     "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "483d47001fff0d697d1d643a334f9d30de5a345a2e145bbce31801e187a8ea46"
   },
   "ssc-chsl-2025-first-round-of-tentative-allocation": {
@@ -2367,45 +2635,49 @@
     "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Not mentioned in the official notification"
+      "Multi Tasking (Non-Technical) Staff",
+      "Havaldar"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Not mentioned in the official notification"
+      "PET",
+      "PST"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
-    ],
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": "Not mentioned in the official notification",
     "official_notification_url": "https://ssc.gov.in/",
     "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 75,
+    "priority_reason": "The source content corresponds to the official Staff Selection Commission home page announcing schedule details for SSC MTS & Havaldar PET/PST, which pertains to active examination event updates.",
     "title": "SSC MTS & Havaldar 2025 — PET/PST Schedule",
     "type": "Result",
     "state": "Central Goverment",
     "status": "Live",
+    "category": "",
     "source_url": "https://ssc.gov.in/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "12dccb97d51e26418b002a316ccc9ec3dcee23238254356c6b0f0184b4886dd3"
   },
   "rrb-level-1-cen-09-2025-application-status": {
@@ -2618,193 +2890,217 @@
     "source_url": "https://rrbsecunderabad.gov.in/"
   },
   "ibps-crp-po-mt-xvi-preliminary-exam-candidate-query-window": {
-    "organization": "Institute of Banking Personnel Selection (IBPS) / Participating Banks",
+    "organization": "Institute of Banking Personnel Selection (IBPS)",
     "advertisement_number": "CRP PO/MT-XVI",
     "post_names": [
-      "Probationary Officers",
-      "Management Trainees"
+      "Probationary Officer / Management Trainee (CRP PO/MT-XVI)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
-    "other_eligibility": "Only the candidates who have appeared for preliminary examination are eligible to provide the observations.",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
     "application_fee": [
-      "Online Fee Payment: 01/07/2026 to 26/07/2026 (Fee amount not mentioned in the official notification)"
+      "Online Fee Payment available from 01/07/2026 to 26/07/2026 (Exact amount not mentioned in the official notification)"
     ],
     "application_start": "01/07/2026",
     "application_end": "26/07/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Preliminary Examination"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
     "documents_required": [
-      "Photograph",
-      "Signature"
+      "Photograph & Signature (refer Guidelines for scanning the Photograph & Signature)"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
+      "Candidates are advised to read the notification carefully and refer 'How to Apply' & 'FAQ' pages on the main page.",
+      "Application submitted through Online form does not imply that candidate has fulfilled all the criteria given in the notification.",
+      "Application is subject to subsequent scrutiny and can be rejected if found to be ineligible at any point of time.",
+      "Only the candidates who have appeared for preliminary examination are eligible to provide the observations."
+    ],
+    "how_to_apply": [
       "Commencement of online registration of application: 01/07/2026",
       "Closure of registration of application: 26/07/2026",
       "Commencement of editing application details: 29/07/2026",
       "Closure for editing application details: 30/07/2026",
       "Last date for printing your application: 27/08/2026",
-      "Online Fee Payment: 01/07/2026 to 26/07/2026",
-      "Online Application validation rules and design are based on the Notification requirement. Candidates are advised to read the notification carefully and refer 'How to Apply' & 'FAQ' pages on the main page.",
-      "Application submitted through Online form does not imply that candidate has fulfilled all the criteria given in the notification. Application is subject to subsequent scrutiny and can be rejected if found to be ineligible at any point of time.",
-      "Only the candidates who have appeared for preliminary examination are eligible to provide the observations.",
+      "Online Fee Payment: 01/07/2026 to 26/07/2026"
+    ],
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
       "Support and Best Viewed on Internet Explorer 9+; Google Chrome 30+ ; Firefox 20+",
       "This Website is viewable only in Landscape Mode."
     ],
     "official_notification_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
     "apply_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
+    "portal_category": "latest-notifications",
+    "priority_score": 90,
+    "priority_reason": "The notification represents a major live central government banking recruitment process (IBPS CRP PO/MT-XVI) with active online registration dates starting 01/07/2026.",
     "title": "IBPS CRP-PO/MT-XVI — Preliminary Exam Candidate Query Window",
     "type": "Result",
     "state": "Central Goverment",
     "status": "Live",
+    "category": "",
     "source_url": "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "efb99f88174deb4bd55d5e5f0e951999c1024f8b349db633b5ccb86bcc7febf6"
   },
   "uppsc-research-assistant-engineering-exam-2025": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": [
-      "Not mentioned in the official notification"
-    ],
+    "post_names": "Not mentioned in the official notification",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Uttar Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Notification title: UPPSC Research Assistant (Engineering) Exam 2025",
+      "List of notices includes: Assistant Town Planner (Spl. Rect.) (Main.) Exam-2025 conventional form and modification link",
+      "Computer Assistant (UPPSC) Examination-2025 document verification link",
+      "Assistant Professor, Govt. Degree College Mains Exam-2025 admit card link",
+      "Live advertisement for various posts of Professor and Assistant Professor under the Department of Medical Education, U.P. (Allopathy)"
     ],
     "official_notification_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
     "apply_url": "https://uppsc.up.nic.in/OuterPages/CandidatePages/Notifications.aspx",
+    "portal_category": "latest-notifications",
+    "priority_score": 50,
+    "priority_reason": "The official source page contains multiple active notifications, application forms, admit card download links, and document verification links for UPPSC examinations.",
     "title": "UPPSC Research Assistant (Engineering) Exam 2025",
     "type": "Admit Card",
     "state": "Central Goverment",
     "status": "Admit Card",
+    "category": "",
     "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "50e53aac3c6b32bb97148b20d9ca46924b64d80b8de6ac8117367bd8b9505ee3"
   },
   "uppsc-lecturer-u-p-technical-education-teaching-service-exam-2025": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
-    "advertisement_number": "Not mentioned in the official notification",
+    "advertisement_number": "Multiple (A-10/E-1/2025, A-4/E-1/2025, A-7/E-1/2025, D-1/E-1/2026)",
     "post_names": [
-      "Not mentioned in the official notification"
+      "Assistant Town Planner (Spl. Rect.) (Main.) Exam-2025",
+      "Computer Assistant (UPPSC) Examination-2025",
+      "Assistant Professor, Govt. Degree College Mains Exam-2025",
+      "Professor and Assistant Professor under the Department of Medical Education, U.P. (Allopathy)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Uttar Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Conventional Form visible up to 03/10/2026 for Advt No. A-10/E-1/2025, Assistant Town Planner (Spl. Rect.) (Main.) Exam-2025",
+      "Modification of online details after submission visible up to 25/09/2026 for Advt No. A-10/E-1/2025, Assistant Town Planner (Spl. Rect.) (Main.) Exam-2025",
+      "Document Verification link visible up to 21/09/2026 under Advt. No. A-4/E-1/2025, Computer Assistant (UPPSC) Examination-2025",
+      "Admit Card download link visible up to 01/10/2026 for Advt. No. A-7/E-1/2025, Assistant Professor, Govt. Degree College Mains Exam-2025",
+      "Live Advertisement link to apply for various posts of Professor and Assistant Professor under the Department of Medical Education, U.P. (Allopathy), through direct recruitment (O.T.R. based), Advt. No. D-1/E-1/2026 visible up to 15/09/2026"
+    ],
+    "how_to_apply": "Candidates can fill online details, modify online details, download admit cards, or apply for various posts through the official UPPSC website links provided for each advertisement.",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "List of notices and alerts from the official UPPSC Notice Alert page including forms, document verification, admit cards, and live advertisements."
     ],
     "official_notification_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
     "apply_url": "https://uppsc.up.nic.in/OuterPages/CandidatePages/Notifications.aspx",
+    "portal_category": "latest-notifications",
+    "priority_score": 85,
+    "priority_reason": "The source contains active official notices, application links, document verification schedules, and admit card download links for multiple major UPPSC examinations.",
     "title": "UPPSC Lecturer, U.P. Technical Education Teaching Service Exam 2025",
     "type": "Admit Card",
     "state": "Uttar Pradesh",
     "status": "Admit Card",
+    "category": "",
     "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "90857f1c5c8d6544ee2052f48cc93e4e656390da05e11960bfef2d5823c3d601"
   },
   "uppsc-lecturer-government-inter-college-mains-exam-2025": {
     "organization": "Uttar Pradesh Public Service Commission (UPPSC)",
     "advertisement_number": "Not mentioned in the official notification",
-    "post_names": "Not mentioned in the official notification",
+    "post_names": "Lecturer, Government Inter College",
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Uttar Pradesh",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "The source page contains notices and alerts for other advertisements including Advt No. A-10/E-1/2025 (Assistant Town Planner), Advt. No. A-4/E-1/2025 (Computer Assistant), Advt. No. A-7/E-1/2025 (Assistant Professor, Govt. Degree College Mains Exam), and Advt. No. D-1/E-1/2026 (Professor and Assistant Professor under Department of Medical Education)."
     ],
     "official_notification_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "apply_url": "https://uppsc.up.nic.in/OuterPages/CandidatePages/Notifications.aspx",
+    "apply_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
+    "portal_category": "latest-notifications",
+    "priority_score": 50,
+    "priority_reason": "The notification title indicates a specific state-level examination, but the source content primarily lists general notice board links for UPPSC without direct recruitment details for this specific title.",
     "title": "UPPSC Lecturer, Government Inter College (Mains) Exam 2025",
     "type": "Admit Card",
     "state": "Uttar Pradesh",
     "status": "Admit Card",
+    "category": "",
     "source_url": "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "26c1b591828b5e588aa7cad5d0f6125e2c2e2d125e0b6f402c5097876b774949"
   },
   "ibps-recruitment-of-500-assistants": {
@@ -3385,14 +3681,14 @@
     "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
   },
   "upsc-cds-ii-2026-admit-cards": {
-    "organization": "Union Public Service Commission",
+    "organization": "Union Public Service Commission (UPSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Defence Services Examination (II), 2026"
+      "Combined Defence Services (CDS) (II) Examination, 2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
-    "job_location": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "All India",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
@@ -3400,23 +3696,39 @@
     "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "Not mentioned in the official notification",
+    "exam_date": "13.09.2026",
     "selection_process": "Not mentioned in the official notification",
     "exam_pattern": "Not mentioned in the official notification",
     "syllabus": "Not mentioned in the official notification",
     "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
+      "Candidates appearing at Delhi Centre for NDA and NA - II and CDS - II Examination, 2026 to be held on 13.09.2026 should note the specific attention details.",
       "All candidates appearing in the UPSC Examination will undergo Face Authentication at the venue."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "e-Admit Card for Combined Defence Services Examination (II), 2026 has been released.",
+      "Press Note: Combined Defence Services Examination (II), 2026 is available."
     ],
     "official_notification_url": "https://www.upsc.gov.in/",
     "apply_url": "https://upsconline.nic.in",
+    "portal_category": "results-admit-cards",
+    "priority_score": 90,
+    "priority_reason": "Official UPSC admit card and examination notice for CDS (II) 2026, which is crucial for candidates appearing in the live examination process.",
     "title": "UPSC CDS (II) 2026 — Admit Cards",
     "type": "Admit Card",
     "state": "Central Goverment",
     "status": "Admit Card",
+    "category": "",
     "source_url": "https://www.upsc.gov.in/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "77d4bdc3b920c1c820ed1edbdc1a2fa4b930576ffed3bcae9b47c282466e4106"
   },
   "ssc-je-junior-engineer-2026": {
@@ -3426,42 +3738,42 @@
       "Junior Engineer"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "September 2, 2026",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
-    ],
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": "Not mentioned in the official notification",
     "official_notification_url": "https://ssc.gov.in/",
     "apply_url": "https://ssc.gov.in/login",
+    "portal_category": "upcoming-exams",
+    "priority_score": 10,
+    "priority_reason": "The provided source content only displays the homepage of the Staff Selection Commission and contains no active recruitment notification details, dates, or application links for SSC JE 2026.",
     "title": "SSC JE( (Junior Engineer) 2026",
     "type": "Result",
     "state": "Central Goverment",
     "status": "Live",
+    "category": "",
     "source_url": "https://ssc.gov.in/",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "93c8243eb5e24b4548d33b8b2a1b4cf0fadcb6bbc7132cdb5f18039768683f61"
   },
   "ssc-chsl-10-2-examination": {
@@ -3471,7 +3783,7 @@
       "Not mentioned in the official notification"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
@@ -3499,59 +3811,79 @@
     "important_instructions": [
       "Not mentioned in the official notification"
     ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": [
+      "Not mentioned in the official notification"
+    ],
+    "medical_standards": [
+      "Not mentioned in the official notification"
+    ],
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Not mentioned in the official notification"
+    ],
     "official_notification_url": "https://ssc.gov.in/home",
     "apply_url": "https://ssc.gov.in/login",
+    "portal_category": "latest-notifications",
+    "priority_score": 0,
+    "priority_reason": "The official source page contains no recruitment notification content, vacancy details, application dates, or exam schedules.",
     "title": "SSC (CHSL) (10+2) Examination",
     "type": "Exam",
     "state": "Central Goverment",
     "status": "Open",
+    "category": "",
     "source_url": "https://ssc.gov.in/home",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "fbe9f4955834b41b967e4d27e79ad015f6658c0205c9d5e4f8745f011fdda91f"
   },
   "ssc-cpo-si-delhi-police-2026": {
     "organization": "Staff Selection Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Not mentioned in the official notification"
+      "Sub-Inspector (SI) in Delhi Police"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "September 10, 2026",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Not mentioned in the official notification"
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Home | Staff Selection Commission | GoI"
     ],
     "official_notification_url": "https://ssc.gov.in/home",
     "apply_url": "https://ssc.gov.in/login",
+    "portal_category": "upcoming-exams",
+    "priority_score": 50,
+    "priority_reason": "The source is only a generic home page of the Staff Selection Commission without specific live notification details.",
     "title": "SSC CPO (SI Delhi Police) 2026",
     "type": "Job",
     "state": "Central Goverment",
     "status": "Open",
+    "category": "",
     "source_url": "https://ssc.gov.in/home",
-    "_extractor_version": "2026-09-09-universal-final-v1",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "c6d0674d9bd869f8110848283d178f9e7354fb43761c21199a9aee1a7f92d99b"
   }
 }
