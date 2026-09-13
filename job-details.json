@@ -3864,15 +3864,15 @@
     "apply_url": "https://ssc.gov.in/login",
     "portal_category": "upcoming-exams",
     "priority_score": 10,
-    "priority_reason": "The provided source content is only a generic home page of the Staff Selection Commission with no active notification details or application window for SSC JE 2026.",
+    "priority_reason": "The provided source content only displays the homepage of the Staff Selection Commission with no active recruitment notification details, dates, or application links for SSC JE 2026.",
     "title": "SSC JE( (Junior Engineer) 2026",
-    "type": "Result",
+    "type": "Job",
     "state": "Central Goverment",
     "status": "Open",
     "category": "",
     "source_url": "https://ssc.gov.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "2ac27765ea8d7e5aaff7ba7435202434a1e768eed07b9d5ee787297e826537b7"
+    "_sheet_fingerprint": "ea63cb9e6692d4c2af8a102824495ef3b901d2fb8798cd5bdffd9ba6262e44b2"
   },
   "ssc-chsl-10-2-examination": {
     "organization": "Staff Selection Commission",
