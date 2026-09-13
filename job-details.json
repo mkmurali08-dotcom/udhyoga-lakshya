@@ -4394,49 +4394,200 @@
   },
   "upsc-combined-geo-scientist-2027": {
     "organization": "Union Public Service Commission",
-    "advertisement_number": "Not mentioned in the official notification",
+    "advertisement_number": "01/2027-GEOL",
     "post_names": [
-      "Not mentioned in the official notification"
+      "Geologist, Group A",
+      "Geophysicist, Group A",
+      "Chemist, Group A",
+      "Assistant Geologist, Group B",
+      "Assistant Geophysicist, Group B",
+      "Assistant Chemist, Group B",
+      "Scientist ‘B’ (Hydrogeology), Group ‘A’",
+      "Scientist ‘B’ (Chemical), Group ‘A’",
+      "Scientist ‘B’ (Geophysics), Group ‘A’",
+      "Assistant Hydrogeologist, Group ‘B’",
+      "Assistant Chemist, Group ‘B’",
+      "Assistant Geophysicist, Group ‘B’"
     ],
-    "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [],
+    "total_vacancies": "118",
+    "vacancy_breakdown": [
+      {
+        "category_or_group": "Category-I : (Posts in the Geological Survey of India, Ministry of Mines)",
+        "posts": [
+          {
+            "post_name": "Geologist, Group A",
+            "vacancies": "29"
+          },
+          {
+            "post_name": "Geophysicist, Group A",
+            "vacancies": "00"
+          },
+          {
+            "post_name": "Chemist, Group A",
+            "vacancies": "07"
+          },
+          {
+            "post_name": "Assistant Geologist, Group B",
+            "vacancies": "34"
+          },
+          {
+            "post_name": "Assistant Geophysicist, Group B",
+            "vacancies": "35"
+          },
+          {
+            "post_name": "Assistant Chemist, Group B",
+            "vacancies": "06"
+          }
+        ]
+      },
+      {
+        "category_or_group": "Category-II : (Posts in the Central Ground Water Board, Ministry of Jal Shakti, Department of Water Resources, River Development & Ganga Rejuvenation)",
+        "posts": [
+          {
+            "post_name": "Scientist ‘B’ (Hydrogeology), Group ‘A’",
+            "vacancies": "05"
+          },
+          {
+            "post_name": "Scientist ‘B’ (Chemical), Group ‘A’",
+            "vacancies": "01"
+          },
+          {
+            "post_name": "Scientist ‘B’ (Geophysics), Group ‘A’",
+            "vacancies": "01"
+          },
+          {
+            "post_name": "Assistant Hydrogeologist, Group ‘B’",
+            "vacancies": "07"
+          },
+          {
+            "post_name": "Assistant Chemist, Group ‘B’",
+            "vacancies": "01"
+          },
+          {
+            "post_name": "Assistant Geophysicist, Group ‘B’",
+            "vacancies": "01"
+          }
+        ]
+      }
+    ],
     "job_location": "Not mentioned in the official notification",
-    "educational_qualification": "Not mentioned in the official notification",
-    "other_eligibility": "Not mentioned in the official notification",
-    "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [],
-    "application_fee": [],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
-    "exam_date": "Not mentioned in the official notification",
-    "selection_process": [],
-    "exam_pattern": [],
-    "syllabus": [],
-    "documents_required": [],
+    "educational_qualification": [
+      "For Geologist Group ‘A’ in Geological Survey of India: Master’s degree in Geological Science or Geology or Applied Geology or Geo-Exploration or Mineral Exploration or Engineering Geology or Marine Geology or Earth Science and Resource Management or Oceanography and Coastal Areas Studies or Petroleum Geosciences or Geochemistry from a recognized University.",
+      "For Geophysicist Group ‘A’ in Geological Survey of India and Scientist ‘B’ (Geophysics) Group ‘A’ in C.G.W.B.: M.Sc. in Physics or Applied Physics or M.Sc. (Geophysics) or Integrated M.Sc. (Exploration Geophysics) or M.Sc (Applied Geophysics) or M.Sc. (Marine Geophysics) or M.Sc. (Tech.) (Applied Geophysics) from a recognized University.",
+      "For Chemist Group ‘A’ in Geological Survey of India and Scientist ‘B’ (Chemical) under C.G.W.B.: M.Sc. in Chemistry or Applied Chemistry or Analytical Chemistry from a recognized University.",
+      "For Scientist ‘B’ (Hydrogeology) Group ‘A’ and Assistant (Hydrogeologist) Group ‘B’ in C.G.W.B.: Master’s degree in Geology or applied Geology or Marine Geology or Hydrogeology from a recognized University.",
+      "For Assistant Chemist Group ‘B’ in Geological Survey of India and Assistant (Chemist) Group ‘B’ in C.G.W.B.: Master of Science or Integrated Master of Science in Chemistry or Applied Chemistry or Analytical Chemistry or Physical Chemistry or Inorganic Chemistry or Organic Chemistry or Hydro-Chemistry or Industrial Chemistry from a recognized University or Institute.",
+      "For Assistant Geologist Group ‘B’ in Geological Survey of India: Master’s degree or Integrated Master’s degree in Geology or Applied Geology or Mineral Exploration or Marine Geology or Earth Science from a recognized University or Institute.",
+      "For Assistant Geophysicist Group ‘B’ in Geological Survey of India and Assistant Geophysicist Group ‘B’ in C.G.W.B.: Master of Science or Master of Science (Tech) or Integrated Master of Science in Geophysics or Exploration Geophysics or Applied Geophysics or Geo-Exploration or Marine Geophysics or Physics or Applied Physics or Applied Geology from a recognized University or Institute."
+    ],
+    "other_eligibility": [
+      "Nationality: Must be a Citizen of India, or a subject of Nepal, or a subject of Bhutan, or a Tibetan refugee who came over to India before 1st January 1962 with intention of permanently settling, or a person of Indian origin who has migrated from Pakistan, Burma, Sri Lanka or East African Countries or Vietnam with intention of permanently settling."
+    ],
+    "age_limit": "A candidate must have attained the age of 21 years and must not have attained the age of 32 years on 1st January, 2027 (i.e. must have been born not earlier than 2nd January, 1995 and not later than 1st January, 2006).",
+    "age_relaxation": [
+      "Upto a maximum of five years if a candidate belongs to a Scheduled Caste or a Scheduled Tribe.",
+      "Upto a maximum of three years in the case of candidate belonging to Other Backward Classes who are eligible to avail of reservation applicable to such candidates.",
+      "Upto a maximum of three years in the case of Defence Services Personnel disabled in operations during hostilities with any foreign country or in a disturbed area and released as a consequence thereof.",
+      "Upto a maximum of five years in the case of Ex-Servicemen including Commissioned Officers and ECOs/SSCOs who have rendered at least five years Military Service as on 1st January, 2027 and have been released.",
+      "Upto a maximum of 5 years in the case of ECOs/SSCOs who have completed an initial period of assignment of 5 years Military Service as on 1st January, 2027 and whose assignment has been extended beyond 5 years.",
+      "Upto a maximum of 10 years in the case of blind, deaf-mute and orthopedically handicapped persons / PwBD categories.",
+      "Upto a maximum of five years for Government servants employed in corresponding departments/posts."
+    ],
+    "application_fee": [
+      "Candidates (except Female/SC/ST/Persons with Benchmark Disability Candidates who are exempted from payment of fee) are required to pay fee of Rs. 200/- (Rupees Two Hundred only) either by using net banking facility of any bank or by using Visa/Master/RuPay Credit/Debit Card/UPI Payment."
+    ],
+    "application_start": "03-09-2026",
+    "application_end": "22-09-2026",
+    "exam_date": "Preliminary Examination: 10.01.2027. Main Examination: 19.06.2027 & 20.06.2027.",
+    "selection_process": [
+      "Stage-I: Combined Geo-Scientist (Preliminary) Examination (Objective type) having two papers.",
+      "Stage-II: Combined Geo-Scientist (Main) Examination (Descriptive Type) having three papers.",
+      "Stage-III: Personality Test/Interview"
+    ],
+    "exam_pattern": [
+      "Stage-I (Preliminary Examination): Paper-I General Studies (2 Hours, 100 Marks), Paper-II Stream Specific (Geology/Hydrogeology or Geophysics or Chemistry) (2 Hours, 300 Marks). Total 400 Marks. Objective type with negative marking (one-third of the marks assigned to that question).",
+      "Stage-II (Main Examination): Three conventional/descriptive type papers of 200 marks each for each stream, total 600 marks. Answered in English only."
+    ],
+    "syllabus": [
+      "Stage-I Paper-I General Studies: Current events of national and international importance, History of India and Indian National Movement, Indian and World Geography, Indian Polity and Governance, Economic and Social Development, General issues on Environmental Ecology, Bio-diversity and Climate Change, General Science.",
+      "Stage-I Paper-II Geology/Hydrogeology: Physical Geology, Structural Geology, Mineralogy, Igneous Petrology, Metamorphic Petrology, Sedimentology, Paleontology, Stratigraphy, Economic Geology, Hydrogeology.",
+      "Stage-I Paper-II Geophysics: Solid Earth Geophysics, Mathematical Methods in Geophysics, Electromagnetism, Geophysical Prospecting, Remote Sensing and Thermodynamics, Nuclear Physics and Radiometry.",
+      "Stage-I Paper-II Chemistry: Chemical periodicity, Chemical bonding and structure, Acids and bases, Theoretical basis of quantitative inorganic analysis, Kinetic theory and the gaseous state, Chemical thermodynamics and chemical equilibrium, Solutions of non-electrolytes, Electrochemistry, Basic organic chemistry, Stereochemistry, Types of organic reactions, Molecular Rearrangements."
+    ],
+    "documents_required": [
+      "Certificate of Age",
+      "Certificate of Educational Qualification",
+      "Certificate in support of claim to belong to Scheduled Caste, Scheduled Tribe, Economically Weaker Sections and Other Backward Classes where applicable",
+      "Certificate in support of claim for age/ fee concession, wherever applicable",
+      "Certificate in support of being persons with benchmark disability (wherever applicable)"
+    ],
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [],
-    "how_to_apply": "Not mentioned in the official notification",
-    "reservation_policy": "Not mentioned in the official notification",
-    "physical_standards": [],
-    "medical_standards": [],
-    "exam_centers": [],
+    "important_instructions": [
+      "Candidates are required to apply online only through https://upsconline.nic.in.",
+      "A Universal Registration Number (URN) is generated on registration which is common for all examinations of the Commission.",
+      "Applicants are strongly advised to use their Aadhaar Cards as ID documents.",
+      "There will be penalty (Negative Marking) for wrong answers marked in Objective Type Question Papers (one-third of marks deducted).",
+      "Use black ball pen only for writing and marking answers in OMR sheet.",
+      "Mobile phones and other electronic communication devices are strictly banned inside the examination hall/premises.",
+      "All candidates will be required to undergo face authentication at the examination venue mandatorily."
+    ],
+    "how_to_apply": [
+      "Visit the Commission’s website https://upsconline.nic.in.",
+      "Complete the Account Creation, Universal Registration Number (URN) profile, and Common Application Form (CAF).",
+      "Fill the Examination Specific Module, pay the requisite fee (if applicable), choose the exam centre, and submit the application form.",
+      "Upload clear photograph, live captured photograph, and scanned signature signed three times on a white paper using black ink."
+    ],
+    "reservation_policy": [
+      "Reservations will be made for candidates belonging to Scheduled Castes, Scheduled Tribes, Other Backward Classes, Economically Weaker Sections and Persons with Benchmark Disability categories.",
+      "Candidates claiming reservation/relaxation must possess valid certificates issued by the competent authority by the closing date of the application."
+    ],
+    "physical_standards": [
+      "Candidates must be physically fit according to physical standards for admission to the Examination as per Regulations given in Appendix-II of the rules."
+    ],
+    "medical_standards": [
+      "Candidates must satisfy the requirements of physical and medical standards for the concerned Services/Posts to be allocated by the Government."
+    ],
+    "exam_centers": [
+      "Ahmedabad",
+      "Bengaluru",
+      "Bhopal",
+      "Chandigarh",
+      "Chennai",
+      "Cuttack",
+      "Delhi",
+      "Dispur",
+      "Ghaziabad",
+      "Gurugram",
+      "Hyderabad",
+      "Jaipur",
+      "Jammu",
+      "Kolkata",
+      "Lucknow",
+      "Mumbai",
+      "Patna",
+      "Prayagraj (Allahabad)",
+      "Shillong",
+      "Shimla",
+      "Thiruvananthapuram"
+    ],
     "probation_training": "Not mentioned in the official notification",
     "career_progression": "Not mentioned in the official notification",
     "other_official_details": [
-      "The provided page displays written results for various examinations such as Combined Medical Services Examination 2026, Central Armed Police Forces (ACs) Examination 2026, Indian Economic Service Examination 2026, and Indian Statistical Service Examination 2026."
+      "Appointments will be made on a temporary basis in the first instance.",
+      "Online Representation Portal for Question Paper & Provisional Answer Keys will be available for 5 days from 3rd day of examination date to 06:00 P.M. of 7th day."
     ],
-    "official_notification_url": "https://www.upsc.gov.in/exams-related-info/written-result",
-    "apply_url": "Not mentioned in the official notification",
-    "portal_category": "results-admit-cards",
-    "priority_score": 30,
-    "priority_reason": "The page is a collection of past written examination results published by the Union Public Service Commission, which falls under results and admit cards rather than an active notification for applications.",
+    "official_notification_url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+    "apply_url": "https://www.upsc.gov.in/",
+    "portal_category": "latest-notifications",
+    "priority_score": 95,
+    "priority_reason": "Official UPSC notification for Combined Geo-Scientist Examination 2027 with an active application window open until 22nd September 2026.",
     "title": "UPSC Combined Geo-Scientist  2027",
     "type": "Job",
     "state": "Central Goverment",
-    "status": "Declared",
+    "status": "Open",
     "category": "",
-    "source_url": "https://www.upsc.gov.in/exams-related-info/written-result",
+    "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "681bf685fd78860cccfbd24b7962c74671210d05ba54076de63363981645432a"
+    "_sheet_fingerprint": "5c2a418ab68e668f0323d142f5c7dba68ce1e808eaae1aa809c25fd22b75aaed"
   }
 }
