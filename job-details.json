@@ -2069,21 +2069,21 @@
     "_sheet_fingerprint": "d2f527cc9ae2fe5953ff972b951122f4e6cc7d0c86530e08944cd76c89a32d66"
   },
   "india-post-gds-online-engagement-schedule-ii-july-2026": {
-    "organization": "India Post",
+    "organization": "India Post (Department of Posts, Government of India)",
     "advertisement_number": "GDS Online Engagement – Schedule-II, July 2026",
     "post_names": [
       "Gramin Dak Sevak (GDS)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
     "vacancy_breakdown": "Not mentioned in the official notification",
-    "job_location": "Central Government",
+    "job_location": "All India (Circle-wise)",
     "educational_qualification": "Not mentioned in the official notification",
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": "Not mentioned in the official notification",
     "application_fee": "Not mentioned in the official notification",
     "application_start": "02/09/2026",
-    "application_end": "21/09/2026",
+    "application_end": "User Registration: 19-09-2026 17:00 HRS; Application Submission: 21-09-2026 17:00 HRS",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": "Not mentioned in the official notification",
     "exam_pattern": "Not mentioned in the official notification",
@@ -2094,9 +2094,10 @@
       "Candidates applying for GDS Online Engagement – Schedule II, July-2026 are required to register afresh.",
       "Registration Numbers generated in previous schedules will not be valid.",
       "Candidates are advised not to trust any communications received from unauthorized or suspicious email IDs.",
-      "Department of Posts communicates information only through official email IDs ending with @indiapost.gov.in or @indiapostgdsonline.gov.in."
+      "Department of Posts communicates information only through official email IDs ending with @indiapost.gov.in or @indiapostgdsonline.gov.in.",
+      "The Department of Posts shall not be responsible for any misleading communication/fraudulent emails/messages regarding GDS Engagement/Recruitment circulated by unauthorized sources."
     ],
-    "how_to_apply": "Candidates need to register and apply through the official portal using the registration link provided.",
+    "how_to_apply": "Candidates must complete User Registration first (Start Date: 31-08-2026, End Date: 19-09-2026 17:00 HRS) and then submit the application online (Start Date: 02-09-2026, End Date: 21-09-2026 17:00 HRS) through the official login/register portal.",
     "reservation_policy": "Not mentioned in the official notification",
     "physical_standards": "Not mentioned in the official notification",
     "medical_standards": "Not mentioned in the official notification",
@@ -2107,10 +2108,10 @@
       "Edit/Correction Window Start Date: 23-09-2026, End Date: 24-09-2026 17:00 HRS"
     ],
     "official_notification_url": "https://www.indiapost.gov.in/gdsonlineengagement",
-    "apply_url": "https://app.indiapost.gov.in/gdscandidate",
+    "apply_url": "https://gdsrect.indiapost.gov.in/gdscandidate",
     "portal_category": "latest-notifications",
-    "priority_score": 90,
-    "priority_reason": "The registration and application window is live with active dates for Schedule-II July 2026 GDS recruitment.",
+    "priority_score": 95,
+    "priority_reason": "The official notification announces active live registration dates for India Post GDS Online Engagement Schedule-II July-2026, making it an urgent, high-priority recruitment notification for job seekers.",
     "title": "India Post GDS Online Engagement — Schedule-II, July 2026",
     "type": "Job",
     "state": "Central Goverment",
@@ -2118,7 +2119,7 @@
     "category": "",
     "source_url": "https://www.indiapost.gov.in/gdsonlineengagement",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "34d19db9cccc57e6eea67bf179ee16b06cea312c4de20e7c0813cd613f7e73ed"
+    "_sheet_fingerprint": "231df23a6b0afe88b34815c213150b3100223169293d1052a3e0cdc7574b97cb"
   },
   "telangana-police-recruitment-2026-si-pc-equivalent-posts": {
     "organization": "Telangana Police Recruitment Board",
