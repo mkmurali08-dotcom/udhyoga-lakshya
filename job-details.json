@@ -4590,5 +4590,53 @@
     "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "5c2a418ab68e668f0323d142f5c7dba68ce1e808eaae1aa809c25fd22b75aaed"
+  },
+  "rrb-paramedical-cen-05-2026-560-posts": {
+    "organization": "Railway Recruitment Board (RRB), Ministry of Railways, Government of India",
+    "advertisement_number": "CEN 05/2026",
+    "post_names": [
+      "Paramedical Categories"
+    ],
+    "total_vacancies": "560",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "15 September 2026",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "The website is the official portal of Railway Recruitment Boards, Ministry of Railways, Government of India.",
+      "Contains regional RRB links including Ahmedabad, Ajmer, Bengaluru, Bhopal, Bhubaneswar, Bilaspur, Chandigarh, Chennai, Gorakhpur, Guwahati, Jammu, Kolkata, Malda, Mumbai, Muzaffarpur, Patna, Prayagraj, Ranchi, Secunderabad, Siliguri, and Thiruvananthapuram."
+    ],
+    "official_notification_url": "https://rrb.indianrailways.gov.in/",
+    "apply_url": "https://www.rrbapply.gov.in/#/auth/home",
+    "portal_category": "latest-notifications",
+    "priority_score": 85,
+    "priority_reason": "Official Central Government recruitment notification announcement from Railway Recruitment Board (RRB) for 560 posts.",
+    "title": "RRB Paramedical (CEN 05/2026) — 560 Posts",
+    "type": "Job",
+    "state": "Central Goverment",
+    "status": "Open",
+    "category": "",
+    "source_url": "https://rrb.indianrailways.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "e1252c098ed3b5854fa231534fd7268310c53253fba37a2e5040bac99efd7e53"
   }
 }
