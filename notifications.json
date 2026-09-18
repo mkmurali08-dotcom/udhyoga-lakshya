@@ -930,7 +930,7 @@
     "title": "Telangana State Level Police Recruitment Board has announced the tentative dates for the 2026 Preliminary Written Tests.",
     "applicationStart": "",
     "applicationEnd": "",
-    "examDate": "SI: 29/11/2026, PC: 20/12/2026",
+    "examDate": "",
     "editCorrection": "",
     "date": "",
     "officialLink": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
@@ -953,26 +953,6 @@
     "examDate": "",
     "editCorrection": "",
     "date": "07/10/2026",
-    "officialLink": "https://ssc.gov.in/home",
-    "applyLink": "https://ssc.gov.in/login",
-    "status": "Open",
-    "firstSeen": "2026-09-11",
-    "isNew": false
-  },
-  {
-    "_identity": [
-      "link",
-      "https://ssc.gov.in/home"
-    ],
-    "type": "Job",
-    "state": "Central Goverment",
-    "category": "Job",
-    "title": "SSC CPO (SI Delhi Police) 2026",
-    "applicationStart": "September 10, 2026",
-    "applicationEnd": "",
-    "examDate": "",
-    "editCorrection": "",
-    "date": "September 10, 2026",
     "officialLink": "https://ssc.gov.in/home",
     "applyLink": "https://ssc.gov.in/login",
     "status": "Open",
@@ -1097,6 +1077,26 @@
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-16",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://websitenew.tgpsc.gov.in/"
+    ],
+    "type": "Job",
+    "state": "Telangana",
+    "category": "Job",
+    "title": "Manager (Engineering) in\r\nHyderabad Metropolitan Water\r\nSupply and Sewerage Board",
+    "applicationStart": "23/09/2026",
+    "applicationEnd": "17/10/2026",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "17/10/2026",
+    "officialLink": "https://websitenew.tgpsc.gov.in/",
+    "applyLink": "",
+    "status": "Notification Published",
+    "firstSeen": "2026-09-18",
     "isNew": true
   }
 ]
