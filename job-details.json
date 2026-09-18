@@ -4638,5 +4638,109 @@
     "source_url": "https://rrb.indianrailways.gov.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "e1252c098ed3b5854fa231534fd7268310c53253fba37a2e5040bac99efd7e53"
+  },
+  "telangana-state-level-police-recruitment-board-has-announced-the-tentative-dates-for-the-2026-preliminary-written-tests": {
+    "organization": "Telangana State Level Police Recruitment Board",
+    "advertisement_number": "Rc Nos. 189, 225, 234 & 279 / Rect. / Rect.1, 2 & 3 / 2026",
+    "post_names": [
+      "SCT SI Civil and / or equivalent",
+      "SCT ASI FPB",
+      "SCTPC Civil and / or equivalent",
+      "SCT PC Driver",
+      "SCT PC Mechanic"
+    ],
+    "total_vacancies": "7437",
+    "vacancy_breakdown": [
+      {
+        "Department": "Police",
+        "SI / ASI level": "200",
+        "PC Level": "4800",
+        "Total": "5000"
+      },
+      {
+        "Department": "Special Protection Force",
+        "SI / ASI level": "44",
+        "PC Level": "1380",
+        "Total": "1424"
+      },
+      {
+        "Department": "Fire, Disaster Response, Emergency & Civil Defence",
+        "SI / ASI level": "39",
+        "PC Level": "751",
+        "Total": "790"
+      },
+      {
+        "Department": "Prisons & Correctional Services",
+        "SI / ASI level": "15",
+        "PC Level": "208",
+        "Total": "223"
+      },
+      {
+        "Department": "Total",
+        "SI / ASI level": "298",
+        "PC Level": "7139",
+        "Total": "7437"
+      }
+    ],
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": [
+      "The State Government gave an age relaxation of 7 (5 + 2) years for SI / ASI level and SCT PC (Driver) Posts over and above the maximum age limit prescribed in the Recruitment Rules",
+      "The State Government gave an age relaxation of 10 (5 + 2 + 3) years for PC level Posts (except PC Driver) over and above the maximum age limit prescribed in the Recruitment Rules"
+    ],
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "19th August 2026",
+    "application_end": "16th September 2026",
+    "exam_date": "SI PWT: 29th November 2026 (Sunday) Forenoon; PC PWT: 20th December 2026 (Sunday) Forenoon",
+    "selection_process": [
+      "SCT SI Civil and / or equivalent: 3-Tier Filtration Process starting with Preliminary Written Test (PWT)",
+      "SCT PC Civil and / or equivalent: 3-Tier Filtration Process starting with Preliminary Written Test (PWT)",
+      "SCT ASI FPB: 2-Tier Filtration Process starting with Physical Measurement / Physical Efficiency Test (PMT / PET)",
+      "SCT PC Driver: 2-Tier Filtration Process starting with Physical Measurement / Physical Efficiency Test (PMT / PET)",
+      "SCT PC Mechanic: 2-Tier Filtration Process starting with Physical Measurement / Physical Efficiency Test (PMT / PET)"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": [
+      "pdf Application Form/s"
+    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Candidates who could not complete Aadhaar Face Authentication have to complete the process in their login area which will be made available till 30th September 2026 (Wednesday)",
+      "After completion of Aadhaar Face Authentication, candidates can download their pdf Application Form/s"
+    ],
+    "how_to_apply": "Applications through Online mode in the prescribed proforma were made available on Website (www.tgprb.in) from 19th August 2026 till 16th September 2026",
+    "reservation_policy": "SC / ST Candidates availed of 50% fee concession",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": [
+      "Erstwhile 10 District Headquarters of Telangana (for SCT SI Civil and / or equivalent)",
+      "15-18 Locations including the erstwhile 10 District Headquarters of Telangana (for SCT PC Civil and / or equivalent)"
+    ],
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Online application process concluded on 16th September 2026",
+      "5,77,064 Applications filed by 4,29,000 Candidates have been received",
+      "Nearly 49.19% of applications filed by BC Candidates, 43.60% by SC / ST Candidates, and 7.20% by OC Candidates (including 3.45% from other states)",
+      "1,46,220 applications (25.33%) received from Women Candidates and 4,30,844 applications (74.66%) from Men Candidates",
+      "97.4% of candidates successfully completed Aadhaar Face Authentication during Part I form filling; remaining 2.6% must complete it by 30th September 2026",
+      "56.84% opted for Telugu, 43.02% opted for English, and 0.12% opted for Urdu as the Medium of Examination for the Aptitude Test"
+    ],
+    "official_notification_url": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
+    "apply_url": "www.tgprb.in",
+    "portal_category": "latest-notifications",
+    "priority_score": 90,
+    "priority_reason": "The official notification announces exact tentative exam dates for major statewide police recruitment exams (SI and PC) involving over 5.7 lakh applications, along with critical instructions for pending biometric verification.",
+    "title": "Telangana State Level Police Recruitment Board has announced the tentative dates for the 2026 Preliminary Written Tests.",
+    "type": "Job",
+    "state": "Telangana",
+    "status": "Notification Published",
+    "category": "Job",
+    "source_url": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "fad5d34cb6260c33d1b7aa3cda2890a0f3eba300192576347a11e8c3e4bac243"
   }
 }
