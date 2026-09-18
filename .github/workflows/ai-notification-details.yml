@@ -7,6 +7,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Only one AI extraction run at a time.
+concurrency:
+  group: ai-notification-details
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -15,6 +19,7 @@ jobs:
   extract:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -33,34 +38,55 @@ jobs:
           GEMINI_MODEL: gemini-3.5-flash-lite
         run: python ai-notification-extractor.py
 
-      - name: Merge AI classification into notification feed
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          npath=Path('notifications.json'); dpath=Path('job-details.json')
-          notifications=json.loads(npath.read_text(encoding='utf-8'))
-          details=json.loads(dpath.read_text(encoding='utf-8')) if dpath.exists() else {}
-          by_title={str(v.get('title','')).strip().lower():v for v in details.values() if isinstance(v,dict)}
-          for r in notifications:
-              d=by_title.get(str(r.get('title','')).strip().lower())
-              if not d: continue
-              for k in ('portal_category','priority_score','priority_reason','exam_date','organization'):
-                  if k in d and d[k] not in (None,'',[]): r[k]=d[k]
-          npath.write_text(json.dumps(notifications,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print(f'Merged AI classification into {len(notifications)} notification rows.')
-          PY
+      # AI owns the detailed official-notification data in job-details.json.
+      # Google Sheet data owns routing/category/date fields in notifications.json.
+      # We intentionally do NOT let AI rewrite notifications.json, so Sheet values
+      # such as State, Status, Exam Date and Edit/Correction remain authoritative.
 
-      - name: Commit AI details and classification
+      - name: Commit AI details
         shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add job-details.json notifications.json
-          if git diff --cached --quiet; then
-            echo "No AI changes."
-          else
-            git commit -m "Update AI notification details"
-            git push
+
+          if [ ! -f job-details.json ]; then
+            echo "ERROR: job-details.json was not created by the AI extractor."
+            exit 1
           fi
+
+          git add job-details.json
+
+          if git diff --cached --quiet; then
+            echo "No AI detail changes."
+            exit 0
+          fi
+
+          git commit -m "Update AI notification details"
+
+          # Sync workflow runs independently and may advance main while AI extraction
+          # is running. Rebase this AI-only commit onto the latest remote main before
+          # pushing. No force-push is ever used.
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt $attempt/5"
+
+            git fetch origin main
+
+            if ! git rebase origin/main; then
+              echo "ERROR: Rebase conflict detected. No force push will be attempted."
+              git rebase --abort || true
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "AI notification details pushed successfully."
+              exit 0
+            fi
+
+            echo "Remote main changed during push; retrying..."
+            sleep 3
+          done
+
+          echo "ERROR: Could not push AI notification details after 5 attempts."
+          exit 1
