@@ -22,179 +22,152 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download Google Sheet CSV
+      - name: Download published Google Sheet
         shell: bash
         run: |
           set -e
 
-          SHEET_ID="1HLCzR_CwkITB6DY_XCp0XqHTBf_lk5W--2-jdOK0"
+          SHEET_ID="1HLCzR_CwklTB6DY_XCp0XqHTBFf_lk5vWT--2-jdOK0"
 
-          URLS=(
-            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=0"
-            "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=0"
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vSYjRHSHCqIPxnzmWR1hXBCJtVhlc2nCgJ0WgS9x5MUghWnVTY4LBYZt7RfB4DvPaNkZSrYB3P4swXm/pub?gid=0&single=true&output=csv"
-          )
+          curl -fL --retry 3 --retry-all-errors --silent --show-error             -A "Mozilla/5.0"             "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=final"             -o sheet.csv
 
-          success=0
-
-          for url in "${URLS[@]}"; do
-            echo "Trying Google Sheet endpoint..."
-            if curl -fL --retry 3 --retry-all-errors --silent --show-error \
-              -A "Mozilla/5.0" "$url" -o sheet.csv; then
-              if python - <<'PY'
+          python - <<'PY'
           import csv
 
-          def norm(v):
-              return "".join(ch.lower() for ch in str(v).strip() if ch.isalnum())
-
-          with open("sheet.csv", "r", encoding="utf-8-sig", newline="") as f:
-              reader = csv.reader(f)
-              header = next(reader, [])
+          with open("sheet.csv", encoding="utf-8-sig", newline="") as f:
+              headers = [x.strip() for x in next(csv.reader(f), [])]
 
           required = {
-              "type",
-              "state",
-              "title",
-              "applicationstart",
-              "applicationend",
-              "examdate",
-              "editcorrection",
-              "officiallink",
-              "applylink",
-              "status",
+              "Type",
+              "State",
+              "Title",
+              "Application Start",
+              "Application End",
+              "Exam date",
+              "Edit / Correction",
+              "Official Link",
+              "Apply Link",
+              "Status",
           }
 
-          actual = {norm(x) for x in header}
-          missing = required - actual
-
+          missing = required - set(headers)
           if missing:
               raise SystemExit(
-                  f"ERROR: Required Google Sheet headers missing: {sorted(missing)}. Got: {header}"
+                  f"ERROR: Required Google Sheet headers missing: {sorted(missing)}. Got: {headers}"
               )
 
-          print("Google Sheet CSV download successful.")
-          print("Headers:", header)
+          print("Google Sheet downloaded successfully.")
+          print("Headers:", headers)
           PY
-              then
-                success=1
-                break
-              fi
-            fi
-          done
-
-          if [ "$success" -ne 1 ]; then
-            echo "ERROR: Could not download the Google Sheet in CSV format."
-            exit 1
-          fi
 
       - name: Build notifications.json
         run: |
           python - <<'PY'
-          import csv
-          import json
-          from datetime import datetime, timedelta
+          import csv,json
+          from datetime import datetime,timedelta
           from pathlib import Path
-          import re
 
-          out = Path("notifications.json")
-          now = datetime.now()
-          old = []
+          out=Path("notifications.json")
+          now=datetime.now()
+          old=[]
 
           if out.exists():
               try:
-                  old = json.loads(out.read_text(encoding="utf-8"))
-                  old = old if isinstance(old, list) else []
+                  old=json.loads(out.read_text(encoding="utf-8"))
+                  old=old if isinstance(old,list) else []
               except Exception:
-                  old = []
+                  old=[]
 
-          by = {}
+          by={}
 
           for x in old:
-              if not isinstance(x, dict):
+              if not isinstance(x,dict):
                   continue
-              k = x.get("_identity")
-              if isinstance(k, list):
-                  k = tuple(k)
+              k=x.get("_identity")
+              if isinstance(k,list):
+                  k=tuple(k)
               if not k:
-                  link = str(x.get("officialLink", "")).strip()
-                  k = ("link", link) if link else (
+                  link=str(x.get("officialLink","")).strip()
+                  k=("link",link) if link else (
                       "text",
-                      str(x.get("type", "")).strip().lower(),
-                      str(x.get("state", "")).strip().lower(),
-                      str(x.get("title", "")).strip().lower()
+                      str(x.get("type","")).strip().lower(),
+                      str(x.get("state","")).strip().lower(),
+                      str(x.get("title","")).strip().lower()
                   )
-              by[k] = x
+              by[k]=x
 
-          def key_norm(value):
-              return "".join(ch.lower() for ch in str(value).strip() if ch.isalnum())
-
-          def val(row, *names):
-              normalized = {key_norm(k): (v or "").strip() for k, v in row.items() if k is not None}
-              for name in names:
-                  v = normalized.get(key_norm(name), "")
+          def val(r,*names):
+              for n in names:
+                  v=(r.get(n) or "").strip()
                   if v:
                       return v
               return ""
 
-          def classify(type_value, title, status):
-              t = str(type_value or "").strip().lower()
-              title_norm = str(title or "").strip().lower()
-              status_norm = str(status or "").strip().lower()
-              blob = " ".join([t, title_norm, status_norm])
+          output=[]
 
-              if re.search(r"\b(extended|closing\s*soon)\b", status_norm):
-                  return "latest-notifications"
-              if re.search(r"result|admit\s*card|answer\s*key|selection|allocation|call\s*letter|hall\s*ticket|e-admit|ecall|ranked\s*list", blob):
-                  return "results-admit-cards"
-              if re.search(r"\b(upcoming|scheduled|tentative|calendar|to\s*be\s*held|forthcoming)\b", status_norm):
-                  return "upcoming-exams"
-              if t == "exam" or re.search(r"upcoming exam|exam calendar|scheduled exam", blob):
-                  return "upcoming-exams"
-              return "latest-notifications"
-
-          output = []
-
-          with open("sheet.csv", encoding="utf-8-sig", newline="") as f:
+          with open("sheet.csv",encoding="utf-8-sig",newline="") as f:
               for raw in csv.DictReader(f):
-                  title = val(raw, "Title")
-                  state = val(raw, "State")
+                  r={
+                      str(k).strip():(v or "").strip()
+                      for k,v in raw.items()
+                      if k is not None
+                  }
+
+                  title=r.get("Title","")
+                  state=r.get("State","")
 
                   if not title or not state:
                       continue
 
-                  type_value = val(raw, "Type")
-                  official = val(raw, "Official Link")
-                  status = val(raw, "Status")
+                  official=r.get("Official Link","")
 
-                  ident = (
-                      ("link", official)
-                      if official
-                      else (
-                          "text",
-                          type_value.lower(),
-                          state.lower(),
-                          title.lower()
-                      )
+                  ident=(
+                      "link",
+                      official
+                  ) if official else (
+                      "text",
+                      r.get("Type","").lower(),
+                      state.lower(),
+                      title.lower()
                   )
 
-                  prev = by.get(ident)
+                  prev=by.get(ident)
 
-                  first = (
+                  first=(
                       str(prev.get("firstSeen"))
                       if prev and prev.get("firstSeen")
                       else now.strftime("%Y-%m-%d")
                   )
 
                   try:
-                      is_new = (now - datetime.fromisoformat(first[:10])) <= timedelta(days=7)
+                      is_new=(now-datetime.fromisoformat(first[:10]))<=timedelta(days=7)
                   except Exception:
-                      is_new = True
+                      is_new=True
 
-                  start = val(raw, "Application Start", "Start", "applicationStart")
-                  end = val(raw, "Application End", "End", "applicationEnd")
-                  exam_date = val(raw, "Exam date", "Exam Date", "examDate", "exam_date")
-                  edit_correction = val(
-                      raw,
+                  start=val(
+                      r,
+                      "Application Start",
+                      "Start",
+                      "applicationStart"
+                  )
+
+                  end=val(
+                      r,
+                      "Application End",
+                      "End",
+                      "applicationEnd"
+                  )
+
+                  exam_date=val(
+                      r,
+                      "Exam date",
+                      "Exam Date",
+                      "examDate",
+                      "exam_date"
+                  )
+
+                  edit_correction=val(
+                      r,
                       "Edit / Correction",
                       "Edit/Correction",
                       "Edit Correction",
@@ -202,29 +175,32 @@ jobs:
                       "edit_correction"
                   )
 
-                  date = end or start or exam_date or edit_correction
+                  date=val(
+                      r,
+                      "Date",
+                      "date"
+                  ) or end or start
 
                   output.append({
-                      "_identity": ident,
-                      "type": type_value,
-                      "state": state,
-                      "category": type_value,
-                      "portal_category": classify(type_value, title, status),
-                      "title": title,
-                      "applicationStart": start,
-                      "applicationEnd": end,
-                      "examDate": exam_date,
-                      "editCorrection": edit_correction,
-                      "date": date,
-                      "officialLink": official,
-                      "applyLink": val(raw, "Apply Link"),
-                      "status": status,
-                      "firstSeen": first,
-                      "isNew": is_new
+                      "_identity":ident,
+                      "type":r.get("Type",""),
+                      "state":state,
+                      "category":r.get("Category","") or r.get("Type",""),
+                      "title":title,
+                      "applicationStart":start,
+                      "applicationEnd":end,
+                      "examDate":exam_date,
+                      "editCorrection":edit_correction,
+                      "date":date,
+                      "officialLink":official,
+                      "applyLink":r.get("Apply Link",""),
+                      "status":r.get("Status",""),
+                      "firstSeen":first,
+                      "isNew":is_new
                   })
 
           out.write_text(
-              json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+              json.dumps(output,ensure_ascii=False,indent=2)+"\n",
               encoding="utf-8"
           )
 
@@ -236,7 +212,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add notifications.json
-
           if git diff --cached --quiet; then
             echo "No notification changes."
           else
