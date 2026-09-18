@@ -9,6 +9,43 @@
   const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
   const norm=v=>String(v??"").trim().toLowerCase().replace(/&/g,"and").replace(/\s+/g," ");
 
+  function addUpcomingRowStyles(){
+    if(document.getElementById("udhyoga-upcoming-row-fix"))return;
+    const style=document.createElement("style");
+    style.id="udhyoga-upcoming-row-fix";
+    style.textContent=`
+      .cards > .card:nth-child(2) .upcoming-sheet-row{
+        display:flex !important;
+        flex-direction:column !important;
+        align-items:stretch !important;
+        gap:6px !important;
+        min-width:0 !important;
+      }
+      .cards > .card:nth-child(2) .upcoming-sheet-row .row-title{
+        display:block !important;
+        width:100% !important;
+        min-width:0 !important;
+        white-space:normal !important;
+        overflow-wrap:anywhere !important;
+      }
+      .cards > .card:nth-child(2) .upcoming-sheet-row .yellow-tag{
+        position:static !important;
+        float:none !important;
+        right:auto !important;
+        left:auto !important;
+        align-self:flex-end !important;
+        display:block !important;
+        width:max-content !important;
+        max-width:100% !important;
+        box-sizing:border-box !important;
+        white-space:normal !important;
+        overflow-wrap:anywhere !important;
+        text-align:center !important;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
   function parseDate(value){
     const raw=String(value??"").trim(); if(!raw)return null;
     let m=raw.match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})$/);
@@ -132,7 +169,8 @@
   }
 
   function row(r,mode){
-    const el=document.createElement("div"); el.className="row";
+    const el=document.createElement("div");
+    el.className=mode==="upcoming"?"row upcoming-sheet-row":"row";
     const href=link(r), t=esc(r.title||"Notification"), d=esc(displayDate(r)); let right="";
 
     if(mode==="latest"){
@@ -170,6 +208,7 @@
   }
 
   function renderHome(rows){
+    addUpcomingRowStyles();
     const cards=document.querySelectorAll(".cards > .card");
     if(cards.length<3)return;
 
