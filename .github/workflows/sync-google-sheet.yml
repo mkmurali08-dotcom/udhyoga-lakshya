@@ -11,6 +11,10 @@ on:
   schedule:
     - cron: "*/10 * * * *"
 
+concurrency:
+  group: sync-google-sheet
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -208,13 +212,44 @@ jobs:
           PY
 
       - name: Commit and push changes
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add notifications.json
+
           if git diff --cached --quiet; then
             echo "No notification changes."
-          else
-            git commit -m "Sync Google Sheet notifications"
-            git push
+            exit 0
           fi
+
+          git commit -m "Sync Google Sheet notifications"
+
+          # The AI workflow can update the same main branch while this job is running.
+          # Rebase our new notification commit on top of the latest remote main instead
+          # of failing with "fetch first".
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt $attempt/5"
+
+            git fetch origin main
+
+            if ! git rebase origin/main; then
+              echo "ERROR: Rebase conflict detected. No force push will be attempted."
+              git rebase --abort || true
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "Google Sheet notifications pushed successfully."
+              exit 0
+            fi
+
+            echo "Remote main changed during push; retrying..."
+            sleep 3
+          done
+
+          echo "ERROR: Could not push notifications.json after 5 attempts."
+          exit 1
