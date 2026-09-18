@@ -101,8 +101,8 @@
             officialLink:r.officialLink||d.official_notification_url,
             applyLink:r.applyLink||d.apply_url,
             portal_category:r.portal_category||d.portal_category,
-            examDate:r.examDate||d.examDate||d.exam_date,
-            editCorrection:r.editCorrection||d.editCorrection
+            examDate:String(r.examDate??"").trim(),
+            editCorrection:String(r.editCorrection??"").trim()
           })
         : r;
     });
@@ -123,13 +123,12 @@
     const e=String(r.applicationEnd||r.end||"").trim();
     const ex=examDate(r);
     const ec=editCorrection(r);
-    const d=String(r.date||"").trim();
 
     if(s&&e&&s!==e)return s+"–"+e;
     if(e||s)return e||s;
     if(ex)return "Exam Date: "+ex;
     if(ec)return "Edit / Correction: "+ec;
-    return d;
+    return "";
   }
 
   function row(r,mode){
