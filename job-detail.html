@@ -36,13 +36,13 @@ ul{margin:0;padding-left:20px}li{margin:5px 0}
 </section>
 </main>
 <script>
-const labels={organization:"Organization",advertisement_number:"Advertisement Number",post_names:"Post Names",total_vacancies:"Total Vacancies",vacancy_breakdown:"Vacancy Breakdown",job_location:"Job Location",educational_qualification:"Educational Qualification",other_eligibility:"Other Eligibility",age_limit:"Age Limit",age_relaxation:"Age Relaxation",application_fee:"Application Fee",application_start:"Application Start",application_end:"Application End",exam_date:"Exam Date",selection_process:"Selection Process",exam_pattern:"Exam Pattern",syllabus:"Syllabus",documents_required:"Documents Required",salary_pay_scale:"Salary / Pay Scale",important_instructions:"Important Instructions",official_notification_url:"Official Notification",apply_url:"Apply Link",title:"Recruitment",type:"Type",state:"State",status:"Status"};
+const labels={organization:"Organization",advertisement_number:"Advertisement Number",post_names:"Post Names",total_vacancies:"Total Vacancies",vacancy_breakdown:"Vacancy Breakdown",job_location:"Job Location",educational_qualification:"Educational Qualification",other_eligibility:"Other Eligibility",age_limit:"Age Limit",age_relaxation:"Age Relaxation",application_fee:"Application Fee",application_start:"Application Start",application_end:"Application End",exam_date:"Exam Date",edit_correction:"Edit / Correction",selection_process:"Selection Process",exam_pattern:"Exam Pattern",syllabus:"Syllabus",documents_required:"Documents Required",salary_pay_scale:"Salary / Pay Scale",important_instructions:"Important Instructions",official_notification_url:"Official Notification",apply_url:"Apply Link",title:"Recruitment",type:"Type",state:"State",status:"Status"};
 const fallback={title:"Job Details",organization:"",status:"",type:"",state:""};
 const groups=[
  {title:"Recruitment Overview",keys:["organization","advertisement_number","post_names","total_vacancies","job_location","status"]},
  {title:"Vacancy Details",keys:["vacancy_breakdown"]},
  {title:"Eligibility & Qualification",keys:["educational_qualification","other_eligibility","age_limit","age_relaxation"]},
- {title:"Application Details",keys:["application_start","application_end","application_fee"]},
+ {title:"Application Details",keys:["application_start","application_end","exam_date","edit_correction","application_fee"]},
  {title:"Exam & Selection",keys:["exam_date","selection_process","exam_pattern","syllabus"]},
  {title:"Salary & Important Information",keys:["salary_pay_scale","documents_required","important_instructions"]}
 ];
@@ -104,11 +104,16 @@ function requested(data){
   const p=new URLSearchParams(location.search);
   const q=p.get("job")||p.get("key")||p.get("id");
   if(q&&data[q])return data[q];
-  const t=p.get("title");
+
+  const t=p.get("title") || "";
   if(t){
-    const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase()===t.toLowerCase());
+    const k=Object.keys(data).find(k=>String(data[k]?.title||"").trim().toLowerCase()===t.trim().toLowerCase());
     if(k)return data[k];
+
+    // Keep the Sheet title even when AI has not created job-details.json yet.
+    return {title:t};
   }
+
   return fallback;
 }
 
@@ -123,15 +128,22 @@ function looksLikePdf(url){
   return clean.endsWith(".pdf")||clean.includes(".pdf/");
 }
 
-function render(d,sheet){
+function render(d,sheet,requestedTitle){
   const sheetStatus=String(sheet.status||"").trim();
   const official=String(sheet.officialLink||"").trim();
   const apply=String(sheet.applyLink||"").trim();
 
   d=Object.assign({},d);
-  d.status=sheetStatus; // Sheet is authoritative for Status.
+  d.title=sheet.title||d.title||requestedTitle||"Job Details";
+  d.status=sheetStatus;
   d.type=sheet.type||d.type||"";
   d.state=sheet.state||d.state||"";
+
+  // These date fields come ONLY from the Google Sheet.
+  d.application_start=String(sheet.applicationStart||"").trim() || d.application_start || "";
+  d.application_end=String(sheet.applicationEnd||"").trim() || d.application_end || "";
+  d.exam_date=String(sheet.examDate||"").trim();
+  d.edit_correction=String(sheet.editCorrection||"").trim();
 
   document.getElementById("pageTitle").textContent=d.title||"Job Details";
   document.getElementById("pageSubtitle").textContent=(hasRenderableValue(d.organization)?d.organization:"Official-source-first")+" — official notification details";
@@ -215,10 +227,29 @@ async function loadDetails(){
       getJson(NOTIFICATION_URLS)
     ]);
 
-    const d=requested(details&&typeof details==="object"?details:{});
-    const sheet=findSheetRow(notifications,d.title||"");
+    const params=new URLSearchParams(location.search);
+    const requestedTitle=String(params.get("title")||params.get("job")||params.get("key")||params.get("id")||"").trim();
 
-    render(d,sheet);
+    // Sheet is the primary source for title, State, Status, dates and links.
+    const sheet=findSheetRow(Array.isArray(notifications)?notifications:[],requestedTitle);
+
+    // AI details are optional. If AI has not processed this notification yet,
+    // the page still renders Sheet data and the correct Official/Apply buttons.
+    let d={};
+    if(details && typeof details==="object"){
+      const vals=Object.values(details).filter(v=>v&&typeof v==="object");
+
+      d =
+        vals.find(v=>norm(v.title)===norm(requestedTitle)) ||
+        (sheet.officialLink
+          ? vals.find(v=>norm(v.official_notification_url||v.source_url||v.officialLink)===norm(sheet.officialLink))
+          : null) ||
+        {};
+    }
+
+    d=Object.assign({},d,{title:sheet.title||d.title||requestedTitle});
+
+    render(d,sheet,requestedTitle);
   }catch(err){
     document.getElementById("status").outerHTML='<div class="error"><strong>Notification details could not be loaded.</strong><br>The notification data source is temporarily unavailable. Please refresh once.</div>';
     console.error(err);
