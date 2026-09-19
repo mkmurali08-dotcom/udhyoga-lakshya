@@ -322,26 +322,6 @@
   {
     "_identity": [
       "link",
-      "https://rpsc.rajasthan.gov.in/proposedexamdate"
-    ],
-    "type": "Upcoming",
-    "state": "Rajasthan",
-    "category": "Upcoming",
-    "title": "Rajasthan State and Subordinate Services Combined Competitive Exam 2026 — Mains: 02/05/2027",
-    "applicationStart": "",
-    "applicationEnd": "",
-    "examDate": "",
-    "editCorrection": "",
-    "date": "",
-    "officialLink": "https://rpsc.rajasthan.gov.in/proposedexamdate",
-    "applyLink": "",
-    "status": "Upcoming",
-    "firstSeen": "2026-09-11",
-    "isNew": false
-  },
-  {
-    "_identity": [
-      "link",
       "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx"
     ],
     "type": "Admit Card",
