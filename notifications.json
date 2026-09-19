@@ -910,7 +910,7 @@
     "title": "Telangana State Level Police Recruitment Board has announced the tentative dates for the 2026 Preliminary Written Tests.",
     "applicationStart": "",
     "applicationEnd": "",
-    "examDate": "",
+    "examDate": "Sub-Inspector (SI):29/11/2026,Police Constable (PC):20/12/2026",
     "editCorrection": "",
     "date": "",
     "officialLink": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
@@ -1075,7 +1075,47 @@
     "date": "17/10/2026",
     "officialLink": "https://websitenew.tgpsc.gov.in/",
     "applyLink": "",
-    "status": "Notification Published",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-19",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://cpri.res.in/en"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "Central Power Research Institute (CPRI) Recruitment 2026",
+    "applicationStart": "19/09/2026",
+    "applicationEnd": "12/10/2026",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "12/10/2026",
+    "officialLink": "https://cpri.res.in/en",
+    "applyLink": "https://cpri-app.onlineapplication.org.in/#/",
+    "status": "Current",
+    "firstSeen": "2026-09-19",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ssc.gov.in/home/answer-key"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "SSC Grade C Steno LDCE — Final Answer Key",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "",
+    "officialLink": "https://ssc.gov.in/home/answer-key",
+    "applyLink": "",
+    "status": "Answer key",
     "firstSeen": "2026-09-19",
     "isNew": true
   }
