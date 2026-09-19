@@ -1042,7 +1042,7 @@
   {
     "_identity": [
       "link",
-      "https://slprb.ap.gov.in/UI/recruitments"
+      "https://slprb.ap.gov.in/UI/index"
     ],
     "type": "Job",
     "state": "Andhra Pradesh",
@@ -1053,7 +1053,7 @@
     "examDate": "",
     "editCorrection": "",
     "date": "",
-    "officialLink": "https://slprb.ap.gov.in/UI/recruitments",
+    "officialLink": "https://slprb.ap.gov.in/UI/index",
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-19",
@@ -1062,7 +1062,7 @@
   {
     "_identity": [
       "link",
-      "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL05PVElGTi5fMDQtT0ctSE0tMjAyNi1NQU5BR0VSSE1XU1NCMjAyNjA5MTgxNzQ4MDEucGRmYWNjZXNzdGltZT0yMDI2LTEyLTE4r95v17a0y2d8i13v"
+      "https://websitenew.tgpsc.gov.in/"
     ],
     "type": "Job",
     "state": "Telangana",
@@ -1073,10 +1073,10 @@
     "examDate": "",
     "editCorrection": "",
     "date": "17/10/2026",
-    "officialLink": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL05PVElGTi5fMDQtT0ctSE0tMjAyNi1NQU5BR0VSSE1XU1NCMjAyNjA5MTgxNzQ4MDEucGRmYWNjZXNzdGltZT0yMDI2LTEyLTE4r95v17a0y2d8i13v",
+    "officialLink": "https://websitenew.tgpsc.gov.in/",
     "applyLink": "",
     "status": "Notification Published",
-    "firstSeen": "2026-09-18",
+    "firstSeen": "2026-09-19",
     "isNew": true
   }
 ]
