@@ -46,56 +46,185 @@ const groups=[
  {title:"Exam & Selection",keys:["exam_date","selection_process","exam_pattern","syllabus"]},
  {title:"Salary & Important Information",keys:["salary_pay_scale","documents_required","important_instructions"]}
 ];
+
+const MISSING="Not mentioned in the official notification";
+
+function norm(v){return String(v??"").trim().replace(/\s+/g," ").toLowerCase()}
+function isMissing(v){
+  const n=norm(v);
+  return !n ||
+    n==="not mentioned in the official notification" ||
+    n==="not mentioned in official notification" ||
+    n==="not available in the official notification" ||
+    n==="not specified in the official notification" ||
+    n==="not specified";
+}
 function label(k){return labels[k]||k.replace(/_/g," ").replace(/\b\w/g,m=>m.toUpperCase())}
 function esc(v){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))}
 function list(v){return "<ul>"+v.map(x=>"<li>"+(typeof x==="object"?object(x):esc(x))+"</li>").join("")+"</ul>"}
-function object(o){return "<div class='mini-grid'>"+Object.entries(o).map(([k,v])=>"<div class='mini'><b>"+esc(label(k))+"</b><span>"+value(v)+"</span></div>").join("")+"</div>"}
-function value(v){if(v===null||v===undefined||v===""||(Array.isArray(v)&&!v.length))return "Not mentioned in the official notification";if(Array.isArray(v))return list(v);if(typeof v==="object")return object(v);return esc(v).replace(/\n/g,"<br>")}
-function vacancyTable(v){
-  if(v===null||v===undefined||v===""||v===MISSING)return `<div class="card full">${value(v)}</div>`;
-  const rows=Array.isArray(v)?v.filter(x=>x&&typeof x==='object'):[v];
-  const allCats=[]; rows.forEach(r=>{if(r.categories&&typeof r.categories==='object')Object.keys(r.categories).forEach(k=>{if(!allCats.includes(k))allCats.push(k)})});
-  const num=x=>typeof x==='number'?x:(/^\d+$/.test(String(x||''))?Number(x):null);
-  const total=r=>num(r.total)!==null?num(r.total):Object.values(r.categories||{}).reduce((a,x)=>a+(num(x)||0),0);
-  if(!rows.length)return `<div class="card full">${value(v)}</div>`;
-  if(!allCats.length)return `<div class="grid">${rows.map(r=>card('vacancy_breakdown',r)).join('')}</div>`;
-  const body=rows.map(r=>`<tr><td class="stream-name">${esc(r.label||r.stream||r.post||r.name||'Vacancy Details')}</td>${allCats.map(c=>`<td>${num((r.categories||{})[c])??'—'}</td>`).join('')}<td class="total-col">${total(r)||'—'}</td></tr>`).join('');
-  const foot=allCats.map(c=>{let n=0,found=false;rows.forEach(r=>{let x=num((r.categories||{})[c]);if(x!==null){n+=x;found=true}});return `<td>${found?n:'—'}</td>`}).join('');
-  const grand=rows.reduce((a,r)=>a+(total(r)||0),0);
-  return `<div class="vacancy-table-wrap"><table class="vacancy-table"><thead><tr><th>Post / Stream</th>${allCats.map(c=>`<th>${esc(c)}</th>`).join('')}<th>Total</th></tr></thead><tbody>${body}</tbody><tfoot><tr class="overall-row"><td>Overall</td>${foot}<td>${grand||'—'}</td></tr></tfoot></table>${rows.some(r=>r.special)?`<div class="vacancy-summary"><b>Special / Horizontal Reservation</b><span>${esc(JSON.stringify(rows.find(r=>r.special).special))}</span></div>`:''}</div>`;
+function object(o){return "<div class='mini-grid'>"+Object.entries(o).filter(([k,v])=>!isMissing(v)).map(([k,v])=>"<div class='mini'><b>"+esc(label(k))+"</b><span>"+value(v)+"</span></div>").join("")+"</div>"}
+function value(v){
+  if(isMissing(v)) return "";
+  if(Array.isArray(v)) return v.length?list(v):"";
+  if(typeof v==="object") return object(v);
+  return esc(v).replace(/\n/g,"<br>");
 }
-const MISSING='Not mentioned in the official notification';
+
+function hasRenderableValue(v){
+  if(isMissing(v)) return false;
+  if(Array.isArray(v)) return v.some(hasRenderableValue);
+  if(v && typeof v==="object"){
+    return Object.values(v).some(hasRenderableValue);
+  }
+  return true;
+}
+
+function vacancyTable(v){
+  if(!hasRenderableValue(v)) return "";
+  const rows=Array.isArray(v)?v.filter(x=>x&&typeof x==="object"):[v];
+  const allCats=[]; rows.forEach(r=>{if(r.categories&&typeof r.categories==="object")Object.keys(r.categories).forEach(k=>{if(!allCats.includes(k))allCats.push(k)})});
+  const num=x=>typeof x==="number"?x:(/^\d+$/.test(String(x||""))?Number(x):null);
+  const total=r=>num(r.total)!==null?num(r.total):Object.values(r.categories||{}).reduce((a,x)=>a+(num(x)||0),0);
+  if(!rows.length)return "";
+  if(!allCats.length)return "<div class='grid'>"+rows.map(r=>card("vacancy_breakdown",r)).filter(Boolean).join("")+"</div>";
+  const body=rows.map(r=>"<tr><td class='stream-name'>"+esc(r.label||r.stream||r.post||r.name||"Vacancy Details")+"</td>"+allCats.map(c=>"<td>"+(num((r.categories||{})[c])??"—")+"</td>").join("")+"<td class='total-col'>"+(total(r)||"—")+"</td></tr>").join("");
+  const foot=allCats.map(c=>{let n=0,found=false;rows.forEach(r=>{const x=num((r.categories||{})[c]);if(x!==null){n+=x;found=true}});return "<td>"+(found?n:"—")+"</td>"}).join("");
+  const grand=rows.reduce((a,r)=>a+(total(r)||0),0);
+  return "<div class='vacancy-table-wrap'><table class='vacancy-table'><thead><tr><th>Post / Stream</th>"+allCats.map(c=>"<th>"+esc(c)+"</th>").join("")+"<th>Total</th></tr></thead><tbody>"+body+"</tbody><tfoot><tr class='overall-row'><td>Overall</td>"+foot+"<td>"+(grand||"—")+"</td></tr></tfoot></table>"+(rows.some(r=>r.special)?"<div class='vacancy-summary'><b>Special / Horizontal Reservation</b><span>"+esc(JSON.stringify(rows.find(r=>r.special).special))+"</span></div>":"")+"</div>";
+}
 function vacancy(v){return vacancyTable(v)}
-function card(k,v){let important=["total_vacancies","advertisement_number","application_start","application_end","status"].includes(k);let cls=important?"card highlight":"card";return "<div class='"+cls+"'><div class='card-label'>"+esc(label(k))+"</div><div class='card-value'>"+value(v)+"</div></div>"}
-function requested(data){const p=new URLSearchParams(location.search),q=p.get("job")||p.get("key")||p.get("id");if(q&&data[q])return data[q];const t=p.get("title");if(t){const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase()===t.toLowerCase());if(k)return data[k]}return fallback}
-function render(d){document.getElementById("pageTitle").textContent=d.title||"Job Details";document.getElementById("pageSubtitle").textContent=(d.organization||"Official-source-first")+" — official notification details";let used=new Set(["title","type","state","status","official_notification_url","apply_url"]);let html="";groups.forEach((g,i)=>{let keys=g.keys.filter(k=>d[k]!==undefined);if(!keys.length)return;html+="<section class='section'><h2 class='section-title'><span class='num'>"+String(i+1).padStart(2,"0")+"</span> "+g.title+"</h2>";if(g.keys.includes("vacancy_breakdown")){html+=vacancy(d.vacancy_breakdown)}else{html+="<div class='grid'>"+keys.map(k=>card(k,d[k])).join("")+"</div>"}html+="</section>";keys.forEach(k=>used.add(k))});let a="";if(d.notification_pdf_url)a+='<a class="official" href="'+esc(d.notification_pdf_url)+'" target="_blank" rel="noopener">Official Notification PDF ↗</a>';if(d.official_notification_url)a+='<a class="official portal" href="'+esc(d.official_notification_url)+'" target="_blank" rel="noopener">Official Portal ↗</a>';if(d.apply_url)a+='<a class="apply" href="'+esc(d.apply_url)+'" target="_blank" rel="noopener">Apply / Check Status ↗</a>';html+="<div class='actions'>"+a+"</div>";document.getElementById("details").innerHTML=html;document.getElementById("status").remove()}
-const DATA_URLS=[
+function card(k,v){
+  if(!hasRenderableValue(v)) return "";
+  const important=["total_vacancies","advertisement_number","application_start","application_end","status"].includes(k);
+  const cls=important?"card highlight":"card";
+  return "<div class='"+cls+"'><div class='card-label'>"+esc(label(k))+"</div><div class='card-value'>"+value(v)+"</div></div>";
+}
+
+function requested(data){
+  const p=new URLSearchParams(location.search);
+  const q=p.get("job")||p.get("key")||p.get("id");
+  if(q&&data[q])return data[q];
+  const t=p.get("title");
+  if(t){
+    const k=Object.keys(data).find(k=>String(data[k]?.title||"").toLowerCase()===t.toLowerCase());
+    if(k)return data[k];
+  }
+  return fallback;
+}
+
+function findSheetRow(rows,title){
+  if(!Array.isArray(rows))return {};
+  const t=norm(title);
+  return rows.find(r=>norm(r.title)===t)||{};
+}
+
+function looksLikePdf(url){
+  const clean=String(url||"").split("#")[0].split("?")[0].toLowerCase();
+  return clean.endsWith(".pdf")||clean.includes(".pdf/");
+}
+
+function render(d,sheet){
+  const sheetStatus=String(sheet.status||"").trim();
+  const official=String(sheet.officialLink||"").trim();
+  const apply=String(sheet.applyLink||"").trim();
+
+  d=Object.assign({},d);
+  d.status=sheetStatus; // Sheet is authoritative for Status.
+  d.type=sheet.type||d.type||"";
+  d.state=sheet.state||d.state||"";
+
+  document.getElementById("pageTitle").textContent=d.title||"Job Details";
+  document.getElementById("pageSubtitle").textContent=(hasRenderableValue(d.organization)?d.organization:"Official-source-first")+" — official notification details";
+
+  let html="";
+  groups.forEach((g,i)=>{
+    if(g.keys.includes("vacancy_breakdown")){
+      if(hasRenderableValue(d.vacancy_breakdown)){
+        html+="<section class='section'><h2 class='section-title'><span class='num'>"+String(i+1).padStart(2,"0")+"</span> "+g.title+"</h2>"+vacancy(d.vacancy_breakdown)+"</section>";
+      }
+      return;
+    }
+
+    const keys=g.keys.filter(k=>hasRenderableValue(d[k]));
+    if(!keys.length)return;
+
+    html+="<section class='section'><h2 class='section-title'><span class='num'>"+String(i+1).padStart(2,"0")+"</span> "+g.title+"</h2>";
+    html+="<div class='grid'>"+keys.map(k=>card(k,d[k])).join("")+"</div>";
+    html+="</section>";
+  });
+
+  let actions="";
+  if(d.notification_pdf_url){
+    actions+="<a class='official' href='"+esc(d.notification_pdf_url)+"' target='_blank' rel='noopener'>Official Notification PDF ↗</a>";
+  }else if(looksLikePdf(official)){
+    actions+="<a class='official' href='"+esc(official)+"' target='_blank' rel='noopener'>Official Notification PDF ↗</a>";
+  }
+
+  if(official){
+    actions+="<a class='official portal' href='"+esc(official)+"' target='_blank' rel='noopener'>Official Portal ↗</a>";
+  }
+
+  // Apply button is controlled ONLY by the Sheet Apply Link.
+  if(apply){
+    actions+="<a class='apply' href='"+esc(apply)+"' target='_blank' rel='noopener'>Apply / Check Status ↗</a>";
+  }
+
+  if(actions){
+    html+="<div class='actions'>"+actions+"</div>";
+  }
+
+  document.getElementById("details").innerHTML=html;
+  document.getElementById("status").remove();
+}
+
+const DETAILS_URLS=[
   "./job-details.json?cb="+Date.now(),
   "https://raw.githubusercontent.com/mkmurali08-dotcom/udhyoga-lakshya/main/job-details.json?cb="+Date.now()
 ];
-async function loadDetails(){
+
+const NOTIFICATION_URLS=[
+  "./notifications.json?cb="+Date.now(),
+  "https://raw.githubusercontent.com/mkmurali08-dotcom/udhyoga-lakshya/main/notifications.json?cb="+Date.now()
+];
+
+async function getJson(urls){
   let lastError=null;
-  for(const url of DATA_URLS){
+  for(const url of urls){
     const controller=new AbortController();
     const timer=setTimeout(()=>controller.abort(),10000);
     try{
       const r=await fetch(url,{cache:"no-store",signal:controller.signal});
       clearTimeout(timer);
-      if(!r.ok) throw Error("HTTP "+r.status);
+      if(!r.ok)throw Error("HTTP "+r.status);
       const text=await r.text();
       const data=JSON.parse(text);
-      if(!data || typeof data!=="object") throw Error("Invalid JSON");
-      render(requested(data));
-      return;
+      return data;
     }catch(err){
       clearTimeout(timer);
       lastError=err;
-      console.warn("Could not load job details from",url,err);
+      console.warn("Could not load data from",url,err);
     }
   }
-  document.getElementById("status").outerHTML='<div class="error"><strong>Notification details could not be loaded.</strong><br>The job details data source is temporarily unavailable. Please refresh once.</div>';
-  console.error(lastError);
+  throw lastError||Error("Data source unavailable");
 }
+
+async function loadDetails(){
+  try{
+    const [details,notifications]=await Promise.all([
+      getJson(DETAILS_URLS),
+      getJson(NOTIFICATION_URLS)
+    ]);
+
+    const d=requested(details&&typeof details==="object"?details:{});
+    const sheet=findSheetRow(notifications,d.title||"");
+
+    render(d,sheet);
+  }catch(err){
+    document.getElementById("status").outerHTML='<div class="error"><strong>Notification details could not be loaded.</strong><br>The notification data source is temporarily unavailable. Please refresh once.</div>';
+    console.error(err);
+  }
+}
+
 loadDetails();
 </script>
 </body>
