@@ -537,7 +537,7 @@
     "applyLink": "https://www.upsc.gov.in/",
     "status": "Open",
     "firstSeen": "2026-09-13",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -617,7 +617,7 @@
     "applyLink": "",
     "status": "Admit Card",
     "firstSeen": "2026-09-13",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
