@@ -1118,5 +1118,25 @@
     "status": "Answer key",
     "firstSeen": "2026-09-19",
     "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_09_17T19_23_50.pdf"
+    ],
+    "type": "Results",
+    "state": "Telangana",
+    "category": "Results",
+    "title": "TELANGANA HIGH COURT — CIVIL JUDGE Written examination results published",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "",
+    "officialLink": "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_09_17T19_23_50.pdf",
+    "applyLink": "",
+    "status": "Declared",
+    "firstSeen": "2026-09-20",
+    "isNew": true
   }
 ]
