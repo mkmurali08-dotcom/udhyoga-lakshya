@@ -9,43 +9,6 @@
   const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
   const norm=v=>String(v??"").trim().toLowerCase().replace(/&/g,"and").replace(/\s+/g," ");
 
-  function addUpcomingRowStyles(){
-    if(document.getElementById("udhyoga-upcoming-row-fix"))return;
-    const style=document.createElement("style");
-    style.id="udhyoga-upcoming-row-fix";
-    style.textContent=`
-      .cards > .card:nth-child(2) .upcoming-sheet-row{
-        display:flex !important;
-        flex-direction:column !important;
-        align-items:stretch !important;
-        gap:6px !important;
-        min-width:0 !important;
-      }
-      .cards > .card:nth-child(2) .upcoming-sheet-row .row-title{
-        display:block !important;
-        width:100% !important;
-        min-width:0 !important;
-        white-space:normal !important;
-        overflow-wrap:anywhere !important;
-      }
-      .cards > .card:nth-child(2) .upcoming-sheet-row .yellow-tag{
-        position:static !important;
-        float:none !important;
-        right:auto !important;
-        left:auto !important;
-        align-self:flex-end !important;
-        display:block !important;
-        width:max-content !important;
-        max-width:100% !important;
-        box-sizing:border-box !important;
-        white-space:normal !important;
-        overflow-wrap:anywhere !important;
-        text-align:center !important;
-      }
-    `;
-    document.head.appendChild(style);
-  }
-
   function parseDate(value){
     const raw=String(value??"").trim(); if(!raw)return null;
     let m=raw.match(/^(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})$/);
@@ -169,15 +132,14 @@
   }
 
   function row(r,mode){
-    const el=document.createElement("div");
-    el.className=mode==="upcoming"?"row upcoming-sheet-row":"row";
+    const el=document.createElement("div"); el.className="row";
     const href=link(r), t=esc(r.title||"Notification"), d=esc(displayDate(r)); let right="";
 
     if(mode==="latest"){
       right='<span class="row-date">'+(d?'<span class="latest-notification-date-yellow">'+d+'</span>':'')+(isNew(r)?'<span class="new">NEW</span>':'')+'</span>';
     }
     else if(mode==="upcoming"){
-      right='<span class="yellow-tag">'+(d||"Upcoming")+'</span>';
+      right='<span class="row-date"><span class="yellow-tag">'+(d||"Upcoming")+'</span>'+(isNew(r)?'<span class="new">NEW</span>':'')+'</span>';
     }
     else{
       const m=resultBlob(r);
@@ -188,19 +150,37 @@
           : /selection|allocation/.test(m)
             ? "Selection Update"
             : "Result";
-      right='<span class="red-tag">'+label+'</span>';
+      right='<span class="row-date"><span class="red-tag">'+label+'</span>'+(isNew(r)?'<span class="new">NEW</span>':'')+'</span>';
     }
 
     el.innerHTML='<a class="row-title" href="'+esc(href)+'">'+t+'</a>'+right;
     return el;
   }
 
+  function firstSeenTime(r){
+    const raw=String(r.firstSeen||"").trim();
+    if(!raw)return 0;
+    const d=new Date(raw);
+    return Number.isNaN(d.getTime())?0:d.getTime();
+  }
+
+  // Newest Sheet additions first. Existing items keep their preserved firstSeen.
+  function sortNewestFirst(rows){
+    return rows.sort((a,b)=>{
+      const af=firstSeenTime(a), bf=firstSeenTime(b);
+      if(bf!==af)return bf-af;
+
+      const ad=endDate(a)?.getTime()||0;
+      const bd=endDate(b)?.getTime()||0;
+      return bd-ad;
+    });
+  }
+
   function fill(card,rows,mode){
     if(!card)return;
     card.querySelectorAll(".row,.sheet-home-loading").forEach(e=>e.remove());
     const f=document.createDocumentFragment();
-    rows
-      .sort((a,b)=>(endDate(b)?.getTime()||0)-(endDate(a)?.getTime()||0))
+    sortNewestFirst(rows)
       .slice(0,6)
       .forEach(r=>f.appendChild(row(r,mode)));
     const footer=card.querySelector(".card-footer");
@@ -208,7 +188,6 @@
   }
 
   function renderHome(rows){
-    addUpcomingRowStyles();
     const cards=document.querySelectorAll(".cards > .card");
     if(cards.length<3)return;
 
