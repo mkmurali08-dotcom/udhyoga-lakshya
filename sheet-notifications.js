@@ -6,6 +6,87 @@
   const DATA_URL="notifications.json";
   const DETAILS_URL="job-details.json";
 
+  // Keep notification rows clean: title on its own line, metadata/date below.
+  // Scoped to the three homepage cards only; no other page layout is changed.
+  if(!document.getElementById("udhyoga-home-notification-layout")) {
+    const style=document.createElement("style");
+    style.id="udhyoga-home-notification-layout";
+    style.textContent=`
+      .cards > .card .sheet-home-notification-row{
+        display:flex !important;
+        flex-direction:column !important;
+        align-items:stretch !important;
+        justify-content:flex-start !important;
+        gap:8px !important;
+        width:100% !important;
+        height:auto !important;
+        min-height:0 !important;
+        padding:12px 15px !important;
+        overflow:visible !important;
+      }
+
+      .cards > .card .sheet-home-notification-row .row-title{
+        display:block !important;
+        width:100% !important;
+        max-width:100% !important;
+        margin:0 !important;
+        padding:0 !important;
+        white-space:normal !important;
+        overflow:visible !important;
+        text-overflow:clip !important;
+        word-break:normal !important;
+        overflow-wrap:anywhere !important;
+        line-height:1.28 !important;
+      }
+
+      .cards > .card .sheet-home-notification-row .row-date{
+        display:flex !important;
+        width:100% !important;
+        flex-wrap:wrap !important;
+        justify-content:flex-end !important;
+        align-items:center !important;
+        gap:6px !important;
+        margin:0 !important;
+        min-height:0 !important;
+      }
+
+      .cards > .card .sheet-home-notification-row .latest-notification-date-yellow,
+      .cards > .card .sheet-home-notification-row .yellow-tag,
+      .cards > .card .sheet-home-notification-row .red-tag{
+        display:inline-flex !important;
+        align-items:center !important;
+        justify-content:center !important;
+        flex:0 1 auto !important;
+        max-width:100% !important;
+        min-width:0 !important;
+        height:auto !important;
+        white-space:normal !important;
+        overflow-wrap:anywhere !important;
+        word-break:normal !important;
+        line-height:1.18 !important;
+        text-align:center !important;
+      }
+
+      .cards > .card .sheet-home-notification-row .new{
+        flex:0 0 auto !important;
+        white-space:nowrap !important;
+        margin-left:0 !important;
+      }
+
+      @media(max-width:700px){
+        .cards > .card .sheet-home-notification-row{
+          padding:11px 12px !important;
+          gap:7px !important;
+        }
+
+        .cards > .card .sheet-home-notification-row .row-date{
+          justify-content:flex-start !important;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
   const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
   const norm=v=>String(v??"").trim().toLowerCase().replace(/&/g,"and").replace(/\s+/g," ");
 
@@ -132,7 +213,7 @@
   }
 
   function row(r,mode){
-    const el=document.createElement("div"); el.className="row";
+    const el=document.createElement("div"); el.className="row sheet-home-notification-row";
     const href=link(r), t=esc(r.title||"Notification"), d=esc(displayDate(r)); let right="";
 
     if(mode==="latest"){
