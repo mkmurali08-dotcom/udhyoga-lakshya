@@ -140,7 +140,7 @@ jobs:
                   first=(
                       str(prev.get("firstSeen"))
                       if prev and prev.get("firstSeen")
-                      else now.isoformat(timespec="seconds")
+                      else now.strftime("%Y-%m-%d")
                   )
 
                   try:
@@ -209,6 +209,210 @@ jobs:
           )
 
           print(f"Wrote {len(output)} notifications to notifications.json")
+          PY
+
+
+      - name: Pre-render notification pages for crawlers
+        shell: bash
+        run: |
+          python - <<'PY'
+          import html
+          import json
+          import re
+          from pathlib import Path
+          from datetime import datetime
+          from urllib.parse import quote
+
+          DATA = json.loads(Path("notifications.json").read_text(encoding="utf-8"))
+          if not isinstance(DATA, list):
+              raise SystemExit("notifications.json is not a list.")
+
+          def norm(v):
+              return re.sub(r"\s+", " ", str(v or "").strip()).lower()
+
+          def first_seen_time(row):
+              raw = str(row.get("firstSeen") or "").strip()
+              if not raw:
+                  return 0.0
+              try:
+                  return datetime.fromisoformat(raw.replace("Z", "+00:00")).timestamp()
+              except Exception:
+                  try:
+                      return datetime.strptime(raw[:10], "%Y-%m-%d").timestamp()
+                  except Exception:
+                      return 0.0
+
+          def parse_date(v):
+              s = str(v or "").strip()
+              if not s:
+                  return 0.0
+              for fmt in ("%d/%m/%Y", "%d-%m-%Y", "%Y-%m-%d"):
+                  try:
+                      return datetime.strptime(s, fmt).timestamp()
+                  except Exception:
+                      pass
+              return 0.0
+
+          def blob(r):
+              return " ".join([
+                  norm(r.get("type")),
+                  norm(r.get("category")),
+                  norm(r.get("title")),
+                  norm(r.get("status"))
+              ])
+
+          def is_result(r):
+              return bool(re.search(
+                  r"result|admit\s*card|answer\s*key|selection|allocation|call\s*letter|"
+                  r"hall\s*ticket|e-admit|ecall|ranked\s*list",
+                  blob(r), re.I
+              ))
+
+          def is_live_or_open(r):
+              return bool(re.search(
+                  r"\b(open|live|active|apply|applications?\s+open|accepting\s+applications?)\b",
+                  norm(r.get("status")), re.I
+              ))
+
+          def is_upcoming_status(r):
+              return bool(re.search(
+                  r"\b(upcoming|scheduled|tentative|calendar|to\s*be\s*held|forthcoming)\b",
+                  norm(r.get("status")), re.I
+              ))
+
+          def is_special_latest(r):
+              return bool(re.search(
+                  r"\b(extended|closing\s*soon)\b",
+                  norm(r.get("status")), re.I
+              ))
+
+          def category(r):
+              if is_special_latest(r):
+                  return "latest-notifications"
+              if is_result(r):
+                  return "results-admit-cards"
+              if is_live_or_open(r):
+                  return "latest-notifications"
+              if is_upcoming_status(r):
+                  return "upcoming-exams"
+              pc = norm(r.get("portal_category"))
+              if pc in {"latest-notifications", "upcoming-exams", "results-admit-cards"}:
+                  return pc
+              t = norm(r.get("type"))
+              b = blob(r)
+              if t == "exam" or re.search(r"upcoming exam|exam calendar|scheduled exam", b, re.I):
+                  return "upcoming-exams"
+              if t == "job" or re.search(r"job|recruitment|vacanc|application|engagement|hiring|notification", b, re.I):
+                  return "latest-notifications"
+              return "latest-notifications"
+
+          def display_date(r):
+              s = str(r.get("applicationStart") or r.get("start") or "").strip()
+              e = str(r.get("applicationEnd") or r.get("end") or "").strip()
+              ex = str(r.get("examDate") or "").strip()
+              ec = str(r.get("editCorrection") or "").strip()
+              if s and e and s != e:
+                  return f"{s} – {e}"
+              if e or s:
+                  return e or s
+              if ex:
+                  return f"Exam Date: {ex}"
+              if ec:
+                  return f"Edit / Correction: {ec}"
+              return str(r.get("date") or "").strip()
+
+          def status_label(r):
+              b = blob(r)
+              s = norm(r.get("status"))
+              if is_result(r):
+                  if re.search(r"admit\s*card|call\s*letter|hall\s*ticket|e-admit|ecall", b, re.I):
+                      return "Admit Card", "status-admit"
+                  if re.search(r"answer\s*key", b, re.I):
+                      return "Answer Key", "status-result"
+                  if re.search(r"selection|allocation", b, re.I):
+                      return "Selection Update", "status-result"
+                  return "Result", "status-result"
+              if re.search(r"live|active", s, re.I):
+                  return "Live", "status-live"
+              if re.search(r"open|apply", s, re.I):
+                  return "Open", "status-open"
+              if is_upcoming_status(r):
+                  return "Upcoming", "status-upcoming"
+              if re.search(r"closed|expired|over", s, re.I):
+                  return "Closed", "status-closed"
+              return (str(r.get("status") or "Open"), "status-open")
+
+          def row_html(r):
+              title = html.escape(str(r.get("title") or "Notification"))
+              state = html.escape(str(r.get("state") or ""))
+              typ = html.escape(str(r.get("type") or "Notification"))
+              cat = html.escape(str(r.get("category") or ""))
+              date = html.escape(display_date(r))
+              detail = "job-detail.html?title=" + quote(
+                  str(r.get("title") or ""), safe=""
+              )
+              label, cls = status_label(r)
+
+              meta = [
+                  f'<span>{typ}</span>',
+                  f'<span>{state}</span>',
+              ]
+              if cat:
+                  meta.append(f'<span>{cat}</span>')
+              if date:
+                  meta.append(f'<span>{date}</span>')
+              meta.append(f'<span class="{cls}">{html.escape(label)}</span>')
+              if bool(r.get("isNew")):
+                  meta.append('<span class="status-live">NEW</span>')
+
+              return (
+                  '<article class="notice-item">'
+                  '<div class="notice-main">'
+                  f'<h2><a href="{html.escape(detail)}">{title}</a></h2>'
+                  f'<div class="meta">{"".join(meta)}</div>'
+                  '</div>'
+                  f'<a class="details" href="{html.escape(detail)}">View Details →</a>'
+                  '</article>'
+              )
+
+          def render_page(filename, page_key):
+              rows = [r for r in DATA if category(r) == page_key]
+              rows.sort(key=lambda r: (first_seen_time(r), parse_date(r.get("date"))), reverse=True)
+
+              path = Path(filename)
+              source = path.read_text(encoding="utf-8")
+
+              count_text = f"{len(rows)} notifications"
+              list_html = "".join(row_html(r) for r in rows)
+              if not list_html:
+                  list_html = '<div class="empty">No notifications available in this category.</div>'
+
+              source, n1 = re.subn(
+                  r'(<span id="count">).*?(</span>)',
+                  lambda m: m.group(1) + count_text + m.group(2),
+                  source,
+                  count=1,
+                  flags=re.S
+              )
+              if n1 != 1:
+                  raise SystemExit(f"{filename}: count placeholder not found.")
+
+              source, n2 = re.subn(
+                  r'(<section id="list">).*?(</section>)',
+                  lambda m: m.group(1) + list_html + m.group(2),
+                  source,
+                  count=1,
+                  flags=re.S
+              )
+              if n2 != 1:
+                  raise SystemExit(f"{filename}: list placeholder not found.")
+
+              path.write_text(source, encoding="utf-8")
+              print(f"Pre-rendered {filename}: {len(rows)} notifications")
+
+          render_page("latest-notifications.html", "latest-notifications")
+          render_page("upcoming-exams.html", "upcoming-exams")
+          render_page("results-admit-cards.html", "results-admit-cards")
           PY
 
       - name: Commit and push changes
