@@ -882,22 +882,22 @@
   {
     "_identity": [
       "link",
-      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+      "https://www.ibps.in/"
     ],
     "type": "Exam",
     "state": "Central Goverment",
     "category": "Exam",
-    "title": "IBPS RRB Officer Scale II & III — Single Examination",
+    "title": "IBPS RRB XV-Officer Scale I/II/III and Office Assistant recruitment",
     "applicationStart": "",
     "applicationEnd": "",
     "examDate": "",
     "editCorrection": "",
     "date": "",
-    "officialLink": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "officialLink": "https://www.ibps.in/",
     "applyLink": "",
-    "status": "Upcoming",
-    "firstSeen": "2026-09-11",
-    "isNew": false
+    "status": "Extended",
+    "firstSeen": "2026-09-22",
+    "isNew": true
   },
   {
     "_identity": [
@@ -1037,7 +1037,7 @@
     "applyLink": "https://www.rrbapply.gov.in/#/auth/home",
     "status": "Open",
     "firstSeen": "2026-09-15",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
