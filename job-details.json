@@ -4893,5 +4893,66 @@
     "source_url": "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_09_17T19_23_50.pdf",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "5eb685dab9708bbe27d9aadbe2c29d853a218acf76a8d72128906aa7191ad0b9"
+  },
+  "ssc-cgl-city-intimation-slip": {
+    "organization": "Staff Selection Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Not mentioned in the official notification"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": [
+      "Not mentioned in the official notification"
+    ],
+    "exam_pattern": [
+      "Not mentioned in the official notification"
+    ],
+    "syllabus": [
+      "Not mentioned in the official notification"
+    ],
+    "documents_required": [
+      "Not mentioned in the official notification"
+    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Not mentioned in the official notification"
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": [
+      "Not mentioned in the official notification"
+    ],
+    "medical_standards": [
+      "Not mentioned in the official notification"
+    ],
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Not mentioned in the official notification"
+    ],
+    "official_notification_url": "https://ssc.gov.in/",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 40,
+    "priority_reason": "The source content references the SSC CGL City Intimation Slip / admit card portal, which falls under results-admit-cards.",
+    "title": "SSC CGL City Intimation Slip",
+    "type": "Exam",
+    "state": "Central Goverment",
+    "status": "Open",
+    "category": "Exam",
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "3e8e6ccc98b95b232cc6b8c1335808c6b84d750c70ac07fb6c37e60e2206bc06"
   }
 }
