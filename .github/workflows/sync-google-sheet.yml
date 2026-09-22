@@ -415,7 +415,7 @@ jobs:
           render_page("results-admit-cards.html", "results-admit-cards")
           PY
 
-      - name: Commit and push changes
+            - name: Commit and push changes
         shell: bash
         run: |
           set -e
@@ -423,7 +423,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add notifications.json
+          # Commit BOTH the synced data and the crawler pre-rendered pages.
+          git add \
+            notifications.json \
+            latest-notifications.html \
+            upcoming-exams.html \
+            results-admit-cards.html
 
           if git diff --cached --quiet; then
             echo "No notification changes."
@@ -432,16 +437,14 @@ jobs:
 
           git commit -m "Sync Google Sheet notifications"
 
-          # The AI workflow can update the same main branch while this job is running.
-          # Rebase our new notification commit on top of the latest remote main instead
-          # of failing with "fetch first".
+          # AI workflow may update main while this workflow is running.
           for attempt in 1 2 3 4 5; do
             echo "Push attempt $attempt/5"
 
             git fetch origin main
 
             if ! git rebase -X theirs origin/main; then
-              echo "ERROR: Rebase conflict detected. No force push will be attempted."
+              echo "ERROR: Rebase conflict detected."
               git rebase --abort || true
               exit 1
             fi
@@ -455,5 +458,5 @@ jobs:
             sleep 3
           done
 
-          echo "ERROR: Could not push notifications.json after 5 attempts."
+          echo "ERROR: Could not push notifications after 5 attempts."
           exit 1
