@@ -67,12 +67,12 @@ jobs:
       - name: Build notifications.json
         run: |
           python - <<'PY'
-          import csv,json
-          from datetime import datetime,timedelta
+          import csv,json,re
+          from datetime import datetime,timedelta,timezone
           from pathlib import Path
 
           out=Path("notifications.json")
-          now=datetime.now()
+          now=datetime.now(timezone.utc)
           old=[]
 
           if out.exists():
@@ -82,23 +82,45 @@ jobs:
               except Exception:
                   old=[]
 
-          by={}
+          def clean(v):
+              return re.sub(r"\s+", " ", str(v or "").strip()).lower()
 
+          def detail_key(x):
+              return (
+                  clean(x.get("type")),
+                  clean(x.get("state")),
+                  clean(x.get("title")),
+                  clean(x.get("officialLink")),
+              )
+
+          def identity(type_value,state,title,official):
+              return (
+                  "row",
+                  clean(type_value),
+                  clean(state),
+                  clean(title),
+                  clean(official),
+              ) if official else (
+                  "text",
+                  clean(type_value),
+                  clean(state),
+                  clean(title),
+              )
+
+          # Keep existing firstSeen values during migration, but stop using
+          # Official Link alone as the identity. That was causing unrelated
+          # notifications on the same portal to share one firstSeen date.
+          by_identity={}
+          legacy_by_detail={}
           for x in old:
               if not isinstance(x,dict):
                   continue
               k=x.get("_identity")
               if isinstance(k,list):
                   k=tuple(k)
-              if not k:
-                  link=str(x.get("officialLink","")).strip()
-                  k=("link",link) if link else (
-                      "text",
-                      str(x.get("type","")).strip().lower(),
-                      str(x.get("state","")).strip().lower(),
-                      str(x.get("title","")).strip().lower()
-                  )
-              by[k]=x
+              if k:
+                  by_identity[k]=x
+              legacy_by_detail[detail_key(x)]=x
 
           def val(r,*names):
               for n in names:
@@ -106,6 +128,21 @@ jobs:
                   if v:
                       return v
               return ""
+
+          def parse_first_seen(raw):
+              s=str(raw or "").strip()
+              if not s:
+                  return None
+              try:
+                  d=datetime.fromisoformat(s.replace("Z","+00:00"))
+                  if d.tzinfo is None:
+                      d=d.replace(tzinfo=timezone.utc)
+                  return d
+              except Exception:
+                  try:
+                      return datetime.strptime(s[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                  except Exception:
+                      return None
 
           output=[]
 
@@ -119,34 +156,53 @@ jobs:
 
                   title=r.get("Title","")
                   state=r.get("State","")
+                  type_value=r.get("Type","")
 
                   if not title or not state:
                       continue
 
                   official=r.get("Official Link","")
+                  ident=identity(type_value,state,title,official)
 
-                  ident=(
-                      "link",
-                      official
-                  ) if official else (
-                      "text",
-                      r.get("Type","").lower(),
-                      state.lower(),
-                      title.lower()
+                  prev=by_identity.get(ident)
+                  if prev is None:
+                      probe={
+                          "type":type_value,
+                          "state":state,
+                          "title":title,
+                          "officialLink":official,
+                      }
+                      prev=legacy_by_detail.get(detail_key(probe))
+
+                  # One-time correction for the SSC CGL row that previously
+                  # inherited the SSC portal's old shared-link firstSeen.
+                  old_identity = prev.get("_identity") if isinstance(prev,dict) else None
+                  if isinstance(old_identity,list):
+                      old_identity=tuple(old_identity)
+                  cgl_migration = (
+                      isinstance(prev,dict)
+                      and clean(title) == clean("SSC CGL City Intimation Slip")
+                      and isinstance(old_identity,tuple)
+                      and len(old_identity) >= 2
+                      and old_identity[0] == "link"
+                      and clean(prev.get("firstSeen")) == "2026-09-11"
                   )
 
-                  prev=by.get(ident)
+                  if cgl_migration:
+                      first=now.isoformat(timespec="seconds").replace("+00:00","Z")
+                  else:
+                      first=(
+                          str(prev.get("firstSeen"))
+                          if isinstance(prev,dict) and prev.get("firstSeen")
+                          else now.isoformat(timespec="seconds").replace("+00:00","Z")
+                      )
 
-                  first=(
-                      str(prev.get("firstSeen"))
-                      if prev and prev.get("firstSeen")
-                      else now.strftime("%Y-%m-%d")
+                  first_dt=parse_first_seen(first)
+                  is_new=(
+                      True
+                      if first_dt is None
+                      else (now-first_dt)<=timedelta(days=7)
                   )
-
-                  try:
-                      is_new=(now-datetime.fromisoformat(first[:10]))<=timedelta(days=7)
-                  except Exception:
-                      is_new=True
 
                   start=val(
                       r,
@@ -183,13 +239,13 @@ jobs:
                       r,
                       "Date",
                       "date"
-                  ) or end or start
+                  ) or end or start or exam_date or edit_correction
 
                   output.append({
                       "_identity":ident,
-                      "type":r.get("Type",""),
+                      "type":type_value,
                       "state":state,
-                      "category":r.get("Category","") or r.get("Type",""),
+                      "category":r.get("Category","") or type_value,
                       "title":title,
                       "applicationStart":start,
                       "applicationEnd":end,
@@ -210,7 +266,6 @@ jobs:
 
           print(f"Wrote {len(output)} notifications to notifications.json")
           PY
-
 
       - name: Pre-render notification pages for crawlers
         shell: bash
