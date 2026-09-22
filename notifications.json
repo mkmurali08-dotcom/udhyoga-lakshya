@@ -1138,5 +1138,25 @@
     "status": "Declared",
     "firstSeen": "2026-09-20",
     "isNew": true
+  },
+  {
+    "_identity": [
+      "link",
+      "https://ssc.gov.in/"
+    ],
+    "type": "Exam",
+    "state": "Central Goverment",
+    "category": "Exam",
+    "title": "SSC CGL City Intimation Slip",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "examDate": "Exam Dates: September 30 to October 30, 2026",
+    "editCorrection": "",
+    "date": "",
+    "officialLink": "https://ssc.gov.in/",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-09-11",
+    "isNew": false
   }
 ]
