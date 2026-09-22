@@ -4954,5 +4954,156 @@
     "source_url": "https://ssc.gov.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "3e8e6ccc98b95b232cc6b8c1335808c6b84d750c70ac07fb6c37e60e2206bc06"
+  },
+  "telangana-state-level-police-recruitment-board-exam-dates-for-the-2026-preliminary-written-tests": {
+    "organization": "TELANGANA STATE LEVEL POLICE RECRUITMENT BOARD (TSLPRB), HYDERABAD",
+    "advertisement_number": "Rc Nos. 189, 225, 234 & 279 / Rect. / Rect.1, 2 & 3 / 2026",
+    "post_names": [
+      "SI / ASI level Posts (including SCT SI Civil and / or equivalent, SCT ASI FPB)",
+      "PC level Posts (including SCTPC Civil and / or equivalent, SCT PC Driver, SCT PC Mechanic)"
+    ],
+    "total_vacancies": "7437",
+    "vacancy_breakdown": [
+      {
+        "Department": "Police",
+        "SI / ASI level": "200",
+        "PC Level": "4800",
+        "Total": "5000"
+      },
+      {
+        "Department": "Special Protection Force",
+        "SI / ASI level": "44",
+        "PC Level": "1380",
+        "Total": "1424"
+      },
+      {
+        "Department": "Fire, Disaster Response, Emergency & Civil Defence",
+        "SI / ASI level": "39",
+        "PC Level": "751",
+        "Total": "790"
+      },
+      {
+        "Department": "Prisons & Correctional Services",
+        "SI / ASI level": "15",
+        "PC Level": "208",
+        "Total": "223"
+      },
+      {
+        "Department": "Total",
+        "SI / ASI level": "298",
+        "PC Level": "7139",
+        "Total": "7437"
+      }
+    ],
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": [
+      "7 (5 + 2) years for SI / ASI level and SCT PC (Driver) Posts over and above the maximum age limit prescribed in the Recruitment Rules",
+      "10 (5 + 2 + 3) years for PC level Posts (except PC Driver) over and above the maximum age limit prescribed in the Recruitment Rules"
+    ],
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "19th August 2026",
+    "application_end": "16th September 2026",
+    "exam_date": "SI PWT: 29th November 2026 (Sunday) Forenoon; PC PWT: 20th December 2026 (Sunday) Forenoon",
+    "selection_process": [
+      "SCT SI Civil and / or equivalent testing streams: 3-Tier Filtration Process starting with Preliminary Written Test (PWT)",
+      "SCTPC Civil and / or equivalent level testing streams: 3-Tier Filtration Process starting with Preliminary Written Test (PWT)",
+      "SCT ASI FPB, SCT PC Driver, and SCT PC Mechanic technical testing streams: 2-Tier Filtration Process starting with Physical Measurement / Physical Efficiency Test (PMT / PET)"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": [
+      "pdf Application Form/s"
+    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Candidates who could not complete Aadhaar Face Authentication have to complete the process in their login area which will be made available till 30th September 2026 (Wednesday).",
+      "After completion of Aadhaar Face Authentication, candidates can download their pdf Application Form/s."
+    ],
+    "how_to_apply": "Applications through Online mode in the prescribed proforma were made available on Website (www.tgprb.in) from 19th August 2026 till 16th September 2026.",
+    "reservation_policy": [
+      "SC / ST Candidates availed of 50% fee concession.",
+      "Community-wise distribution of applications includes OC, BC-A, BC-B, BC-C, BC-D, BC-E, SC-GR-I, SC-GR-II, SC-GR-III, and ST."
+    ],
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": [
+      "Erstwhile 10 District Headquarters of Telangana for SCT SI Civil and / or equivalent Posts",
+      "15-18 Locations including the erstwhile 10 District Headquarters of Telangana for SCT PC Civil and / or equivalent Posts"
+    ],
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "4 Notifications were issued on 29th July 2026 for direct recruitment in Police, Special Protection Force, Fire, Disaster Response, Emergency & Civil Defence, and Prisons & Correctional Services departments.",
+      "5,77,064 Applications filed by 4,29,000 Candidates at the conclusion of the process (average 1.34 applications per candidate).",
+      "1,35,359 Candidates who applied for more than 1 Post were given a rebate on account of savings obtained from a common Physical Measurement Test / Physical Efficiency Test.",
+      "Aadhaar Face Authentication was implemented for the first time; 97.4% completed successfully during Part I application and 2.6% pending completion by 30th September 2026.",
+      "Nearly 56.84% of applicants opted for Telugu, more than 43.02% opted for English, and 0.12% opted for Urdu as the Medium of Examination for the Aptitude Test."
+    ],
+    "official_notification_url": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
+    "apply_url": "www.tgprb.in",
+    "portal_category": "latest-notifications",
+    "priority_score": 95,
+    "priority_reason": "The official notification announces exact examination dates for 2026 preliminary written tests for major state police recruitment across 7,437 vacancies, requiring immediate candidate action regarding Aadhaar face authentication by 30th September 2026.",
+    "title": "Telangana State Level Police Recruitment Board Exam dates for the 2026 Preliminary Written Tests.",
+    "type": "Job",
+    "state": "Telangana",
+    "status": "Notification Published",
+    "category": "Job",
+    "source_url": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "2be3211de614b365a5ce9347b8216b8a5a30238a4ca36fead7aea1a91d21df47"
+  },
+  "upsc-civil-services-exam-2027": {
+    "organization": "Union Public Service Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Civil Services"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "All India",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "All candidates appearing in the UPSC Examination will undergo Face Authentication at the venue."
+    ],
+    "how_to_apply": "To apply for examinations visit new Application Portal - https://upsconline.nic.in",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Helpline - SC/ST/OBC/EWS/PwBD (1800-118-711)",
+      "HELPDESK : 011-24041001 / 011-40303444"
+    ],
+    "official_notification_url": "https://www.upsc.gov.in/",
+    "apply_url": "https://upsconline.nic.in",
+    "portal_category": "latest-notifications",
+    "priority_score": 85,
+    "priority_reason": "The source document is the official Union Public Service Commission portal displaying active civil services and examination updates, which is critical for government job aspirants.",
+    "title": "UPSC Civil Services Exam 2027",
+    "type": "Up Coming",
+    "state": "Central Goverment",
+    "status": "Upcoming",
+    "category": "Up Coming",
+    "source_url": "https://www.upsc.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "1d14835827ee03d5af655095ca27661ff5ef97a9d9ba393ae9b95b026ea40a75"
   }
 }
