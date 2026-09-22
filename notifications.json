@@ -1,7 +1,10 @@
 [
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "central goverment",
+      "india post gds online engagement — schedule-ii, july 2026",
       "https://www.indiapost.gov.in/gdsonlineengagement"
     ],
     "type": "Job",
@@ -21,7 +24,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "central goverment",
+      "pfrda officer grade a (assistant manager) recruitment 2026",
       "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026"
     ],
     "type": "Job",
@@ -41,8 +47,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://apssb.nic.in/Index/admit_card/ins/RECINS001"
+      "row",
+      "admit card",
+      "arunachal pradesh",
+      "combined higher secondary level examination 2026 — admit card",
+      "https://apssb.nic.in/index/admit_card/ins/recins001"
     ],
     "type": "Admit Card",
     "state": "Arunachal Pradesh",
@@ -61,7 +70,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "assam",
+      "fln mission — data analyst skill test / interview — admit card",
       "https://ssa.assam.gov.in/latest/public-notice-fln-skill-testinterview"
     ],
     "type": "Admit Card",
@@ -81,7 +93,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "assam",
+      "pm poshan — skill test / interview — admit card",
       "https://ssa.assam.gov.in/latest/public-notice-skill-test-pm-poshan"
     ],
     "type": "Admit Card",
@@ -101,7 +116,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "chandigarh",
+      "recruitment of clerk & steno — department of personnel",
       "https://chandigarh.gov.in/public-notices/vacancies"
     ],
     "type": "Job",
@@ -121,7 +139,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "goa",
+      "goa recruitment examination results — 04/09/2026",
       "https://www.goa.gov.in/citizen/recruitment-results/"
     ],
     "type": "Result",
@@ -141,7 +162,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "kerala",
+      "kerala psc latest results / ranked lists — 03/09/2026",
       "https://www.keralapsc.gov.in/rankedlist"
     ],
     "type": "Result",
@@ -161,7 +185,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "kerala",
+      "l d clerk (by transfer) — admission ticket",
       "https://www.keralapsc.gov.in/result-notifications"
     ],
     "type": "Admit Card",
@@ -181,7 +208,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "kerala",
+      "extra ordinary gazette — cat. 130/2026 to 150/2026",
       "https://www.keralapsc.gov.in/notifications"
     ],
     "type": "Job",
@@ -201,7 +231,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "uttar pradesh",
+      "research assistant (engineering) examination-2025 — admit card",
       "https://uppsc.up.nic.in/"
     ],
     "type": "Admit Card",
@@ -221,7 +254,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "uttar pradesh",
+      "lecturer u.p. technical education service examination-2025 — admit card",
       "https://uppsc.up.nic.in/"
     ],
     "type": "Admit Card",
@@ -241,7 +277,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "odisha",
+      "radiographer-2026 — online recruitment application",
       "https://www.osssc.gov.in/"
     ],
     "type": "Job",
@@ -261,7 +300,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "odisha",
+      "ri, icds supervisor, ari, amin & sfs — counselling update — 01/09/2026",
       "https://www.osssc.gov.in/"
     ],
     "type": "Result",
@@ -281,7 +323,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "odisha",
+      "sevak/sevika and tribal language teacher — provisional results — 21/08/2026",
       "https://www.osssc.gov.in/"
     ],
     "type": "Result",
@@ -301,7 +346,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "rajasthan",
+      "assistant professor (medical education) 2024 — interview letter — 03/09/2026",
       "https://rpsc.rajasthan.gov.in/examlinks"
     ],
     "type": "Admit Card",
@@ -321,8 +369,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx"
+      "row",
+      "admit card",
+      "tamil nadu",
+      "tnpsc combined technical services — hall ticket",
+      "https://www.tnpsc.gov.in/english/department_hallticket.aspx"
     ],
     "type": "Admit Card",
     "state": "Tamil Nadu",
@@ -341,8 +392,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.upsc.gov.in/examinations/Civil%20Services%20(Main)%20Examination%2C%202026"
+      "row",
+      "admit card",
+      "central goverment",
+      "upsc civil services examination 2026 — main examination e-admit card",
+      "https://www.upsc.gov.in/examinations/civil%20services%20(main)%20examination%2c%202026"
     ],
     "type": "Admit Card",
     "state": "Central Goverment",
@@ -361,7 +415,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "upsc combined medical services examination 2026 — written result — 01/09/2026",
       "https://www.upsc.gov.in/exams-related-info/exam-notification/archives"
     ],
     "type": "Result",
@@ -381,7 +438,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "central goverment",
+      "upsc cds (ii) 2026 — admit cards",
       "https://www.upsc.gov.in/"
     ],
     "type": "Admit Card",
@@ -401,7 +461,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "central goverment",
+      "rrb cen 04/2026 — junior engineer & dms",
       "https://rrbsecunderabad.gov.in/"
     ],
     "type": "Job",
@@ -421,7 +484,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "andhra pradesh",
+      "ap government job calendar 2026 — recruitment schedule",
       "https://psc.ap.gov.in/"
     ],
     "type": "Job",
@@ -441,7 +507,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "central goverment",
+      "rrb cen 03/2026 — section controller",
       "https://rrbsecunderabad.gov.in/"
     ],
     "type": "Job",
@@ -461,7 +530,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "upsc central armed police forces (acs) examination 2026 — written result",
       "https://www.upsc.gov.in/exams-related-info/written-result"
     ],
     "type": "Result",
@@ -481,7 +553,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "upsc indian economic service / indian statistical service examination 2026 — written result",
       "https://www.upsc.gov.in/exams-related-info/written-result"
     ],
     "type": "Result",
@@ -501,7 +576,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "upsc engineering services (main) examination 2026 — written result",
       "https://www.upsc.gov.in/exams-related-info/written-result"
     ],
     "type": "Result",
@@ -521,8 +599,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf"
+      "row",
+      "job",
+      "central goverment",
+      "upsc combined geo-scientist 2027",
+      "https://www.upsc.gov.in/sites/default/files/notif-cgspe-2027-engl-020926.pdf"
     ],
     "type": "Job",
     "state": "Central Goverment",
@@ -541,7 +622,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "ssc mts & havaldar 2025 — pet/pst schedule",
       "https://ssc.gov.in/"
     ],
     "type": "Result",
@@ -561,7 +645,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "rrb level-1 cen 09/2025 — application status",
       "https://rrbsecunderabad.gov.in/"
     ],
     "type": "Result",
@@ -581,7 +668,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "rrb ntpc graduate cen 06/2025 — cbt-ii questions / responses / keys",
       "https://rrbsecunderabad.gov.in/"
     ],
     "type": "Result",
@@ -601,8 +691,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://rrb.digialm.com//EForms/configuredHtml/33128/100181/login.html"
+      "row",
+      "admit card",
+      "central goverment",
+      "rrb ntpc under graduate cen 07/2025 — cbt-2 exam: 17-09-2026",
+      "https://rrb.digialm.com//eforms/configuredhtml/33128/100181/login.html"
     ],
     "type": "Admit Card",
     "state": "Central Goverment",
@@ -621,7 +714,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "rrb je/dms/cma cen 05/2025 — cbt-ii questions / responses / keys",
       "https://rrbsecunderabad.gov.in/"
     ],
     "type": "Result",
@@ -641,7 +737,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "result",
+      "central goverment",
+      "ibps crp-po/mt-xvi — preliminary exam candidate query window",
       "https://ibpsreg.ibps.in/crppoxvijun26/index.php?stat=0"
     ],
     "type": "Result",
@@ -661,8 +760,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+      "row",
+      "admit card",
+      "central goverment",
+      "uppsc research assistant (engineering) exam 2025",
+      "https://uppsc.up.nic.in/outerpages/noticealert.aspx"
     ],
     "type": "Admit Card",
     "state": "Central Goverment",
@@ -681,8 +783,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+      "row",
+      "admit card",
+      "uttar pradesh",
+      "uppsc lecturer, u.p. technical education teaching service exam 2025",
+      "https://uppsc.up.nic.in/outerpages/noticealert.aspx"
     ],
     "type": "Admit Card",
     "state": "Uttar Pradesh",
@@ -701,8 +806,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://uppsc.up.nic.in/OuterPages/NoticeAlert.aspx"
+      "row",
+      "admit card",
+      "uttar pradesh",
+      "uppsc lecturer, government inter college (mains) exam 2025",
+      "https://uppsc.up.nic.in/outerpages/noticealert.aspx"
     ],
     "type": "Admit Card",
     "state": "Uttar Pradesh",
@@ -721,7 +829,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "central goverment",
+      "ibps — recruitment of 500 assistants",
       "https://ibpsreg.ibps.in/nicljul26/oecla_aug26/login.php"
     ],
     "type": "Admit Card",
@@ -741,7 +852,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "central goverment",
+      "ongc — recruitment of geologists & engineers, e1 level",
       "https://ibpsreg.ibps.in/ongcjul26/oecla_aug26/login.php"
     ],
     "type": "Admit Card",
@@ -761,7 +875,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "admit card",
+      "kerala",
+      "kerala psc — tracer, direct recruitment (kozhikkode)",
       "https://www.keralapsc.gov.in/index.php/taxonomy/term/166?page=1"
     ],
     "type": "Admit Card",
@@ -781,8 +898,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+      "row",
+      "admit card",
+      "central goverment",
+      "ibps crp-po/mt-xvi — main examination admit cards",
+      "https://www.ibps.in/wp-content/uploads/ibps_calendar_2026-27_final.pdf"
     ],
     "type": "Admit Card",
     "state": "Central Goverment",
@@ -801,8 +921,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+      "row",
+      "exam",
+      "central goverment",
+      "ibps crp-spl-xvi — main examination",
+      "https://www.ibps.in/wp-content/uploads/ibps_calendar_2026-27_final.pdf"
     ],
     "type": "Exam",
     "state": "Central Goverment",
@@ -821,8 +944,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+      "row",
+      "exam",
+      "central goverment",
+      "ibps crp-csa-xvi — preliminary examination",
+      "https://www.ibps.in/wp-content/uploads/ibps_calendar_2026-27_final.pdf"
     ],
     "type": "Exam",
     "state": "Central Goverment",
@@ -841,8 +967,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+      "row",
+      "exam",
+      "central goverment",
+      "ibps rrb officer scale i — preliminary examination",
+      "https://www.ibps.in/wp-content/uploads/ibps_calendar_2026-27_final.pdf"
     ],
     "type": "Exam",
     "state": "Central Goverment",
@@ -861,8 +990,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+      "row",
+      "exam",
+      "central goverment",
+      "ibps rrb office assistants — preliminary examination",
+      "https://www.ibps.in/wp-content/uploads/ibps_calendar_2026-27_final.pdf"
     ],
     "type": "Exam",
     "state": "Central Goverment",
@@ -881,7 +1013,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "exam",
+      "central goverment",
+      "ibps rrb xv-officer scale i/ii/iii and office assistant recruitment",
       "https://www.ibps.in/"
     ],
     "type": "Exam",
@@ -901,8 +1036,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf"
+      "row",
+      "job",
+      "telangana",
+      "telangana state level police recruitment board has announced the tentative dates for the 2026 preliminary written tests.",
+      "https://www.tgprb.in/si_pc_2026/press%20note%20dated%2017-09-2026.pdf"
     ],
     "type": "Job",
     "state": "Telangana",
@@ -912,7 +1050,7 @@
     "applicationEnd": "",
     "examDate": "Sub-Inspector (SI):29/11/2026,Police Constable (PC):20/12/2026",
     "editCorrection": "",
-    "date": "",
+    "date": "Sub-Inspector (SI):29/11/2026,Police Constable (PC):20/12/2026",
     "officialLink": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
     "applyLink": "",
     "status": "Notification Published",
@@ -921,7 +1059,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "exam",
+      "central goverment",
+      "ssc (chsl) (10+2) examination",
       "https://ssc.gov.in/home"
     ],
     "type": "Exam",
@@ -941,8 +1082,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://uiic.co.in/web/sites/default/files/Recruitment_UiiC/UIIC-AO-notification-2026%20final.pdf"
+      "row",
+      "job",
+      "central goverment",
+      "(uiic) recruitment of administrative officers (scale i) – generalists & hindi officers",
+      "https://uiic.co.in/web/sites/default/files/recruitment_uiic/uiic-ao-notification-2026%20final.pdf"
     ],
     "type": "Job",
     "state": "Central Goverment",
@@ -961,7 +1105,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "central goverment",
+      "ssc je( (junior engineer) 2026",
       "https://ssc.gov.in/"
     ],
     "type": "Job",
@@ -981,8 +1128,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2026.pdf"
+      "row",
+      "job",
+      "central goverment",
+      "ssc cpo si vacancy 2026",
+      "https://ssc.gov.in/api/attachment/uploads/masterdata/noticeboards/notice_of_adv_capf_2026.pdf"
     ],
     "type": "Job",
     "state": "Central Goverment",
@@ -1001,8 +1151,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://mis.tgwdcw.in/AWTNotification2026/NAGARKURNOOL_NOTIFICATION_GUIDELINES_07.09.2026.pdf"
+      "row",
+      "job",
+      "telangana",
+      "wdcw nagarkurnool anganwadi recruitment 2026",
+      "https://mis.tgwdcw.in/awtnotification2026/nagarkurnool_notification_guidelines_07.09.2026.pdf"
     ],
     "type": "Job",
     "state": "Telangana",
@@ -1021,7 +1174,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "central goverment",
+      "rrb paramedical (cen 05/2026) — 560 posts",
       "https://rrb.indianrailways.gov.in/"
     ],
     "type": "Job",
@@ -1041,8 +1197,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://slprb.ap.gov.in/UI/index"
+      "row",
+      "job",
+      "andhra pradesh",
+      "state level police recruitment board andhra pradesh",
+      "https://slprb.ap.gov.in/ui/index"
     ],
     "type": "Job",
     "state": "Andhra Pradesh",
@@ -1061,7 +1220,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "telangana",
+      "manager (engineering) in hyderabad metropolitan water supply and sewerage board",
       "https://websitenew.tgpsc.gov.in/"
     ],
     "type": "Job",
@@ -1081,7 +1243,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "central goverment",
+      "central power research institute (cpri) recruitment 2026",
       "https://cpri.res.in/en"
     ],
     "type": "Job",
@@ -1101,7 +1266,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "job",
+      "central goverment",
+      "ssc grade c steno ldce — final answer key",
       "https://ssc.gov.in/home/answer-key"
     ],
     "type": "Job",
@@ -1121,8 +1289,11 @@
   },
   {
     "_identity": [
-      "link",
-      "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_09_17T19_23_50.pdf"
+      "row",
+      "results",
+      "telangana",
+      "telangana high court — civil judge written examination results published",
+      "https://tshc.gov.in/documents/normal_recruitment_2026_09_17t19_23_50.pdf"
     ],
     "type": "Results",
     "state": "Telangana",
@@ -1141,7 +1312,10 @@
   },
   {
     "_identity": [
-      "link",
+      "row",
+      "exam",
+      "central goverment",
+      "ssc cgl city intimation slip",
       "https://ssc.gov.in/"
     ],
     "type": "Exam",
@@ -1152,11 +1326,11 @@
     "applicationEnd": "",
     "examDate": "Exam Dates: September 30 to October 30, 2026",
     "editCorrection": "",
-    "date": "",
+    "date": "Exam Dates: September 30 to October 30, 2026",
     "officialLink": "https://ssc.gov.in/",
     "applyLink": "",
     "status": "Open",
-    "firstSeen": "2026-09-11",
-    "isNew": false
+    "firstSeen": "2026-09-22T12:33:30Z",
+    "isNew": true
   }
 ]
