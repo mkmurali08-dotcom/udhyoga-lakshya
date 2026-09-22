@@ -1039,13 +1039,13 @@
       "row",
       "job",
       "telangana",
-      "telangana state level police recruitment board has announced the tentative dates for the 2026 preliminary written tests.",
+      "telangana state level police recruitment board exam dates for the 2026 preliminary written tests.",
       "https://www.tgprb.in/si_pc_2026/press%20note%20dated%2017-09-2026.pdf"
     ],
     "type": "Job",
     "state": "Telangana",
     "category": "Job",
-    "title": "Telangana State Level Police Recruitment Board has announced the tentative dates for the 2026 Preliminary Written Tests.",
+    "title": "Telangana State Level Police Recruitment Board Exam dates for the 2026 Preliminary Written Tests.",
     "applicationStart": "",
     "applicationEnd": "",
     "examDate": "Sub-Inspector (SI):29/11/2026,Police Constable (PC):20/12/2026",
@@ -1054,7 +1054,7 @@
     "officialLink": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
     "applyLink": "",
     "status": "Notification Published",
-    "firstSeen": "2026-09-18",
+    "firstSeen": "2026-09-22T19:39:49Z",
     "isNew": true
   },
   {
@@ -1331,6 +1331,29 @@
     "applyLink": "",
     "status": "Open",
     "firstSeen": "2026-09-22T12:33:30Z",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "row",
+      "up coming",
+      "central goverment",
+      "upsc civil services exam 2027",
+      "https://www.upsc.gov.in/"
+    ],
+    "type": "Up Coming",
+    "state": "Central Goverment",
+    "category": "Up Coming",
+    "title": "UPSC Civil Services Exam 2027",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "examDate": "23.05.2027\r\n(Sunday)",
+    "editCorrection": "",
+    "date": "23.05.2027\r\n(Sunday)",
+    "officialLink": "https://www.upsc.gov.in/",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-22T19:39:49Z",
     "isNew": true
   }
 ]
