@@ -415,8 +415,8 @@ jobs:
           render_page("results-admit-cards.html", "results-admit-cards")
           PY
 
-            - name: Commit and push changes
-      shell: bash
+             - name: Commit and push changes
+        shell: bash
         run: |
           set -e
 
