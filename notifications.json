@@ -994,7 +994,7 @@
       "exam",
       "central goverment",
       "ibps rrb office assistants — preliminary examination",
-      "https://www.ibps.in/wp-content/uploads/ibps_calendar_2026-27_final.pdf"
+      "https://www.ibps.in/"
     ],
     "type": "Exam",
     "state": "Central Goverment",
@@ -1002,14 +1002,14 @@
     "title": "IBPS RRB Office Assistants — Preliminary Examination",
     "applicationStart": "",
     "applicationEnd": "",
-    "examDate": "",
+    "examDate": "6, 12 & 13 Dec 2026",
     "editCorrection": "",
-    "date": "",
-    "officialLink": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "date": "6, 12 & 13 Dec 2026",
+    "officialLink": "https://www.ibps.in/",
     "applyLink": "",
     "status": "Upcoming",
-    "firstSeen": "2026-09-11",
-    "isNew": false
+    "firstSeen": "2026-09-22T19:05:34Z",
+    "isNew": true
   },
   {
     "_identity": [
