@@ -416,14 +416,13 @@ jobs:
           PY
 
             - name: Commit and push changes
-        shell: bash
+      shell: bash
         run: |
           set -e
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Commit BOTH the synced data and the crawler pre-rendered pages.
           git add \
             notifications.json \
             latest-notifications.html \
@@ -437,7 +436,6 @@ jobs:
 
           git commit -m "Sync Google Sheet notifications"
 
-          # AI workflow may update main while this workflow is running.
           for attempt in 1 2 3 4 5; do
             echo "Push attempt $attempt/5"
 
