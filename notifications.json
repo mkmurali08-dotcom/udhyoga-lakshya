@@ -671,52 +671,6 @@
       "row",
       "result",
       "central goverment",
-      "rrb ntpc graduate cen 06/2025 — cbt-ii questions / responses / keys",
-      "https://rrbsecunderabad.gov.in/"
-    ],
-    "type": "Result",
-    "state": "Central Goverment",
-    "category": "Result",
-    "title": "RRB NTPC Graduate CEN 06/2025 — CBT-II Questions / Responses / Keys",
-    "applicationStart": "",
-    "applicationEnd": "",
-    "examDate": "",
-    "editCorrection": "",
-    "date": "",
-    "officialLink": "https://rrbsecunderabad.gov.in/",
-    "applyLink": "",
-    "status": "Live",
-    "firstSeen": "2026-09-11",
-    "isNew": false
-  },
-  {
-    "_identity": [
-      "row",
-      "admit card",
-      "central goverment",
-      "rrb ntpc under graduate cen 07/2025 — cbt-2 exam: 17-09-2026",
-      "https://rrb.digialm.com//eforms/configuredhtml/33128/100181/login.html"
-    ],
-    "type": "Admit Card",
-    "state": "Central Goverment",
-    "category": "Admit Card",
-    "title": "RRB NTPC Under Graduate CEN 07/2025 — CBT-2 Exam: 17-09-2026",
-    "applicationStart": "",
-    "applicationEnd": "",
-    "examDate": "",
-    "editCorrection": "",
-    "date": "",
-    "officialLink": "https://rrb.digialm.com//EForms/configuredHtml/33128/100181/login.html",
-    "applyLink": "",
-    "status": "Admit Card",
-    "firstSeen": "2026-09-13",
-    "isNew": false
-  },
-  {
-    "_identity": [
-      "row",
-      "result",
-      "central goverment",
       "rrb je/dms/cma cen 05/2025 — cbt-ii questions / responses / keys",
       "https://rrbsecunderabad.gov.in/"
     ],
@@ -1354,6 +1308,28 @@
     "applyLink": "",
     "status": "Upcoming",
     "firstSeen": "2026-09-22T19:39:49Z",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "text",
+      "job",
+      "central goverment",
+      "rrb ntpc ug cen 07/2026 — 1,688 posts,detailed notification expected 14 oct."
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "RRB NTPC UG CEN 07/2026 — 1,688 posts,Detailed notification expected 14 Oct.",
+    "applicationStart": "15/10/2026",
+    "applicationEnd": "13/11/2026",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "13/11/2026",
+    "officialLink": "",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-23T13:24:29Z",
     "isNew": true
   }
 ]
