@@ -198,12 +198,22 @@
 
   function renderState(rows,target){
     const wrap=document.querySelector("main.wrap");if(!wrap)return;
+    // State pages must contain ONLY the state selected in the page URL/data-state.
+    // Central Government jobs stay on the dedicated Central Government page and
+    // must not leak into Telangana, Andhra Pradesh, or any other state page.
     wrap.querySelectorAll(":scope > .section, :scope > .list").forEach(e=>e.remove());
     const before=wrap.querySelector(".note, .back");
     const insert=node=>{if(before)wrap.insertBefore(node,before);else wrap.appendChild(node);};
-    if(isCentralState(target)){insert(buildStateSection("Central Government Jobs",centralRows(rows)));return;}
-    insert(buildStateSection("Central Government Jobs",centralRows(rows)));
-    insert(buildStateSection(target+" Government Jobs",stateRows(rows,target)));
+
+    const rowsForPage=isCentralState(target)
+      ? centralRows(rows)
+      : stateRows(rows,target);
+
+    const title=isCentralState(target)
+      ? "Central Government Jobs"
+      : target+" Government Jobs";
+
+    insert(buildStateSection(title,rowsForPage));
   }
 
   function run(){
