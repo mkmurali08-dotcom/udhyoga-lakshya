@@ -4,6 +4,9 @@
   const script = document.currentScript;
   const isHome = script && script.dataset.home === "true";
   const stateTarget = script ? String(script.dataset.state || "").trim() : "";
+  const pageType = script ? String(script.dataset.type || "").trim().toLowerCase() : "";
+  const isResultsPage = pageType === "result" || pageType === "results";
+  const isAdmitCardsPage = pageType === "admit card" || pageType === "admit-cards";
   const DATA_URL = "notifications.json";
   const DETAILS_URL = "job-details.json";
 
@@ -21,6 +24,8 @@
       .sheet-state-notification-row .sheet-new{display:inline-flex;align-items:center;justify-content:center;background:#e60000;color:#fff;border-radius:5px;padding:5px 7px;font-size:8px;font-weight:900;margin-left:4px}
       .sheet-state-notification-row .sheet-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:4px}
       .sheet-state-notification-row .sheet-date{color:#666;font-size:10px;line-height:1.5}
+      .sheet-page-loading{padding:24px;color:#666;font-size:11px}
+      .sheet-page-empty{padding:24px;text-align:center;color:#666;font-size:11px;font-weight:700;background:#fff}
       @media(max-width:700px){.cards > .card .sheet-home-notification-row{padding:11px 12px!important;gap:7px!important}.cards > .card .sheet-home-notification-row .row-date{justify-content:flex-start!important}}
     `;
     document.head.appendChild(style);
@@ -51,7 +56,19 @@
   const editCorrection=r=>String(r.editCorrection||r.edit_correction||r.editCorrectionDate||r.edit_correction_date||"").trim();
   const resultBlob=r=>[r.type,r.category,r.title,r.status].map(norm).join(" ");
 
-  function isResult(r){return /result|admit\s*card|answer\s*key|selection|allocation|call\s*letter|hall\s*ticket|e-admit|ecall|ranked\s*list/i.test(resultBlob(r));}
+  function isResult(r){
+    return /result|admit\s*card|answer\s*key|selection|allocation|call\s*letter|hall\s*ticket|e-admit|ecall|ranked\s*list/i.test(resultBlob(r));
+  }
+
+  function isAdmitCard(r){
+    return /admit\s*card|call\s*letter|hall\s*ticket|e-admit|ecall|admission\s*ticket/i.test(resultBlob(r));
+  }
+
+  function isResultOnly(r){
+    if(isAdmitCard(r)) return false;
+    return /result|answer\s*key|selection|allocation|application\s*status|candidate\s*status|ranked\s*list/i.test(resultBlob(r));
+  }
+
   function isLiveOrOpen(r){return /\b(open|live|active|apply|applications?\s+open|accepting\s+applications?)\b/i.test(norm(r.status));}
   function isUpcomingStatus(r){return /\b(upcoming|scheduled|tentative|calendar|to\s*be\s*held|forthcoming)\b/i.test(norm(r.status));}
   function isClosed(r){return /\b(closed|expired|over|withdrawn|cancelled|declared)\b/i.test(norm(r.status));}
@@ -126,7 +143,10 @@
   }
 
   function displayDate(r){
-    const s=String(r.applicationStart||r.start||"").trim(),e=String(r.applicationEnd||r.end||"").trim(),ex=examDate(r),ec=editCorrection(r);
+    const s=String(r.applicationStart||r.start||"").trim();
+    const e=String(r.applicationEnd||r.end||"").trim();
+    const ex=examDate(r);
+    const ec=editCorrection(r);
     if(s&&e&&s!==e)return s+"–"+e;
     if(e||s)return e||s;
     if(ex)return "Exam Date: "+ex;
@@ -145,7 +165,7 @@
       right='<span class="row-date"><span class="yellow-tag">'+(d||"Upcoming")+'</span>'+(isNew(r)?'<span class="new">NEW</span>':'')+'</span>';
     }else{
       const m=resultBlob(r);
-      const label=/admit\s*card|call\s*letter|hall\s*ticket|e-admit|ecall/.test(m)?"Admit Card":/answer\s*key/.test(m)?"Answer Key":/selection|allocation/.test(m)?"Selection Update":"Result";
+      const label=/admit\s*card|call\s*letter|hall\s*ticket|e-admit|ecall|admission\s*ticket/.test(m)?"Admit Card":/answer\s*key/.test(m)?"Answer Key":/selection|allocation/.test(m)?"Selection Update":"Result";
       right='<span class="row-date"><span class="red-tag">'+label+'</span>'+(isNew(r)?'<span class="new">NEW</span>':'')+'</span>';
     }
     el.innerHTML='<a class="row-title" href="'+esc(href)+'">'+t+'</a>'+right;
@@ -198,22 +218,95 @@
 
   function renderState(rows,target){
     const wrap=document.querySelector("main.wrap");if(!wrap)return;
-    // State pages must contain ONLY the state selected in the page URL/data-state.
-    // Central Government jobs stay on the dedicated Central Government page and
-    // must not leak into Telangana, Andhra Pradesh, or any other state page.
     wrap.querySelectorAll(":scope > .section, :scope > .list").forEach(e=>e.remove());
     const before=wrap.querySelector(".note, .back");
     const insert=node=>{if(before)wrap.insertBefore(node,before);else wrap.appendChild(node);};
 
-    const rowsForPage=isCentralState(target)
-      ? centralRows(rows)
-      : stateRows(rows,target);
+    // State pages show ONLY the state selected for that page.
+    // Central Government page shows ONLY Central Government rows.
+    if(isCentralState(target)){
+      insert(buildStateSection("Central Government Jobs",centralRows(rows)));
+      return;
+    }
 
-    const title=isCentralState(target)
-      ? "Central Government Jobs"
-      : target+" Government Jobs";
+    insert(buildStateSection(target+" Government Jobs",stateRows(rows,target)));
+  }
 
-    insert(buildStateSection(title,rowsForPage));
+  function pageTarget(){
+    return document.querySelector(".sheet-dynamic-target");
+  }
+
+  function pageStatus(r){
+    const b=resultBlob(r);
+    if(/answer\s*key/.test(b))return ["Answer Key","red"];
+    if(/admit\s*card|call\s*letter|hall\s*ticket|e-admit|ecall|admission\s*ticket/.test(b))return ["Admit Card","red"];
+    if(/selection|allocation/.test(b))return ["Selection Update","yellow"];
+    if(/application\s*status|candidate\s*status/.test(b))return ["Status Update","yellow"];
+    return ["Result","yellow"];
+  }
+
+  function renderResultPage(rows){
+    const target=pageTarget();if(!target)return;
+
+    target.className="list";
+    target.innerHTML="";
+    const filtered=sortNewestFirst(rows.filter(isResultOnly));
+
+    if(!filtered.length){
+      target.innerHTML='<div class="sheet-page-empty">No results or answer-key notifications are available.</div>';
+      return;
+    }
+
+    const f=document.createDocumentFragment();
+    filtered.forEach(r=>{
+      const item=document.createElement("article");
+      item.className="item";
+      const title=esc(r.title||"Notification");
+      const org=esc(r.category||r.type||"Result");
+      const date=esc(displayDate(r));
+      const official=String(r.officialLink||"").trim();
+      const [label] = pageStatus(r);
+      const newBadge=isNew(r)?'<span style="background:#ed1111;color:#fff;padding:5px 7px;border-radius:5px;font-size:9px;font-weight:900;white-space:nowrap">NEW</span>':"";
+      const officialHtml=official?'<a class="official" href="'+esc(official)+'" target="_blank" rel="noopener">Official Source ↗</a>':"";
+      item.innerHTML=
+        '<div><span class="org">'+org+'</span><h3>'+title+'</h3><p>'+(date?'<b>Date / Window:</b> '+date:"")+'</p></div>'+
+        '<div class="right"><span class="status">'+esc(label)+'</span>'+newBadge+officialHtml+'</div>';
+      f.appendChild(item);
+    });
+    target.appendChild(f);
+  }
+
+  function renderAdmitCardsPage(rows){
+    const target=pageTarget();if(!target)return;
+
+    target.className="grid";
+    target.innerHTML="";
+    const filtered=sortNewestFirst(rows.filter(isAdmitCard));
+
+    if(!filtered.length){
+      target.className="sheet-dynamic-target sheet-dynamic-grid";
+      target.innerHTML='<div class="sheet-page-empty">No admit-card notifications are available.</div>';
+      return;
+    }
+
+    const f=document.createDocumentFragment();
+    filtered.forEach(r=>{
+      const card=document.createElement("article");
+      card.className="card";
+      const title=esc(r.title||"Admit Card");
+      const org=esc(r.category||r.type||"Admit Card");
+      const date=esc(displayDate(r));
+      const official=String(r.officialLink||"").trim();
+      const newBadge=isNew(r)?'<span class="badge">NEW</span>':'';
+      const officialHtml=official?'<a class="btn yellow" href="'+esc(official)+'" target="_blank" rel="noopener">Official Link ↗</a>':"";
+      card.innerHTML=
+        '<div class="topline"><h3>'+title+'</h3>'+newBadge+'</div>'+
+        '<p>'+org+'</p>'+
+        (date?'<div class="meta">'+date+'</div>':'')+
+        '<span class="badge yellow">Admit Card</span><br>'+officialHtml;
+      f.appendChild(card);
+    });
+    target.appendChild(f);
   }
 
   function run(){
@@ -222,10 +315,15 @@
       fetch(DETAILS_URL+"?v="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():{}).catch(()=>({}))
     ]).then(([rows,details])=>{
       const data=enrich(Array.isArray(rows)?rows:[],details);
+
       if(isHome){renderHome(data);return;}
+      if(isResultsPage){renderResultPage(data);return;}
+      if(isAdmitCardsPage){renderAdmitCardsPage(data);return;}
       if(stateTarget){renderState(data,stateTarget);}
     }).catch(err=>{
       console.error("Udhyoga Lakshya Sheets:",err);
+      const target=pageTarget();
+      if(target)target.innerHTML='<div class="sheet-page-empty">Notifications are temporarily unavailable.</div>';
       if(isHome)document.querySelectorAll(".sheet-home-loading").forEach(e=>e.textContent="Notifications temporarily unavailable");
     });
   }
