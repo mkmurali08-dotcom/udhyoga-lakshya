@@ -1124,7 +1124,7 @@
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-19",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1170,7 +1170,7 @@
     "applyLink": "https://cpri-app.onlineapplication.org.in/#/",
     "status": "Current",
     "firstSeen": "2026-09-19",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1193,7 +1193,7 @@
     "applyLink": "",
     "status": "Answer key",
     "firstSeen": "2026-09-19",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
