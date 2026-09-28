@@ -945,14 +945,14 @@
   {
     "_identity": [
       "row",
-      "job",
+      "exam",
       "telangana",
       "telangana state level police recruitment board exam dates for the 2026 preliminary written tests.",
       "https://www.tgprb.in/si_pc_2026/press%20note%20dated%2017-09-2026.pdf"
     ],
-    "type": "Job",
+    "type": "Exam",
     "state": "Telangana",
-    "category": "Job",
+    "category": "Exam",
     "title": "Telangana State Level Police Recruitment Board Exam dates for the 2026 Preliminary Written Tests.",
     "applicationStart": "",
     "applicationEnd": "",
@@ -962,7 +962,7 @@
     "officialLink": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
     "applyLink": "",
     "status": "Notification Published",
-    "firstSeen": "2026-09-22T19:39:49Z",
+    "firstSeen": "2026-09-28T21:53:48Z",
     "isNew": true
   },
   {
