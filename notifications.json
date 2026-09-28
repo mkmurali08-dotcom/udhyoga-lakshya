@@ -1285,5 +1285,51 @@
     "status": "Upcoming",
     "firstSeen": "2026-09-23T13:24:29Z",
     "isNew": true
+  },
+  {
+    "_identity": [
+      "row",
+      "job",
+      "andhra pradesh",
+      "appsc forest beat officer (fbo) 2026",
+      "https://psc.ap.gov.in/documents/notificationdocuments/forest_range_officer_162026.pdf"
+    ],
+    "type": "Job",
+    "state": "Andhra Pradesh",
+    "category": "Job",
+    "title": "APPSC Forest Beat Officer (FBO) 2026",
+    "applicationStart": "16/10/2026",
+    "applicationEnd": "5/11/2026",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "5/11/2026",
+    "officialLink": "https://psc.ap.gov.in/Documents/NotificationDocuments/Forest_Range_Officer_162026.pdf",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-28T16:03:24Z",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "row",
+      "job",
+      "telangana",
+      "telangana forest beat officer (fbo) 2026 expected to release its notification soon",
+      "https://websitenew.tgpsc.gov.in/"
+    ],
+    "type": "Job",
+    "state": "Telangana",
+    "category": "Job",
+    "title": "Telangana Forest Beat Officer (FBO) 2026 expected to release its notification soon",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "",
+    "officialLink": "https://websitenew.tgpsc.gov.in/",
+    "applyLink": "",
+    "status": "Upcoming",
+    "firstSeen": "2026-09-28T16:03:24Z",
+    "isNew": true
   }
 ]
