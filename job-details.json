@@ -4961,34 +4961,34 @@
     "total_vacancies": "7437",
     "vacancy_breakdown": [
       {
-        "Department": "Police",
-        "SI / ASI level": "200",
-        "PC Level": "4800",
-        "Total": "5000"
+        "department": "Police",
+        "si_asi_level": "200",
+        "pc_level": "4800",
+        "total": "5000"
       },
       {
-        "Department": "Special Protection Force",
-        "SI / ASI level": "44",
-        "PC Level": "1380",
-        "Total": "1424"
+        "department": "Special Protection Force",
+        "si_asi_level": "44",
+        "pc_level": "1380",
+        "total": "1424"
       },
       {
-        "Department": "Fire, Disaster Response, Emergency & Civil Defence",
-        "SI / ASI level": "39",
-        "PC Level": "751",
-        "Total": "790"
+        "department": "Fire, Disaster Response, Emergency & Civil Defence",
+        "si_asi_level": "39",
+        "pc_level": "751",
+        "total": "790"
       },
       {
-        "Department": "Prisons & Correctional Services",
-        "SI / ASI level": "15",
-        "PC Level": "208",
-        "Total": "223"
+        "department": "Prisons & Correctional Services",
+        "si_asi_level": "15",
+        "pc_level": "208",
+        "total": "223"
       },
       {
-        "Department": "Total",
-        "SI / ASI level": "298",
-        "PC Level": "7139",
-        "Total": "7437"
+        "department": "Total",
+        "si_asi_level": "298",
+        "pc_level": "7139",
+        "total": "7437"
       }
     ],
     "job_location": "Telangana",
@@ -4996,61 +4996,63 @@
     "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
     "age_relaxation": [
-      "7 (5 + 2) years for SI / ASI level and SCT PC (Driver) Posts over and above the maximum age limit prescribed in the Recruitment Rules",
-      "10 (5 + 2 + 3) years for PC level Posts (except PC Driver) over and above the maximum age limit prescribed in the Recruitment Rules"
+      "Age relaxation of 7 (5 + 2) years for SI / ASI level and SCT PC (Driver) Posts over and above the maximum age limit prescribed in the Recruitment Rules",
+      "Age relaxation of 10 (5 + 2 + 3) years for PC level Posts (except PC Driver) over and above the maximum age limit prescribed in the Recruitment Rules"
     ],
     "application_fee": "Not mentioned in the official notification",
     "application_start": "19th August 2026",
     "application_end": "16th September 2026",
-    "exam_date": "SI PWT: 29th November 2026 (Sunday) Forenoon; PC PWT: 20th December 2026 (Sunday) Forenoon",
+    "exam_date": [
+      "SI PWT (Preliminary Written Test for SCT SI Civil and / or equivalent): 29th November 2026 (Sunday) Forenoon",
+      "PC PWT (Preliminary Written Test for SCT PC Civil and / or equivalent): 20th December 2026 (Sunday) Forenoon"
+    ],
     "selection_process": [
-      "SCT SI Civil and / or equivalent testing streams: 3-Tier Filtration Process starting with Preliminary Written Test (PWT)",
-      "SCTPC Civil and / or equivalent level testing streams: 3-Tier Filtration Process starting with Preliminary Written Test (PWT)",
-      "SCT ASI FPB, SCT PC Driver, and SCT PC Mechanic technical testing streams: 2-Tier Filtration Process starting with Physical Measurement / Physical Efficiency Test (PMT / PET)"
+      "3-Tier Filtration Process starting with Preliminary Written Test (PWT) for SCT SI Civil and / or equivalent and SCTPC Civil and / or equivalent testing streams",
+      "2-Tier Filtration Process starting with Physical Measurement / Physical Efficiency Test (PMT / PET) for SCT ASI FPB, SCT PC Driver, and SCT PC Mechanic technical testing streams"
     ],
     "exam_pattern": "Not mentioned in the official notification",
     "syllabus": "Not mentioned in the official notification",
     "documents_required": [
-      "pdf Application Form/s"
+      "pdf Application Form/s (downloadable after completing Aadhaar Face Authentication)"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates who could not complete Aadhaar Face Authentication have to complete the process in their login area which will be made available till 30th September 2026 (Wednesday).",
-      "After completion of Aadhaar Face Authentication, candidates can download their pdf Application Form/s."
+      "Candidates who could not complete Aadhaar Face Authentication have to complete the process in their login area which will be made available till 30th September 2026 (Wednesday)",
+      "After completion of Aadhaar Face Authentication, candidates can download their pdf Application Form/s"
     ],
-    "how_to_apply": "Applications through Online mode in the prescribed proforma were made available on Website (www.tgprb.in) from 19th August 2026 till 16th September 2026.",
+    "how_to_apply": "Applications through Online mode in the prescribed proforma made available on Website (www.tgprb.in) from 19th August 2026 till 16th September 2026 (Online application process concluded)",
     "reservation_policy": [
-      "SC / ST Candidates availed of 50% fee concession.",
-      "Community-wise distribution of applications includes OC, BC-A, BC-B, BC-C, BC-D, BC-E, SC-GR-I, SC-GR-II, SC-GR-III, and ST."
+      "SC / ST candidates availed of 50% fee concession",
+      "Community-wise distribution details available in official statistics"
     ],
     "physical_standards": "Not mentioned in the official notification",
     "medical_standards": "Not mentioned in the official notification",
     "exam_centers": [
-      "Erstwhile 10 District Headquarters of Telangana for SCT SI Civil and / or equivalent Posts",
-      "15-18 Locations including the erstwhile 10 District Headquarters of Telangana for SCT PC Civil and / or equivalent Posts"
+      "SI PWT: All the erstwhile 10 District Headquarters of Telangana",
+      "PC PWT: 15-18 Locations including the erstwhile 10 District Headquarters of Telangana"
     ],
     "probation_training": "Not mentioned in the official notification",
     "career_progression": "Not mentioned in the official notification",
     "other_official_details": [
-      "4 Notifications were issued on 29th July 2026 for direct recruitment in Police, Special Protection Force, Fire, Disaster Response, Emergency & Civil Defence, and Prisons & Correctional Services departments.",
-      "5,77,064 Applications filed by 4,29,000 Candidates at the conclusion of the process (average 1.34 applications per candidate).",
-      "1,35,359 Candidates who applied for more than 1 Post were given a rebate on account of savings obtained from a common Physical Measurement Test / Physical Efficiency Test.",
-      "Aadhaar Face Authentication was implemented for the first time; 97.4% completed successfully during Part I application and 2.6% pending completion by 30th September 2026.",
-      "Nearly 56.84% of applicants opted for Telugu, more than 43.02% opted for English, and 0.12% opted for Urdu as the Medium of Examination for the Aptitude Test."
+      "Phone-Helpline was made available from 10.30 am to 5.30 pm during the 28 days of receiving online applications",
+      "5,77,064 applications filed by 4,29,000 candidates (average 1.34 applications per candidate)",
+      "1,35,359 candidates who applied for more than 1 post were given rebate due to saving obtained from common Physical Measurement Test / Physical Efficiency Test",
+      "Aadhaar Face Authentication implemented for the first time in police recruitment to avert impersonation (97.4% completed successfully, 2.6% pending completion by 30th September 2026)",
+      "Medium of examination for Aptitude Test: Nearly 56.84% opted for Telugu, more than 43.02% opted for English, and 0.12% opted for Urdu"
     ],
     "official_notification_url": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
     "apply_url": "www.tgprb.in",
     "portal_category": "latest-notifications",
-    "priority_score": 95,
-    "priority_reason": "The official notification announces exact examination dates for 2026 preliminary written tests for major state police recruitment across 7,437 vacancies, requiring immediate candidate action regarding Aadhaar face authentication by 30th September 2026.",
+    "priority_score": 85,
+    "priority_reason": "Official press note from TSLPRB announcing vital statistics, application data, Aadhaar authentication completion window, and tentative Preliminary Written Test dates for 7,437 vacancies across 4 departments.",
     "title": "Telangana State Level Police Recruitment Board Exam dates for the 2026 Preliminary Written Tests.",
-    "type": "Job",
+    "type": "Exam",
     "state": "Telangana",
     "status": "Notification Published",
-    "category": "Job",
+    "category": "Exam",
     "source_url": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2017-09-2026.pdf",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
-    "_sheet_fingerprint": "2be3211de614b365a5ce9347b8216b8a5a30238a4ca36fead7aea1a91d21df47"
+    "_sheet_fingerprint": "81bc6affd7c1d53e7f661b03307f600f2314f0edceacc8d35114f82a14966aa3"
   },
   "upsc-civil-services-exam-2027": {
     "organization": "Union Public Service Commission",
