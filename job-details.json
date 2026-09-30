@@ -1141,163 +1141,162 @@
     "_sheet_fingerprint": "86512da4f5a9f38ca3c83a267a73e6b3e21a5591d1739f9bd902a00575a0b3ea"
   },
   "radiographer-2026-online-recruitment-application": {
-    "organization": "Odisha Sub-Ordinate Staff Selection Commission (OSSSC)",
-    "advertisement_number": "Not mentioned in the official notification",
+    "organization": "Odisha Sub-ordinate Staff Selection Commission (OSSSC)",
+    "advertisement_number": "Notification No. IIE-60/2026-2918/OSSSC DATED - 30.09.2026",
     "post_names": [
-      "Radiographer"
+      "Radiographer-2026"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Odisha",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
-    "application_start": "Not mentioned in the official notification",
-    "application_end": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "31/08/2026",
+    "application_end": "30/09/2026",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Not mentioned in the official notification"
+      "Follow steps to make Online Registration/Re-registration, Payment of applicable Examination Fee and to fill up Application Form as provided on the portal."
+    ],
+    "how_to_apply": "Online through the OSSSC official website",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Extension of dateline for registration / re-registration / submission of online applications for the post of Radiographer-2026 notified on Sep 30 2026."
     ],
     "official_notification_url": "https://www.osssc.gov.in/",
-    "apply_url": "https://www.osssc.gov.in/",
+    "apply_url": "https://www.osssc.gov.in/Public/Pages/Post_detail_information.aspx",
+    "portal_category": "latest-notifications",
+    "priority_score": 85,
+    "priority_reason": "The source explicitly publishes an extension notice for registration, re-registration, and submission of online applications for an active recruitment (Radiographer-2026).",
     "title": "Radiographer-2026 — Online Recruitment Application",
     "type": "Job",
     "state": "Odisha",
     "status": "Open",
-    "source_url": "https://www.osssc.gov.in/"
+    "category": "Job",
+    "source_url": "https://www.osssc.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "3a353ed40e82ffbeaf4f164f15ff6641753346e196c94ae9c8c24c300cc869a3"
   },
   "ri-icds-supervisor-ari-amin-sfs-counselling-update-01-09-2026": {
-    "organization": "Odisha Sub-Ordinate Staff Selection Commission (OSSSC)",
-    "advertisement_number": "Not mentioned in the official notification",
+    "organization": "Odisha Sub-ordinate Staff Selection Commission (OSSSC)",
+    "advertisement_number": "CRE-2023 (IV)",
     "post_names": [
       "Revenue Inspector (RI)",
-      "ICDS Supervisor",
+      "Supervisor (ICDS)",
       "Assistant Revenue Inspector (ARI)",
       "Amin",
-      "Statistical Field Surveyor (SFS)"
+      "Forest Guard / Statistical Field Surveyor (SFS)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Odisha",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
     "selection_process": [
-      "Counselling"
+      "Written Test",
+      "Document Verification",
+      "Counselling for choice of Post/District"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "This is a Counselling Update notice for RI, ICDS Supervisor, ARI, Amin & SFS posts."
+      "Candidates can download the Intimation Letter for Counselling for choice of Post/District from the official website using their Registered Mobile Number/UserName/Registration Number and Date of Birth."
+    ],
+    "how_to_apply": [
+      "Visit the official OSSSC website at https://www.osssc.gov.in",
+      "Navigate to the download intimation letter section for Counselling for choice of Post/District under Combined Recruitment Examination(IV)-2023",
+      "Enter login credentials such as Registered Mobile Number, UserName, or Registration Number along with Date of Birth and Captcha to download the intimation letter."
+    ],
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Notifications related to counselling updates, postponement of counselling, and publication of provisional screening lists for document verification have been released under CRE-2023 (IV)."
     ],
     "official_notification_url": "https://www.osssc.gov.in/",
-    "apply_url": "https://www.osssc.gov.in/",
+    "apply_url": "https://www.osssc.gov.in/Public/Pages/Post_detail_information.aspx",
+    "portal_category": "results-admit-cards",
+    "priority_score": 85,
+    "priority_reason": "The official notification pertains to active counselling updates, document verification lists, and intimation letter downloads for shortlisted candidates under a major combined recruitment examination.",
     "title": "RI, ICDS Supervisor, ARI, Amin & SFS — Counselling Update — 01/09/2026",
     "type": "Result",
     "state": "Odisha",
     "status": "Live",
-    "source_url": "https://www.osssc.gov.in/"
+    "category": "Result",
+    "source_url": "https://www.osssc.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "67cae94c7a898c2f24bd1310fb29ae0b79b4b80c1dd0250bb709835c500ad282"
   },
   "sevak-sevika-and-tribal-language-teacher-provisional-results-21-08-2026": {
-    "organization": "Odisha Sub-Ordinate Staff Selection Commission (OSSSC)",
+    "organization": "Odisha Sub-ordinate Staff Selection Commission (OSSSC)",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Sevak",
-      "Sevika",
+      "Sevak/Sevika",
       "Tribal Language Teacher"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Odisha",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Provisional Results published based on performance/records"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "This is a provisional results notification for Sevak/Sevika and Tribal Language Teacher published on 21/08/2026."
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Notification title: Sevak/Sevika and Tribal Language Teacher — Provisional Results — 21/08/2026"
     ],
     "official_notification_url": "https://www.osssc.gov.in/",
-    "apply_url": "https://www.osssc.gov.in/",
+    "apply_url": "https://www.osssc.gov.in/Public/Pages/Post_detail_information.aspx",
+    "portal_category": "results-admit-cards",
+    "priority_score": 40,
+    "priority_reason": "The source page is an official homepage displaying provisional results and general notices rather than a live application notification window.",
     "title": "Sevak/Sevika and Tribal Language Teacher — Provisional Results — 21/08/2026",
     "type": "Result",
     "state": "Odisha",
     "status": "Declared",
-    "source_url": "https://www.osssc.gov.in/"
+    "category": "Result",
+    "source_url": "https://www.osssc.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "70ecbd8ee8bd9e07cf186043683a4f196737314bede66d0e470a191258f67c05"
   },
   "assistant-professor-medical-education-2024-interview-letter-03-09-2026": {
     "organization": "Rajasthan Public Service Commission (RPSC)",
