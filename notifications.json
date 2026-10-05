@@ -963,7 +963,7 @@
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-28T21:53:48Z",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1353,7 +1353,7 @@
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-28T20:40:22Z",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1376,7 +1376,7 @@
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-28T20:40:22Z",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1399,7 +1399,7 @@
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-28T20:40:22Z",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1422,6 +1422,6 @@
     "applyLink": "",
     "status": "Notification Published",
     "firstSeen": "2026-09-28T20:40:22Z",
-    "isNew": true
+    "isNew": false
   }
 ]
