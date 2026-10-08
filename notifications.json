@@ -1423,5 +1423,28 @@
     "status": "Notification Published",
     "firstSeen": "2026-09-28T20:40:22Z",
     "isNew": false
+  },
+  {
+    "_identity": [
+      "row",
+      "job",
+      "central goverment",
+      "rrbntpc graduate cen 06/2026 vacancies 3,477",
+      "https://www.rrbapply.gov.in/#/auth/home"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "RRBNTPC Graduate CEN 06/2026 Vacancies 3,477",
+    "applicationStart": "8/10/2026",
+    "applicationEnd": "6/11/2026",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "6/11/2026",
+    "officialLink": "https://www.rrbapply.gov.in/#/auth/home",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-10-08T11:19:00Z",
+    "isNew": true
   }
 ]
