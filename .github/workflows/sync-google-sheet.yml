@@ -33,13 +33,13 @@ jobs:
 
           SHEET_ID="1HLCzR_CwklTB6DY_XCp0XqHTBFf_lk5vWT--2-jdOK0"
 
-          curl -fL --retry 3 --retry-all-errors --silent --show-error             -A "Mozilla/5.0"             "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=final"             -o sheet.csv
+          curl -fL --retry 3 --retry-all-errors --silent --show-error             -A "Mozilla/5.0"             "https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=final"             -o /tmp/udhyoga-sheet.csv
 
           python - <<'PY'
           import csv
           from pathlib import Path
 
-          path = Path("sheet.csv")
+          path = Path("/tmp/udhyoga-sheet.csv")
           with path.open(encoding="utf-8-sig", newline="") as f:
               rows = list(csv.reader(f))
 
@@ -152,7 +152,7 @@ jobs:
 
           output=[]
 
-          with open("sheet.csv",encoding="utf-8-sig",newline="") as f:
+          with open("/tmp/udhyoga-sheet.csv",encoding="utf-8-sig",newline="") as f:
               for raw in csv.DictReader(f):
                   r={
                       str(k).strip():(v or "").strip()
@@ -466,7 +466,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add notifications.json
+          # Stage every file this workflow intentionally generates. The crawler
+          # pre-render step also updates these HTML files; leaving them unstaged
+          # makes git rebase fail with "You have unstaged changes".
+          git add \
+            notifications.json \
+            latest-notifications.html \
+            upcoming-exams.html \
+            results-admit-cards.html
 
           if git diff --cached --quiet; then
             echo "No notification changes."
