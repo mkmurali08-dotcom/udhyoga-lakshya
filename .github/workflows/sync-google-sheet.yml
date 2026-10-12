@@ -110,8 +110,8 @@ jobs:
       - name: Build notifications.json
         run: |
           python - <<'PY'
-          import csv,json
-          from datetime import datetime,timedelta
+          import csv,json,re
+          from datetime import datetime,timedelta,date
           from pathlib import Path
 
           out=Path("notifications.json")
@@ -125,23 +125,22 @@ jobs:
               except Exception:
                   old=[]
 
-          by={}
+          def norm(v):
+              return " ".join(str(v or "").strip().lower().split())
 
+          def identity(x):
+              return (
+                  "row",
+                  norm(x.get("type")),
+                  norm(x.get("state")),
+                  norm(x.get("title")),
+                  str(x.get("officialLink", "") or "").strip().rstrip("/").lower()
+              )
+
+          by={}
           for x in old:
-              if not isinstance(x,dict):
-                  continue
-              k=x.get("_identity")
-              if isinstance(k,list):
-                  k=tuple(k)
-              if not k:
-                  link=str(x.get("officialLink","")).strip()
-                  k=("link",link) if link else (
-                      "text",
-                      str(x.get("type","")).strip().lower(),
-                      str(x.get("state","")).strip().lower(),
-                      str(x.get("title","")).strip().lower()
-                  )
-              by[k]=x
+              if isinstance(x,dict):
+                  by[identity(x)]=x
 
           def val(r,*names):
               for n in names:
@@ -150,6 +149,23 @@ jobs:
                       return v
               return ""
 
+          def parse_date(v):
+              s=str(v or "").strip()
+              if not s:
+                  return None
+              for fmt in (
+                  "%d/%m/%Y", "%d-%m-%Y", "%Y-%m-%d",
+                  "%d/%m/%y", "%d-%m-%y", "%d %b %Y",
+                  "%d %B %Y", "%b %d, %Y", "%B %d, %Y"
+              ):
+                  try:
+                      return datetime.strptime(s,fmt).date()
+                  except ValueError:
+                      pass
+              return None
+
+          now_iso=now.astimezone().isoformat(timespec="seconds")
+          today=now.date()
           output=[]
 
           with open("/tmp/udhyoga-sheet.csv",encoding="utf-8-sig",newline="") as f:
@@ -162,74 +178,27 @@ jobs:
 
                   title=r.get("Title","")
                   state=r.get("State","")
-
                   if not title or not state:
                       continue
 
                   official=r.get("Official Link","")
-
                   ident=(
-                      "link",
-                      official
-                  ) if official else (
-                      "text",
-                      r.get("Type","").lower(),
-                      state.lower(),
-                      title.lower()
+                      "row",
+                      norm(r.get("Type")),
+                      norm(state),
+                      norm(title),
+                      official.strip().rstrip("/").lower()
                   )
-
                   prev=by.get(ident)
 
-                  first=(
-                      str(prev.get("firstSeen"))
-                      if prev and prev.get("firstSeen")
-                      else now.strftime("%Y-%m-%d")
-                  )
+                  start=val(r,"Application Start","Start","applicationStart")
+                  end=val(r,"Application End","End","applicationEnd")
+                  exam_date=val(r,"Exam date","Exam Date","examDate","exam_date")
+                  edit_correction=val(r,"Edit / Correction","Edit/Correction","Edit Correction","editCorrection","edit_correction")
+                  display_date=val(r,"Date","date") or end or start
+                  status=val(r,"Status")
 
-                  try:
-                      is_new=(now-datetime.fromisoformat(first[:10]))<=timedelta(days=7)
-                  except Exception:
-                      is_new=True
-
-                  start=val(
-                      r,
-                      "Application Start",
-                      "Start",
-                      "applicationStart"
-                  )
-
-                  end=val(
-                      r,
-                      "Application End",
-                      "End",
-                      "applicationEnd"
-                  )
-
-                  exam_date=val(
-                      r,
-                      "Exam date",
-                      "Exam Date",
-                      "examDate",
-                      "exam_date"
-                  )
-
-                  edit_correction=val(
-                      r,
-                      "Edit / Correction",
-                      "Edit/Correction",
-                      "Edit Correction",
-                      "editCorrection",
-                      "edit_correction"
-                  )
-
-                  date=val(
-                      r,
-                      "Date",
-                      "date"
-                  ) or end or start
-
-                  output.append({
-                      "_identity":ident,
+                  content={
                       "type":r.get("Type",""),
                       "state":state,
                       "category":r.get("Category","") or r.get("Type",""),
@@ -238,11 +207,43 @@ jobs:
                       "applicationEnd":end,
                       "examDate":exam_date,
                       "editCorrection":edit_correction,
-                      "date":date,
+                      "date":display_date,
                       "officialLink":official,
                       "applyLink":r.get("Apply Link",""),
-                      "status":r.get("Status",""),
+                      "status":status
+                  }
+                  signature=json.dumps(content,ensure_ascii=False,sort_keys=True,separators=(",",":"))
+
+                  first=(str(prev.get("firstSeen")) if prev and prev.get("firstSeen") else now_iso)
+                  old_signature=prev.get("contentSignature") if prev else None
+                  if prev:
+                      if not old_signature:
+                          old_content={k:prev.get(k,"") or "" for k in content}
+                          old_signature=json.dumps(old_content,ensure_ascii=False,sort_keys=True,separators=(",",":"))
+                      changed=(old_signature != signature)
+                      last_updated=(now_iso if changed else str(prev.get("lastUpdated") or prev.get("firstSeen") or first))
+                  else:
+                      last_updated=now_iso
+
+                  status_closed=bool(__import__("re").search(r"\b(closed|expired|over|ended)\b",status,re.I))
+                  end_date=parse_date(end)
+                  expired=bool(end_date and end_date < today)
+                  try:
+                      first_dt=datetime.fromisoformat(first.replace("Z","+00:00"))
+                      if first_dt.tzinfo:
+                          age=(now.astimezone(first_dt.tzinfo)-first_dt).total_seconds()
+                      else:
+                          age=(now-first_dt).total_seconds()
+                      is_new=(0 <= age < 7*86400) and not status_closed and not expired
+                  except Exception:
+                      is_new=(not status_closed and not expired and not prev)
+
+                  output.append({
+                      "_identity":list(ident),
+                      **content,
                       "firstSeen":first,
+                      "lastUpdated":last_updated,
+                      "contentSignature":signature,
                       "isNew":is_new
                   })
 
@@ -274,7 +275,7 @@ jobs:
               return re.sub(r"\s+", " ", str(v or "").strip()).lower()
 
           def first_seen_time(row):
-              raw = str(row.get("firstSeen") or "").strip()
+              raw = str(row.get("lastUpdated") or row.get("firstSeen") or "").strip()
               if not raw:
                   return 0.0
               try:
