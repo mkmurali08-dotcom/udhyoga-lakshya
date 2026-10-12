@@ -5102,5 +5102,59 @@
     "source_url": "https://www.upsc.gov.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "1d14835827ee03d5af655095ca27661ff5ef97a9d9ba393ae9b95b026ea40a75"
+  },
+  "india-post-gds-online-engagement-list-i-of-shortlisted-candidates-published": {
+    "organization": "India Post",
+    "advertisement_number": "GDS Online Engagement Schedule-II, July-2026",
+    "post_names": [
+      "Gramin Dak Sevak (GDS)"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "User Registration Start Date: 31-08-2026, Application Submission Start Date: 02-09-2026",
+    "application_end": "User Registration End Date: 19-09-2026 17:00 HRS, Application Submission End Date: 21-09-2026 17:00 HRS",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Candidates applying for GDS Online Engagement – Schedule II, July-2026 are required to register afresh.",
+      "Registration Numbers generated in previous schedules will not be valid.",
+      "Candidates are advised not to trust any communications received from unauthorized or suspicious email IDs.",
+      "Department of Posts communicates information only through official email IDs ending with @indiapost.gov.in or @indiapostgdsonline.gov.in."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Edit/Correction Window Start Date: 23-09-2026",
+      "Edit/Correction Window End Date: 24-09-2026 17:00 HRS",
+      "Schedule-II, July-2026 : List-I of Shortlisted Candidates Published"
+    ],
+    "official_notification_url": "https://www.indiapost.gov.in/gdsonlineengagement",
+    "apply_url": "https://gdsrect.indiapost.gov.in/gdscandidate",
+    "portal_category": "latest-notifications",
+    "priority_score": 90,
+    "priority_reason": "Active central government recruitment notification for Gramin Dak Sevak with ongoing registration and application submission dates.",
+    "title": "India Post GDS Online Engagement — List-I of Shortlisted Candidates Published",
+    "type": "Results",
+    "state": "Central Goverment",
+    "status": "Live",
+    "category": "Results",
+    "source_url": "https://www.indiapost.gov.in/gdsonlineengagement",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "e4c6ef4aed15134e8945848da301e8705fb4546d73807893e80910c8b99035a0"
   }
 }
