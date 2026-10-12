@@ -1079,31 +1079,6 @@
       "row",
       "job",
       "central goverment",
-      "ssc je( (junior engineer) 2026",
-      "https://ssc.gov.in"
-    ],
-    "type": "Job",
-    "state": "Central Goverment",
-    "category": "Job",
-    "title": "SSC JE( (Junior Engineer) 2026",
-    "applicationStart": "September 2, 2026",
-    "applicationEnd": "",
-    "examDate": "",
-    "editCorrection": "",
-    "date": "September 2, 2026",
-    "officialLink": "https://ssc.gov.in/",
-    "applyLink": "https://ssc.gov.in/login",
-    "status": "Closed",
-    "firstSeen": "2026-10-12",
-    "lastUpdated": "2026-10-12",
-    "contentSignature": "{\"applicationEnd\":\"\",\"applicationStart\":\"September 2, 2026\",\"applyLink\":\"https://ssc.gov.in/login\",\"category\":\"Job\",\"date\":\"September 2, 2026\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://ssc.gov.in/\",\"state\":\"Central Goverment\",\"status\":\"Closed\",\"title\":\"SSC JE( (Junior Engineer) 2026\",\"type\":\"Job\"}",
-    "isNew": false
-  },
-  {
-    "_identity": [
-      "row",
-      "job",
-      "central goverment",
       "ssc cpo si vacancy 2026",
       "https://ssc.gov.in/api/attachment/uploads/masterdata/noticeboards/notice_of_adv_capf_2026.pdf"
     ],
