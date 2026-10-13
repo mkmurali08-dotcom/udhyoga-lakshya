@@ -1222,7 +1222,7 @@
     "firstSeen": "2026-10-12",
     "lastUpdated": "2026-10-12",
     "contentSignature": "{\"applicationEnd\":\"12/10/2026\",\"applicationStart\":\"19/09/2026\",\"applyLink\":\"https://cpri-app.onlineapplication.org.in/#/\",\"category\":\"Job\",\"date\":\"12/10/2026\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://cpri.res.in/en\",\"state\":\"Central Goverment\",\"status\":\"Current\",\"title\":\"Central Power Research Institute (CPRI) Recruitment 2026\",\"type\":\"Job\"}",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
