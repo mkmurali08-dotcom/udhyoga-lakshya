@@ -1453,55 +1453,51 @@
     "source_url": "https://tnpsc.gov.in/web/examdashboard/index.aspx"
   },
   "tnpsc-combined-technical-services-hall-ticket": {
-    "organization": "Tamil Nadu Public Service Commission (TNPSC)",
+    "organization": "Tamil Nadu Public Service Commission",
     "advertisement_number": "Not mentioned in the official notification",
     "post_names": [
-      "Combined Technical Services Examination (Non-Interview Posts / Interview Posts)"
+      "Combined Technical Services"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Tamil Nadu",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": "Not mentioned in the official notification",
-    "selection_process": [
-      "Not mentioned in the official notification"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
-    "important_instructions": [
-      "Download the hall ticket from the official TNPSC website using One Time Registration (OTR) / Application Number and Date of Birth."
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "This page provides hall ticket download and notification details for examinations conducted by the Tamil Nadu Public Service Commission."
     ],
     "official_notification_url": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx",
-    "apply_url": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "results-admit-cards",
+    "priority_score": 75,
+    "priority_reason": "The official page is dedicated to Hall Ticket downloads and recruitment notifications issued by the Tamil Nadu Public Service Commission, making it important for candidates checking admit cards and exam updates.",
     "title": "TNPSC Combined Technical Services — Hall Ticket",
     "type": "Admit Card",
     "state": "Tamil Nadu",
     "status": "Open",
-    "source_url": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx"
+    "category": "Admit Card",
+    "source_url": "https://www.tnpsc.gov.in/english/Department_Hallticket.aspx",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "fce7c8886682d1501f75d52e5e6ff80ae11f7db1718836be28930f5882d9c4ab"
   },
   "upsc-civil-services-examination-2026-main-examination-e-admit-card": {
     "organization": "Union Public Service Commission",
