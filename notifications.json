@@ -1523,5 +1523,30 @@
     "lastUpdated": "2026-10-12",
     "contentSignature": "{\"applicationEnd\":\"6/11/2026\",\"applicationStart\":\"8/10/2026\",\"applyLink\":\"\",\"category\":\"Job\",\"date\":\"6/11/2026\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://www.rrbapply.gov.in/#/auth/home\",\"state\":\"Central Goverment\",\"status\":\"Open\",\"title\":\"RRBNTPC Graduate CEN 06/2026 Vacancies 3,477\",\"type\":\"Job\"}",
     "isNew": false
+  },
+  {
+    "_identity": [
+      "row",
+      "job",
+      "central goverment",
+      "rrb station master recruitment 2026 total 1,265 vacancies",
+      "https://www.rrbapply.gov.in/assets/forms/cen_08_2026_stationmaster.pdf"
+    ],
+    "type": "Job",
+    "state": "Central Goverment",
+    "category": "Job",
+    "title": "RRB Station Master Recruitment 2026 Total 1,265 vacancies",
+    "applicationStart": "October 27, 2026",
+    "applicationEnd": "November 25, 2026",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "November 25, 2026",
+    "officialLink": "https://www.rrbapply.gov.in/assets/forms/CEN_08_2026_StationMaster.pdf",
+    "applyLink": "https://www.rrbapply.gov.in/#/auth/home",
+    "status": "Open",
+    "firstSeen": "2026-10-26T23:44:32+00:00",
+    "lastUpdated": "2026-10-26T23:44:32+00:00",
+    "contentSignature": "{\"applicationEnd\":\"November 25, 2026\",\"applicationStart\":\"October 27, 2026\",\"applyLink\":\"https://www.rrbapply.gov.in/#/auth/home\",\"category\":\"Job\",\"date\":\"November 25, 2026\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://www.rrbapply.gov.in/assets/forms/CEN_08_2026_StationMaster.pdf\",\"state\":\"Central Goverment\",\"status\":\"Open\",\"title\":\"RRB Station Master Recruitment 2026 Total 1,265 vacancies\",\"type\":\"Job\"}",
+    "isNew": true
   }
 ]
