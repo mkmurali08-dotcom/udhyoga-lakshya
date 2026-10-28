@@ -1504,13 +1504,13 @@
       "row",
       "job",
       "central goverment",
-      "rrbntpc graduate cen 06/2026 vacancies 3,477",
+      "rrbntpc graduate cen 06/2026 vacancies 3,548",
       "https://www.rrbapply.gov.in/#/auth/home"
     ],
     "type": "Job",
     "state": "Central Goverment",
     "category": "Job",
-    "title": "RRBNTPC Graduate CEN 06/2026 Vacancies 3,477",
+    "title": "RRBNTPC Graduate CEN 06/2026 Vacancies 3,548",
     "applicationStart": "8/10/2026",
     "applicationEnd": "6/11/2026",
     "examDate": "",
@@ -1519,10 +1519,10 @@
     "officialLink": "https://www.rrbapply.gov.in/#/auth/home",
     "applyLink": "",
     "status": "Open",
-    "firstSeen": "2026-10-12",
-    "lastUpdated": "2026-10-12",
-    "contentSignature": "{\"applicationEnd\":\"6/11/2026\",\"applicationStart\":\"8/10/2026\",\"applyLink\":\"\",\"category\":\"Job\",\"date\":\"6/11/2026\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://www.rrbapply.gov.in/#/auth/home\",\"state\":\"Central Goverment\",\"status\":\"Open\",\"title\":\"RRBNTPC Graduate CEN 06/2026 Vacancies 3,477\",\"type\":\"Job\"}",
-    "isNew": false
+    "firstSeen": "2026-10-28T17:31:14+00:00",
+    "lastUpdated": "2026-10-28T17:31:14+00:00",
+    "contentSignature": "{\"applicationEnd\":\"6/11/2026\",\"applicationStart\":\"8/10/2026\",\"applyLink\":\"\",\"category\":\"Job\",\"date\":\"6/11/2026\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://www.rrbapply.gov.in/#/auth/home\",\"state\":\"Central Goverment\",\"status\":\"Open\",\"title\":\"RRBNTPC Graduate CEN 06/2026 Vacancies 3,548\",\"type\":\"Job\"}",
+    "isNew": true
   },
   {
     "_identity": [
@@ -1547,6 +1547,56 @@
     "firstSeen": "2026-10-26T23:44:32+00:00",
     "lastUpdated": "2026-10-26T23:44:32+00:00",
     "contentSignature": "{\"applicationEnd\":\"November 25, 2026\",\"applicationStart\":\"October 27, 2026\",\"applyLink\":\"https://www.rrbapply.gov.in/#/auth/home\",\"category\":\"Job\",\"date\":\"November 25, 2026\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://www.rrbapply.gov.in/assets/forms/CEN_08_2026_StationMaster.pdf\",\"state\":\"Central Goverment\",\"status\":\"Open\",\"title\":\"RRB Station Master Recruitment 2026 Total 1,265 vacancies\",\"type\":\"Job\"}",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "row",
+      "exam",
+      "telangana",
+      "assistant scientist (analyst grade- ll) master question paper with key 27/10/2026 to 30/10/2026 up to 5:00 pm.",
+      "https://websitenew.tgpsc.gov.in"
+    ],
+    "type": "Exam",
+    "state": "Telangana",
+    "category": "Exam",
+    "title": "ASSISTANT\nSCIENTIST (ANALYST GRADE- ll) MASTER QUESTION PAPER WITH KEY 27/10/2026 to\r\n30/10/2026 up to 5:00 PM.",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "",
+    "officialLink": "https://websitenew.tgpsc.gov.in/",
+    "applyLink": "",
+    "status": "Answer key",
+    "firstSeen": "2026-10-28T17:31:14+00:00",
+    "lastUpdated": "2026-10-28T17:31:14+00:00",
+    "contentSignature": "{\"applicationEnd\":\"\",\"applicationStart\":\"\",\"applyLink\":\"\",\"category\":\"Exam\",\"date\":\"\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://websitenew.tgpsc.gov.in/\",\"state\":\"Telangana\",\"status\":\"Answer key\",\"title\":\"ASSISTANT\\nSCIENTIST (ANALYST GRADE- ll) MASTER QUESTION PAPER WITH KEY 27/10/2026 to\\r\\n30/10/2026 up to 5:00 PM.\",\"type\":\"Exam\"}",
+    "isNew": true
+  },
+  {
+    "_identity": [
+      "row",
+      "job",
+      "telangana",
+      "mandal planning and statistical officers / assistant statistical officers in directorate of economics and statistics",
+      "https://websitenew.tgpsc.gov.in/preview/ufjfu1not1rflza3luctmjayni1nufnplu5pvelgtjiwmjyxmdi4mtkwnzmwlnbkzmfjy2vzc3rpbwu9mjayny0wms0yoa==r95v17a0y2d8i13v"
+    ],
+    "type": "Job",
+    "state": "Telangana",
+    "category": "Job",
+    "title": "MANDAL PLANNING AND\r\nSTATISTICAL OFFICERS / ASSISTANT STATISTICAL OFFICERS IN\r\nDIRECTORATE OF ECONOMICS AND STATISTICS",
+    "applicationStart": "30/10/2026",
+    "applicationEnd": "27/11/2026",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "27/11/2026",
+    "officialLink": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzA3LUctMjAyNi1NUFNPLU5PVElGTjIwMjYxMDI4MTkwNzMwLnBkZmFjY2Vzc3RpbWU9MjAyNy0wMS0yOA==r95v17a0y2d8i13v",
+    "applyLink": "",
+    "status": "Open",
+    "firstSeen": "2026-10-28T17:31:14+00:00",
+    "lastUpdated": "2026-10-28T17:31:14+00:00",
+    "contentSignature": "{\"applicationEnd\":\"27/11/2026\",\"applicationStart\":\"30/10/2026\",\"applyLink\":\"\",\"category\":\"Job\",\"date\":\"27/11/2026\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzA3LUctMjAyNi1NUFNPLU5PVElGTjIwMjYxMDI4MTkwNzMwLnBkZmFjY2Vzc3RpbWU9MjAyNy0wMS0yOA==r95v17a0y2d8i13v\",\"state\":\"Telangana\",\"status\":\"Open\",\"title\":\"MANDAL PLANNING AND\\r\\nSTATISTICAL OFFICERS / ASSISTANT STATISTICAL OFFICERS IN\\r\\nDIRECTORATE OF ECONOMICS AND STATISTICS\",\"type\":\"Job\"}",
     "isNew": true
   }
 ]
