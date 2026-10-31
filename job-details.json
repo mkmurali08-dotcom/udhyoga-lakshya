@@ -5256,5 +5256,52 @@
     "source_url": "https://www.rbi.org.in/Scripts/Res_Ofcr_GRD_B_Gn_PH_II_2026.aspx",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "b9fd54262a14ac2ae3a1312663040c1cda5a27ef4d785e5d0a1d3f3bc1defb1c"
+  },
+  "ssc-je-junior-engineer-2026-tier-1-admit-card-released": {
+    "organization": "Staff Selection Commission",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Junior Engineer"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "SSC JE (Junior Engineer) 2026 Tier 1 Admit card Released"
+    ],
+    "official_notification_url": "https://ssc.gov.in/",
+    "apply_url": "https://ssc.gov.in/",
+    "portal_category": "results-admit-cards",
+    "priority_score": 90,
+    "priority_reason": "The official notification pertains to the release of SSC JE Tier 1 Admit Cards, which is a crucial operational update for candidates appearing for the examination.",
+    "title": "SSC JE (Junior Engineer) 2026 Tier 1 Admit card Released",
+    "type": "Exam",
+    "state": "Central Goverment",
+    "status": "Admit Card",
+    "category": "Exam",
+    "source_url": "https://ssc.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "4edbb99404fd3897538115e6550431415b6333dd0bfeb90d3c645f27d65f9b66"
   }
 }
