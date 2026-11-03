@@ -1447,7 +1447,7 @@
     "firstSeen": "2026-10-26T23:44:32+00:00",
     "lastUpdated": "2026-10-31T19:22:04+00:00",
     "contentSignature": "{\"applicationEnd\":\"November 25, 2026\",\"applicationStart\":\"October 27, 2026\",\"applyLink\":\"https://www.rrbapply.gov.in/#/auth/home\",\"category\":\"Job\",\"date\":\"November 25, 2026\",\"editCorrection\":\"November 28 to December 7, 2026 (fee of ₹250 per modification)\",\"examDate\":\"\",\"officialLink\":\"https://www.rrbapply.gov.in/assets/forms/CEN_08_2026_StationMaster.pdf\",\"state\":\"Central Goverment\",\"status\":\"Open\",\"title\":\"RRB Station Master Recruitment 2026 Total 1,265 vacancies\",\"type\":\"Job\"}",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
