@@ -1247,7 +1247,7 @@
     "firstSeen": "2026-10-31T19:22:04+00:00",
     "lastUpdated": "2026-10-31T19:22:04+00:00",
     "contentSignature": "{\"applicationEnd\":\"13/11/2026\",\"applicationStart\":\"15/10/2026\",\"applyLink\":\"https://www.rrbapply.gov.in/#/auth/home\",\"category\":\"Job\",\"date\":\"13/11/2026\",\"editCorrection\":\"16 November to 25 November 2026\",\"examDate\":\"\",\"officialLink\":\"https://www.rrbapply.gov.in/assets/forms/CEN_07_2026_NTPC_UG.pdf\",\"state\":\"Central Goverment\",\"status\":\"Current\",\"title\":\"RRB NTPC 10+2 Undergraduate recruitment (CEN 07/2026)\",\"type\":\"Job\"}",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1522,7 +1522,7 @@
     "firstSeen": "2026-10-31T17:52:41+00:00",
     "lastUpdated": "2026-10-31T17:52:41+00:00",
     "contentSignature": "{\"applicationEnd\":\"\",\"applicationStart\":\"\",\"applyLink\":\"\",\"category\":\"Up Coming\",\"date\":\"\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://dfpd.gov.in/en\",\"state\":\"Central Goverment\",\"status\":\"Upcoming\",\"title\":\"Food Corporation of India (FCI)\",\"type\":\"Up Coming\"}",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1622,7 +1622,7 @@
     "firstSeen": "2026-10-31T17:52:41+00:00",
     "lastUpdated": "2026-10-31T17:52:41+00:00",
     "contentSignature": "{\"applicationEnd\":\"\",\"applicationStart\":\"\",\"applyLink\":\"\",\"category\":\"Results\",\"date\":\"\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://www.rbi.org.in/Scripts/Res_Ofcr_GRD_B_Gn_PH_II_2026.aspx\",\"state\":\"Central Goverment\",\"status\":\"Current\",\"title\":\"RBI Grade B Phase 2 Scorecard Released\",\"type\":\"Results\"}",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1647,7 +1647,7 @@
     "firstSeen": "2026-10-31T17:52:41+00:00",
     "lastUpdated": "2026-10-31T17:52:41+00:00",
     "contentSignature": "{\"applicationEnd\":\"\",\"applicationStart\":\"\",\"applyLink\":\"\",\"category\":\"Admit Card\",\"date\":\"\",\"editCorrection\":\"\",\"examDate\":\"November 3 to November 5, 2026\",\"officialLink\":\"https://rrb.indianrailways.gov.in/\",\"state\":\"Central Goverment\",\"status\":\"Admit Card\",\"title\":\"RRB ALP (Assistant Loco Pilot) CBT 1 Admit Card Released October 30–31, 2026\",\"type\":\"Admit Card\"}",
-    "isNew": true
+    "isNew": false
   },
   {
     "_identity": [
@@ -1672,6 +1672,6 @@
     "firstSeen": "2026-10-31T19:22:04+00:00",
     "lastUpdated": "2026-10-31T19:22:04+00:00",
     "contentSignature": "{\"applicationEnd\":\"\",\"applicationStart\":\"\",\"applyLink\":\"\",\"category\":\"Exam\",\"date\":\"\",\"editCorrection\":\"\",\"examDate\":\"November 2 to November 6, 2026\",\"officialLink\":\"https://ssc.gov.in/\",\"state\":\"Central Goverment\",\"status\":\"Admit Card\",\"title\":\"SSC JE (Junior Engineer) 2026 Tier 1 Admit card Released\",\"type\":\"Exam\"}",
-    "isNew": true
+    "isNew": false
   }
 ]
