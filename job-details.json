@@ -3625,54 +3625,66 @@
   },
   "ibps-rrb-officer-scale-i-preliminary-examination": {
     "organization": "Institute of Banking Personnel Selection (IBPS)",
-    "advertisement_number": "Not mentioned in the official notification",
+    "advertisement_number": "CRP RRBs-XV",
     "post_names": [
       "Officer Scale I"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "02.08.2026, 08.08.2026, 09.08.2026, 16.08.2026, 22.08.2026",
+    "exam_date": "21st and 22nd November 2026 (Preliminary Examination)",
     "selection_process": [
-      "Preliminary Examination"
+      "Preliminary Examination",
+      "Main/Single Examination"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
     "documents_required": [
-      "Not mentioned in the official notification"
+      "Photograph of the Applicant – 20 kb to 50 kb in .jpeg file",
+      "Signature of the Applicant – 10 kb to 20 kb in .jpeg file",
+      "Thumb impression of the Applicant – 20 kb to 50 kb in .jpeg file",
+      "Scanned Copy of handwritten declaration as per the format, which will be available in the respective notification – 50 kb to 100 kb in .jpeg file",
+      "\"Live photograph\" captured at the time of application either by using webcam or mobile phone"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "This is a tentative calendar for CRP RRBs-XV. Candidate registration will be via online mode only. Please check the authorised IBPS website www.ibps.in regularly for detailed notifications and updates."
+      "The registration process will be through online mode only and there will be a single registration for both Preliminary and Main examination, wherever applicable.",
+      "Photograph uploaded must be a recent passport colour picture and should be clearly visible.",
+      "Signature uploaded should be clearly visible and NOT IN CAPITAL LETTERS.",
+      "Prospective candidates are advised to visit official website of IBPS www.ibps.in regularly for detailed notification for each of the above examinations to be displayed in due course."
+    ],
+    "how_to_apply": "The registration process will be through online mode only via the official website of IBPS www.ibps.in.",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Tentative Calendar of Online CRP for PSBs & RRBs (2026-2027)",
+      "IBPS reserves the right to change the dates of examination and the selection process including guidelines/modalities stated above on the basis of administrative reasons, court order, Govt. Advisories, etc.",
+      "Date of calendar: 16.01.2026"
     ],
     "official_notification_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
     "apply_url": "https://www.ibps.in",
+    "portal_category": "upcoming-exams",
+    "priority_score": 85,
+    "priority_reason": "This is an official tentative examination calendar released by IBPS for Regional Rural Banks (RRBs) CRP RRBs-XV Officer Scale I, providing advance exam dates for candidates to prepare ahead.",
     "title": "IBPS RRB Officer Scale I — Preliminary Examination",
     "type": "Exam",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Upcoming",
-    "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    "category": "Exam",
+    "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "88b8854bbcb6404cdc9d2b8a219fcf3d8b6235738deffd954fee365eb6eeec52"
   },
   "ibps-rrb-office-assistants-preliminary-examination": {
     "organization": "Institute of Banking Personnel Selection (IBPS)",
