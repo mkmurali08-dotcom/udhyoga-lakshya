@@ -5383,5 +5383,61 @@
     "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "1b32d12ebcf2e029ffe68970c971159817d9ab6b0cdb7a5f0f9520c7de16fa34"
+  },
+  "ibps-rrb-xv-officer-scale-i-ii-iii-and-office-assistant-recruitment": {
+    "organization": "Institute of Banking Personnel Selection (IBPS)",
+    "advertisement_number": "CRP RRBs-XV",
+    "post_names": [
+      "Officer Scale I",
+      "Officer Scale II",
+      "Officer Scale III",
+      "Office Assistant"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": [
+      "Online Preliminary Exam",
+      "Online Pre-Examination Training (PET) for candidates who opted for it"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Online Pre-Examination Training for candidates who opted for PET under CRP-RRBs-XV posted on 11 Nov, 2026",
+      "Online Preliminary Exam Call Letter for CRP-RRBs-XV- Officer Scale I posted on 09 Nov, 2026"
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "The Institute of Banking Personnel Selection (IBPS) is an autonomous body created to assist organisations in selection of personnel at various levels."
+    ],
+    "official_notification_url": "https://www.ibps.in/",
+    "apply_url": "https://www.ibps.in/index.php/rural-bank-xv/",
+    "portal_category": "results-admit-cards",
+    "priority_score": 75,
+    "priority_reason": "The notification provides official updates regarding admit cards and pre-examination training for an active Institute of Banking Personnel Selection (IBPS) recruitment process (CRP RRBs-XV).",
+    "title": "IBPS RRB XV-Officer Scale I/II/III and Office Assistant recruitment",
+    "type": "Exam",
+    "state": "Central Goverment",
+    "status": "Extended",
+    "category": "Exam",
+    "source_url": "https://www.ibps.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "3239ed048826c100e2eb858c8f20a2445416412a2807a386ff706509706c94f2"
   }
 }
