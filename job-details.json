@@ -3676,58 +3676,55 @@
   },
   "ibps-rrb-office-assistants-preliminary-examination": {
     "organization": "Institute of Banking Personnel Selection (IBPS)",
-    "advertisement_number": "Not mentioned in the official notification",
+    "advertisement_number": "CRP-RRBs-XV",
     "post_names": [
-      "Officer Scale-I",
-      "Office Assistants (Multipurpose)"
+      "Office Assistants",
+      "Officer Scale I"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "Various Regional Rural Banks (RRBs) across India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "Preliminary Examination: 02.08.2025, 03.08.2025, 09.08.2025, 10.08.2025, 16.08.2025 and 17.08.2025 (Dates are tentative)",
-    "selection_process": [
-      "Preliminary Examination",
-      "Single/Main Examination"
-    ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
-    "documents_required": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "This is a tentative calendar for CRP RRBXIV.",
-      "Candidates are advised to check regularly the authorized IBPS website www.ibps.in for details and updates.",
-      "Registrations will be through online mode only and there will be a single registration for both Preliminary and Main/Single Examination."
+      "Online Pre-Examination Training for Candidates who Opted for PET under CRP-RRBs-XV posted on 11 Nov, 2026",
+      "Online Preliminary Exam Call Letter for CRP-RRBs-XV- Officer Scale I posted on 09 Nov, 2026"
     ],
-    "official_notification_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
-    "apply_url": "https://www.ibps.in",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Online Pre-Examination Training for Candidates who Opted for PET under CRP- RRBs-XV posted on 11 Nov, 2026",
+      "Online Preliminary Exam Call Letter for CRP-RRBs-XV- Officer Scale I posted on 09 Nov, 2026"
+    ],
+    "official_notification_url": "https://www.ibps.in/",
+    "apply_url": "https://www.ibps.in/",
+    "portal_category": "results-admit-cards",
+    "priority_score": 75,
+    "priority_reason": "The page provides official updates regarding admit cards and pre-examination training for ongoing banking examinations (CRP-RRBs-XV).",
     "title": "IBPS RRB Office Assistants — Preliminary Examination",
     "type": "Exam",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Upcoming",
-    "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    "category": "Exam",
+    "source_url": "https://www.ibps.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "2f8c68a2900f187fbf0a9f65fdf1d723f5e4625f5ef04484db7871abdbfa4026"
   },
   "ibps-rrb-officer-scale-ii-iii-single-examination": {
     "organization": "Institute of Banking Personnel Selection (IBPS)",
