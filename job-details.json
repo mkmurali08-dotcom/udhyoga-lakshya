@@ -3504,124 +3504,143 @@
     "organization": "Institute of Banking Personnel Selection (IBPS)",
     "advertisement_number": "CRP-SPL-XVI",
     "post_names": [
-      "CRP-SPL-XVI (Specialist Officers)"
+      "Specialist Officers (SPL)"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
     "job_location": "Not mentioned in the official notification",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
-    "exam_date": "07.02.2027",
+    "exam_date": "Preliminary Examination: 29th August 2026; Main Examination: 1st November 2026",
     "selection_process": [
+      "Preliminary Examination",
       "Main Examination"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
     "documents_required": [
-      "Not mentioned in the official notification"
+      "Photograph of the Applicant – 20 kb to 50 kb in .jpeg file",
+      "Signature of the Applicant – 10 kb to 20 kb in .jpeg file",
+      "Thumb impression of the Applicant – 20 kb to 50 kb in .jpeg file",
+      "Scanned Copy of handwritten declaration as per the format, which will be available in the respective notification – 50 kb to 100 kb in .jpeg file",
+      "Live photograph captured and uploaded at the time of application either by using webcam or mobile phone"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates are advised to regularly keep visiting the authorised IBPS website www.ibps.in for details and updates.",
-      "Any change in the dates of the events shall be notified on the official website of IBPS."
+      "The registration process will be through online mode only and there will be a single registration for both Preliminary and Main examination, wherever applicable.",
+      "Photograph uploaded must be a recent passport colour picture and should be clearly visible.",
+      "Signature uploaded should be clearly visible and NOT IN CAPITAL LETTERS.",
+      "Prospective candidates are advised to visit official website of IBPS www.ibps.in regularly for detailed notification for each of the above examinations to be displayed in due course.",
+      "IBPS reserves the right to change the dates of examination and the selection process including guidelines/modalities stated above on the basis of administrative reasons, court order, Govt. Advisories, etc."
+    ],
+    "how_to_apply": "The registration process will be through online mode only via www.ibps.in. Detailed notification will be displayed in due course.",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Tentative Calendar of Online CRP for PSBs & RRBs (2026-2027)",
+      "Date of calendar release: 16.01.2026"
     ],
     "official_notification_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
     "apply_url": "https://www.ibps.in",
+    "portal_category": "upcoming-exams",
+    "priority_score": 85,
+    "priority_reason": "It is an official annual tentative examination calendar released by IBPS for banking recruitment, providing crucial advance exam dates for future aspirants.",
     "title": "IBPS CRP-SPL-XVI — Main Examination",
     "type": "Exam",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Upcoming",
-    "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    "category": "Exam",
+    "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "8eaebd608c554f86ab2bbaf47fdb4320f33c9658cc422701d54323115630e856"
   },
   "ibps-crp-csa-xvi-preliminary-examination": {
     "organization": "Institute of Banking Personnel Selection (IBPS)",
     "advertisement_number": "CRP-CSA-XVI",
     "post_names": [
-      "Regional Rural Banks (RRBs) - CRP RRBs XVI (Officers Scale I, II & III)",
-      "Regional Rural Banks (RRBs) - CRP RRBs XVI (Office Assistants (Multipurpose))",
-      "Public Sector Banks - CRP XIV (Clerk)",
-      "Public Sector Banks - CRP XIV (PO/MT)",
-      "Public Sector Banks - CRP XIV (Specialist Officer)"
+      "Customer Service Associates (CSA)",
+      "Probationary Officers/ Management Trainees (PO/MT)",
+      "Specialist Officers (SPL)",
+      "Officer Scale I",
+      "Officer Scale II and III",
+      "Office Assistants"
     ],
     "total_vacancies": "Not mentioned in the official notification",
-    "vacancy_breakdown": [
-      "Not mentioned in the official notification"
-    ],
-    "job_location": "Various participating Regional Rural Banks and Public Sector Banks across India",
-    "educational_qualification": [
-      "Not mentioned in the official notification"
-    ],
-    "other_eligibility": [
-      "Not mentioned in the official notification"
-    ],
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Not mentioned in the official notification",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
     "age_limit": "Not mentioned in the official notification",
-    "age_relaxation": [
-      "Not mentioned in the official notification"
-    ],
-    "application_fee": [
-      "Not mentioned in the official notification"
-    ],
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
     "application_start": "Not mentioned in the official notification",
     "application_end": "Not mentioned in the official notification",
     "exam_date": [
-      "CRP RRBs-XVI Officers Scale-I Preliminary: 01.08.2026, 02.08.2026, 08.08.2026, 09.08.2026, 16.08.2026",
-      "CRP RRBs-XVI Office Assistants Preliminary: 08.08.2026, 09.08.2026, 16.08.2026, 22.08.2026, 23.08.2026",
-      "CRP RRBs-XVI Single Examination for Officers Scale II & III: 27.09.2026",
-      "CRP RRBs-XVI Main Examination for Officers Scale-I: 27.09.2026",
-      "CRP RRBs-XVI Main Examination for Office Assistants: 04.10.2026",
-      "CRP-PSBs-XV Preliminary Examination for Clerk: 29.08.2030 (as listed in calendar, 29.08.2026, 30.08.2026, 05.09.2026)",
-      "CRP-PSBs-XV Main Examination for Clerk: 11.10.2026",
-      "CRP-PSBs-XV Preliminary Examination for PO/MT: 10.10.2026, 11.10.2026, 17.10.2026",
-      "CRP-PSBs-XV Main Examination for PO/MT: 29.11.2026",
-      "CRP-PSBs-XV Preliminary Examination for Specialist Officers: 06.12.2026",
-      "CRP-PSBs-XV Main Examination for Specialist Officers: 24.01.2027"
+      "Preliminary Examination for Customer Service Associates (CSA): 10th and 11th October 2026",
+      "Main Examination for Customer Service Associates (CSA): 27th December 2026",
+      "Preliminary Examination for Probationary Officers/ Management Trainees (PO/MT): 22nd and 23rd August 2026",
+      "Main Examination for Probationary Officers/ Management Trainees (PO/MT): 4th October 2026",
+      "Preliminary Examination for Specialist Officers (SPL): 29th August 2026",
+      "Main Examination for Specialist Officers (SPL): 1st November 2026",
+      "Preliminary Examination for Officer Scale I: 21st and 22nd November 2026",
+      "Main/ Single Examination for Officer Scale I: 20th December 2026",
+      "Main/ Single Examination for Officer Scale II and III: 20th December 2026",
+      "Preliminary Examination for Office Assistants: 6th, 12th and 13th December 2026",
+      "Main/ Single Examination for Office Assistants: 30th January 2027"
     ],
     "selection_process": [
       "Preliminary Examination",
-      "Main Examination / Single Examination",
-      "Interview (where applicable)"
+      "Main Examination"
     ],
-    "exam_pattern": [
-      "Not mentioned in the official notification"
-    ],
-    "syllabus": [
-      "Not mentioned in the official notification"
-    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
     "documents_required": [
-      "Not mentioned in the official notification"
+      "Photograph of the Applicant – 20 kb to 50 kb in .jpeg file",
+      "Signature of the Applicant – 10 kb to 20 kb in .jpeg file",
+      "Thumb impression of the Applicant – 20 kb to 50 kb in .jpeg file",
+      "Scanned Copy of handwritten declaration as per the format, which will be available in the respective notification – 50 kb to 100 kb in .jpeg file",
+      "Live photograph captured at the time of application either by using webcam or mobile phone"
     ],
     "salary_pay_scale": "Not mentioned in the official notification",
     "important_instructions": [
-      "Candidates are advised to regularly keep visiting the authorized IBPS website www.ibps.in for details and updates.",
-      "Any change in the calendar shall be notified on the official website.",
-      "Registration will be tentative/online through the official website."
+      "The registration process will be through online mode only and there will be a single registration for both Preliminary and Main examination, wherever applicable.",
+      "Photograph uploaded must be a recent passport colour picture and should be clearly visible.",
+      "Candidates will also be required to capture and upload their \"live photograph\" at the time of application either by using webcam or mobile phone.",
+      "Signature uploaded should be clearly visible and NOT IN CAPITAL LETTERS.",
+      "Prospective candidates are advised to visit official website of IBPS www.ibps.in regularly for detailed notification for each of the above examinations to be displayed in due course."
+    ],
+    "how_to_apply": "Online mode only through the official website www.ibps.in",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "IBPS reserves the right to change the dates of examination and the selection process including guidelines/modalities stated above on the basis of administrative reasons, court order, Govt. Advisories, etc."
     ],
     "official_notification_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
     "apply_url": "https://www.ibps.in",
+    "portal_category": "upcoming-exams",
+    "priority_score": 85,
+    "priority_reason": "The document is an official tentative calendar for major banking examinations (IBPS CRP PSBs & RRBs for 2026-2027) which is critical for aspirants preparing for upcoming banking exams.",
     "title": "IBPS CRP-CSA-XVI — Preliminary Examination",
     "type": "Exam",
-    "state": "Central Government",
+    "state": "Central Goverment",
     "status": "Upcoming",
-    "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf"
+    "category": "Exam",
+    "source_url": "https://www.ibps.in/wp-content/uploads/IBPS_CALENDAR_2026-27_final.pdf",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "cc92d94b89a4d9f9add20ef1debcd6cd33104c6a8388c7a12684c58a2bd2adf6"
   },
   "ibps-rrb-officer-scale-i-preliminary-examination": {
     "organization": "Institute of Banking Personnel Selection (IBPS)",
