@@ -1673,5 +1673,30 @@
     "lastUpdated": "2026-10-31T19:22:04+00:00",
     "contentSignature": "{\"applicationEnd\":\"\",\"applicationStart\":\"\",\"applyLink\":\"\",\"category\":\"Exam\",\"date\":\"\",\"editCorrection\":\"\",\"examDate\":\"November 2 to November 6, 2026\",\"officialLink\":\"https://ssc.gov.in/\",\"state\":\"Central Goverment\",\"status\":\"Admit Card\",\"title\":\"SSC JE (Junior Engineer) 2026 Tier 1 Admit card Released\",\"type\":\"Exam\"}",
     "isNew": false
+  },
+  {
+    "_identity": [
+      "row",
+      "results",
+      "telangana",
+      "(assistant environmental engineer in telangana pollution control board) preamble for certificate verification : 18/11/2026 from 10:30 am to 5.00 pm and reserve day would be on 19/11/2026 10:30 am to 5.00 pm at tgpsc office.",
+      "https://websitenew.tgpsc.gov.in/preview/ufjfu1not1rfl0ffrs1qq0itq1yttk9usuzomjaynjexmtqxnjayndcucgrmywnjzxnzdgltzt0ymdi2lteylta2r95v17a0y2d8i13v"
+    ],
+    "type": "Results",
+    "state": "Telangana",
+    "category": "Results",
+    "title": "(Assistant Environmental Engineer in Telangana Pollution Control Board) Preamble for Certificate Verification : 18/11/2026 from 10:30 AM to\r\n5.00 PM and reserve day would be on 19/11/2026 10:30 AM to 5.00 PM at TGPSC Office.",
+    "applicationStart": "",
+    "applicationEnd": "",
+    "examDate": "",
+    "editCorrection": "",
+    "date": "",
+    "officialLink": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL0FFRS1QQ0ItQ1YtTk9USUZOMjAyNjExMTQxNjAyNDcucGRmYWNjZXNzdGltZT0yMDI2LTEyLTA2r95v17a0y2d8i13v",
+    "applyLink": "",
+    "status": "Notification Published",
+    "firstSeen": "2026-11-14T13:52:40+00:00",
+    "lastUpdated": "2026-11-14T13:52:40+00:00",
+    "contentSignature": "{\"applicationEnd\":\"\",\"applicationStart\":\"\",\"applyLink\":\"\",\"category\":\"Results\",\"date\":\"\",\"editCorrection\":\"\",\"examDate\":\"\",\"officialLink\":\"https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL0FFRS1QQ0ItQ1YtTk9USUZOMjAyNjExMTQxNjAyNDcucGRmYWNjZXNzdGltZT0yMDI2LTEyLTA2r95v17a0y2d8i13v\",\"state\":\"Telangana\",\"status\":\"Notification Published\",\"title\":\"(Assistant Environmental Engineer in Telangana Pollution Control Board) Preamble for Certificate Verification : 18/11/2026 from 10:30 AM to\\r\\n5.00 PM and reserve day would be on 19/11/2026 10:30 AM to 5.00 PM at TGPSC Office.\",\"type\":\"Results\"}",
+    "isNew": true
   }
 ]
