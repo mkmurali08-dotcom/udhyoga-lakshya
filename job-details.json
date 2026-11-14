@@ -5467,5 +5467,1239 @@
     "source_url": "https://www.ibps.in/",
     "_extractor_version": "2026-09-12-universal-all-data-v2",
     "_sheet_fingerprint": "3239ed048826c100e2eb858c8f20a2445416412a2807a386ff706509706c94f2"
+  },
+  "manager-engineering-in-hyderabad-metropolitan-water-supply-and-sewerage-board": {
+    "organization": "TELANGANA PUBLIC SERVICE COMMISSION: HYDERABAD / Hyderabad Metropolitan Water Supply and Sewerage Board",
+    "advertisement_number": "04/OG/HM/2026, Dt. 18/09/2026",
+    "post_names": [
+      "Manager (Engineering) in Hyderabad Metropolitan Water Supply and Sewerage Board"
+    ],
+    "total_vacancies": 130,
+    "vacancy_breakdown": [
+      {
+        "community_category": "OC",
+        "un_reserved": "03",
+        "local": "37"
+      },
+      {
+        "community_category": "EWS",
+        "un_reserved": "-",
+        "local": "13"
+      },
+      {
+        "community_category": "BC-A",
+        "un_reserved": "01",
+        "local": "09"
+      },
+      {
+        "community_category": "BC-B",
+        "un_reserved": "-",
+        "local": "12"
+      },
+      {
+        "community_category": "BC-C",
+        "un_reserved": "-",
+        "local": "02"
+      },
+      {
+        "community_category": "BC-D",
+        "un_reserved": "-",
+        "local": "08"
+      },
+      {
+        "community_category": "BC-E",
+        "un_reserved": "-",
+        "local": "05"
+      },
+      {
+        "community_category": "SC-GR-I",
+        "un_reserved": "-",
+        "local": "02"
+      },
+      {
+        "community_category": "SC-GR-II",
+        "un_reserved": "01",
+        "local": "11"
+      },
+      {
+        "community_category": "SC-GR-III",
+        "un_reserved": "-",
+        "local": "06"
+      },
+      {
+        "community_category": "ST",
+        "un_reserved": "-",
+        "local": "13"
+      },
+      {
+        "community_category": "VH",
+        "un_reserved": "01",
+        "local": "01"
+      },
+      {
+        "community_category": "HH",
+        "un_reserved": "-",
+        "local": "01"
+      },
+      {
+        "community_category": "OH",
+        "un_reserved": "-",
+        "local": "01"
+      },
+      {
+        "community_category": "MH",
+        "un_reserved": "-",
+        "local": "01"
+      },
+      {
+        "community_category": "EX-SER",
+        "un_reserved": "-",
+        "local": "-"
+      },
+      {
+        "community_category": "SPORTS",
+        "un_reserved": "-",
+        "local": "02"
+      },
+      {
+        "community_category": "TOTAL",
+        "un_reserved": "06",
+        "local": "124"
+      }
+    ],
+    "job_location": "Telangana State (Multi Zone-II)",
+    "educational_qualification": "A Graduate in Engineering:\n1) 80% of posts for Civil Engineering.\n2) 15% of posts for Electrical / Mechanical Engineering.\n3) 5% of posts for CSE/IT/ECE Engineering.",
+    "other_eligibility": "He/She is a citizen of India and possesses the academic and other qualifications prescribed for the post, with character and antecedents suitable for service.",
+    "age_limit": "Min: 18 years, Max: 44 years as on 01/07/2026. An applicant should not be born after 01/07/2008 and not before 02/07/1982.",
+    "age_relaxation": [
+      "SC/ST/BCs & EWS: 5 Years",
+      "Physically Handicapped persons: 10 Years",
+      "Telangana State Government Employees (Employees of Corporations, Municipalities etc., are not eligible): Up to 5 Years based on the length of regular service.",
+      "Ex-Servicemen: 3 years & length of service rendered in the armed forces.",
+      "N.C.C. (who have worked as Instructor in N.C.C.): 3 Years & length of service rendered in the N.C.C."
+    ],
+    "application_fee": [
+      "Application Processing Fee: Rs. 1000/- for OC & BC applicants and Rs. 500/- for SC, ST and PwD applicants.",
+      "Examination Fee: Rs. 120/-. All unemployed applicants are exempted from payment of examination fee, whereas all Employees of any Government (Central / State / PSUs / Corporations / Other Government Sector) shall pay the prescribed examination fee."
+    ],
+    "application_start": "23/09/2026",
+    "application_end": "17/10/2026",
+    "exam_date": "December - 2026 (Tentative)",
+    "selection_process": [
+      "Selection of candidates will be made by Examination (Objective Type) by CBRT / OMR based on marks secured in the examination.",
+      "Qualifying marks: OC, Sportspersons & EWS – not less than 40%, BCs - not less than 35%, SCs, STs & PHs– not less than 30%.",
+      "Medical Examination for physical and mental fitness."
+    ],
+    "exam_pattern": [
+      "Paper-I: General Studies and General Abilities - 150 Questions, 150 Marks, Duration: 150 Minutes (Bilingual: English and Telugu)",
+      "Paper-II: Concerned Subject - 150 Questions, 300 Marks, Duration: 150 Minutes (English)"
+    ],
+    "syllabus": [
+      "Paper-I: General Studies and General Abilities: Current affairs (Regional, National and International); International Relations and Events; General Science & India's Achievements in Science and Technology; Environmental issues & Disaster Management; Economic and Social Development of India and Telangana; Geography of India and Telangana; History of Modern India & Indian National Movement; Telangana Statehood Movement and History; Indian Constitution, Political System, Governance and Public Policy; Social Exclusion & Rights issues; Society, Culture, Heritage, Arts and Literature of Telangana; Policies of Telangana State; Logical Reasoning, Analytical Ability and Data Interpretation; Basic English (10th class Standard).",
+      "Paper-II: Concerned Subject (Civil Engineering / Mechanical Engineering / Electrical Engineering / Electronics & Communication Engineering / Computer Science Engineering & Information Technology - Degree Level)"
+    ],
+    "documents_required": [
+      "PDF Application form",
+      "Hall Ticket",
+      "Aadhaar Card / Voter ID / Passport / Driving License / Service ID Card / Passbook / PAN Card",
+      "Proof of Educational Qualifications",
+      "S.S.C / CBSE / ICSE (For Date of Birth)",
+      "School Study Certificate (1st to 7th Class)",
+      "Certificate of Residence (where applicable)",
+      "Declaration by the Unemployed (For fee exemption)",
+      "No Objection Certificate from Employer",
+      "Service Certificate (If claiming age relaxation as employee)",
+      "Certificate claiming sports reservation",
+      "Certificate claiming Ex-servicemen age relaxation",
+      "Community Certificate for BCs, SCs & STs issued by Tahasildar/RDO",
+      "Community, Nativity and Date of Birth Certificate",
+      "Non-Creamy Layer Certificate for BCs (Form- VIIB)",
+      "Latest Income Certificate for EWS reservation",
+      "Disability Certificate in SADAREM format for PwD applicants"
+    ],
+    "salary_pay_scale": "Rs. 54,220 - 1,33,630/-",
+    "important_instructions": [
+      "One Time Registration (OTR) is not considered as an application for any post.",
+      "Applicants need to submit ONLINE applications specifically and mandatorily.",
+      "Applicants must retain the mobile number and email-ID registered in OTR.",
+      "Electronic gadgets/devices are banned inside the examination hall.",
+      "Writing symbols or identification marks on OMR/Answer script is strictly prohibited."
+    ],
+    "how_to_apply": [
+      "Step-I: Visit https://www.tgpsc.gov.in and register via OTR to obtain TGPSC ID (or login with existing TGPSC ID).",
+      "Step-II: Click on ONLINE Application Link, login with OTP, verify OTR details, select examination centre, preview and click SAVE & PAYMENT.",
+      "Step-III: Pay prescribed fee online via Net Banking, Debit Card, Credit Card or UPI.",
+      "Step-IV: Download the generated PDF application containing the Reference ID Number for future correspondence."
+    ],
+    "reservation_policy": "Reservations in direct recruitment for ST, SC, BC, EWS, Persons with Disabilities, Women, and Meritorious Sportsperson as per Rule 22 & 22(A) of Telangana State and Subordinate Service Rules 1996 and local reservations (95%) for Multi Zone-II under G.O.Ms.No.124.",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Appointment is subject to being found medically fit, of sound health, active habits, free from any bodily defect or infirmity.",
+    "exam_centers": [
+      "HYDERABAD (including HMDA Jurisdiction)",
+      "NALGONDA",
+      "SANGAREDDY",
+      "MAHABOOBNAGAR"
+    ],
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Recruitment is processed as per notification, Board Service Regulations, and relevant G.Os.",
+      "Normalisation of scores via percentile basis will be applied if exams are conducted in multi-sessions."
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL05PVElGTi5fMDQtT0ctSE0tMjAyNi1NQU5BR0VSSE1XU1NCMjAyNjA5MTgxNzQ4MDEucGRmYWNjZXNzdGltZT0yMDI2LTEyLTE4r95v17a0y2d8i13v",
+    "apply_url": "https://application.tgpsc.gov.in/CandidateEntryOG042026",
+    "portal_category": "latest-notifications",
+    "priority_score": 95,
+    "priority_reason": "Live state-level public service commission recruitment notification with a substantial number of engineering vacancies, clear deadlines, and active application window.",
+    "title": "Manager (Engineering) in\r\nHyderabad Metropolitan Water\r\nSupply and Sewerage Board",
+    "type": "Job",
+    "state": "Telangana",
+    "status": "Open",
+    "category": "Job",
+    "source_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL05PVElGTi5fMDQtT0ctSE0tMjAyNi1NQU5BR0VSSE1XU1NCMjAyNjA5MTgxNzQ4MDEucGRmYWNjZXNzdGltZT0yMDI2LTEyLTE4r95v17a0y2d8i13v",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "e2e10d53dc533dc4287da745882229d608be7e265231f8dc91903e1ae1d1c2dc"
+  },
+  "telangana-forest-beat-officer-fbo-2026-expected-to-release-its-notification-soon": {
+    "organization": "Telangana Public Service Commission (TGPSC)",
+    "advertisement_number": "Not mentioned in the official notification",
+    "post_names": [
+      "Forest Beat Officer (FBO)"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": "Not mentioned in the official notification",
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": "Not mentioned in the official notification",
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "The official notification for the Forest Beat Officer (FBO) 2026 is expected to release soon according to the notification title."
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/",
+    "apply_url": "https://websitenew.tgpsc.gov.in/",
+    "portal_category": "upcoming-exams",
+    "priority_score": 40,
+    "priority_reason": "The source only mentions that the notification is expected to be released soon, representing an upcoming examination cycle without active applications.",
+    "title": "Telangana Forest Beat Officer (FBO) 2026 expected to release its notification soon",
+    "type": "Job",
+    "state": "Telangana",
+    "status": "Upcoming",
+    "category": "Job",
+    "source_url": "https://websitenew.tgpsc.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "ae01b3ee1fd888d9d20bd7135e7f4e98db0155dad431d9412e19f2969f70405c"
+  },
+  "assistant-scientist-analyst-grade-ii-in-telangana-pollution-control-board": {
+    "organization": "Telangana Public Service Commission (TGPSC) / Telangana Pollution Control Board",
+    "advertisement_number": "01/OG/PC/2026",
+    "post_names": [
+      "ASSISTANT SCIENTIST (ANALYST GRADE -II) IN TELANGANA POLLUTION CONTROL BOARD"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "24/10/2026",
+    "selection_process": [
+      "Computer Based Test (CBT) Mode"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "The candidates may note that the mode of examination for the above is Computer Based Test (CBT) Mode."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Schedule of recruitment examinations announced by TGPSC, Hyderabad dated 28/09/2026."
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL1dFQi1OT1RFLUVYQU1TLVNDSEVEVUxFMjAyNjA5MjgxNTE3MDgucGRmYWNjZXNzdGltZT0yMDI2LTEyLTMxr95v17a0y2d8i13v",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "upcoming-exams",
+    "priority_score": 75,
+    "priority_reason": "Official exam schedule web note issued by TGPSC for Assistant Scientist (Analyst Grade -II) in Telangana Pollution Control Board with exam date set for 24/10/2026.",
+    "title": "ASSISTANT SCIENTIST\r\n(ANALYST GRADE -II) IN\r\nTELANGANA POLLUTION\r\nCONTROL BOARD",
+    "type": "Exam",
+    "state": "Telangana",
+    "status": "Notification Published",
+    "category": "Exam",
+    "source_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL1dFQi1OT1RFLUVYQU1TLVNDSEVEVUxFMjAyNjA5MjgxNTE3MDgucGRmYWNjZXNzdGltZT0yMDI2LTEyLTMxr95v17a0y2d8i13v",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "e122b23bd6d837ba863620bdff2afcf05b331490212d09a3cedf338726a241e2"
+  },
+  "assistant-environmental-engineer-in-telangana-pollution-control-board": {
+    "organization": "Telangana Public Service Commission (TGPSC)",
+    "advertisement_number": "02/OG/PC/2026",
+    "post_names": [
+      "ASSISTANT ENVIRONMENTAL ENGINEER IN TELANGANA POLLUTION CONTROL BOARD"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "26/10/2026",
+    "selection_process": [
+      "Computer Based Test (CBT) Mode"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "The candidates may note that the mode of examination for the above is Computer Based Test (CBT) Mode."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Schedule of recruitment examinations announced via web note dated 28/09/2026 by Secretary, TGPSC, Hyderabad."
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL1dFQi1OT1RFLUVYQU1TLVNDSEVEVUxFMjAyNjA5MjgxNTE3MDgucGRmYWNjZXNzdGltZT0yMDI2LTEyLTMxr95v17a0y2d8i13v",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "upcoming-exams",
+    "priority_score": 75,
+    "priority_reason": "The official document is a direct recruitment examination schedule notice released by TGPSC for a specific post with an announced CBT exam date.",
+    "title": "ASSISTANT ENVIRONMENTAL\r\nENGINEER IN TELANGANA\r\nPOLLUTION CONTROL\r\nBOARD",
+    "type": "Exam",
+    "state": "Telangana",
+    "status": "Notification Published",
+    "category": "Exam",
+    "source_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL1dFQi1OT1RFLUVYQU1TLVNDSEVEVUxFMjAyNjA5MjgxNTE3MDgucGRmYWNjZXNzdGltZT0yMDI2LTEyLTMxr95v17a0y2d8i13v",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "2238b2d7b28c01f6782483a1b7a679b1902b1a082e4fa7b413a4bc15cb1b8ea0"
+  },
+  "assistant-executive-engineers-civil-in-roads-buildings-department": {
+    "organization": "Telangana Public Service Commission (TGPSC), Hyderabad",
+    "advertisement_number": "01/G/RB/2026",
+    "post_names": [
+      "ASSISTANT EXECUTIVE ENGINEERS (CIVIL) IN ROADS & BUILDINGS DEPARTMENT"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "06/11/2026 & 07/11/2026",
+    "selection_process": [
+      "Computer Based Test (CBT) Mode"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "The candidates may note that the mode of examination for the above is Computer Based Test (CBT) Mode."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Place: Hyderabad",
+      "Date: 28/09/2026"
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL1dFQi1OT1RFLUVYQU1TLVNDSEVEVUxFMjAyNjA5MjgxNTE3MDgucGRmYWNjZXNzdGltZT0yMDI2LTEyLTMxr95v17a0y2d8i13v",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "upcoming-exams",
+    "priority_score": 85,
+    "priority_reason": "The notification announces the official examination schedule (dates and mode) for the Assistant Executive Engineers (Civil) recruitment by TGPSC.",
+    "title": "ASSISTANT EXECUTIVE\r\nENGINEERS (CIVIL) IN ROADS\r\n& BUILDINGS DEPARTMENT",
+    "type": "Exam",
+    "state": "Telangana",
+    "status": "Notification Published",
+    "category": "Exam",
+    "source_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL1dFQi1OT1RFLUVYQU1TLVNDSEVEVUxFMjAyNjA5MjgxNTE3MDgucGRmYWNjZXNzdGltZT0yMDI2LTEyLTMxr95v17a0y2d8i13v",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "9f0b279a290780077be92856077a7c5090d4dfef13ba7bbcc9664281b4db2232"
+  },
+  "deputy-educational-officers-gazetted-head-master-grade-i-in-school-education-department": {
+    "organization": "Telangana Public Service Commission (TGPSC), Hyderabad",
+    "advertisement_number": "03/G/SE/2026",
+    "post_names": [
+      "Deputy Educational Officers / Gazetted Head Master Grade-I in School Education Department"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "12/11/2026 & 13/11/2026",
+    "selection_process": [
+      "Computer Based Test (CBT) Mode"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": "Not mentioned in the official notification",
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "The candidates may note that the mode of examination for the above is Computer Based Test (CBT) Mode."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Place: Hyderabad",
+      "Date: 28/09/2026",
+      "Issued by: SECRETARY, TGPSC"
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL1dFQi1OT1RFLUVYQU1TLVNDSEVEVUxFMjAyNjA5MjgxNTE3MDgucGRmYWNjZXNzdGltZT0yMDI2LTEyLTMxr95v17a0y2d8i13v",
+    "apply_url": "Not mentioned in the official notification",
+    "portal_category": "upcoming-exams",
+    "priority_score": 85,
+    "priority_reason": "Official exam schedule web note published by TGPSC for Deputy Educational Officers / Gazetted Head Master Grade-I, detailing the exact examination dates and mode for candidates.",
+    "title": "DEPUTY EDUCATIONAL\r\nOFFICERS / GAZETTED HEAD\r\nMASTER GRADE-I IN SCHOOL\r\nEDUCATION DEPARTMENT",
+    "type": "Exam",
+    "state": "Telangana",
+    "status": "Notification Published",
+    "category": "Exam",
+    "source_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL1dFQi1OT1RFLUVYQU1TLVNDSEVEVUxFMjAyNjA5MjgxNTE3MDgucGRmYWNjZXNzdGltZT0yMDI2LTEyLTMxr95v17a0y2d8i13v",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "0ca113aa302fc915a63fb4d6b04c2d5a1493513b2c2ae372cb5cb7b0e687ed6b"
+  },
+  "assistant-scientist-analyst-grade-ll-master-question-paper-with-key-27-10-2026-to-30-10-2026-up-to-5-00-pm": {
+    "organization": "Telangana Public Service Commission (TGPSC) / Telangana Pollution Control Board",
+    "advertisement_number": "01/OG/PC/2026",
+    "post_names": [
+      "Assistant Scientist (Analyst Grade- II)"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "24/10/2026",
+    "selection_process": [
+      "Computer Based Recruitment Test (CBRT)",
+      "Certificates Verification",
+      "Medical Board (for HH candidates)"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": [
+      "Certificates Verification materials"
+    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "Master question paper with key available from 27/10/2026 to 30/10/2026 up to 5:00 PM."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": [
+      "Medical board evaluation for HH candidates held on 13/11/2026"
+    ],
+    "exam_centers": "Not mentioned in the official notification",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Provisional selection list, marks list of selected candidates, and provisional selections notification released.",
+      "Computer Based Recruitment Test (CBRT) examination held on 24/10/2026 with attendance details published.",
+      "Certificates verification held on 12/11/2026."
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/",
+    "apply_url": "https://websitenew.tgpsc.gov.in/",
+    "portal_category": "results-admit-cards",
+    "priority_score": 70,
+    "priority_reason": "The document contains provisional selection lists, marks lists, and certificate verification results for an already conducted examination.",
+    "title": "ASSISTANT\nSCIENTIST (ANALYST GRADE- ll) MASTER QUESTION PAPER WITH KEY 27/10/2026 to\r\n30/10/2026 up to 5:00 PM.",
+    "type": "Exam",
+    "state": "Telangana",
+    "status": "Answer key",
+    "category": "Exam",
+    "source_url": "https://websitenew.tgpsc.gov.in/",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "0314d9f1fa41e75544835200184b7d919e3367d2614a7bf60eb07a8276d4f682"
+  },
+  "mandal-planning-and-statistical-officers-assistant-statistical-officers-in-directorate-of-economics-and-statistics": {
+    "organization": "Telangana Public Service Commission: Hyderabad (TGPSC)",
+    "advertisement_number": "07/G/ES/2026",
+    "post_names": [
+      "Mandal Planning and Statistical Officers",
+      "Assistant Statistical Officers"
+    ],
+    "total_vacancies": 102,
+    "vacancy_breakdown": [
+      {
+        "zone": "ZONE-I",
+        "breakdown": {
+          "OC": {
+            "UR": 1,
+            "L": 4
+          },
+          "EWS": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-A": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-B": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-C": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-D": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-E": {
+            "UR": 0,
+            "L": 0
+          },
+          "SC-GR-I": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-II": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-III": {
+            "UR": 0,
+            "L": 0
+          },
+          "ST": {
+            "UR": 0,
+            "L": 1
+          },
+          "VH": {
+            "UR": 0,
+            "L": 1
+          },
+          "HH": {
+            "UR": 0,
+            "L": 0
+          },
+          "OH": {
+            "UR": 0,
+            "L": 0
+          },
+          "MH": {
+            "UR": 0,
+            "L": 0
+          },
+          "EX-SER": {
+            "UR": 0,
+            "L": 0
+          },
+          "SPORTS": {
+            "UR": 0,
+            "L": 0
+          },
+          "TOTAL": {
+            "UR": 1,
+            "L": 11
+          }
+        }
+      },
+      {
+        "zone": "ZONE-II",
+        "breakdown": {
+          "OC": {
+            "UR": 1,
+            "L": 5
+          },
+          "EWS": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-A": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-B": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-C": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-D": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-E": {
+            "UR": 0,
+            "L": 0
+          },
+          "SC-GR-I": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-II": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-III": {
+            "UR": 0,
+            "L": 0
+          },
+          "ST": {
+            "UR": 0,
+            "L": 1
+          },
+          "VH": {
+            "UR": 0,
+            "L": 1
+          },
+          "HH": {
+            "UR": 0,
+            "L": 0
+          },
+          "OH": {
+            "UR": 0,
+            "L": 0
+          },
+          "MH": {
+            "UR": 0,
+            "L": 0
+          },
+          "EX-SER": {
+            "UR": 0,
+            "L": 0
+          },
+          "SPORTS": {
+            "UR": 0,
+            "L": 0
+          },
+          "TOTAL": {
+            "UR": 1,
+            "L": 13
+          }
+        }
+      },
+      {
+        "zone": "ZONE-III",
+        "breakdown": {
+          "OC": {
+            "UR": 1,
+            "L": 5
+          },
+          "EWS": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-A": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-B": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-C": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-D": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-E": {
+            "UR": 0,
+            "L": 0
+          },
+          "SC-GR-I": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-II": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-III": {
+            "UR": 0,
+            "L": 0
+          },
+          "ST": {
+            "UR": 0,
+            "L": 2
+          },
+          "VH": {
+            "UR": 0,
+            "L": 1
+          },
+          "HH": {
+            "UR": 0,
+            "L": 0
+          },
+          "OH": {
+            "UR": 0,
+            "L": 0
+          },
+          "MH": {
+            "UR": 0,
+            "L": 0
+          },
+          "EX-SER": {
+            "UR": 0,
+            "L": 0
+          },
+          "SPORTS": {
+            "UR": 0,
+            "L": 0
+          },
+          "TOTAL": {
+            "UR": 1,
+            "L": 14
+          }
+        }
+      },
+      {
+        "zone": "ZONE-IV",
+        "breakdown": {
+          "OC": {
+            "UR": 1,
+            "L": 5
+          },
+          "EWS": {
+            "UR": 0,
+            "L": 2
+          },
+          "BC-A": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-B": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-C": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-D": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-E": {
+            "UR": 0,
+            "L": 0
+          },
+          "SC-GR-I": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-II": {
+            "UR": 0,
+            "L": 2
+          },
+          "SC-GR-III": {
+            "UR": 0,
+            "L": 0
+          },
+          "ST": {
+            "UR": 0,
+            "L": 2
+          },
+          "VH": {
+            "UR": 0,
+            "L": 1
+          },
+          "HH": {
+            "UR": 0,
+            "L": 0
+          },
+          "OH": {
+            "UR": 0,
+            "L": 0
+          },
+          "MH": {
+            "UR": 0,
+            "L": 0
+          },
+          "EX-SER": {
+            "UR": 0,
+            "L": 0
+          },
+          "SPORTS": {
+            "UR": 0,
+            "L": 0
+          },
+          "TOTAL": {
+            "UR": 1,
+            "L": 16
+          }
+        }
+      },
+      {
+        "zone": "ZONE-V",
+        "breakdown": {
+          "OC": {
+            "UR": 1,
+            "L": 2
+          },
+          "EWS": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-A": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-B": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-C": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-D": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-E": {
+            "UR": 0,
+            "L": 0
+          },
+          "SC-GR-I": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-II": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-III": {
+            "UR": 0,
+            "L": 0
+          },
+          "ST": {
+            "UR": 0,
+            "L": 0
+          },
+          "VH": {
+            "UR": 0,
+            "L": 1
+          },
+          "HH": {
+            "UR": 0,
+            "L": 0
+          },
+          "OH": {
+            "UR": 0,
+            "L": 0
+          },
+          "MH": {
+            "UR": 0,
+            "L": 0
+          },
+          "EX-SER": {
+            "UR": 0,
+            "L": 0
+          },
+          "SPORTS": {
+            "UR": 0,
+            "L": 0
+          },
+          "TOTAL": {
+            "UR": 1,
+            "L": 6
+          }
+        }
+      },
+      {
+        "zone": "ZONE-VI",
+        "breakdown": {
+          "OC": {
+            "UR": 1,
+            "L": 7
+          },
+          "EWS": {
+            "UR": 0,
+            "L": 2
+          },
+          "BC-A": {
+            "UR": 0,
+            "L": 2
+          },
+          "BC-B": {
+            "UR": 0,
+            "L": 2
+          },
+          "BC-C": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-D": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-E": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-I": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-II": {
+            "UR": 0,
+            "L": 2
+          },
+          "SC-GR-III": {
+            "UR": 0,
+            "L": 1
+          },
+          "ST": {
+            "UR": 0,
+            "L": 2
+          },
+          "VH": {
+            "UR": 0,
+            "L": 1
+          },
+          "HH": {
+            "UR": 0,
+            "L": "1CF"
+          },
+          "OH": {
+            "UR": 0,
+            "L": 0
+          },
+          "MH": {
+            "UR": 0,
+            "L": 0
+          },
+          "EX-SER": {
+            "UR": 0,
+            "L": 0
+          },
+          "SPORTS": {
+            "UR": 0,
+            "L": 0
+          },
+          "TOTAL": {
+            "UR": 1,
+            "L": 24
+          }
+        }
+      },
+      {
+        "zone": "ZONE-VII",
+        "breakdown": {
+          "OC": {
+            "UR": 1,
+            "L": 4
+          },
+          "EWS": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-A": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-B": {
+            "UR": 0,
+            "L": 1
+          },
+          "BC-C": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-D": {
+            "UR": 0,
+            "L": 0
+          },
+          "BC-E": {
+            "UR": 0,
+            "L": 0
+          },
+          "SC-GR-I": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-II": {
+            "UR": 0,
+            "L": 1
+          },
+          "SC-GR-III": {
+            "UR": 0,
+            "L": 0
+          },
+          "ST": {
+            "UR": 0,
+            "L": 1
+          },
+          "VH": {
+            "UR": 0,
+            "L": 1
+          },
+          "HH": {
+            "UR": 0,
+            "L": 0
+          },
+          "OH": {
+            "UR": 0,
+            "L": 0
+          },
+          "MH": {
+            "UR": 0,
+            "L": 0
+          },
+          "EX-SER": {
+            "UR": 0,
+            "L": 0
+          },
+          "SPORTS": {
+            "UR": 0,
+            "L": 0
+          },
+          "TOTAL": {
+            "UR": 1,
+            "L": 11
+          }
+        }
+      }
+    ],
+    "job_location": "Telangana State (Zonal Cadre)",
+    "educational_qualification": [
+      "Must possess a Bachelor’s Degree with Statistics as one of the main subjects (OR)",
+      "Bachelor’s Degree with Mathematics (with Statistics as a paper in one year or two years or all the three years as the case may be) as one of the main subjects (OR)",
+      "Bachelor’s Degree with Economics (with Statistics as a paper in one year or two years or all the three years as the case may be) as one of the main subjects (OR)",
+      "Bachelor’s Degree with Commerce (with Statistics as a paper in one year or two years or all the three years as the case may be) as one of the main subjects (OR)",
+      "Bachelor’s Degree with Computer Science (with Statistics as a paper in one year or two years or all the three years as the case may be) as one of the main subjects from a University established or incorporated by or under a Central Act or State Act, or such Institutions declared as deemed to be Universities under Section 3 of the University Grants Commission Act, 1956 or a foreign University approved by the Central Government from time to time."
+    ],
+    "other_eligibility": [
+      "He/She is a citizen of India.",
+      "He/She possesses the academic and other qualifications prescribed for the post.",
+      "His/Her character and antecedents are such as to qualify him / her for such service."
+    ],
+    "age_limit": "18 to 44 years as on 01/07/2026. An applicant should not be born after 01/07/2008 and should not be born before 02/07/1982. No person shall be eligible if he/she is less than 18 years of age or crossed 61 years of age (superannuation age).",
+    "age_relaxation": [
+      "SC / ST / BCs & EWS: 5 Years",
+      "Physically Handicapped persons: 10 Years",
+      "Telangana State Government Employees (Employees of Corporations, Municipalities etc., are not eligible): Up to 5 Years based on the length of regular service.",
+      "Ex-Servicemen: 3 years & length of service rendered in the armed forces (applicable for those released other than by way of dismissal or discharge on account of misconduct or inefficiency).",
+      "N.C.C. (who have worked as Instructor in N.C.C.): 3 Years & length of service rendered in the N.C.C. (applicable for persons recruited as whole-time Cadet Corps Instructor on or after 1st January, 1963 on discharge after serving for not less than six months)."
+    ],
+    "application_fee": [
+      "Online Application Processing Fee: Rs. 1000/- (Rupees One Thousand Only) for OC & BC applicants and Rs. 500/- (Rupees Five Hundred only) for SC, ST and PwD candidates.",
+      "Examination Fee: Rs. 80/- (Rupees Eighty Only) for applicable candidates. All unemployed applicants are exempted from payment of examination fee. All Employees of any Government (Central / State / PSUs / Corporations / Other Government Sector) shall pay the prescribed examination fee."
+    ],
+    "application_start": "30/10/2026",
+    "application_end": "27/11/2026",
+    "exam_date": "January – 2027 (Tentative Schedule)",
+    "selection_process": [
+      "Selection of candidates will be made by examination (Objective Type) by CBRT / OMR based mode and the selection will be based on marks secured in the examination.",
+      "Qualifying marks for selection: OC, Sportspersons & EWS – not less than 40%, BCs – not less than 35%, SCs, STs & PHs – not less than 30%.",
+      "Candidates will be selected and allotted to the post as per their merit and order of preference (web-option exercised by the candidate) against the vacancies available."
+    ],
+    "exam_pattern": [
+      "Paper-I: General Studies and General Abilities - 150 Questions, 150 Marks, Duration: 150 Minutes (Bilingual: English and Telugu)",
+      "Paper-II: Statistics (Common for all) (Degree Level) - 150 Questions, 150 Marks, Duration: 150 Minutes (Bilingual: English and Telugu)",
+      "Total: 300 Marks"
+    ],
+    "syllabus": [
+      "Paper-I: General Studies and General Abilities: 1. Current Affairs – Regional, National and International; 2. International Relations and Events; 3. General Science; India’s achievements in Science and Technology; 4. Environmental issues and Disaster Management; 5. Economy of India and Telangana; 6. Geography of India with a focus on Telangana; 7. Indian Constitution and Polity with a focus on local self-Government; 8. Society, Culture, Heritage, Arts and Literature of Telangana; 9. Policies of Telangana State; 10. History of Modern India with a focus on Indian National Movement; 11. History of Telangana with special emphasis on Movement for Telangana Statehood; 12. Logical Reasoning, Analytical Ability and Data Interpretation; 13. Basic English.",
+      "Paper-II: Statistics (Common for all) (Degree Level): I. Introduction to Statistics: Meaning, importance and limitations of statistics - Collection of data - Primary and Secondary data. Sampling (Random, Non-Random) - Census - Schedule and questionnaire – Frequency distribution - Tabulation - Diagrammatic and graphic presentation of data; II. Measures of Central Tendency, Dispersion, Skewness and Kurtosis: Meaning, objectives and characteristics of measures of central tendency - Types of Averages: Arithmetic Mean, Geometric Mean, Harmonic Mean, Median, Mode, Deciles, Percentiles - Properties of averages and their applications. Dispersion: Meaning and properties - Types: Range, Quartile Deviation, Mean Deviation, Standard Deviation, Coefficient of Variation. Skewness: Meaning - Karl Pearson’s and Bowley’s Measures of Skewness and Kurtosis; III. Probability: Random experiment, sample space, event, algebra of events, probability on a discrete sample space, basic theorems of probability and simple examples based on theorems, conditional, probability of an event, independent events, Baye’s theorem and its applications; IV. Concept of Random variable: Discrete and Continuous, Bernouli, Binominal and Poisson distributions, Normal distribution and its applications and uses. Concept of Un biased estimator, consistency, efficiency and sufficiency, large and small sample tests. Concept of null and alternative hypothesis; V. Correlation and Regression: Correlation: Meaning and uses - Types of correlation - Karlpearson’s correlation coefficient - Spearman’s Rank correlation - Probable error. Regression analysis: Meaning and utility - Comparison between Correlation and Regression - Regression Equations - Interpretation of Regression Coefficient; VI. Analysis of Time Series and Index Numbers: Time Series Analysis: Meaning and utility - Components of time series - Measurement of trend and seasonal variations - Utility of decomposition of time series - Decentralization of data. Index Numbers: Meaning and importance - Methods of construction of index numbers: Price Index Numbers, Quantity Index Numbers - Tests of Adequacy of Index Numbers - Deflating Index Numbers - Cost of living Index Numbers - Limitation of Index Numbers; VII. SAMPLING TECHNIQUES: Complete enumeration vs. Sampling, estimation of Sample size and Simple, Stratified and Systematic Random Sampling; VIII. Basics of Computers: Binary system, Octal and Hexadecimal systems. Conversion to and from Decimal systems. Codes, Bits, Bytes and Words. Memory of a computer, Arithmetic and Logical operations on numbers. Precision. AND, OR, XOR, NOT and Shit/Rotate operators, Algorithms and Flow charts, MS-Office."
+    ],
+    "documents_required": [
+      "PDF Application form",
+      "Hall Ticket",
+      "Aadhaar Card / Voter ID / Passport / Driving License / Service ID Cards / Passbook / PAN Card",
+      "Proof of Educational Qualifications",
+      "S.S.C / CBSE / ICSE (For Date of Birth)",
+      "School Study Certificate (1st to 7th Class)",
+      "Certificate of Residence (where the applicant has not studied in Educational Institution) (1st to 7th Class period) obtained from competent authority of Telangana Government",
+      "Declaration by the Unemployed (For claiming exemption from payment of exam fee)",
+      "No Objection Certificate from Employer (even if employed at any later stage of recruitment)",
+      "Service Certificate (If any employee claimed Age relaxation)",
+      "Certificate claiming sports reservation",
+      "Certificate claiming Ex-servicemen for age relaxation",
+      "Community Certificate for BCs, SCs & STs obtained from Revenue Authority not below the rank of Tahasildar/RDO working under Telangana Government",
+      "Community, Nativity and Date of Birth Certificate",
+      "Non-Creamy Layer Certificate for BCs obtained from Revenue Authority not below the rank of Tahasildar/RDO working under Telangana Government",
+      "Latest Income Certificate in prescribed format for EWS reservation obtained from Revenue Authority not below the rank of Tahasildar working under Telangana Government",
+      "Disability certificate obtained from competent medical authority in SADAREM format (for differently abled applicants)",
+      "Any other certificates required"
+    ],
+    "salary_pay_scale": "Rs. 36,750 - 1,06,990/-",
+    "important_instructions": [
+      "One Time Registration (OTR) is not considered as an application for any post under any circumstances.",
+      "Applicants must submit ONLINE applications for this notification specifically and mandatorily.",
+      "Applicants must retain the mobile number and email-ID registered in OTR for receiving OTP/SMS/MAILS.",
+      "Any application sent through any mode other than the prescribed online mode shall not be entertained.",
+      "Appearance in all the paper/papers at the Examination is compulsory. Absence in any paper will automatically render candidature for disqualification.",
+      "Any electronic gadgets/devices such as Mobile Phones, Calculators, Smart Watches, etc., are strictly banned in the examination centre.",
+      "Writing of symbols or any type of identification marks including hall ticket number anywhere on or inside OMR/barcode sheet/answer script is strictly prohibited."
+    ],
+    "how_to_apply": [
+      "Step-I: Visit website https://www.tgpsc.gov.in. If not registered previously, fill the OTR Form to obtain TGPSC ID. If already registered, directly access the application form using TGPSC ID.",
+      "Step-II: Click on the Online Application Link, enter TGPSC ID and Date of Birth, login with OTP, verify fetched OTR details, select examination centre, preview application, and click SAVE & PAYMENT.",
+      "Step-III: Pay the prescribed fee through online payment modes (Net Banking, Debit Card, Credit Card, UPI).",
+      "Step-IV: After payment, download and print a copy of the generated PDF application form containing the Reference ID Number for future reference."
+    ],
+    "reservation_policy": [
+      "Reservations in direct recruitment are provided for Scheduled Tribes, Scheduled Castes, Backward Classes, Economically Weaker Sections, Persons with Disabilities, and Horizontal Reservation for Women and meritorious sportsperson as per Rule 22 & 22(A) of Telangana State and Subordinate Service Rules 1996 and relevant Government Orders.",
+      "Local Reservation (95%) is applicable as per Para-8 of G.O.Ms.No.124 General Administration (SPF-MC) Department, dated 30.08.2018.",
+      "Applicants belonging to SC, ST, BC, EWS & Differently abled who avail upper age relaxation will also be considered for Open Category (OC) vacancies.",
+      "Applicants belonging to other States are not entitled for any kind of reservation."
+    ],
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": [
+      "The appointment of selected candidates will be subject to their being found medically fit in the appropriate Medical Examination, provided he/she is of sound health, active habits free from any bodily defect or infirmity, satisfactory character and conduct."
+    ],
+    "exam_centers": [
+      "HYDERABAD (including HMDA Jurisdiction)",
+      "KARIMNAGAR",
+      "KHAMMAM",
+      "WARANGAL",
+      "NIZAMABAD"
+    ],
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "The recruitment will be made to the vacancies notified before the examination only. There shall be no waiting list.",
+      "Unfilled and non-joining vacancies will be carried forward to next recruitment.",
+      "Scores of candidates for Computer Based Tests conducted in Multi-sessions will be normalized and results announced on a percentile basis."
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzA3LUctMjAyNi1NUFNPLU5PVElGTjIwMjYxMDI4MTkwNzMwLnBkZmFjY2Vzc3RpbWU9MjAyNy0wMS0yOA==r95v17a0y2d8i13v",
+    "apply_url": "https://www.tgpsc.gov.in",
+    "portal_category": "latest-notifications",
+    "priority_score": 95,
+    "priority_reason": "The notification is a live state public service commission recruitment for gazetted/officer level posts with an active application window, specific educational requirements, and scheduled exam timeframe.",
+    "title": "MANDAL PLANNING AND\r\nSTATISTICAL OFFICERS / ASSISTANT STATISTICAL OFFICERS IN\r\nDIRECTORATE OF ECONOMICS AND STATISTICS",
+    "type": "Job",
+    "state": "Telangana",
+    "status": "Open",
+    "category": "Job",
+    "source_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFLzA3LUctMjAyNi1NUFNPLU5PVElGTjIwMjYxMDI4MTkwNzMwLnBkZmFjY2Vzc3RpbWU9MjAyNy0wMS0yOA==r95v17a0y2d8i13v",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "0dfd731ec0c2fdd720140c83c941ae6daeb619480eb4d35ce44ca2881c11f814"
+  },
+  "assistant-environmental-engineer-in-telangana-pollution-control-board-preamble-for-certificate-verification-18-11-2026-from-10-30-am-to-5-00-pm-and-reserve-day-would-be-on-19-11-20": {
+    "organization": "Telangana Public Service Commission (TGPSC)",
+    "advertisement_number": "Notification No: 02/OG/PC/2026, Dated: 02/06/2026",
+    "post_names": [
+      "Assistant Environmental Engineer in Telangana Pollution Control Board"
+    ],
+    "total_vacancies": "Not mentioned in the official notification",
+    "vacancy_breakdown": "Not mentioned in the official notification",
+    "job_location": "Telangana",
+    "educational_qualification": "Not mentioned in the official notification",
+    "other_eligibility": "Not mentioned in the official notification",
+    "age_limit": "Not mentioned in the official notification",
+    "age_relaxation": "Not mentioned in the official notification",
+    "application_fee": "Not mentioned in the official notification",
+    "application_start": "Not mentioned in the official notification",
+    "application_end": "Not mentioned in the official notification",
+    "exam_date": "Not mentioned in the official notification",
+    "selection_process": [
+      "Certificate Verification"
+    ],
+    "exam_pattern": "Not mentioned in the official notification",
+    "syllabus": "Not mentioned in the official notification",
+    "documents_required": [
+      "All required original documents mentioned at Annexure-VI in the Notification No.02/OG/PC/2026, Dated: 02/06/2026",
+      "One set of Photostat copies of the same duly self-attested",
+      "Two sets of PDF (Application form)",
+      "Two sets of Attested forms duly signed by Gazetted Officer"
+    ],
+    "salary_pay_scale": "Not mentioned in the official notification",
+    "important_instructions": [
+      "The shortlisted candidates should download the verification material from Commission’s Website (https://www.tgpsc.gov.in) from 14/11/2026.",
+      "Certificate verification is scheduled on 18/11/2026 from 10:30 AM to 5.00 PM and reserve day would be on 19/11/2026 from 10:30 AM to 5.00 PM at TGPSC Office.",
+      "If any candidate does not bring original certificates on the day of certificate verification or Reserve day no further time would be given.",
+      "In case of any shortfall after the certificate verification process, because of absentees, rejections etc., additional candidates as required would be subsequently called for Certificate verification.",
+      "PwD candidates shall be referred to the appellate Medical Board constituted by the Government for the purpose of assessing the deformity percentage for claiming reservation under PwD category. The report of appellate medical board will be treated as final.",
+      "On verification, if it is found that any candidate is not eligible with reference to the particulars furnished by him/her in the Application Form / Check List / Certificates, the results of such candidate / candidates shall be cancelled at any stage of selection process without any prior intimation.",
+      "If any of the picked-up candidates do not come for Certificate Verification on 18/11/2026 or reserve day on 19/11/2026, his /her candidature would not be considered for further process.",
+      "From among the above candidates who attend certificate verification, pending documents, if any, would not be accepted after 5.00 PM on the reserve day of certificate verification."
+    ],
+    "how_to_apply": "Not mentioned in the official notification",
+    "reservation_policy": "Not mentioned in the official notification",
+    "physical_standards": "Not mentioned in the official notification",
+    "medical_standards": "Not mentioned in the official notification",
+    "exam_centers": "TGPSC Office",
+    "probation_training": "Not mentioned in the official notification",
+    "career_progression": "Not mentioned in the official notification",
+    "other_official_details": [
+      "Preamble for Certificate Verification for Assistant Environmental Engineer in Telangana Pollution Control Board",
+      "Contains provisional list of hall ticket numbers for Morning Session (10.30 AM, 30 candidates) and After Noon Session (2.00 PM, 31 candidates)"
+    ],
+    "official_notification_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL0FFRS1QQ0ItQ1YtTk9USUZOMjAyNjExMTQxNjAyNDcucGRmYWNjZXNzdGltZT0yMDI2LTEyLTA2r95v17a0y2d8i13v",
+    "apply_url": "https://www.tgpsc.gov.in",
+    "portal_category": "results-admit-cards",
+    "priority_score": 90,
+    "priority_reason": "This is an official certificate verification schedule notice with specific hall ticket numbers and strict deadlines for an ongoing recruitment process.",
+    "title": "(Assistant Environmental Engineer in Telangana Pollution Control Board) Preamble for Certificate Verification : 18/11/2026 from 10:30 AM to\r\n5.00 PM and reserve day would be on 19/11/2026 10:30 AM to 5.00 PM at TGPSC Office.",
+    "type": "Results",
+    "state": "Telangana",
+    "status": "Notification Published",
+    "category": "Results",
+    "source_url": "https://websitenew.tgpsc.gov.in/preview/UFJFU1NOT1RFL0FFRS1QQ0ItQ1YtTk9USUZOMjAyNjExMTQxNjAyNDcucGRmYWNjZXNzdGltZT0yMDI2LTEyLTA2r95v17a0y2d8i13v",
+    "_extractor_version": "2026-09-12-universal-all-data-v2",
+    "_sheet_fingerprint": "536d71cdcae5ecc3df705d4cccf056b8f3662e6dbf854d1fa601e3765e61806e"
   }
 }
